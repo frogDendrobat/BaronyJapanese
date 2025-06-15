@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "press_a_to_advance": true,
+  "text": [
+    "*3ポータルを通して、弱い魔法があなたを城塞から引きずり出します。\n",
+    "激しく揺れる床の上で足が止まります。\n",
+    "パイプとピストンが、くぐもったラケットの中で衝突します...\n",
+    "*1恐怖を振り切って目を閉じようとする。\n",
+    "*3突然現れた魔術師ギルドには、魔術師と司教が立っています。\n",
+    "彼らの顔は混乱していますが、忍耐強く驚きながらあなたの反応を待っています。\n",
+    "この人たちは最近あなた方を殺害したのと同じ人たちですか?\n",
+    "*3 最初は不安定でしたが、あなたの民族は平和に向けて同盟を築きます。\n",
+    "あなたの例を通して、昆虫、人間、ヤギ人間、ゴブリンが勇気を抱きます\n",
+    "恐怖の代わりに。",
+    "*2あなたは宮廷に出廷し、すぐに新しい男爵の冠を授けられます。\n",
+    "リッチの力の秘密を解き明かし、誰もその力を再び求めるのを阻止します。\n",
+    "*1あなたが知っている力はいつでも待っています。"
+  ],
+  "images": [
+    "*images/ui/Main Menus/Story/black.png",
+    "*images/ui/Main Menus/Story/white.png",
+    "*images/ui/Main Menus/Story/HeroRescued.png",
+    "*images/ui/Main Menus/Story/intro1.png",
+    "*images/ui/Main Menus/Story/throne.png",
+    "*images/ui/Main Menus/Story/PowerWaiting.png"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "press_a_to_advance": true,
+  "text": [
+    "男爵を倒し、紫色の球体を台座に置いた後、\n",
+    "あなたはポータルに足を踏み入れます。",
+    "あなたの体は白い閃光とともに運ばれます。^ あなたは外に到着します。\n",
+    "ハムレットは地雷を掘り、呪われた黒さが土地から剥がれ落ちていくのを眺めます。\n",
+    "田園地帯には暖かい日差しが降り注ぎます。\n",
+    "人々は自由に慣れて通りに飛び出します。\n",
+    "あなたは近くの建物に急いで行き、隠れて自分の居場所を見つける場所を探します。\n",
+    "次の動き。",
+    "あなたは旅館と​​思われる場所に侵入します。\n",
+    "お祭り騒ぎの音があなたを包み込みながら、快適なベッドのシーツに包まれます。\n",
+    "人間たちがホステルでパーティーをしていると、さらに偉大な力について聞かされます。\n",
+    "ヘルクスのものよりも、魔術師ギルドに保管されていると言われています...\n",
+    "寝室の落とし戸は下水道につながっています。\n",
+    "人間たちが去っていくのを待つのです..."
+  ],
+  "images": [
+    "*images/ui/Main Menus/Story/black.png",
+    "*images/ui/Main Menus/Story/white.png",
+    "*images/ui/Main Menus/Story/Hamlet_Rescue.png",
+    "*images/ui/Main Menus/Story/MagiciansGuild.png",
+    "*images/ui/Main Menus/Story/black.png",
+    "*images/ui/Main Menus/Story/PowerWaiting.png",
+    "*images/ui/Main Menus/Story/black.png"
+  ]
+}

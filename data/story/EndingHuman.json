@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "press_a_to_advance": true,
+  "text": [
+    "*3ポータルを通して、弱い魔法があなたを城塞から引きずり出します。\n",
+    "激しく揺れる床の上で足が止まります。\n",
+    "パイプとピストンが、くぐもったラケットの中で衝突します...\n",
+    "*1あなたは超然とした平安の感覚を持ち、何が起こったのかをじっくり考える時間があります。\n",
+    "*2目を開けると。\n",
+    "彼らの顔は安堵したように緩んでいます...\n",
+    "次の数日間、あなたは彼らと秘密裏に協力して、\n",
+    "ハムレットに再び足を踏み入れると地獄の領域になります。\n",
+    "ハムレットはかつての栄光に向かって登り始めます。\n",
+    "あなたの旗の下で、はぐれているモンスターを一掃し、都市を再建してください。\n",
+    "市民たちはあなたに法廷に立って新しい男爵の栄冠を授けるよう懇願します。\n",
+    "リッチの力を秘密にし、再びその力を求める者を阻止するために...\n",
+    "*1あなたが知っている力はいつでも待っています。"
+  ],
+  "images": [
+    "*images/ui/Main Menus/Story/black.png",
+    "*images/ui/Main Menus/Story/white.png",
+    "*images/ui/Main Menus/Story/HeroRescued.png",
+    "*images/ui/Main Menus/Story/intro1.png",
+    "*images/ui/Main Menus/Story/throne.png",
+    "*images/ui/Main Menus/Story/PowerWaiting.png"
+  ]
+}

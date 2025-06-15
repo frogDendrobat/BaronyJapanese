@@ -1,0 +1,6614 @@
+# English language file
+# all entries must contain a string number, followed by a space, followed by a string, ended by a pound character
+# lines beginning with pound character are a comment
+# blank lines are ignored
+
+1 null#
+
+# class names
+
+1900 蛮族#
+1901 兵士#
+1902 治療師#
+1903 盗賊#
+1904 旅人#
+1905 学徒#
+1906 商人#
+1907 賢者#
+1908 秘術師#
+1909 道化師#
+
+
+# class descriptions
+
+10 DEPRECATED#
+11 DEPRECATED#
+12 DEPRECATED#
+13 DEPRECATED#
+14 DEPRECATED#
+15 DEPRECATED#
+16 DEPRECATED#
+17 DEPRECATED#
+18 DEPRECATED#
+19 DEPRECATED#
+
+
+# appearance names
+
+20 ランドガード#
+21 ノースボーン#
+22 ファイヤブランド#
+23 ハードブレッド#
+24 ハイウォッチ#
+25 グルームフォージ#
+26 パイレブルーム#
+27 スネークストーン#
+28 ウィンドクラン#
+29 ウォーブラッド#
+30 ミルバウンド#
+31 サンストーク#
+32 クレイマウント#
+33 ストームワード#
+34 トレードフォール#
+35 ナイトヒル#
+36 ベイタワー#
+37 ウェットソング#
+
+
+# appearance descriptions
+
+38 DEPRECATED#
+39 DEPRECATED#
+40 DEPRECATED#
+41 DEPRECATED#
+42 DEPRECATED#
+43 DEPRECATED#
+44 DEPRECATED#
+45 DEPRECATED#
+46 DEPRECATED#
+47 DEPRECATED#
+48 DEPRECATED#
+49 DEPRECATED#
+50 DEPRECATED#
+51 DEPRECATED#
+52 DEPRECATED#
+53 DEPRECATED#
+54 DEPRECATED#
+55 DEPRECATED#
+
+
+# credit titles
+
+56 DEPRECATED#
+57 DEPRECATED#
+58 DEPRECATED#
+59 DEPRECATED#
+60 DEPRECATED#
+61 DEPRECATED#
+62 DEPRECATED#
+63 DEPRECATED#
+64 DEPRECATED#
+65 DEPRECATED#
+
+
+#
+
+66 DEPRECATED#
+67 DEPRECATED#
+68 DEPRECATED#
+69 DEPRECATED#
+
+
+# baron herx subtitles
+
+70 "幸運を祈るぞ、人間よ。"#
+71 "ごきげんよう、人間。"#
+72 "まぁ、頑張れ、人間。"#
+73 "ハハハハハ！"#
+74 "我がミノタウロスは腹をすかせている！"#
+75 "我がペットはお前の肉を食いたがっている"#
+76 "ミノタウロスが来る・・・"#
+77 "ふむ・・・また人間が現れたか・・・"#
+78 "あぁ、また一人、この騒ぎに駆けつけたか・"#
+79 "ふむ・・・新しい奴が来たか・・・"#
+80 "のんびりしない方がいいぞ、人間よ。"#
+81 "彼が来る時に、あなたがいると・・・残念なことだ。"#
+82 "さっさとこのことは忘れて帰った方が賢いぞ、人間。"#
+83 "ふむ・・・こいつはまだ生きているのか。"#
+84 "ふん。ここまで来たか。"#
+85 "人間よ、一体ここで何をするつもりだ？"#
+86 "我がここで見つけた力、お前には分かりはしない。"#
+87 "覚悟ができたら、かかってくるが良い。命落とすぞ。"#
+88 "我が巣で会おう。痛みの真の意味を教えてやろう。"#
+89 "ようこそ。お前の命運も尽きたな、人間！"#
+
+
+# monster names
+
+90 なし#
+91 人間#
+92 ネズミ#
+93 ゴブリン#
+94 スライム#
+95 トロール#
+96 コウモリ#
+97 蜘蛛#
+98 グール#
+99 骸骨#
+100 サソリ#
+101 インプ#
+102 バグベア#
+103 ノーム#
+104 デーモン#
+105 サキュバス#
+106 ミミック#
+107 リッチ#
+108 ミノタウロス#
+109 デビル#
+110 店主#
+
+
+# monster names (plural)
+
+111 なし#
+112 人間#
+113 ネズミ#
+114 ゴブリン#
+115 スライム#
+116 トロール#
+117 コウモリ#
+118 蜘蛛#
+119 グール#
+120 骸骨#
+121 サソリ#
+122 インプ#
+123 バグベア#
+124 ノーム#
+125 デーモン#
+126 サキュバス#
+127 ミミック#
+128 リッチ#
+129 ミノタウロス#
+130 デビル#
+131 店主#
+
+
+# injury types
+
+132 が攻撃した#
+133 が攻撃した#
+134 が噛みついた#
+135 が攻撃した#
+136 がスライムを打った#
+137 が殴った#
+138 が殴った#
+139 が噛みついた#
+140 が攻撃した#
+141 が攻撃した#
+142 が刺した#
+143 が掠り傷した#
+144 が攻撃した#
+145 が殴った#
+146 が殴った#
+147 が手で叩いた#
+148 が噛みついた#
+149 が攻撃した#
+150 が殴った#
+151 が殴った#
+152 が攻撃した#
+
+
+# server flags
+
+153 チート#
+154 仲間撃ち#
+155 ミノタウロス#
+156 飢餓#
+157 罠#
+
+
+# shopkeeper names
+
+158 アドリアン#
+159 ボブ#
+160 カーマック#
+161 デリク#
+162 エラー#
+163 フィリックス#
+164 ジェフ#
+165 ハロルド#
+166 イチャック#
+167 ジェシー#
+168 ケン#
+169 ルーク#
+170 マーティー#
+171 ノール#
+172 オリバー#
+173 ピーター#
+174 クエンティン#
+175 ロメロ#
+176 シドニー#
+177 トム#
+178 ウルフ#
+179 バーン#
+180 ウォレス#
+181 ザビエル#
+182 ヨッシー#
+183 ゼブ#
+
+
+# shop names
+
+184 武器防具屋#
+185 帽子屋#
+186 宝石店#
+187 本屋#
+188 薬屋#
+189 杖屋#
+190 食品店#
+191 金物屋#
+192 狩猟用品店#
+193 雑貨屋#
+
+
+# shopkeeper lines
+
+194 いらっしゃいませ！#
+195 こんにちは！#
+196 良い一日を！#
+
+
+# shopkeeper sells item at an unfair price
+
+197 そのアイテムを良い価格で
+買えましたね!#
+198 素晴らしい選択です！#
+199 何という値段・・・！#
+
+
+# shopkeeper sells item at a fair price
+
+200 どう見ても平等ですね。#
+201 分かりました。
+その値段なら、取引しましょう。#
+202 分かりました。
+でも、その値段以下にはできません！#
+
+
+# shopkeeper refuses a purchase
+
+203 お金がなければ、アイテムを渡さん！#
+204 その値段では売れません。#
+
+205 お金が足りない！#
+
+
+
+# shopkeeper buys item at an unfair price
+
+206 私はそれを喜んで購入します！#
+207 私はあなたから喜んで購入します！#
+208 喜んで私はそれを購入します！#
+
+
+# shopkeeper buys item at a fair price
+
+209 あ、それを買うとしましょう。#
+210 ぜひ、取引しましょう。#
+211 そちらのアイテムを買いましょう。#
+
+
+# shopkeeper refuses to buy an item
+
+212 そのような物なら、取引しません。#
+213 そのような物に興味がありません。#
+214 結構です！そんな物は要りません。#
+
+
+# shopkeeper makes an offer to buy an item
+
+215 それなら、%dGで買います。
+
+取引する？ (右クリック)#
+
+
+
+# shopkeeper chit-chat
+
+216 闘争のリングが
+不穏な空気を人々の周りに作ると
+言われている。#
+
+217 灯油？ロープ？それとも爆弾？
+我が友よ、何をお望みで？
+汝が十分なルビーを与えてくれる限り、
+それらは汝の手の中だ。#
+
+218 いくつかのアイテムには
+特別な魔法の効果が付与されていると
+言われている。#
+
+219 スライムには2色いる。
+青いほうがより強いと
+言われている。#
+
+220 呪われたアイテムは
+真逆の効果を発揮することがある
+と言われている。#
+
+221 距離を保てばトロールは
+汝に気が付かないだろう！#
+
+222 いろいろな水準の武器が
+手に入る。
+木と青銅は弱いが
+鋼はとても強い。#
+
+223 ポーションの効果は
+時間経過で徐々になくなる。#
+
+224 絵本に気を付けろ。
+絵本に触った人を知ってるが、
+気がつくと小さな島で一人に
+なっていました。#
+
+225 スキルは使えば使うほど
+上達する。#
+
+226 ゴブリンは立派な
+掃除人だ。彼らの目の付く
+ところに強力なアイテムを
+残して行くな。#
+
+227 私は弱く見えるかもしれない。
+でも実は神秘的な技術の
+熟練者だ。#
+
+228 缶詰は汝の手をべたべたに....
+清潔にしておくためにタオルを
+使いなさい。#
+
+229 汝はタオルで傷に
+包帯をすることができる。#
+
+230 汝は腹が減っているか?
+ネズミの肉はここの主食だ。#
+
+231 サソリの棘は汝を麻痺させる。
+奴らに気を付けなさい。#
+
+232 サキュバスは男性の
+服を盗むのが好きだと
+言われている。#
+
+233 古い食べ物ほど、
+食べると病気に
+なりやすい。#
+
+234 鏡は時々変わったことを
+することができる。#
+
+235 汝がアイテムを使用する前に
+鑑定してみなさい。#
+
+
+# skill names
+
+236 いじくり#
+237 隠密#
+238 取引#
+239 鑑定#
+240 水泳#
+241 統率#
+242 詠唱#
+243 魔法#
+244 射撃#
+245 剣#
+246 メイス#
+247 斧#
+248 槍#
+249 盾#
+
+
+#
+
+250 DEPRECATED#
+251 DEPRECATED#
+252 DEPRECATED#
+
+
+# Left-click (entity spotting) messages
+
+253 %sが見える。%sという。#
+254 %sが見える。#
+255 壁についているトーチが見える。#
+256 ドアが見える#
+257 %sが見える#
+258 ゴールドが1個見える。#
+259 ゴールドが%d個見える。#
+260 焚き火が見える。#
+262 噴水が見える。#
+263 シンクが見える。#
+264 下向きの梯子が見える。#
+265 上向きの梯子が見える。#
+266 チェストが見える#
+267 鉄のゲートが見える。#
+268 棘の罠が見える。#
+269 レバーが見える。#
+270 岩が見える。#
+271 お墓が見える。#
+272 不思議なポータルが見える。#
+273 椅子が見える。#
+274 テーブルが見える。#
+
+
+# console command messages
+
+275 サーバーのみがサーバーフラグを変更できます。#
+276 サーバーフラグが更新されました。#
+277 このサーバーではチートが無効になっています。#
+278 '%s' はアイテムではありません。#
+279 サーバーはクライアント %d (%s) をキックしました。#
+280 その名前のクライアントが見つかりませんでした。#
+281 サーバーのみが他のプレイヤーをキックできます。#
+282 キックするには、マルチプレイヤー ゲームをプレイしている必要があります。#
+283 マップ ファイルを '%s' として保存しました。#
+284 サーバーのみがこれを実行できます。#
+285 次のレベルにスキップしています...#
+286 カメラは %d、%d、%d にあります
+方向: %3.2f、%d#
+287 マルチプレイヤーでは noclip は常に無効です。#
+288 noclip オン#
+289 noclip オフ#
+290 マルチプレイヤーでは god mode は常に無効です。#
+291 神モード オン#
+292 神モード オフ#
+293 マルチプレイヤーでは仏陀モードは常に無効です。#
+294 釈迦モード オン#
+295 釈迦モード オフ#
+296 友好モード オン#
+297 友好モード オフ#
+298 終了: %d、%d#
+299 これはシングルプレイヤーでのみ機能します。#
+300 レベル内のエンティティの数: %d#
+301 %d 体のモンスターを倒しました。#
+302 %s を召喚しました!#
+303 ここには %s の余地がありません!#
+304 エラー! '%s' を生成できませんでした#
+305 認識されないコマンド: '%s'#
+
+
+# status bar
+
+306 DEPRECATED#
+307 DEPRECATED#
+
+
+# items and inventory
+
+308 DEPRECATED#
+309 DEPRECATED#
+310 DEPRECATED#
+311 DEPRECATED#
+312 DEPRECATED#
+313 DEPRECATED#
+314 DEPRECATED#
+315 DEPRECATED#
+316 DEPRECATED#
+317 DEPRECATED#
+318 DEPRECATED#
+319 この%s
+は既に鑑定された#
+320 %sを鑑定した#
+321 "%s"を鑑定中...#
+322 魔法#
+323 しまう#
+324 使用する#
+325 脱ぐ#
+326 装備する#
+327 脱ぐ#
+328 装備する#
+329 飲む#
+330 読む#
+331 装備する#
+1881 検査する#
+332 使う#
+333 しまう#
+334 用意する#
+335 消す#
+336 火をつける#
+337 トラップを仕掛ける#
+338 食べる#
+339 用意する#
+340 鑑定中: #
+341 鑑定中:%3.0f%%#
+342 魔法書#
+343 インベントリー#
+344 格納する#
+345 売る#
+346 このアイテムの呪いを解く#
+347 この%sは
+呪われていない。#
+348 "%s"の呪いを解いた。#
+
+
+# shop gui - removed category names
+
+349 #
+350 #
+351 #
+352 #
+353 #
+354 #
+355 #
+356 #
+357 #
+358 %sの%sに
+いらっしゃい！#
+
+
+# character sheet
+
+359 DEPRECATED#
+360 DEPRECATED#
+361 DEPRECATED#
+1200 DEPRECATED#
+1201 DEPRECATED#
+1202 DEPRECATED#
+1203 DEPRECATED#
+1204 DEPRECATED#
+1205 DEPRECATED#
+
+
+# skill levels
+
+363                 なし#
+364                 初心者#
+365                 普通#
+366                 得意#
+367                 熟練者#
+368                 達人#
+369                 伝説#
+
+
+# rest of the character sheet
+
+370 DEPRECATED#
+371 DEPRECATED#
+372 DEPRECATED#
+
+
+# chest inventory
+
+373 DEPRECATED#
+374 チェストから %s を取得しました。#
+
+
+# magic
+
+375 MPが足りない！#
+376 あなたは魔法を当てられた！#
+377 あなたの魔法は%sに当たった！#
+378 あなたの魔法は%sに当たった！#
+379 ・・・しかし、跳ね返された！#
+380 あなたのマントはダメージを受けた。#
+381 あなたのマントは破られた！#
+382 あなたのアミュレットはダメージを受けた。#
+383 あなたのアミュレットは壊れた！#
+384 あなたの盾はダメージを受けた。#
+385 あなたの盾は壊れた！#
+386 DEPRECATED#
+387 あなたの魔法でドアを破壊した！#
+388 あなたの魔法で椅子を破壊した！#
+389 あなたの魔法でテーブルを破壊した！#
+390 %sは混乱した！#
+391 %sは混乱した！#
+392 あなたは突然、混乱した！#
+393 %sの動きは遅くなった！#
+394 %sの動きは遅くなった！#
+395 あなたの動きは遅くなった！#
+396 あなたはいきなり眠りに落ちた！#
+397 %sはいきなり眠りに落ちた！#
+398 %sはいきなり眠りに落ちた！#
+399 あなたはドアのカギをしめた。#
+400 魔法でチェストのカギがしめられた！#
+401 一体どんな効果だろう・・・#
+402 あなたはドアを開けた！#
+403 魔法でゲートが開いた！#
+404 魔法でチェストのカギが開いた！#
+405 あなたの魔法で岩が破壊された！#
+406 ソウコバンの神々を怒らせた！#
+407 ブロックしている限り、魔法が使えない！#
+408 %sの魔法の限界。#
+409 魔法を使おうとしたが、失敗した！#
+410 泳いでいる限り、魔法が使えない！#
+411 すごい！復活した！#
+412 頭の中にマップが現れた！#
+413 DEPRECATED_SPELL_NAME#
+414 DEPRECATED_SPELL_NAME#
+415 DEPRECATED_SPELL_NAME#
+416 DEPRECATED_SPELL_NAME#
+417 DEPRECATED_SPELL_NAME#
+418 DEPRECATED_SPELL_NAME#
+419 DEPRECATED_SPELL_NAME#
+420 DEPRECATED_SPELL_NAME#
+421 DEPRECATED_SPELL_NAME#
+422 DEPRECATED_SPELL_NAME#
+423 DEPRECATED_SPELL_NAME#
+424 DEPRECATED_SPELL_NAME#
+425 DEPRECATED_SPELL_NAME#
+426 DEPRECATED_SPELL_NAME#
+427 DEPRECATED_SPELL_NAME#
+428 DEPRECATED_SPELL_NAME#
+429 DEPRECATED_SPELL_NAME#
+430 DEPRECATED_SPELL_NAME#
+431 DEPRECATED_SPELL_NAME#
+432 DEPRECATED_SPELL_NAME#
+433 DEPRECATED_SPELL_NAME#
+434 DEPRECATED_SPELL_NAME#
+435 DEPRECATED_SPELL_NAME#
+436 DEPRECATED_SPELL_NAME#
+437 DEPRECATED_SPELL_NAME#
+438 DEPRECATED_SPELL_NAME#
+439 %sは既に覚えている！#
+440 この魔法は難しすぎる！#
+441 %sを覚えた。#
+442 %sの魔法を準備した。#
+443 元気になった。#
+444 あなたの生命力が一時的に消えそうだった。#
+445 あなたの生命力が消えている・・・！#
+
+
+# arrows
+
+446 %sに撃った！#
+447 しかし、効果がない！#
+448 %sに撃った！#
+449 しかし、効果がない！#
+450 しかし、効果がない！#
+451 あなたは撃たれた！#
+452 しかし、あなたの鎧が跳ね返した！#
+453 毒が仕込まれていた！#
+
+
+# traps and furniture
+
+454 あなたはベアトラップに捕まった！#
+455 岩に殴られてしまった！#
+456 この岩が動かせるほど強くない。#
+457 火からトーチを取った。#
+458 火が消えた。#
+459 チェストがいきなり開いてしまった！#
+460 あなたは全力でチェストを閉めた！#
+461 誰かがチェストを閉めた！#
+462 鍵がかかっている！#
+463 あなたはチェストに%sを入れた。#
+464 あなたはドアを開けた。#
+465 あなたはドアを閉めた。#
+466 鍵がかかっている！#
+467 噴水は空っぽだ！#
+468 水を浴びてみた。#
+469 サキュバスを呼び出した！#
+470 噴水の水を飲んだ。#
+471 冷たい水で元気になった！#
+472 これは聖水だ！#
+473 噴水であなたの装備は祝福された。#
+474 噴水がなくなった。#
+475 他のところでこのゲートが開けられる。#
+476 座ってる場合じゃない。#
+477 悔しさのあまり、テーブルを殴った。#
+
+
+# Easter egg messages
+
+478 これは別の種類のゲームでは役に立つでしょう。#
+479 採掘やクラフトをしたい気分になりますが、すぐにやめてしまいます。#
+480 この奇妙なツールはこの世界にはふさわしくありません。#
+4​​81 何かを作っているわけではないので、これは必要ありません。#
+4​​82 下等な人は、これが宇宙に属するものだと考えています。#
+
+
+# Gold
+
+483 1ゴールドを拾った。#
+484 %dゴールドを拾った。#
+
+
+# headstone messages
+
+485 ”ここにジョニー・イースト。
+起床できなくてごめんなさい。”#
+
+486 "ここに私の妻。
+そっとしといてください！ 
+妻も、私も、やっと・・・休める。”#
+
+487 "ここにブレイクの遺体。
+死因はブレーキ(brake)とアクセルの間違い。"#
+
+488 ”ここにウィアード・エッド
+荷物を預かったけど、エッドではなくデッド(死)になってる。”#
+
+489 ”安らかに眠れ”#
+
+490 ”R.I.P.”#
+
+491 "Sum quod eris"#
+
+492 ”ジム卿はドックから飛び出した。
+そして彼は泳げないと気付いた。”#
+
+493 "ここにメアリーポピンズ
+彼女の傘の穴は破滅の元だと証明した。”#
+
+494 "ここにホレス・フェッチ
+ゴブリンたちにやられました。”#
+
+495 "ここにジュリアン
+ペットのトロールに潰された。”#
+
+496 "ここにイングリッド
+不気味なスケレトンに驚かされました。”#
+
+497 "ここにロビン卿
+勇気を出して、逃げてしまいました。”#
+
+498 "ここにトム
+ロシアンルーレットで負けた。”#
+
+499 "ここにミッチ
+彼を殺したのは、リッチ。"#
+
+500 "ここにザ・プロト・ペガサス
+排気管にジャガイモを差し込まれた"#
+
+501 この墓石には何も書いていない。#
+
+502 あなたは死者の眠りを妨げた！#
+
+
+# item messages
+
+503 この%sはオブジェクトのロックを解除できる。#
+
+504 %sを拾った。#
+
+
+# ladder and portal messages
+
+505 進むには、パーティのみんなが集まる必要がある。#
+506 梯子を降りた。#
+507 あなたのパーティと一緒に梯子を降りた。#
+508 そちらに戻れない。#
+509 進むには、パーティのみんなが集まる必要がある。#
+510 ポータルに入った。#
+511 パーティメンバーたちとポータルに入った。#
+
+
+# herx darkness line
+
+512 頭の中で声が聞こえる：
+この暗闇の秘技を破ることができるか？#
+
+
+# monster chat
+
+513 %s はこう言っています:#
+514 %s は応答しません。#
+515 %s は応答しません。#
+516 %s %s! お前の首を頂戴!#
+517 %s %s!守って！#
+518 お前は私のものだ、%s %s！#
+519 準備しろ、%s %s！#
+520 もうすぐ行くぞ！#
+521 今ちょっと忙しいんだ。#
+522 すぐに話そう！#
+523 失礼、他の誰かと話しているんだ。#
+524 他の誰かに迷惑をかけるな！#
+525 喜んでついて行くぞ、%s！#
+526 先導してくれ、%s！#
+527 ついて行くぞ、%s！#
+528 道を教えて、%s！#
+529 %s はあなたについて行くことにした！#
+530 失礼だ。#
+531 失礼だ。#
+532 こんにちは。#
+533 失礼だ。#
+534 *うなり声*#
+535 失礼だ、 %s.#
+536 ごめん、%s。他を仲間にする。#
+
+# sharur lines
+
+537 頭の中で声が聞こえる：#
+538 ""知ってたー？"
+トラップから邪悪な音色が聞こえるよ。
+本当だよ！#
+539 "知ってたー？"
+噴水はたまに装備を祝福してくれるよ。
+本当だよ！#
+540 "知ってたー？"
+"店主たちは未鑑定の宝石を買ってくれないよ。"
+本当だよ！#
+541 "知ってたー？"
+"アーサー王はディルンウィンという魔剣を持っているよ。"
+本当だよ！#
+542 "知ってたー？"
+トラップにアイテムを落とすと無効化できる
+本当だよ！#
+543 "知ってたー？"
+ハンソロが先に撃ったよ。
+本当だよ！#
+544 "知ってたー？"
+レインボーダッシュは一番のポニーだよ。
+本当だよ！#
+545 "知ってたー？"
+蜘蛛の毒は10秒以内に消えるよ。
+本当だよ！#
+546 "知ってたー？"
+時々シンクの中でリングが見つかるよ。
+本当だよ！#
+547 "知ってたー？"
+ジェット燃料は鉄骨を溶かすことができないよ。
+本当だよ！#
+548 "知ってたー？"
+グングニルの攻撃は絶対に外れないよ。
+本当だよ！#
+549 "知ってたー？"
+クリスラカトスは毒矢を撃てるよ。
+本当だよ！#
+550 "知ってたー？"
+マインタウンには不気味な秘密があるよ。
+本当だよ！#
+551 "知ってたー？"
+幽世には2つの隠された方法があるよ。
+本当だよ！#
+552 "知ってたー？"
+雑貨屋は何でも買ってくれるよ。
+本当だよ！#
+553 "知ってたー？"
+"一部のポーションは決まった色しか出てこないよ。"
+本当だよ！#
+554 "知ってたー？"
+遺跡には地獄に通じる秘密の道があるよ。
+本当だよ！#
+555 "知ってたー？"
+"グングニルはミノタウロスの迷路に隠されているよ。"
+本当だよ！#
+556 "知ってたー？"
+クリスラカトスは幽世にあるよ。
+本当だよ！#
+557 "知ってたー？"
+"ファニーボーンはパラシュという斧を持っているよ。"
+本当だよ！#
+558 "知ってたー？"
+あなたは勝者だよ！
+本当だよ！#
+559 "知ってたー？"
+相棒のスーパーフライが居なきゃ行けないよ！
+本当だよ！#
+560 "知ってたー？"
+トースターはトーストをトーストするよ。
+本当だよ！#
+561 "知ってたー？"
+あのミミガーはスーじゃなかったんだよ！
+本当だよ！#
+562 "知ってたー？"
+ソウコバンの秘密を解くと大金持ちになれるよ
+本当だよ！#
+563 "知ってたー？"
+ノームとトロールはとても仲良しだよ。
+本当だよ！#
+564 "知ってたー？"
+店主たちは本当に魔法の天才だよ
+本当だよ！#
+565 "知ってたー？"
+トロールたちはほっといてもらいたがっているよ。
+本当だよ！#
+566 "知ってたー？"
+ミノタウロスは無敵じゃないよ。
+本当だよ！#
+567 "知ってたー？"
+テレポート病には治療方法がないよ。
+本当だよ！#
+568 "知ってたー？"
+壊されたチェストはあまりアイテムを出してくれないよ。
+本当だよ！#
+569 "知ってたー？"
+スプーンなんてないよ
+本当だよ！#
+
+# random player messages
+
+570 %sを鑑定した。#
+571 %sの鑑定に失敗した。#
+572 落ちて死んだ・・・#
+573 溶岩に落ちてしまった！#
+574 水で炎が消された。#
+575 %sにぶつかった。 %d/%d HP | %d/%d MP#
+576 %sにぶつかられた。#
+577 死んだ・・・#
+578
+パーティが次のレベルに進むと、
+あなたは復活されます。#
+579 *ヒック*#
+
+# more furniture
+
+580 シンクがもう使えなくなった。
+水道屋を呼べば？#
+581 あれ？リングが入っている・・・#
+582 蛇口からスライムが出た！#
+583 冷たい水でちょっと元気になった。#
+584 水が熱すぎる！#
+585 パイプから音が聞こえる。
+蛇口が壊れた！#
+586 棘の罠を踏んでしまった！#
+588 飛んでいる%sに当たってしまった！#
+589 壁に付いていたトーチを取った。#
+
+# entity messages
+
+590 あなたは突然、燃え上がった！#
+591 あなたの透明化の魔法は遮られた！#
+592 あなたの空中浮遊の魔法は遮られた！#
+593 あなたは目覚めた。#
+594 毒が消えた。#
+595 あなたは、少し落ち着きを感じた。#
+596 今、あなたは明確に考えることができる。#
+597 あなたの酔いが醒めた。#
+598 透明化の魔法の限界だ。#
+599 お！また自分が見えるようになった！!#
+600 あなたはまた見えるようになった！#
+601 あなたの目から涙が出ます。#
+602 あなたの手がもっと綺麗になったようだ。#
+603 あなたの顔はもう汚れていない。#
+604 あなたは元のスピードに戻った。#
+605 あなたはまた動けるようになった。#
+606 空中浮遊の魔法の限界だ。#
+607 床に降りた。#
+608 頭の中の声が止まった。#
+609 空腹度が少し改善した。#
+610 しかし、まだ気分が悪い。#
+611 お腹が減っている。#
+612 お腹が減った！
+あなたは弱っている。#
+613 飢えている！
+あなたは倒れそうだ。#
+614 出血が止まった。#
+615 あなたの%sスキルが上達した。#
+616 あなたの%sスキルレベルが[普通]になった。#
+617 あなたの%sスキルレベルが[得意]になった。#スキルド#
+618 あなたの%sスキルレベルが[熟練者]になった。#エキスパート#
+619 あなたの%sスキルレベルが[達人]になった。#マスター#
+620 あなたの%sスキルレベルが[伝説]になった。#レジェンド#
+621 あなたの生命力は魔法力に変更された。#
+622 レベルアップ！#
+623 強くなった！（STRが上昇）#STRが上がった！#
+624 速くなった！（DEXが上昇）#DEXが上がった！#
+625 頑丈になった！（CONが上昇）#CONが上がった！#
+626 賢くなった！（INTが上昇）#INTが上がった！#
+627 注意深くなった！（PERが上昇）#PERが上がった！#
+628 カリスマチックになった！（CHRが上昇）#CHRが上がった！#
+629 少しだけ元気が出た。#
+630 お腹が減っている#
+631 お腹が減った！
+あなたは弱っている。#
+632 飢えている！
+あなたは倒れそうだ。#
+633 もう限界だ・・・#
+634 いきなり吐き気が・・・！#
+635 いきなり吐いてしまった！#
+636 あなたの武器は指から滑り落ちた!#
+637 あなたの%sは暗闇の中で光っている。#
+638 あなたの%sが燃え尽きた。#
+639 アミュレットは淡い緑色に輝いている。#
+640 毒があっという間に消えていく！#
+641 毒がもう消えたようだ。#
+642 出血！#
+643 出血が止まった。#
+644 熱い！熱すぎる！#
+645 あなたの%sが燻っている！#
+646 あなたの%sは燃えて灰になる！#
+647 炎が消えた。#
+648 アミュレットが首を締め上げる!#
+649 アミュレットが収縮する！#
+650 しかし、アミュレットは壊れた！#
+
+# the extra period here is important, make sure to leave it:
+
+651 死んだ・・・.#
+
+
+# more entity messages
+
+652 だが待つんだ！あなたのアミュレットが輝いている！#
+653 だが待つんだ！あなたのアミュレットが熱を帯びている！#
+654 生き返って、空中に浮き始めます！！#
+655 しかし、あなたのアミュレットは壊れた。#
+656 おっと。失敗のようだ。#
+657 次の世界でまた会おう。#
+658 いきなり目覚めた！#
+659 杖の魔法力が少し失われた。#
+660 杖の魔法力が完全に失われた。#
+661 あなたの%sが傷んできた。#
+662 あなたの%sはとうとう壊れた。#
+663 岩を破壊した！#
+664 あなたのツルハシはとうとう壊れた！#
+665 あなたのツルハシが傷んできた！#
+666 ドアを殴った！#
+667 チェストを殴った！#
+668 テーブルを殴った！#
+669 椅子を殴った。#
+670 ドアがいきなり開いた！#
+671 チェストはばらばらになった！#
+672 テーブルがばらばらになった！#
+673 椅子がばらばらになった！#
+674 ドア#
+675 チェスト#
+676 テーブル#
+677 椅子#
+678 パイプから音が聞こえる。.#
+679 あなたの武器が傷んできた！#
+680 あなたの武器は衝撃で壊れた！#
+681 あなたの%sが傷ついた！#
+682 あなたの%sは壊れた！#
+683 あなたはディルンウィンに燃やされた！#
+684 サソリに刺された！#
+685 毒で動けなくなった！#
+686 蜘蛛は毒牙で噛みついてきた！#
+687 毒があなたの血管を通って広がる！#
+688 おい！あのサキュバスに%sを盗まれた！#
+689 %sに会心の一撃！#
+690 %sを攻撃した！#
+691 しかし、びくともしなかった！#
+692 %sを倒した！#
+693 %sに会心の一撃！#
+694 %sを攻撃した！#
+695 しかし、びくともしなかった！#
+696 しかし、びくともしなかった！#
+697 %sを倒した！#
+698 %s%s！#
+699 %s%s！#
+700 しかし、跳ね返された！#
+701 あなたは出血している！#
+702 %sは出血している！#
+703 %sは出血している！#
+704 あなたのツルハシはとうとう壊れた！#
+705 あなたのツルハシが傷んできた！#
+706 この壁は堅すぎて掘れない。#
+707 吐きそうだったが、もう大丈夫だ。#
+708 一時的に混乱していた。#
+
+
+# general game messages
+
+709 読み込み中・・・#
+710 ようこそ、%d階層へ。#
+711 %sへようこそ。#
+712 石がツルハシで掘り出されている音が聞こえる。#
+713 賑やかな町の音が聞こえる。#
+714 遠くから聖歌が聞こえる。#
+715 遠くから風の音が聞こえる。#
+716 動いている岩の音が聞こえる。#
+717 遠くから腹をすかせたミノタウロスの鳴き声が聞こえる。#
+718 遠くから不思議な鼻歌が聞こえる。#
+719 遠くから叫び声が聞こえる。#
+720 %sが付いてきた。#
+721 味方の%sが付いてきた。#
+722 %sとのお別れだ！#
+723 %sとのお別れだ！#
+724 サーバーはクライアント%d (%s)と接続しました！
+オートキックはキャンセルされました。#
+725 クライアント%d (%s)は応答していません。
+%d秒後、自動でキックします。#
+726 クライアント%d (%s)が切断しました。
+キックします。#
+727 荷物が一杯で
+%sが持てない！#
+728 もう一度サーバーと接続できました。
+自動切断がキャンセルされました。#
+729 サーバーは反応していません。
+%d秒後、自動で切断します。#
+730 サーバーとの接続が切断されました。
+切断します。#
+731
+サーバーは反応していません。
+
+メインメニューに戻りますか？#
+732 OK#
+733 ランダムキャラクター#
+734 %sよ、Baronyの世界へようこそ！#
+735 DEPRECATED#
+736 DEPRECATED#
+737 DEPRECATED#
+738 このゲームの著作権を侵害しないでください!
+
+我々の著作物を生かすも殺すも、
+あなたのようなプレーヤーのサポート次第です。
+
+ありがとう!#
+739 あなたの発言:#
+740 あなたは死んだ#
+
+
+# init messages
+
+741 スプライト読み込み中#
+742 モデル読み込み中#
+743 タイル読み込み中#
+744 サウンド読み込み中#
+745 モデル読み込み中 (%d/%d)#
+746 リンブファイル読み込み中#
+747 アイテム読み込み中#
+748 BGM読み込み中#
+749 インタフェース読み込み中#
+
+
+# item usage messages
+
+750 まだ窒息しているから、それが飲めない。#
+751 さっき食べた物をまだ吐いている！#
+752 水の味がする。#
+753 冷たい水の味がする。
+それは実際にはかなり爽やかです！#
+755 嫌な感がある。#
+756 まだ窒息しているから、それが食べられない。#
+757 先食べた物をまだ吐いている！#
+758 うわ、ちょっと酔っている！#
+759 結構いい気分！#
+760 フルーツジュースの味がする。#
+761 まずっ！毒の味だ！#
+762 あなたは、非常に混乱してると感じます！#
+763 すごい！元気満々！#
+764 %s
+の缶を食した。#
+765 何も見えない！#
+766 突然、あなたは透明になった！#
+767 あなたは飛び始めた！#
+768 あなたは突然速くなった！#
+769 もとのスピードに#
+770 熱っ！これは熱すぎ！#
+771 動けなくなった！#
+772 薬の味だ。#
+773 元気になった。#
+774 魔法力が湧いてきた！#
+775 何も見えないから、スクロールが読めない。#
+
+
+# mail
+
+776 手紙:
+"モーです。ディナーとして…
+食べてしまいたいほど…
+好きですマギー。"#
+
+780 手紙:
+"助けてたもれ！　わらわは
+ジャブジャブ様のお腹の中で待っておる。#
+781 じゃぶじゃぶ様のお腹。
+ルト   追伸　
+父上にはナイショゾラ！,ゼルダかな(爆笑)"#
+
+786  手紙:
+ "鉱山から掘り出される銅の量を倍にしろ。
+ノーム（大地を司る精霊）はそれに気前よく
+応えてくれるだろう。"#
+
+790 手紙:
+
+"苦労も苦悩も二倍にするぞ、
+火を焚け、釜をぐらぐら煮立たせろ"#
+
+793 これは、ちょっと広告です:
+
+"%sの%sはすべての領域の中で
+最も素晴らしいアイテムを持っている！"#
+
+796 古い走り書きされたメモ:
+
+"今、私は暗がりのここに横になります。
+そして、死を待ちます。"#
+
+799 古い走り書きされたメモ:
+
+"ドープフィッシュは生きている！"#
+
+801 古い走り書きされたメモ:
+ "俺のワーストトロールは
+誰もブリッジ トールを支払わない#
+802   俺が酔っぱらって殺されたら
+怖すぎるから、トロールを
+酔っぱらわせるんだ"#
+
+807 手紙:
+ダンジョンの居住者との長きに及んだ
+遭遇の末、我々の悪魔の要塞の探検は
+失敗に終わりました。#
+
+811 手書きのメモ:
+"ミズンマストから北東に１０ペース#
+812 船倉に２７ステップ下がる;
+そして右に5ペース;　　　　そして、
+”X”とマークされた場所で掘りなさい"#
+
+816 手紙:
+
+"馬、馬！ 馬のための私の王国！"#
+
+817 手書きのメモ:
+
+"よーし、みんな、モスキーに行こう！"#
+
+818 手紙:
+"問題を扱う時、この多くの書物を使って
+王族の「我々」と話すことは
+伝統です!!!"#
+
+822 手紙:
+
+"泳ぐ　泳ぐ　空腹"#
+
+824 手書きのメモ:
+
+"男の笑顔には憎悪があります。"#
+
+826 手書きのメモ:
+
+"それは誰にも秘密である。"#
+
+828 手書きのメモ:
+
+"あなたの後ろに！"#
+
+830 手紙:
+"マウスと人間のすべての言葉の中で、最も
+悲しいのは　「それはそうであった
+かもしれない」　ということです。"#
+
+834 血のついたメモ:
+
+"はい、アバター、帰り道を捜してください！"#
+
+836 パンくずで覆われてた手紙:
+
+""沸騰させて、つぶして、シチューに突っ込んで！""#
+
+838 手書きのメモ:
+
+"彼らは生命が生計に浪費されると言います。"#
+
+840 手書きのメモ:
+
+"ドーナツは素晴らしい！私のお気に入りは
+ゼリードーナツです！これ以上はない。"#
+
+843 手書きのメモ:
+
+"ねえ、私は知っている！私は信頼できる
+フライパンを乾燥鍋として使用します！"#
+
+846 手紙:
+
+"どうか、前の手紙を無視してください。"#
+
+
+# scrolls
+
+848 スクロールを読んだら、いきなりスクロールが消えた！#
+849 これは鑑定のスクロールだ！#
+850 未鑑定のアイテムはありません。.#
+851 光があなたを包んでいます!#
+852 白紙のスクロールです。#
+853 あなたの手はしばらく暖かく感じます。#
+854 武器が黒く輝いている。#
+855 武器が青く輝いている。#
+856 武器が激しく青く輝いている。#
+857 あなたの皮膚はしばらく暖かく感じます。#
+858 あなたの%sは黒く光っている。#
+859 あなたの%sは青く光っている。#
+860 あなたの%sは青く光っている。#
+861 あなたは誰かに 手伝われているような気がする。#
+862 一時的に変な感があった。#
+863 スクロールから煙が出て、スクロールは灰になった！#
+864 スクロールは炎の塔になって消えた！#
+865 あなたの目の前でごちそうが現れた！#
+866 あなたの胃は不平を言うが、それは過ぎ去った。#
+867 あなたの食物ポーチは、より軽いと感じます！#
+868 マップはあなたの心の中で融合する！#
+869 あれ？なんだ？ここはどこ？#
+870 あなたはうずき感を感じますが、それは過ぎ去った。#
+871 あなたの%sが振動します。#
+872 あなたの%sは、よりよく見えます！#
+873 あなたの皮膚はしばらく痒いです。#
+874 あなたの%sが振動します。#
+875 あなたの%sは突然壊れます！#
+876 あなたは、しばらく方向感覚を失います。#
+877 怒ってる%sを呼び出した！#
+878 怒ってる%sを呼び出した！#
+879 フレンドリーな%sを呼び出した！#
+880 "マスター、我をお使いください。"#
+881 フレンドリーな%sを呼び出した！#
+882 "我々はマスターの盾になります！"#
+
+
+# more items
+
+883 タオルで顔を拭いた。#
+884 あなたは傷の周りをタオルで縛る。#
+885 出血が止まった。#
+886 この缶切りを持っている限り、缶が開けられる。#
+887 おっと！#
+888 鏡は、あなたの手からすべり落ちます。
+それは100万の断片に粉砕する！#
+889 あなたは、鏡を覗き込みます...#
+890 あなたは、突然連れ去られます！#
+891 あなたはモンスターのように見える!
+鏡は100万の断片に粉砕する！#
+892 一時、あなたは盲目であることを忘れる。#
+893 あなたは鏡の中に誰も見れない。#
+894 'eyyy, boy! *hic*#
+895 'eyyy, gurl! *hic*#
+896 これは誰ですか?#
+897 あなたの顔色が悪い・・・#
+898 かなり吐き気がする#
+899 顔中に何かが!!#
+900 あなたは、栄養失調に見えます。#
+901 あなたは腹がすいたように見えます。#
+902 あなたは相変わらず醜い者だ。#
+903 あなたは相変わらずハンサムだ。#
+904 あなたは相変わらず美しい。#
+905 ベアトラップは、突然壊れます！#
+906 ベアトラップを仕掛ける。#
+907 %sを食した。#
+908 腐っている食べ物だ！#
+909 顔にパイが飛び込んでくる!
+*ピシャッ*#
+910 あなたの顔はクリームで覆われています！#
+911 美味しい！#
+912 あなたはまだ空腹である。#
+913 あなたは、まだまだ満腹でありません。#
+914 その%sを食べたら、満足だ。#
+915 お腹がいっぱい。#
+916 食べ過ぎたから、お腹が痛くなった。#
+917 食べ過ぎ！#
+
+
+# tinned food
+
+918 ピューレ物#
+919 キャンディ物#
+920 ソテー物#
+921 炒め物#
+922 癒し物#
+923 炙り物#
+924 揚げ物#
+925 ミンチ物#
+926 ロースト物#
+927 ドライ物#
+928 自家製#
+929 ボイル物#
+930 焼き物#
+931 スモーク物#
+932 ピクルス物#
+933 フレンチフライ物#
+934 ヤモリ#
+935 うなぎ#
+936 ハム#
+937 牛肉#
+938 ベーコン#
+939 ターキー#
+940 チキン#
+941 サーモン#
+942 マス#
+943 山羊肉#
+944 子羊肉#
+945 蛇#
+946 イカ#
+947 カニ#
+948 ウズラ#
+949 馬肉#
+950 玉ねぎ入り#
+951 ソース入り#
+952 ビーンズ入り#
+953 コーン入り#
+954 ニンジン入り#
+955 団子入り#
+956 ダイコン入り#
+957 豆入り#
+958 グレービー入り#
+959 ブロッコリー入り#
+960 カブ入り#
+961 ビート入り#
+962 ポテト入り#
+963 ライス入り#
+964 セロリ入り#
+965 ホウレンソウ入り#
+966 脂はあなたの指を滑りやすくします。#
+
+
+# yet more items
+
+967 いきなり男らしくなった！#
+968 いきなり女らしくなった！#
+969 アミュレットは消えた！#
+970 何も見えない時に本を読めるわけない！#
+971 魔法書はいきなり灰となった！#
+972 一つの魔法を忘れた!#
+973 一時的にぼうっとしていた。#
+
+
+# potion colors
+
+974 青い#
+975 黄色い#
+976 茶色い#
+977 オレンジ色の#
+978 赤い#
+979 緑色の#
+980 紫色の#
+981 白い#
+
+
+# item quality strings
+
+982 壊れている%+2d#
+983 ボロボロの%+2d#
+984 すり切れた%+2d#
+985 使えそうな%+2d#
+986 素晴らしい%+2d#
+987 破壊された%+2d#
+988 割れた%+2d#
+989 粗い%+2d#
+990 欠陥のある%+2d#
+991 欠陥のない%+2d#
+992 蒸発した%s %+2d#
+993 曇っている%s %+2d#
+994 渦巻いている%s %+2d#
+995 地味な%s %+2d#
+996 泡立つの%s %+2d#
+997 細断された%+2d#
+998 破られた%+2d#
+999 薄い%+2d#
+1000 マーク付きの%+2d#
+1001 新しい%+2d#
+1002 腐っている%+2d#
+1003 黴だらけの%+2d#
+1004 古い%+2d#
+1005 ちょっと古い%+2d#
+1006 新鮮な%+2d#
+1007 %sの一冊#
+1008 %d 壊れた %+2d#
+1009 %d ボロボロの%+2d#
+1010 %d すり切れた%+2d#
+1011 %d 使えそうな%+2d#
+1012 %d 素晴らしい%+2d#
+1013 %d 破壊された%+2d#
+1014 %d 割れた%+2d#
+1015 %d 粗い%+2d#
+1016 %d 欠陥のある%+2d#
+1017 %d 欠陥のない%+2d#
+1018 %d 蒸発した%s %+2d#
+1019 %d 曇っている%s %+2d#
+1020 %d 渦巻いている%s %+2d#
+1021 %d 地味な%s %+2d#
+1022 %d 泡立つの%s %+2d#
+1023 %d 細断された%+2d#
+1024 %d 割れた%+2d#
+1025 %d 薄い%+2d#
+1026 %d マーク付きの%+2d#
+1027 %d 真新しい%+2d#
+1028 %d 腐っている%+2d#
+1029 %d 黴だらけの%+2d#
+1030 %d 古い%+2d#
+1031 %d ちょっと古い%+2d#
+1032 %d 新鮮な%+2d#
+1033 %d "%s"の何冊#
+1034 壊れている#
+1035 ボロボロの#
+1036 すり切れた#
+1037 使えそうな#
+1038 素晴らしい#
+1039 破壊された#
+1040 割れた#
+1041 粗い#
+1042 欠陥のある#
+1043 欠陥のない#
+1044 蒸発した%s#
+1045 曇っている%s#
+1046 渦巻いている%s#
+1047 地味な%s#
+1048 泡立つの%s#
+1049 細断された#
+1050 破られた#
+1051 薄い#
+1052 マーク付きの#
+1053 新しい#
+1054 腐っている#
+1055 黴だらけの#
+1056 古い#
+1057 ちょっと古い#
+1058 新鮮な#
+1059 %s ラベル付きの%s#
+1060 %d 壊れた #
+1061 %d ボロボロの#
+1062 %d すり切れた#
+1063 %d 使えそうな#
+1064 %d 素晴らしい#
+1065 %d 破壊された#
+1066 %d 割れた#
+1067 %d 粗い#
+1068 %d 欠陥のある#
+1069 %d 欠陥のない#
+1070 %d 蒸発した%s #
+1071 %d 曇っている%s #
+1072 %d 渦巻いている%s #
+1073 %d 地味な%s #
+1074 %d 泡立つの%s #
+1075 %d 細断された#
+1076 %d 割れた#
+1077 %d 薄い#
+1078 %d マーク付き#
+1079 %d 真新しい#
+1080 %d 腐っている#
+1081 %d 黴だらけの#
+1082 %d 古い#
+1083 %d ちょっと古い#
+1084 %d 新鮮な#
+1085 %d %sラベル付きの%s#
+1086 %d %sの何冊#
+
+
+# more item messages
+
+1087 無理。そのアイテムは呪われた！#
+1088 %sを捨てた。#
+1089 %sが脱げない。
+呪われた！#
+1090 %sを装備した。#
+1091 %sをしまった。#
+1092 この%sが使えない。#
+1093 缶切りがなければ、この缶が開けられない。#
+1094 あなたはアミュレットを付けた。#
+1095 突然、アミュレットは収縮した！#
+1096 "やぁ、私はシャルール、話すメイスです!"#
+
+
+# lockpicks and keys
+
+1097 チェストをアンロックした。#
+1098 チェストをロックした。#
+1099 ドアをアンロックした。#
+1100 ドアをロックした。#
+1101 この%sで色んな物がアンロックできる。#
+1102 チェストのアンロック失敗。#
+1103 あなたのロックピックはダメージを受けた。#
+1104 あなたのロックピックは壊れている。#
+1105 このチェストはもうアンロックされた。#
+1106 ドアのアンロック失敗。#
+1107 このドアはもうアンロックされた。#
+
+
+# random stuff
+
+1108 この洞窟には不自然な暗闇がある。#
+1109 あなたは、パーティーの持続によって生き残ります。#
+1110 レバーを引いた。#
+1111 サーバーフラグが更新されました。#
+1112 走れ、死ぬぞ！
+"バフォメットは死ぬけれど、彼の手下は生きながらえる。"
+我々は、あなたに我々の力を与えます！#
+1113 気をつけろ!
+あなたはミノタウロスを解放した！#
+1114 ZAP隊が到着した！
+"大丈夫だ %s、我々がミノタウルスを見張ります。"#
+1115 気をつけろ!
+ミノタウロスが到着した！#
+1116 あなたは、頭の中で声が聞こえます...#
+1117 time = %4d ms#
+1118 ％sはゲームを一時停止しました。#
+1119 ％sはゲームを再開しました。#
+1120 ％sはゲームを離れました。#
+1121 オートセーブ中・・・#
+1122 %sと取引し始めた。#
+1123 %sを%dGで買った。#
+1124 %sが売れない。
+呪われたから！#
+1125 %sを%dGで売った。#
+
+# some window and button text
+
+1126
+リモートサーバーがシャットダウンしました。
+
+メインメニューに戻るには"OK"を押してください。#
+1127
+あなたはゲームサーバーから蹴られました。
+
+メインメニューに戻るには"OK"を押してください。#
+1128
+本当に
+終了したいですか？#
+1129
+            このゲームを
+         終了してもよいですか？
+
+       死亡したため、
+       セーブファイルは削除されます#
+1130
+          このゲームを
+     再開してもよいですか?#
+1131
+         デスクトップ画面に
+          戻ってもよいですか?
+
+     進行状況は現在の階層の
+       開始時に保存されました。#
+1132 ロビーリストのリクエスト中...#
+1133 あなたは死にました。ゲームオーバー
+
+#
+1134 あなたの装備は鑑定されました。
+#
+1135 総スコア: #
+1136 おめでとう!
+高得点です。
+
+#
+1137
+
+
+
+#
+1138     リスタートする   #
+1139 メインメニューに戻る#
+1140 あなたは死んだ
+#
+1141 パーティーが次のレベルまで生き残れば
+あなたは復活するでしょう。
+
+#
+1142 パーティーが全滅したので　ホストは
+新しいゲームを作成するか、現在のゲームを
+再開する必要があります。#
+1143 総スコア: #
+1144    了解   #
+
+
+# death tips
+
+1145
+すべての未確認のアイテムに注意してください。
+あなたを助けるよりもむしろ傷つけるかもしれません。#
+1146
+弱いうちは絶対に敵と戦わないでください。
+あなたは簡単に圧倒されるかもしれません。#
+1147
+敵から隠れるために暗闇を利用してください。#
+1148
+ネズミは早期から良い食料源になります。#
+1149
+落胆しないでください。間違いから学んでください。
+そして、結局、あなたは成功するでしょう。#
+1150
+マウスの左ボタンで決定的な攻撃が
+実行できるようにして下さい。#
+1151
+盾を上げて防御力を高めてください。#
+1152
+ダンジョンの危険な迷路を進むために、
+あなたのミニマップを利用してください。#
+1153
+ホットバーのアイテムはシフトキーを押しながら
+クリックすれば即座に外せます。#
+1154
+あなたのキャラクターの武器スキルは　その武器の効果に
+大きな影響を及ぼします。#
+1155
+スキルを増やすために、あなたの別のスキルを
+練習してください。#
+1156
+ヘルックス男爵は近くにいる彼のミノタウロス
+について話のが好きです。#
+1157
+遠方に転がっている岩の音が聞こえますか？
+走れ！#
+1158
+ポーションは敵に投げて、様々な効果を
+与えることができます。#
+1159
+"創意に富んでいてください。 あらゆるアイテムが使えます。#
+
+
+# more random text
+
+1160 ぶつける。#
+1161 鑑定する#
+1162 捨てる#
+1300 あなたはベアトラップを無効にした。#
+1301 あなたはスペル詠唱を中断した！#
+1302 %sの発言:#
+
+
+# main menu
+
+1303 DEPRECATED#
+1304 DEPRECATED#
+1305 DEPRECATED#
+1306 DEPRECATED#
+1307 DEPRECATED#
+1308 DEPRECATED#
+1309 DEPRECATED#
+1310 DEPRECATED#
+1311 DEPRECATED#
+1312 DEPRECATED#
+1313 DEPRECATED#
+
+1314 はい#
+1315 いいえ#
+1316 DEPRECATED#
+1317 DEPRECATED#
+
+# character creation
+
+1318 DEPRECATED#
+1319 DEPRECATED#
+1320 DEPRECATED#
+1321 DEPRECATED#
+1322 DEPRECATED#
+1323 DEPRECATED#
+1324 DEPRECATED#
+1325 DEPRECATED#
+1326 DEPRECATED#
+1327 DEPRECATED#
+1328 DEPRECATED#
+1329 DEPRECATED#
+1330 DEPRECATED#
+1331 DEPRECATED#
+1332 DEPRECATED#
+1333 DEPRECATED#
+
+# lobby browser
+
+1334 DEPRECATED#
+1335 DEPRECATED#
+1336 DEPRECATED#
+1337 DEPRECATED#
+
+# settings window
+
+1338 DEPRECATED#
+1339 DEPRECATED#
+1340 DEPRECATED#
+1341 DEPRECATED#
+1342 DEPRECATED#
+1343 DEPRECATED#
+1344 DEPRECATED#
+1345 DEPRECATED#
+1346 DEPRECATED#
+1347 DEPRECATED#
+
+1348 DEPRECATED#
+1349 DEPRECATED#
+
+1350 DEPRECATED#
+1351 DEPRECATED#
+1352 DEPRECATED#
+1353 DEPRECATED#
+1354 DEPRECATED#
+1355 DEPRECATED#
+1356 DEPRECATED#
+1357 DEPRECATED#
+1358 DEPRECATED#
+1359 DEPRECATED#
+1360 DEPRECATED#
+1361 DEPRECATED#
+1362 DEPRECATED#
+1363 DEPRECATED#
+1364 DEPRECATED#
+
+1365 DEPRECATED#
+1366 DEPRECATED#
+1367 DEPRECATED#
+
+1368 DEPRECATED#
+1369 DEPRECATED#
+1370 DEPRECATED#
+1371 DEPRECATED#
+1372 DEPRECATED#
+1373 DEPRECATED#
+1374 DEPRECATED#
+
+
+# multiplayer windows
+
+1375 DEPRECATED#
+1376 DEPRECATED#
+1377 DEPRECATED#
+
+1378 サーバーはすでにいっぱいです。#
+1379 ゲームバージョンのミスマッチ。#
+1380 サーバーは保存されたゲームを行っていません。#
+1381 ホストがセーブファイルから続行しています。
+互換性のある保存ファイルが見つかりません。#
+1382 セーブゲームが一致しない。#
+1383 セーブゲームが一致しない。#
+1384 サーバーからのレスポンスが悪い。#
+
+1385 DEPRECATED#
+1386 DEPRECATED#
+1387 DEPRECATED#
+1388 DEPRECATED#
+
+
+# highscore window
+
+1389 DEPRECATED#
+1390 DEPRECATED#
+1391 DEPRECATED#
+1392 DEPRECATED#
+1393 DEPRECATED#
+1394 DEPRECATED#
+1395 DEPRECATED#
+1396 DEPRECATED#
+1397 DEPRECATED#
+1398 DEPRECATED#
+1399 DEPRECATED#
+1400 DEPRECATED#
+1401 DEPRECATED#
+1402 DEPRECATED#
+1403 DEPRECATED#
+1404 DEPRECATED#
+1405 DEPRECATED#
+1406 DEPRECATED#
+1407 DEPRECATED#
+1408 DEPRECATED#
+1409 DEPRECATED#
+1410 DEPRECATED#
+1411 DEPRECATED#
+1412 DEPRECATED#
+1413 DEPRECATED#
+
+
+# text crawl sequences
+
+1414 DEPRECATED#
+1415 DEPRECATED#
+1416 DEPRECATED#
+1417 DEPRECATED#
+1418 DEPRECATED#
+1419 DEPRECATED#
+1420 DEPRECATED#
+1421 DEPRECATED#
+1422 DEPRECATED#
+1423 DEPRECATED#
+1424 DEPRECATED#
+1425 DEPRECATED#
+1426 DEPRECATED#
+1427 DEPRECATED#
+1428 DEPRECATED#
+1429 DEPRECATED#
+1430 DEPRECATED#
+1431 DEPRECATED#
+1432 DEPRECATED#
+
+# even more button and window text
+
+1433 DEPRECATED#
+1434 DEPRECATED#
+1435 DEPRECATED#
+1436 DEPRECATED#
+1437 DEPRECATED#
+1438 DEPRECATED#
+1439 DEPRECATED#
+1440 DEPRECATED#
+1441 DEPRECATED#
+1442 DEPRECATED#
+1443 DEPRECATED#
+1444 DEPRECATED#
+1445 DEPRECATED#
+1446 DEPRECATED#
+1447 DEPRECATED#
+1448 DEPRECATED#
+1449 DEPRECATED#
+1450 DEPRECATED#
+1451 DEPRECATED#
+1452 DEPRECATED#
+1453 DEPRECATED#
+1454 DEPRECATED#
+1455 DEPRECATED#
+1456 DEPRECATED#
+1457 DEPRECATED#
+1458 DEPRECATED#
+1459 DEPRECATED#
+1460 DEPRECATED#
+1461 DEPRECATED#
+1462 DEPRECATED#
+1463 DEPRECATED#
+1464 DEPRECATED#
+1465 DEPRECATED#
+1466 DEPRECATED#
+1467 DEPRECATED#
+
+# obituary messages
+
+1499 %sの仲間、%sは%s。#
+1500 理由もなく死んだ。#
+1501 ファイヤボールで焼けた。#
+1502 氷でフリーズした。#
+1503 矢トラップにひっかかった。#
+1504 ベアトラップを踏んで死んだ。#
+1505 動いている岩を避けられなくて死んだ。#
+1506 溶岩を泳ごうとした。#
+1507 棘の罠を踏んでしまって死んだ。#
+1508 飛んでいる%sに殺された。#
+1509 仲間の%sに裏切られた。#
+1510 仲間の%sに裏切られた。#
+1511 怒っている人間に捨てられた。#
+1512 弱いネズミに噛みつかれて死んだ。#
+1513 ゴブリンに切られて死んだ。#
+1514 ぬるぬるスライムに殺された。#
+1515 トロールに驚かせて殺された。#
+1516 蜘蛛の餌になった。#
+1517 アンデッドになることにした。#
+1518 不気味な骸骨に驚かされて死んだ。#
+1519 怒っているサソリと友達になろうとした。#
+1520 飛んでいるインプが優しいと思い込んだ。#
+1521 ノームにお金も命も奪われた。#
+1522 デーモンに囲まれた。#
+1523 どうしてもサキュバスを愛そうとした。#
+1524 公爵を怒らせた。#
+1525 ミノタウロスにぶちのめされた。#
+1526 地獄に向かっている。#
+1527 何か盗もうとしたが、失敗して死んだ。#
+1528 魔法で自爆した。#
+1529 魔法で自爆した。#
+1530 ダイエットは厳しすぎた。#
+1531 毒にやられた。#
+1532 出血で死んだ。#
+1533 焦げて死んだ。#
+1534 息が吸えずに死んだ。#
+1535 変なポーションを飲んで死んだ。#
+
+# some random strings
+
+1536 DEPRECATED#
+1537 DEPRECATED#
+1538 DEPRECATED#
+1539 DEPRECATED#
+1540 DEPRECATED#
+1541 DEPRECATED#
+1542 DEPRECATED#
+1543 DEPRECATED#
+1544 DEPRECATED#
+
+# item names
+
+1545 DEPRECATED_ITEM_NAME#
+1546 DEPRECATED_ITEM_NAME#
+1547 DEPRECATED_ITEM_NAME#
+1548 DEPRECATED_ITEM_NAME#
+1549 DEPRECATED_ITEM_NAME#
+1550 DEPRECATED_ITEM_NAME#
+1551 DEPRECATED_ITEM_NAME#
+1552 DEPRECATED_ITEM_NAME#
+1553 DEPRECATED_ITEM_NAME#
+1554 DEPRECATED_ITEM_NAME#
+1555 DEPRECATED_ITEM_NAME#
+1556 DEPRECATED_ITEM_NAME#
+1557 DEPRECATED_ITEM_NAME#
+1558 DEPRECATED_ITEM_NAME#
+1559 DEPRECATED_ITEM_NAME#
+1560 DEPRECATED_ITEM_NAME#
+1561 DEPRECATED_ITEM_NAME#
+1562 DEPRECATED_ITEM_NAME#
+1563 DEPRECATED_ITEM_NAME#
+1564 DEPRECATED_ITEM_NAME#
+1565 DEPRECATED_ITEM_NAME#
+1566 DEPRECATED_ITEM_NAME#
+1567 DEPRECATED_ITEM_NAME#
+1568 DEPRECATED_ITEM_NAME#
+1569 DEPRECATED_ITEM_NAME#
+1570 DEPRECATED_ITEM_NAME#
+1571 DEPRECATED_ITEM_NAME#
+1572 DEPRECATED_ITEM_NAME#
+1573 DEPRECATED_ITEM_NAME#
+1574 DEPRECATED_ITEM_NAME#
+1575 DEPRECATED_ITEM_NAME#
+1576 DEPRECATED_ITEM_NAME#
+1577 DEPRECATED_ITEM_NAME#
+1578 DEPRECATED_ITEM_NAME#
+1579 DEPRECATED_ITEM_NAME#
+1580 DEPRECATED_ITEM_NAME#
+1581 DEPRECATED_ITEM_NAME#
+1582 DEPRECATED_ITEM_NAME#
+1583 DEPRECATED_ITEM_NAME#
+1584 DEPRECATED_ITEM_NAME#
+1585 DEPRECATED_ITEM_NAME#
+1586 DEPRECATED_ITEM_NAME#
+1587 DEPRECATED_ITEM_NAME#
+1588 DEPRECATED_ITEM_NAME#
+1589 DEPRECATED_ITEM_NAME#
+1590 DEPRECATED_ITEM_NAME#
+1591 DEPRECATED_ITEM_NAME#
+1592 DEPRECATED_ITEM_NAME#
+1593 DEPRECATED_ITEM_NAME#
+1594 DEPRECATED_ITEM_NAME#
+1595 DEPRECATED_ITEM_NAME#
+1596 DEPRECATED_ITEM_NAME#
+1597 DEPRECATED_ITEM_NAME#
+1598 DEPRECATED_ITEM_NAME#
+1599 DEPRECATED_ITEM_NAME#
+1600 DEPRECATED_ITEM_NAME#
+1601 DEPRECATED_ITEM_NAME#
+1602 DEPRECATED_ITEM_NAME#
+1603 DEPRECATED_ITEM_NAME#
+1604 DEPRECATED_ITEM_NAME#
+1605 DEPRECATED_ITEM_NAME#
+1606 DEPRECATED_ITEM_NAME#
+1607 DEPRECATED_ITEM_NAME#
+1608 DEPRECATED_ITEM_NAME#
+1609 DEPRECATED_ITEM_NAME#
+1610 DEPRECATED_ITEM_NAME#
+1611 DEPRECATED_ITEM_NAME#
+1612 DEPRECATED_ITEM_NAME#
+1613 DEPRECATED_ITEM_NAME#
+1614 DEPRECATED_ITEM_NAME#
+1615 DEPRECATED_ITEM_NAME#
+1616 DEPRECATED_ITEM_NAME#
+1617 DEPRECATED_ITEM_NAME#
+1618 DEPRECATED_ITEM_NAME#
+1619 DEPRECATED_ITEM_NAME#
+1620 DEPRECATED_ITEM_NAME#
+1621 DEPRECATED_ITEM_NAME#
+1622 DEPRECATED_ITEM_NAME#
+1623 DEPRECATED_ITEM_NAME#
+1624 DEPRECATED_ITEM_NAME#
+1625 DEPRECATED_ITEM_NAME#
+1626 DEPRECATED_ITEM_NAME#
+1627 DEPRECATED_ITEM_NAME#
+1628 DEPRECATED_ITEM_NAME#
+1629 DEPRECATED_ITEM_NAME#
+1630 DEPRECATED_ITEM_NAME#
+1631 DEPRECATED_ITEM_NAME#
+1632 DEPRECATED_ITEM_NAME#
+1633 DEPRECATED_ITEM_NAME#
+1634 DEPRECATED_ITEM_NAME#
+1635 DEPRECATED_ITEM_NAME#
+1636 DEPRECATED_ITEM_NAME#
+1637 DEPRECATED_ITEM_NAME#
+1638 DEPRECATED_ITEM_NAME#
+1639 DEPRECATED_ITEM_NAME#
+1640 DEPRECATED_ITEM_NAME#
+1641 DEPRECATED_ITEM_NAME#
+1642 DEPRECATED_ITEM_NAME#
+1643 DEPRECATED_ITEM_NAME#
+1644 DEPRECATED_ITEM_NAME#
+1645 DEPRECATED_ITEM_NAME#
+1646 DEPRECATED_ITEM_NAME#
+1647 DEPRECATED_ITEM_NAME#
+1648 DEPRECATED_ITEM_NAME#
+1649 DEPRECATED_ITEM_NAME#
+1650 DEPRECATED_ITEM_NAME#
+1651 DEPRECATED_ITEM_NAME#
+1652 DEPRECATED_ITEM_NAME#
+1653 DEPRECATED_ITEM_NAME#
+1654 DEPRECATED_ITEM_NAME#
+1655 DEPRECATED_ITEM_NAME#
+1656 DEPRECATED_ITEM_NAME#
+1657 DEPRECATED_ITEM_NAME#
+1658 DEPRECATED_ITEM_NAME#
+1659 DEPRECATED_ITEM_NAME#
+1660 DEPRECATED_ITEM_NAME#
+1661 DEPRECATED_ITEM_NAME#
+1662 DEPRECATED_ITEM_NAME#
+1663 DEPRECATED_ITEM_NAME#
+1664 DEPRECATED_ITEM_NAME#
+1665 DEPRECATED_ITEM_NAME#
+1666 DEPRECATED_ITEM_NAME#
+1667 DEPRECATED_ITEM_NAME#
+1668 DEPRECATED_ITEM_NAME#
+1669 DEPRECATED_ITEM_NAME#
+1670 DEPRECATED_ITEM_NAME#
+1671 DEPRECATED_ITEM_NAME#
+1672 DEPRECATED_ITEM_NAME#
+1673 DEPRECATED_ITEM_NAME#
+1674 DEPRECATED_ITEM_NAME#
+1675 DEPRECATED_ITEM_NAME#
+1676 DEPRECATED_ITEM_NAME#
+1677 DEPRECATED_ITEM_NAME#
+1678 DEPRECATED_ITEM_NAME#
+1679 DEPRECATED_ITEM_NAME#
+1680 DEPRECATED_ITEM_NAME#
+1681 DEPRECATED_ITEM_NAME#
+1682 DEPRECATED_ITEM_NAME#
+1683 DEPRECATED_ITEM_NAME#
+1684 DEPRECATED_ITEM_NAME#
+1685 DEPRECATED_ITEM_NAME#
+1686 DEPRECATED_ITEM_NAME#
+1687 DEPRECATED_ITEM_NAME#
+1688 DEPRECATED_ITEM_NAME#
+1689 DEPRECATED_ITEM_NAME#
+1690 DEPRECATED_ITEM_NAME#
+1691 DEPRECATED_ITEM_NAME#
+1692 DEPRECATED_ITEM_NAME#
+1693 DEPRECATED_ITEM_NAME#
+1694 DEPRECATED_ITEM_NAME#
+1695 DEPRECATED_ITEM_NAME#
+1696 DEPRECATED_ITEM_NAME#
+1697 DEPRECATED_ITEM_NAME#
+1698 DEPRECATED_ITEM_NAME#
+1699 DEPRECATED_ITEM_NAME#
+1700 DEPRECATED_ITEM_NAME#
+1701 DEPRECATED_ITEM_NAME#
+1702 DEPRECATED_ITEM_NAME#
+1703 DEPRECATED_ITEM_NAME#
+1704 DEPRECATED_ITEM_NAME#
+1705 DEPRECATED_ITEM_NAME#
+1706 DEPRECATED_ITEM_NAME#
+1707 DEPRECATED_ITEM_NAME#
+1708 DEPRECATED_ITEM_NAME#
+1709 DEPRECATED_ITEM_NAME#
+1710 DEPRECATED_ITEM_NAME#
+1711 DEPRECATED_ITEM_NAME#
+1712 DEPRECATED_ITEM_NAME#
+1713 DEPRECATED_ITEM_NAME#
+1714 DEPRECATED_ITEM_NAME#
+1715 DEPRECATED_ITEM_NAME#
+1716 DEPRECATED_ITEM_NAME#
+1717 DEPRECATED_ITEM_NAME#
+1718 DEPRECATED_ITEM_NAME#
+1719 DEPRECATED_ITEM_NAME#
+1720 DEPRECATED_ITEM_NAME#
+1721 DEPRECATED_ITEM_NAME#
+1722 DEPRECATED_ITEM_NAME#
+1723 DEPRECATED_ITEM_NAME#
+1724 DEPRECATED_ITEM_NAME#
+1725 DEPRECATED_ITEM_NAME#
+1726 DEPRECATED_ITEM_NAME#
+1727 DEPRECATED_ITEM_NAME#
+1728 DEPRECATED_ITEM_NAME#
+1729 DEPRECATED_ITEM_NAME#
+1730 DEPRECATED_ITEM_NAME#
+1731 DEPRECATED_ITEM_NAME#
+1732 DEPRECATED_ITEM_NAME#
+1733 DEPRECATED_ITEM_NAME#
+1734 DEPRECATED_ITEM_NAME#
+1735 DEPRECATED_ITEM_NAME#
+1736 DEPRECATED_ITEM_NAME#
+1737 DEPRECATED_ITEM_NAME#
+1738 DEPRECATED_ITEM_NAME#
+1739 DEPRECATED_ITEM_NAME#
+1740 DEPRECATED_ITEM_NAME#
+1741 DEPRECATED_ITEM_NAME#
+1742 DEPRECATED_ITEM_NAME#
+1743 DEPRECATED_ITEM_NAME#
+1744 DEPRECATED_ITEM_NAME#
+1745 DEPRECATED_ITEM_NAME#
+1746 DEPRECATED_ITEM_NAME#
+1747 DEPRECATED_ITEM_NAME#
+1748 DEPRECATED_ITEM_NAME#
+1749 DEPRECATED_ITEM_NAME#
+1750 DEPRECATED_ITEM_NAME#
+1751 DEPRECATED_ITEM_NAME#
+1752 DEPRECATED_ITEM_NAME#
+1753 DEPRECATED_ITEM_NAME#
+1754 DEPRECATED_ITEM_NAME#
+1755 DEPRECATED_ITEM_NAME#
+1756 DEPRECATED_ITEM_NAME#
+1757 DEPRECATED_ITEM_NAME#
+1758 DEPRECATED_ITEM_NAME#
+1759 DEPRECATED_ITEM_NAME#
+1760 DEPRECATED_ITEM_NAME#
+1761 DEPRECATED_ITEM_NAME#
+1762 DEPRECATED_ITEM_NAME#
+1763 DEPRECATED_ITEM_NAME#
+1764 DEPRECATED_ITEM_NAME#
+1765 DEPRECATED_ITEM_NAME#
+1766 DEPRECATED_ITEM_NAME#
+1767 DEPRECATED_ITEM_NAME#
+1768 DEPRECATED_ITEM_NAME#
+1769 DEPRECATED_ITEM_NAME#
+1770 DEPRECATED_ITEM_NAME#
+1771 DEPRECATED_ITEM_NAME#
+1772 DEPRECATED_ITEM_NAME#
+1773 DEPRECATED_ITEM_NAME#
+1774 DEPRECATED_ITEM_NAME#
+1775 DEPRECATED_ITEM_NAME#
+1776 DEPRECATED_ITEM_NAME#
+1777 DEPRECATED_ITEM_NAME#
+1778 DEPRECATED_ITEM_NAME#
+1779 DEPRECATED_ITEM_NAME#
+1780 DEPRECATED_ITEM_NAME#
+1781 DEPRECATED_ITEM_NAME#
+1782 DEPRECATED_ITEM_NAME#
+1783 DEPRECATED_ITEM_NAME#
+1784 DEPRECATED_ITEM_NAME#
+1785 DEPRECATED_ITEM_NAME#
+1786 DEPRECATED_ITEM_NAME#
+1787 DEPRECATED_ITEM_NAME#
+1788 DEPRECATED_ITEM_NAME#
+1789 DEPRECATED_ITEM_NAME#
+1790 DEPRECATED_ITEM_NAME#
+1791 DEPRECATED_ITEM_NAME#
+1792 DEPRECATED_ITEM_NAME#
+1793 DEPRECATED_ITEM_NAME#
+1794 DEPRECATED_ITEM_NAME#
+1795 DEPRECATED_ITEM_NAME#
+1796 DEPRECATED_ITEM_NAME#
+1797 DEPRECATED_ITEM_NAME#
+1798 DEPRECATED_ITEM_NAME#
+1799 DEPRECATED_ITEM_NAME#
+1800 DEPRECATED_ITEM_NAME#
+1801 DEPRECATED_ITEM_NAME#
+1802 DEPRECATED_ITEM_NAME#
+1803 DEPRECATED_ITEM_NAME#
+1804 DEPRECATED_ITEM_NAME#
+1805 DEPRECATED_ITEM_NAME#
+1806 DEPRECATED_ITEM_NAME#
+1807 DEPRECATED_ITEM_NAME#
+1808 DEPRECATED_ITEM_NAME#
+1809 DEPRECATED_ITEM_NAME#
+1810 DEPRECATED_ITEM_NAME#
+1811 DEPRECATED_ITEM_NAME#
+1812 DEPRECATED_ITEM_NAME#
+1813 DEPRECATED_ITEM_NAME#
+1814 DEPRECATED_ITEM_NAME#
+1815 DEPRECATED_ITEM_NAME#
+1816 DEPRECATED_ITEM_NAME#
+1817 DEPRECATED_ITEM_NAME#
+1818 DEPRECATED_ITEM_NAME#
+1819 DEPRECATED_ITEM_NAME#
+1820 DEPRECATED_ITEM_NAME#
+1821 DEPRECATED_ITEM_NAME#
+1822 DEPRECATED_ITEM_NAME#
+1823 DEPRECATED_ITEM_NAME#
+1824 DEPRECATED_ITEM_NAME#
+1825 DEPRECATED_ITEM_NAME#
+1826 DEPRECATED_ITEM_NAME#
+1827 DEPRECATED_ITEM_NAME#
+1828 DEPRECATED_ITEM_NAME#
+1829 DEPRECATED_ITEM_NAME#
+1830 DEPRECATED_ITEM_NAME#
+1831 DEPRECATED_ITEM_NAME#
+1832 DEPRECATED_ITEM_NAME#
+1833 DEPRECATED_ITEM_NAME#
+1834 DEPRECATED_ITEM_NAME#
+1835 DEPRECATED_ITEM_NAME#
+1836 DEPRECATED_ITEM_NAME#
+1837 DEPRECATED_ITEM_NAME#
+1838 DEPRECATED_ITEM_NAME#
+1839 DEPRECATED_ITEM_NAME#
+1840 DEPRECATED_ITEM_NAME#
+1841 DEPRECATED_ITEM_NAME#
+1842 DEPRECATED_ITEM_NAME#
+1843 DEPRECATED_ITEM_NAME#
+1844 DEPRECATED_ITEM_NAME#
+1845 DEPRECATED_ITEM_NAME#
+1846 DEPRECATED_ITEM_NAME#
+1847 DEPRECATED_ITEM_NAME#
+1848 DEPRECATED_ITEM_NAME#
+1849 DEPRECATED_ITEM_NAME#
+1850 DEPRECATED_ITEM_NAME#
+1851 DEPRECATED_ITEM_NAME#
+1852 DEPRECATED_ITEM_NAME#
+1853 DEPRECATED_ITEM_NAME#
+1854 DEPRECATED_ITEM_NAME#
+1855 DEPRECATED_ITEM_NAME#
+1856 DEPRECATED_ITEM_NAME#
+1857 DEPRECATED_ITEM_NAME#
+1858 DEPRECATED_ITEM_NAME#
+1859 DEPRECATED_ITEM_NAME#
+1860 DEPRECATED_ITEM_NAME#
+1861 DEPRECATED_ITEM_NAME#
+1862 DEPRECATED_ITEM_NAME#
+1863 DEPRECATED_ITEM_NAME#
+1864 DEPRECATED_ITEM_NAME#
+1865 DEPRECATED_ITEM_NAME#
+1866 DEPRECATED_ITEM_NAME#
+1867 DEPRECATED_ITEM_NAME#
+1868 DEPRECATED_ITEM_NAME#
+1869 DEPRECATED_ITEM_NAME#
+1870 DEPRECATED_ITEM_NAME#
+1871 DEPRECATED_ITEM_NAME#
+1872 DEPRECATED_ITEM_NAME#
+1873 DEPRECATED_ITEM_NAME#
+1874 DEPRECATED_ITEM_NAME#
+1875 DEPRECATED_ITEM_NAME#
+1876 DEPRECATED_ITEM_NAME#
+1877 DEPRECATED_ITEM_NAME#
+1878 DEPRECATED_ITEM_NAME#
+1879 DEPRECATED_ITEM_NAME#
+1880 DEPRECATED_ITEM_NAME#
+
+1882 DEPRECATED#
+1883 DEPRECATED#
+
+# menu subtitles
+
+1910 DEPRECATED#
+1911 DEPRECATED#
+1912 DEPRECATED#
+1913 DEPRECATED#
+1914 DEPRECATED#
+1915 DEPRECATED#
+1916 DEPRECATED#
+1917 DEPRECATED#
+1918 DEPRECATED#
+1919 DEPRECATED#
+1920 DEPRECATED#
+1921 DEPRECATED#
+1922 DEPRECATED#
+1923 DEPRECATED#
+1924 DEPRECATED#
+1925 DEPRECATED#
+1926 DEPRECATED#
+1927 DEPRECATED#
+1928 DEPRECATED#
+1929 DEPRECATED#
+1930 DEPRECATED#
+1931 DEPRECATED#
+1932 DEPRECATED#
+1933 DEPRECATED#
+1934 DEPRECATED#
+1935 DEPRECATED#
+1936 DEPRECATED#
+1937 DEPRECATED#
+1938 DEPRECATED#
+1939 DEPRECATED#
+
+# extra keybindings :)
+
+1940 DEPRECATED#
+1941 DEPRECATED#
+
+# game/server flags tooltips
+
+# Cheats.
+1942 DEPRECATED#
+1943 DEPRECATED#
+1944 DEPRECATED#
+1945 DEPRECATED#
+1946 DEPRECATED#
+
+# Gamepad settings menu stuff.
+1947 DEPRECATED#
+
+# Bifunctional bindings.
+1948 DEPRECATED#
+1949 DEPRECATED#
+1950 DEPRECATED#
+1951 DEPRECATED#
+1952 DEPRECATED#
+1953 DEPRECATED#
+1954 DEPRECATED#
+
+# Menu exclusive bindings.
+1955 DEPRECATED#
+1956 DEPRECATED#
+1957 DEPRECATED#
+1958 DEPRECATED#
+1959 DEPRECATED#
+1960 DEPRECATED#
+1961 DEPRECATED#
+1962 DEPRECATED#
+1963 DEPRECATED#
+1964 DEPRECATED#
+1965 DEPRECATED#
+1966 DEPRECATED#
+1967 DEPRECATED#
+1968 DEPRECATED#
+1969 DEPRECATED#
+1970 DEPRECATED#
+1971 DEPRECATED#
+1972 DEPRECATED#
+1973 DEPRECATED#
+
+# Game exclusive bindings.
+1974 DEPRECATED#
+1975 DEPRECATED#
+1976 DEPRECATED#
+1977 DEPRECATED#
+1978 DEPRECATED#
+1979 DEPRECATED#
+1980 DEPRECATED#
+1981 DEPRECATED#
+1982 DEPRECATED#
+1983 DEPRECATED#
+1984 DEPRECATED#
+1985 DEPRECATED#
+
+# Other bindings.
+1986 DEPRECATED#
+1987 DEPRECATED#
+1988 DEPRECATED#
+1989 DEPRECATED#
+1990 DEPRECATED#
+1991 DEPRECATED#
+
+# More stuff on the gamepad bindings screen.
+1994 DEPRECATED#
+1995 DEPRECATED#
+1996 DEPRECATED#
+
+
+1997 DEPRECATED#
+1998 DEPRECATED#
+
+# START DLC
+# monsters, reserve 2000-2049 for monster names, 2050 - 2099 for plurals, 2100-2150 for injury types
+
+2000 コボルド#
+2001 スカラベ#
+2002 水晶ゴーレム#
+2003 インキュバス#
+2004 吸血鬼#
+2005 シャドウ#
+2006 コカトリス#
+2007 インセクト#
+2008 山羊人#
+2009 自動人形#
+2010 フロストリッチ#
+2011 ファイアリッチ#
+2012 セントリーボット#
+2013 スペルボット#
+2014 ジャイロボット#
+2015 ダミーボット#
+
+# monster plurals
+
+2050 コボルド#
+2051 スカラベ#
+2052 水晶ゴーレム#
+2053 インキュバス#
+2054 吸血鬼#
+2055 シャドウ#
+2056 コカトリス#
+2057 インセクト#
+2058 山羊人#
+2059 自動人形#
+2060 フロストリッチ#
+2061 ファイアリッチ#
+2062 セントリーボット#
+2063 スペルボット#
+2064 ジャイロボット#
+2065 ダミーボット#
+
+# injury types (2100-2149)
+
+2100 が攻撃した#
+2101 が噛みついた#
+2102 が殴った#
+2103 が手で叩いた#
+2104 が殴った#
+2105 が殴った#
+2106 が掠り傷した#
+2107 が刺した#
+2108 が殴った#
+2109 が殴った#
+2110 が攻撃した#
+2111 が攻撃した#
+2112 が攻撃した#
+2113 が攻撃した#
+2114 が攻撃した#
+2115 が攻撃した#
+
+# additional obituary messages (2150-2199)
+2150 コボルドのギャングによる暴力の犠牲者になる。#
+2151 スカラベの下顎の咀嚼力を過小評価する。#
+2152 水晶と固い場所に挟まれる。#
+2153 インキュバスの安全ワードを忘れる。#
+2154 吸血鬼に献血する。#
+2155 かつての姿とはかけ離れる。#
+2156 コカトリスに反撃するのに時間がかかりすぎる。#
+2157 狡猾な昆虫型生物に暗殺される。#
+2158 酔っ払った山羊人に殴り殺される。#
+2159 自動人形に殺される。#
+2160 エルダイスの計画を阻止できなかった。#
+2161 オルフェウスの力に抗えなかった。#
+2162 セントリーボットに殺される。#
+2163 スペルボットに殺される。#
+2164 ジャイロボットによって終了しました。#
+2165 はダミーボットによって終了しました。#
+2166 はミミックによって略奪されました。#
+
+# items, reserve (2200-2349) for new items
+2200 DEPRECATED_ITEM_NAME#
+2201 DEPRECATED_ITEM_NAME#
+2202 DEPRECATED_ITEM_NAME#
+2203 DEPRECATED_ITEM_NAME#
+2204 DEPRECATED_ITEM_NAME#
+2205 DEPRECATED_ITEM_NAME#
+2206 DEPRECATED_ITEM_NAME#
+2207 DEPRECATED_ITEM_NAME#
+2208 DEPRECATED_ITEM_NAME#
+2209 DEPRECATED_ITEM_NAME#
+2210 DEPRECATED_ITEM_NAME#
+2211 DEPRECATED_ITEM_NAME#
+2212 DEPRECATED_ITEM_NAME#
+2213 DEPRECATED_ITEM_NAME#
+2214 DEPRECATED_ITEM_NAME#
+2215 DEPRECATED_ITEM_NAME#
+2216 DEPRECATED_ITEM_NAME#
+2217 DEPRECATED_ITEM_NAME#
+2218 DEPRECATED_ITEM_NAME#
+2219 DEPRECATED_ITEM_NAME#
+2220 DEPRECATED_ITEM_NAME#
+2221 DEPRECATED_ITEM_NAME#
+2222 DEPRECATED_ITEM_NAME#
+2223 DEPRECATED_ITEM_NAME#
+2224 DEPRECATED_ITEM_NAME#
+2225 DEPRECATED_ITEM_NAME#
+2226 DEPRECATED_ITEM_NAME#
+2227 DEPRECATED_ITEM_NAME#
+2228 DEPRECATED_ITEM_NAME#
+2229 DEPRECATED_ITEM_NAME#
+2230 DEPRECATED_ITEM_NAME#
+2231 DEPRECATED_ITEM_NAME#
+2232 DEPRECATED_ITEM_NAME#
+2233 DEPRECATED_ITEM_NAME#
+2234 DEPRECATED_ITEM_NAME#
+2235 DEPRECATED_ITEM_NAME#
+2236 DEPRECATED_ITEM_NAME#
+2237 DEPRECATED_ITEM_NAME#
+2238 DEPRECATED_ITEM_NAME#
+2239 DEPRECATED_ITEM_NAME#
+2240 DEPRECATED_ITEM_NAME#
+2241 DEPRECATED_ITEM_NAME#
+2242 DEPRECATED_ITEM_NAME#
+2243 DEPRECATED_ITEM_NAME#
+2244 DEPRECATED_ITEM_NAME#
+2245 DEPRECATED_ITEM_NAME#
+2246 DEPRECATED_ITEM_NAME#
+2247 DEPRECATED_ITEM_NAME#
+2248 DEPRECATED_ITEM_NAME#
+2249 DEPRECATED_ITEM_NAME#
+2250 DEPRECATED_ITEM_NAME#
+2251 DEPRECATED_ITEM_NAME#
+2252 DEPRECATED_ITEM_NAME#
+2253 DEPRECATED_ITEM_NAME#
+2254 DEPRECATED_ITEM_NAME#
+2255 DEPRECATED_ITEM_NAME#
+2256 DEPRECATED_ITEM_NAME#
+2257 DEPRECATED_ITEM_NAME#
+2258 DEPRECATED_ITEM_NAME#
+2259 DEPRECATED_ITEM_NAME#
+2260 DEPRECATED_ITEM_NAME#
+2261 DEPRECATED_ITEM_NAME#
+2262 DEPRECATED_ITEM_NAME#
+2263 DEPRECATED_ITEM_NAME#
+2264 DEPRECATED_ITEM_NAME#
+2265 DEPRECATED_ITEM_NAME#
+2266 DEPRECATED_ITEM_NAME#
+2267 DEPRECATED_ITEM_NAME#
+2268 DEPRECATED_ITEM_NAME#
+2269 DEPRECATED_ITEM_NAME#
+2270 DEPRECATED_ITEM_NAME#
+2271 DEPRECATED_ITEM_NAME#
+2272 DEPRECATED_ITEM_NAME#
+2273 DEPRECATED_ITEM_NAME#
+2274 DEPRECATED_ITEM_NAME#
+2275 DEPRECATED_ITEM_NAME#
+2276 DEPRECATED_ITEM_NAME#
+2277 DEPRECATED_ITEM_NAME#
+2278 DEPRECATED_ITEM_NAME#
+2279 DEPRECATED_ITEM_NAME#
+2280 DEPRECATED_ITEM_NAME#
+2281 DEPRECATED_ITEM_NAME#
+2282 DEPRECATED_ITEM_NAME#
+2283 DEPRECATED_ITEM_NAME#
+2284 DEPRECATED_ITEM_NAME#
+2285 DEPRECATED_ITEM_NAME#
+2286 DEPRECATED_ITEM_NAME#
+2287 DEPRECATED_ITEM_NAME#
+2288 DEPRECATED_ITEM_NAME#
+2289 DEPRECATED_ITEM_NAME#
+2290 DEPRECATED_ITEM_NAME#
+2291 DEPRECATED_ITEM_NAME#
+2292 DEPRECATED_ITEM_NAME#
+2293 DEPRECATED_ITEM_NAME#
+2294 DEPRECATED_ITEM_NAME#
+2295 DEPRECATED_ITEM_NAME#
+2296 DEPRECATED_ITEM_NAME#
+2297 DEPRECATED_ITEM_NAME#
+2298 DEPRECATED_ITEM_NAME#
+2299 DEPRECATED_ITEM_NAME#
+2300 DEPRECATED_ITEM_NAME#
+2301 DEPRECATED_ITEM_NAME#
+2302 DEPRECATED_ITEM_NAME#
+2303 DEPRECATED_ITEM_NAME#
+2304 DEPRECATED_ITEM_NAME#
+2305 DEPRECATED_ITEM_NAME#
+2306 DEPRECATED_ITEM_NAME#
+2307 DEPRECATED_ITEM_NAME#
+2308 DEPRECATED_ITEM_NAME#
+2309 DEPRECATED_ITEM_NAME#
+2310 DEPRECATED_ITEM_NAME#
+2311 DEPRECATED_ITEM_NAME#
+2312 DEPRECATED_ITEM_NAME#
+2313 DEPRECATED_ITEM_NAME#
+2314 DEPRECATED_ITEM_NAME#
+2315 DEPRECATED_ITEM_NAME#
+2316 DEPRECATED_ITEM_NAME#
+2317 DEPRECATED_ITEM_NAME#
+2318 DEPRECATED_ITEM_NAME#
+2319 DEPRECATED_ITEM_NAME#
+2320 DEPRECATED_ITEM_NAME#
+2321 DEPRECATED_ITEM_NAME#
+2322 DEPRECATED_ITEM_NAME#
+2323 DEPRECATED_ITEM_NAME#
+2324 DEPRECATED_ITEM_NAME#
+2325 DEPRECATED_ITEM_NAME#
+2326 DEPRECATED_ITEM_NAME#
+2327 DEPRECATED_ITEM_NAME#
+2328 DEPRECATED_ITEM_NAME#
+2329 DEPRECATED_ITEM_NAME#
+2330 DEPRECATED_ITEM_NAME#
+2331 DEPRECATED_ITEM_NAME#
+2332 DEPRECATED_ITEM_NAME#
+2333 DEPRECATED_ITEM_NAME#
+2334 DEPRECATED_ITEM_NAME#
+2335 DEPRECATED_ITEM_NAME#
+2336 DEPRECATED_ITEM_NAME#
+2337 DEPRECATED_ITEM_NAME#
+2338 DEPRECATED_ITEM_NAME#
+2339 DEPRECATED_ITEM_NAME#
+2340 DEPRECATED_ITEM_NAME#
+2341 DEPRECATED_ITEM_NAME#
+2342 DEPRECATED_ITEM_NAME#
+2343 DEPRECATED_ITEM_NAME#
+2344 DEPRECATED_ITEM_NAME#
+2345 DEPRECATED_ITEM_NAME#
+2346 DEPRECATED_ITEM_NAME#
+2347 DEPRECATED_ITEM_NAME#
+2348 DEPRECATED_ITEM_NAME#
+2349 DEPRECATED_ITEM_NAME#
+
+#Additional ingame text.
+2350 %s から破片が飛び散りました。#
+2351 %s が完全に砕け散りました!#
+2352 %s の罠を発動しました!#
+2353 レベル内のモンスターの数: %d#
+2354 警告: 実験的 - 終了時にクラッシュする可能性があります!モデルテスト専用。#
+2355 インデックス %d から %d にモデルを再ロードしています。#
+2356 浮遊するクリスタルを回転させます。#
+2357 クリスタルは所定の位置に固定されているようです。#
+2358 クリスタルが動き始めます。#
+2359 空のボトルは飲めません。#
+2360 レバーを引きますが、メカニズムはまだ機能していないようです。#
+2361 レバーは抵抗しながらさらに動きます。#
+2362 メカニズムからカチッという音が聞こえます。#
+2363 レバーを戻そうとしますが、
+力を超えて引っ込んでしまいます。#
+2364 イライラしながら台座を叩きます。#
+2365 台座の精巧な彫刻に感心します。#
+2366 台座には何らかの原始的なアーティファクトが必要のようです。#
+2367 オーブは掴めず、取り出すことができません。#
+2368 容器にオーブを入れました...#
+2369 しかし効果はありませんでした。#
+2370 オーブが浮き始めました!#
+2371 このアイテムはここでは役に立ちません。#
+2372 この %s は、何らかの装置の欠けている部品のようです。#
+2373 この %s は輝いて見えます。きっと役に立つはずです! #
+2374 台座から %s を回収します。#
+2375 謎のクリスタルが見えます。#
+2376 台座が見えます。#
+2377 台座の上に神秘的なオーブが置かれています。#
+2378 はしごを登ります。#
+2379 仲間の %s がレベルアップしました!#
+2380 壁が強化されました!傷一つつきません！#
+2381 目に見えない力があなたの足を床に引きずり下ろします！#
+2382 ここの空気はあなたの周りを優しく渦巻いているように感じます。#
+2383 ゾクゾクする感覚があなたの体と足音に伝わります。#
+
+#Equip Effects
+2384 自分に自信が持てるようになりました。#
+2385 落ち着きを感じます。#
+2386 全身がうろこ状になったように感じます。#
+2387 周囲に意識が広がっていくのを感じます。#
+2388 腕にエネルギーが湧き上がるのを感じます。#
+2389 タフになった気分です!#
+
+#New spells (2390-2399)
+2390 DEPRECATED_SPELL_NAME#
+2391 DEPRECATED_SPELL_NAME#
+2392 DEPRECATED_SPELL_NAME#
+2393 DEPRECATED_SPELL_NAME#
+2394 DEPRECATED_SPELL_NAME#
+2395 DEPRECATED_SPELL_NAME#
+2396 DEPRECATED_SPELL_NAME#
+2397 DEPRECATED_SPELL_NAME#
+2398 DEPRECATED_SPELL_NAME#
+2399 DEPRECATED_SPELL_NAME#
+
+2400 DEPRECATED#
+
+2401 DEPRECATED#
+2402 DEPRECATED#
+2403 DEPRECATED#
+2404 DEPRECATED#
+2405 DEPRECATED#
+2406 DEPRECATED#
+
+2407 DEPRECATED#
+2408 DEPRECATED#
+2409 DEPRECATED#
+2410 DEPRECATED#
+
+2411 DEPRECATED#
+
+#Equip Effects
+
+2412 目の前であなたの体が消え去る！#
+2413 体中がぼんやりする。#
+2414 妄想に襲われる。#
+2415 浮かび始める。#
+2416 体中がかゆくなる。#
+2417 指輪が指を優しく引っ張る。#
+2418 このブーツは軽い。#
+2419 履物があなたを床から押し上げる！#
+
+#New spell effects (2420-2440)
+2420 %s は麻痺しています!#
+2421 %s は麻痺しています!#
+2422 あなたの手足が突然動かなくなりました!#
+2423 %s は重傷を負っています!#
+2424 %s は重傷を負っています!#
+2425 あなたは重傷を負っています!#
+2426 DEPRECATED#
+2427 あなたは %s を支配して自分のものにしました!#
+2428 あなたは %s を支配して自分のものにしました!#
+2429 あなたはこれを支配することができません。#
+2430 %s に腐食性の酸が噴射されました!#
+2431 %s に腐食性の酸が噴射されました!#
+2432 あなたは腐食性の酸が噴射されました!#
+2433 あなたは魔法を使って %s の %s を彼らの手から引き離しました!#
+2434 あなたは魔法を使って %s の%s を彼らの手から離しました!#
+2435 あなたの %s は魔法によってあなたの手から強制的に引き離されました!#
+2436 %s は盗むための武器を持っていません!#
+2437 %s は盗むための武器を持っていません!#
+2438 魔法は存在しない武器をあなたの手から盗むのに失敗しました!#
+2439 %s の生命力が枯渇しました!#
+2440 %s の生命力が枯渇しました!#
+2441 あなたの生命力が枯渇しました!#
+2442 %s の生命力を枯渇させるのに失敗しました。#
+2443 %s の生命力を枯渇させるのに失敗しました。#
+2444 あなたは魔法の枯渇に抵抗しました!#
+2445 回復したと感じます!#
+2446 あなたの魔法 (魔法反射) が中断されました!#
+2447 あなたの魔法 (吸血鬼のオーラ) が中断されました!#
+2448 DEPRECATED#
+2449 血への渇望は収まりました...#
+2450 ここの壁の職人技は完璧です。#
+
+#New effects (contd.)
+2451 あなたはひどく出血しています!#
+2452 %s はひどく出血しています!#
+2453 %s はひどく出血しています!#
+2454 あなたの傷がさらに裂けて開いています!#
+2455 %s の傷がさらに裂けて開いています!#
+2456 %s の傷がさらに裂けて開いています!#
+2457 %s の打撃が跳ね返っています!#
+2458 %s の打撃が跳ね返っています!#
+2459 DEPRECATED#
+2460 DEPRECATED#
+2461 DEPRECATED#
+2462 DEPRECATED#
+2463 DEPRECATED#
+2464 DEPRECATED#
+2465 DEPRECATED#
+2466 DEPRECATED#
+2467 DEPRECATED#
+2468 DEPRECATED#
+2469 DEPRECATED#
+2470 あなたに対して魔法が弱まるのを感じなくなりました。#
+2471 あなたに対して魔法が跳ね返るのを感じなくなりました。#
+2472 DEPRECATED#
+2473 DEPRECATED#
+2474 魔法の持続に失敗しました (反射魔法)。#
+2475 しかし、跳ね返ります!#
+2476 最後の魔法が消耗し、
+反射魔法の魔法が失敗したと感じます!#
+2477 吸血鬼の力が吹き込まれました!#
+
+# Equip effects
+2478 あなたは大きな目的意識を感じます。#
+2479 周囲の空気はさわやかで甘い香りがします。#
+2480 体全体がわずかにうずきます。#
+2481 帽子はアイデアを与えてくれるようです。#
+2482 何かを殴りたくなります。#
+2483 帽子は気分を高めてくれるようです。#
+2484 ブーツの内側はふわふわしています。#
+2485 このブーツは本当に快適です!#
+2486 これは透明マントです!#
+2487 マントはしっかりしていますが、快適です。#
+2488 マントが体に触れて優しく振動します。#
+2489 突然、指がかなり機敏に感じられます。#
+2490 肌がわずかに硬くなるのを感じます。#
+2491 肩にうずきが伝わってきます。#
+2492 お守りが首に冷たく感じます。#
+
+# More misc text.
+2493 寝てる場合じゃない。#
+2494 上のベッドを優先する。#
+2495 下のベッドを優先する。#
+2496 説教している場合じゃない。#
+2497 ベッドが見える。#
+
+#More character creation screen stuff.
+2498 ランダムな名前#
+
+2499 二段ベッドが見えます。#
+2500 演壇が見えます。#
+2501 ピストンが見えます。#
+2502 柱が見えます。#
+2503 石筍が見えます。#
+2504 石筍が見えます。#
+2505 ベッド#
+2506 二段ベッド#
+2507 演壇#
+2508 あなたの魔法が %s を破壊しました!#
+2509 %s に命中しました!#
+2510 %s が粉々に砕け散りました!#
+2511 ボルトが当たりました!#
+2512 飛んできた岩が当たりました!#
+2513 %s の鎧を貫きました!#
+2514 %s の鎧を貫きました!#
+2515 弾丸があなたの鎧を貫きました!#
+
+## 2516 - 2528 More effect messages
+2516 まるで自分のエッセンスの一部が奪われたように感じます!#
+2517 まるで自分のエッセンスの一部が奪われたように感じます!#
+2518 何かが自分のエッセンスを引っ張り、近くに引き寄せられるのを感じます...#
+2519 インキュバスを召喚します!#
+2520 魔法で宝箱を破壊します!#
+2521 遠くでベアトラップのトリガーが作動する音が聞こえます。#
+2522 近くでベアトラップのトリガーが作動する音が聞こえます!#
+2523 爆発に見舞われます!#
+2524 %s を %s の露出したギアに押し込みます...#
+2525 この角度からは %s の内部への入り口を見つけることができません。#
+2526 %s 内部のロックされたギアが外れます!#
+2527 %s のギアが固まり、軋みと火花が散り始めます!#
+2528 現時点では %s の効果はありません。#
+
+# 2529- 2542 atk hover text
+2529 拳󠄁: #
+2530 射撃: #
+2531 投擲: #
+2532 近接: #
+2533 %+10d TOTAL ATTACK#
+2534 %+3d from 特性 (STR)#
+2535 %+3d from 特性 (DEX)#
+2536 %+3d from 装備#
+2537 %+3d from スキル#
+2538 %+3d from 武器#
+2539 %3d%% スキルの相違#
+2540 ツール:  #
+2541 杖: #
+2542 ダメージ:%11d ATK#
+
+# 2543 - 2549 attacking text, misc
+2543 あなたの攻撃は %s を不意打ちしました!#
+2544 あなたの攻撃は %s を不意打ちしました!#
+2545 あなたの攻撃は %s の防御を側面から攻撃しました!#
+2546 あなたの攻撃は %s の防御を側面から攻撃しました!#
+2547 あなたは %s を暗殺しました!#
+2548 あなたは %s を暗殺しました!#
+2549 DEPRECATED#
+
+# 2550 - 2560 new class names
+2550 墓守#
+2551 忍者#
+2552 修道士#
+2553 blank#
+2554 blank#
+2555 blank#
+2556 blank#
+2557 blank#
+2558 blank#
+2559 blank#
+# 2560 - 2570 new class descriptions
+2560 DEPRECATED#
+2561 DEPRECATED#
+2562 DEPRECATED#
+2563 DEPRECATED#
+2564 DEPRECATED#
+2565 DEPRECATED#
+2566 DEPRECATED#
+2567 DEPRECATED#
+2568 DEPRECATED#
+2569 DEPRECATED#
+
+# More misc.
+2570 DEPRECATED#
+2571 DEPRECATED#
+2572 DEPRECATED#
+2573 DEPRECATED#
+2574 DEPRECATED#
+2575 DEPRECATED#
+2576 DEPRECATED#
+2577 DEPRECATED#
+2578 DEPRECATED#
+2579 DEPRECATED#
+2580 DEPRECATED#
+2581 DEPRECATED#
+2582 DEPRECATED#
+2583 DEPRECATED#
+2584 DEPRECATED#
+
+2585 DEPRECATED#
+2586 DEPRECATED#
+2587 DEPRECATED#
+2588 DEPRECATED#
+2589 あなたの %s の味方 %s#
+2590 DEPRECATED#
+2591 この魔法から学ぶことは他に何もありません。#
+
+2592 泉が装備品を祝福します。#
+2593 金がありません!#
+2594 金貨 %d 個を落としました。#
+2595 魔法書が劣化します。#
+2596 魔法書が劣化し、灰に砕け散ります!#
+2597 心が肉体から離れていくのを感じます。#
+2598 DEPRECATED#
+2599 気分がすっきりします!#
+
+2600 DEPRECATED#
+2601 DEPRECATED#
+2602 DEPRECATED#
+2603 DEPRECATED#
+2604 DEPRECATED#
+2605 DEPRECATED#
+2606 DEPRECATED#
+2607 DEPRECATED#
+2608 DEPRECATED#
+2609 DEPRECATED#
+2611 DEPRECATED#
+2612 DEPRECATED#
+2613 DEPRECATED#
+2614 DEPRECATED#
+
+# Orpheus and Erudyce chatter.
+2615 「兄さん、誰かが来たような気がします。挨拶しましょうか？」#
+2616 「いや、手続きする暇はない。」#
+
+2617 「妹よ、仲間を招待したの？」#
+2618 「いいえ、ギルドが送ってきたんです。」#
+2619 「ふーん。」#
+
+2620 「妹よ、洞窟の入り口はまだ封印されているのですね？」#
+2621 「そうです。なぜ聞くのですか？」#
+2622 「気にしないでください。何でもありません。」#
+
+2623 「ミノタウルスは必要でしょうか、兄さん？」#
+2624 「いいえ、姉さん。でもショーは好きです。」#
+
+2625 「妹よ、彼らはミノタウルスから逃げると思いますか？」#
+2626 「気にしませんよ、兄さん。とにかく送ってください。」#
+
+2627 「このミノタウルスは、ハークスが死んで以来ずっと落ち込んでいます。」#
+2628 「そんなに気になるなら、送ってあげなさい、妹よ。」#
+
+# Caves chatter.
+2629 「兄さん、誰かが洞窟を通り抜けようとしている。」#
+2630 「心配しているのかい？」#
+2631 「うーん、いや。」#
+
+2632 「コボルドは洞窟でより良い結果を約束してくれた。」#
+2633 「心配するな、兄さん。まだ道のりは長いが、彼らはまだ成果を上げてくれるかもしれない。」#
+
+2634 「兄さん、正直に言うが、早くしてくれればよかった。」#
+2635 「そうすれば物事がもっと簡単になるだろう、そうだろう？」#
+
+# Caves transition.
+2636 「ハークスは発見した力に対処できなかった。我々は彼に警告しようとした。」#
+2637 「彼の死は避けられなかった。」#
+2652 「我々の招かれざる客は単なる庶民だ。」#
+
+# Citadel chatter.
+2638 「これは全く間違っている。我々はこの場所を不死者のために作ったのだ。」#
+2639 「不死者とその従者たちだ、妹よ。」#
+2653 「彼らを来させよう。」#
+
+2640 「あとどれくらい待たなければならないのか？」#
+2641 「仕事を続けろ、兄さん。準備することはあまりない。」#
+
+2642 「ギルドの残りのメンバーをここでの計画から除外したのは正解だった、兄さん。」#
+2643 「心が小さい者にはいつも小さな野望がある。」#
+
+# Endgame.
+2644 「あなたがヘルクスを排除して以来、我々の権力へのアクセスは増加したばかりです。」#
+2645 「彼の男爵領を我々に譲っていただいたことに感謝いたします。」#
+
+# Orpheus death.
+2646 「不可能だ!!!」#
+2647 「ペスト、お前の魂を使ってこの罪を償ってやる!」#
+
+# Erudyce death.
+2648 「呪ってやる!!!」#
+2649 「大きな間違いだ、バカ野郎。苦しむ時間だ。」#
+
+# Orpheus giggles.
+2650 "あはは はははははは はぁっ!!"#
+# Erudyce giggles.
+2651 "あはは はははははは はっ はぁっ!"#
+
+
+# NPC Chatter. Groups of 10 lines for each NPC type
+2700 type:seq#
+2701 %s
+%s、君はなかなかのパーティ好きだね。君について行けなかったよ!#
+2702 %s
+%s、本当に十分休めたかい?#
+2703 %s
+君はまず男爵を倒したし、それでも私のようなジョーカーよりパーティで勝ってるよ!#
+2704 %s
+でも、これからはゆっくりするよ、そうだろう、%s?#
+2705 %s
+...#
+
+2710 type:rand#
+2711 %s
+何もなかったかのように、みんな店に戻ってきました。#
+2712 %s
+ハムレットの店主たちは、男爵の地下牢を生き延びた後、より強くなりました。#
+
+2720 type:rand#
+2721 %s
+%s、どうしたらお礼を言えばいいの？ *ヒック！*#
+2722 %s
+愛してるよ、マジで、%s、愛してるよ。 *ヒック！*#
+
+2730 type:seq#
+2731 %s
+誰にも内緒です。#
+2732 %s
+ここはかつて男爵の邸宅の玄関でした。#
+2733 %s
+次の君主のために内装を改装しています。#
+2734 %s
+ハークスのことはすべて忘れたいのです。#
+2735 %s
+誰にも内緒です。#
+2736 %s
+...#
+
+2740 type:seq#
+2741 %s
+水晶洞窟に入ろうとしましたが、障壁に阻まれました。#
+2742 %s
+おそらく魔術師ギルドがその障壁を設置したのでしょう。#
+2743 %s
+私は遠くの街から来たハンターギルドのメンバーです。#
+2744 %s
+ハムレットのハンターギルドはこの地区にはありません。#
+2745 %s
+魔術師とハンターは仲が悪いようです。#
+2746 %s
+ハンターは悪者を殺します。時には彼らは魔術師です。#
+2747 %s
+恨みはなし、ただ悪者にならないこと!#
+2748 %s
+...#
+
+2750 type:rand#
+2751 %s
+鉱山に戻りたくなるのは変でしょうか?#
+2752 %s
+ここの空はとても広いです。怖いよ。#
+2753 %s
+鉱山、ヘルクスの地下牢はこの門の向こう側にある。#
+2754 %s
+ちょっと戻ってみようかな。#
+
+2760 type:seq#
+2761 %s
+魔術師ギルドは何か企んでいるに違いない。#
+2762 %s
+ギルドには秘密が多すぎる。#
+2763 %s
+マーリンと魔術師ギルドが仲違いしたって聞いたよ。#
+2764 %s
+ヘルクスはオルフェウスとエルダイス大魔術師と仲がいいんだろうね。#
+2765 %s
+ハンターギルドの話はやめてくれ。#
+2766 %s
+メイソンギルドは教会のために働いているって聞いたよ。#
+2767 %s
+教会には秘密があるが、貧しい人々を助けることもしている。#
+2768 %s
+教会はギルドなのか？ 友人に聞いてみた。#
+2769 %s
+...#
+
+2770 type:seq#
+2771 %s
+%s、おかえりなさい。お休みなさいましたか。#
+2772 %s
+中の魔術師がすべてを説明してくれます。#
+2773 %s
+私ですか? いいえ、私はただのドアマンです。#
+2774 %s
+%s、出入りは多いです。会員になる必要はありません。#
+2775 %s
+マーリンはよく来ていましたが、その後来なくなりました。#
+2776 %s
+そういえば、ハークスはよく来ていました。#
+2777 %s
+ハークスは来るたびにいつも怒って帰っていきました。#
+2778 %s
+あなたが現れたときのハークスの顔が見たかったな...#
+2779 %s
+...#
+
+2780 type:seq#
+2781 %s
+男爵は水晶洞窟に鉱山を建設したかった。#
+2782 %s
+大魔術師たちはハークスがそこで採掘するのを拒否した。#
+2783 %s
+ハークスは魔術師ギルドに多額の助成金を提供した。#
+2784 %s
+ハークスは大魔術師たちから恩恵を受けることを期待していたと思う。#
+2785 %s
+結局、ハークスはギルドの助けを得ることを諦めた。#
+2786 %s
+事態は悪化したが、もっと悪かった可能性もあった。#
+2787 %s
+...#
+
+2790 type:seq#
+2791 %s
+マーリンはハークスが見つけた危険な魔法について私たちに話した。#
+2792 %s
+マーリンがハークスを止めるために去った後、私たちは二度と彼から連絡を受けなかった。#
+2793 %s
+マーリンからの新しい手紙の噂は聞いたが、見たことがない。#
+2794 %s
+ご存知のとおり、マーリンは魔術師ギルドの正式なメンバーではなかった。#
+2795 %s
+独立を求める人もいる。私はそれを尊重する。#
+2796 %s
+...#
+
+2800 type:seq#
+2801 %s
+ハークスが閉じ込められた後、大魔術師たちは水晶洞窟へ向かった。#
+2802 %s
+一体何がそんなに騒がれているのか知りたかったのだろう。#
+2803 %s
+大魔術師たちがいなかったら、ハークスはここで軍隊を組織していただろう。#
+2804 %s
+ハークスを閉じ込める方法を見つけることはできなかっただろう。 #
+2805 %s
+エルダイスとオルフェウスは、ヘルクスを封印するだけでは不十分だとわかっていたと思います。#
+2806 %s
+...#
+
+2810 type:seq#
+2811 %s
+水晶洞窟から強力なモンスターが出現し始めました。#
+2812 %s
+ギルドはハムレットが破壊されるのを防ぐために洞窟を封鎖しなければなりませんでした。#
+2813 %s
+中にいる大魔術師たちが無事であることを願います。#
+2814 %s
+本当に、あのモンスターが彼らの研究とは何の関係もないことを願います。#
+2815 %s
+オルフェウスはやる気満々です。彼を止めるものは何もありません。#
+2816 %s
+エルダイスは舞台裏から物事に影響を与えるのが好きです。#
+2817 %s
+...#
+
+2820 type:seq#
+2821 %s
+あなたがその台座に置いたとき、私はオーブから力を感じました。#
+2822 %s
+なぜヘルクスはその力を使ってダンジョンから脱出しなかったのか不思議です。#
+2823 %s
+私はヘルクスのオーブが放出した力の一部を捕らえることができました。#
+2824 %s
+このポータルはオーブの力を使って洞窟への封印を突き破ります。#
+2825 %s
+大魔術師オルフェウスとエルダイスは物事を正常に戻すのを手伝います。#
+2826 %s
+彼らはヘルクスが見つけた力について何かを学んだに違いありません。#
+2827 %s
+...#
+
+2830 type:seq#
+2831 %s
+%s、心配しないで。私はあなたが誰であるか知っています。#
+2832 %s
+あなたが町を去る前に会いたかったのです。#
+2833 %s
+私ですか? 私は商人ギルドの尊敬すべきメンバーの 1 人です。#
+2834 %s
+私はこの土地で最も珍しい遺物にしか
+興味がありません。
+特に、ハークスに盗まれた魔術師のオーブ。#
+2835 %s
+それらのうちのどれか 1 つでも取り戻せたら、
+私はそのお返しに私の大切な所有物の 1 つを喜んで手放します。#
+2836 %s
+私のような高位のギルド メンバーは、
+貴重なオーブを使って魔術師から
+ 1 ペニーでも金を巻き上げることが
+できるのです!#
+2837 %s
+あなたも同じことをするほどの心を持っていることはわかっています。#
+2838 %s
+だから、それはあなた次第です。 
+私に任せてください。
+私たちの小さな出会いについてはこれ以上何も言いません。#
+2839 %s
+...#
+
+2850 type:rand#
+2851 %s Response 1.#
+
+2860 type:rand#
+2861 %s Response 1.#
+
+# 2900 - 2949 More effects text:
+2900 ああ、この薬は呪われていた！#
+2901 体が重くなったように感じる...#
+2902 動きが鈍くなったように感じる...#
+2903 口の中に毒の後味が残る。#
+2904 神社は不屈の精神と力を授けてくれる！#
+2905 あなたの魔法は %s には効果がない！#
+2906 あなたの魔法は %s には効果がない！#
+2907 DEPRECATED#
+2908 目隠しをすると、もう孤独に思考を巡らすことはなくなります。#
+2909 神殿は射撃能力と速さを授けます!#
+2910 神殿は秘術の知識と抵抗力を授けます!#
+2911 DEPRECATED#
+
+# 2912-2916 Autosort text:
+2912 DEPRECATED#
+2913 DEPRECATED#
+2914 DEPRECATED#
+2915 DEPRECATED#
+2916 DEPRECATED#
+
+# New server flags.
+2917 DEPRECATED#
+2918 DEPRECATED#
+2919 DEPRECATED#
+2920 DEPRECATED#
+2921 DEPRECATED#
+2922 DEPRECATED#
+2923 DEPRECATED#
+2924 DEPRECATED#
+
+# 2925 - 2957 New conducts.
+2925 DEPRECATED#
+2926 DEPRECATED#
+2927 DEPRECATED#
+2928 DEPRECATED#
+2929 DEPRECATED#
+2930 DEPRECATED#
+2931 DEPRECATED#
+2932 DEPRECATED#
+2933 DEPRECATED#
+2934 DEPRECATED#
+2935 DEPRECATED#
+2936 DEPRECATED#
+
+2958 DEPRECATED#
+2959 DEPRECATED#
+2960 DEPRECATED#
+2961 DEPRECATED#
+2962 DEPRECATED#
+2963 DEPRECATED#
+2964 DEPRECATED#
+2965 DEPRECATED#
+2966 DEPRECATED#
+2967 DEPRECATED#
+2968 DEPRECATED#
+2969 ソコバンの神々はあなたの能力に大いに報います!#
+2970 ソコバンの神々はちょっと楽しませてくれました。#
+2971 ソコバンの神々は感心しませんでした。#
+2972 鎧はあなたの心を暖かく包みます。#
+2973 ヘルメットはあなたの心を神秘的なささやきで満たします。#
+2974 地面からの振動があなたの足を通して脈打つ。#
+2975 マントの力があなたの体を駆け巡ります。#
+2976 あなたはこの世のものとは思えない反抗心で満たされています。#
+2977 DEPRECATED#
+2978 DEPRECATED#
+2979 DEPRECATED#
+2980 DEPRECATED#
+2981 DEPRECATED#
+2982 DEPRECATED#
+2983 DEPRECATED#
+2984 DEPRECATED#
+2985 DEPRECATED#
+2986 DEPRECATED#
+2987 DEPRECATED#
+2988 DEPRECATED#
+2989 DEPRECATED#
+2990 DEPRECATED#
+2991 DEPRECATED#
+2992 DEPRECATED#
+2993 DEPRECATED#
+2994 DEPRECATED#
+2995 ブロウラー モードがアクティブです。パンチと投擲ポーションのみ攻撃できます。#
+2996 ブロウラー モードが非アクティブです。すべての武器が許可されます。#
+2997 このツールはブロウラー モードでは無効です。#
+2998 セーブファイルはブロウラー アチーブメントの対象外です。リセットするには再起動してください。#
+2999 ブロウラー モードでは魔法が無効です。#
+3000 DEPRECATED#
+3001 DEPRECATED#
+3002 DEPRECATED#
+3003 DEPRECATED#
+3004 DEPRECATED#
+3005 DEPRECATED#
+3006 DEPRECATED#
+3007 DEPRECATED#
+3008 DEPRECATED#
+3009 DEPRECATED#
+3010 転落死した。#
+3011 DEPRECATED#
+3012 DEPRECATED#
+3013 DEPRECATED#
+3014 DEPRECATED#
+3015 DEPRECATED#
+3016 DEPRECATED#
+3017 DEPRECATED#
+3018 DEPRECATED#
+3019 DEPRECATED#
+3020 DEPRECATED#
+3021 DEPRECATED#
+3022 DEPRECATED#
+3023 DEPRECATED#
+3024 DEPRECATED#
+3025 DEPRECATED#
+3026 DEPRECATED#
+3027 DEPRECATED#
+3028 DEPRECATED#
+3029 DEPRECATED#
+3030 DEPRECATED#
+3031 DEPRECATED#
+3032 DEPRECATED#
+3033 DEPRECATED#
+3034 DEPRECATED#
+3035 あなたの足元にはそれを置くための地面がありません!#
+
+3036 DEPRECATED#
+3037 DEPRECATED#
+3038 DEPRECATED#
+3039 移動中...#
+3040 DEPRECATED#
+3041 DEPRECATED#
+3042 DEPRECATED#
+3043 DEPRECATED#
+3044 DEPRECATED#
+3045 DEPRECATED#
+3046 DEPRECATED#
+3047 DEPRECATED#
+3048 DEPRECATED#
+3049 DEPRECATED#
+3050 DEPRECATED#
+3051 DEPRECATED#
+3052 DEPRECATED#
+3053 DEPRECATED#
+3054 DEPRECATED#
+3055 DEPRECATED#
+3056 DEPRECATED#
+3057 DEPRECATED#
+3058 DEPRECATED#
+3059 DEPRECATED#
+3060 DEPRECATED#
+3061 DEPRECATED#
+3062 DEPRECATED#
+3063 キャンセル#
+3064 DEPRECATED#
+3065 DEPRECATED#
+3066 DEPRECATED#
+3067 DEPRECATED#
+3068 DEPRECATED#
+
+# Follower responses.
+3069 私はここで自分の立場を守ります、%s。#
+3070 じっとしています。#
+3071 私の %s は呪われています!#
+3072 これはあなたによく似合います、%s!#
+3073 もっと良いものを探してみます。#
+3074 これは私には使い道がありません。#
+3075 まさにその通りです!#
+3076 うわあ。もうお腹いっぱいだ。#
+3077 手が届かない。#
+3078 何かが邪魔をしている。#
+3079 ポイントへ前進中！#
+3080 %s、私の退却地点を援護してくれ！#
+3081 これらは修理が必要かもしれない。#
+3082 ここにはかけがえのないものは何もない！#
+3083 ここは風が本当に感じられる。#
+3084 あんなふうに仲間を裏切るわけにはいかない。#
+3085 ここにいる数少ない友達を大事にしないといけない。#
+3086 うーん。#
+3087 うーん。#
+3088 あれはちょっとカビが生えていた。#
+3089 これ以上は食べられない。#
+3090 今はもうお腹が空いていない。#
+3091 やばい！腐った食べ物！#
+3092 このコマンドはフロアごとに1回しか使用できません。#
+3093 いじくりまわす #
+3094 操作できません。#
+# Follower responses end.
+
+# Misc
+3095 DEPRECATED#
+3096 あなたの魔法は %s に当たりました!#
+3097 ドア#
+3098 ゲート#
+3099 チェスト#
+3100 神秘的保護により、ロックがしっかりと固定されています。#
+3101 神秘的保護により、ドアがしっかりと固定されています。#
+3102 神秘的保護により、ゲートがしっかりと固定されています。#
+
+# Follower responses cont'd.
+3103 DEPRECATED#
+3104 DEPRECATED#
+3105 %s は辛抱強く待っています。#
+3106 %s は辛抱強く待っています。#
+3107 武器は#
+3108 ヘルメットは#
+3109 帽子は#
+3110 胸当ては#
+3111 ブーツは#
+3112 盾は#
+3113 手袋は#
+3114 マントは#
+3115 指輪は#
+3116 お守りは#
+3117 装備は#
+3118 %s は呪われています!#
+3119 %s の#
+3120 %s の#
+3121 %s の#
+3122 %s の#
+3123 %s を軽蔑的に見つめます。#
+3124 %s を素早く食べます。#
+3125 武器を引き渡します。#
+3126 装備の一部を引き渡します。#
+3127 装備を明け渡します。#
+3128 %s はあなたに従うことにしました!#
+3129 %s はうなり声を上げます。#
+3130 %s はうなり声を上げます。#
+3131 %s はここからは届きません。#
+3132 %s はここからは届きません。#
+3133 %s の邪魔になるものがあります。#
+3134 %s の邪魔になるものがあります。#
+3135 %s さん、申し訳ありませんが、思い出の品は手放しません。#
+
+# Misc
+3136 DEPRECATED#
+3137 %s はあなたの従者として魅了されました!#
+3138 %s はあなたの従者として魅了されました!#
+3139 あなたの魅了は %s の戦う意志を奪いました!#
+3140 あなたの魅了は %s の戦う意志を奪いました!#
+3141 あなたは魅了の効果に抵抗しました!#
+3142 あなたの魅了は %s には効果がありません!#
+3143 あなたの魅了は %s には効果がありません!#
+3144 魔法の魅了はあなたの戦う意志を奪いました!#
+3145 スライムが %s を包み込み、消費します!#
+
+3146 DEPRECATED#
+3147 DEPRECATED#
+3148 DEPRECATED#
+3149 DEPRECATED#
+3150 DEPRECATED#
+3151 DEPRECATED#
+3152 DEPRECATED#
+3153 DEPRECATED#
+3154 DEPRECATED#
+3155 DEPRECATED#
+3156 DEPRECATED#
+3157 DEPRECATED#
+3158 DEPRECATED#
+3159 DEPRECATED#
+3160 DEPRECATED#
+3161 DEPRECATED#
+3162 DEPRECATED#
+3163 DEPRECATED#
+3164 DEPRECATED#
+3165 DEPRECATED#
+3166 DEPRECATED#
+3167 DEPRECATED#
+3168 DEPRECATED#
+3169 DEPRECATED#
+
+3175 DEPRECATED#
+3176 DEPRECATED#
+3177 DEPRECATED#
+3178 DEPRECATED#
+
+3179 骸骨は食べ物を必要としません!#
+3180 でも待ってください!マナを消費して新たな生命を得ます!#
+3181 蘇生するのに十分なマナがありませんでした...#
+3182 骸骨として流れと戦おうと奮闘します!#
+3183 水に触れると、肉が痛みで焼けます!#
+3184 水に触れると、骨が痛みで焼けます!#
+3185 変身が消耗し、通常の姿に戻ります。#
+3186 %s に変身します!#
+3187 %s が %s に変身します!#
+3188 %s が %s に変身します!#
+3189 しかし、何も変わりません...#
+3190 変身の薬を飲み干します...#
+3191 変身は効果がありません!#
+3192 変身は水に洗い流されます!#
+3193 変身が動き始めると、皮膚がひび割れます消散...#
+3194 あなたの %s の魂があなたに戻ります。#
+3195 %s の魂があなたに戻ります。#
+3196 魂を
+放棄する#
+3197 召喚した %s が新しいランクを獲得しました!#
+3198 でも待ってください! 召喚した仲間があなたに新しい命を吹き込みます!#
+
+3199 DEPRECATED#
+3200 DEPRECATED#
+
+3201 うわあ！ 胃の中の固形物を体が拒否してる！#
+3202 呪いを受けるなんてなんてひどい夜だ...#
+3203 うわあ！これはひどい！#
+3204 拳#
+3205 %s はあなたの一撃で気絶しました！#
+3206 %s はあなたの一撃で気絶しました！#
+3207 あなたは %s の一撃で気絶しました！#
+3208 あなたは %s の一撃で気絶しました！#
+3209 DEPRECATED#
+3210 あなたの刃は %s に深く切り込みました！#
+3211 あなたの刃は %s に深く切り込みました！#
+3212 %s の刃はあなたに深く切り込みました！#
+3213 %s の刃はあなたに深く切り込みました！#
+3214 %s は後ろによろめきます！#
+3215 %s は後ろによろめきます！#
+3216 あなたはノックバックされました！#
+3217 %s を削除できません。
+ありがたいことだ！#
+3218 できない。ありがたいことだ！#
+3219 %s を売ることはできない。
+ありがたいことだ！#
+3220 %s 
+の缶を荒らす。#
+3221 自分がどこにいるのかわからず目が覚める...
+ひどい頭痛を伴う。#
+3222 飲み物を飲めば気分が和らぐかもしれない...#
+
+3223 召喚師#
+3224 呪われ人#
+3225 カリスマ#
+3226 酒屋#
+3227 整備士#
+3228 断罪者#
+3229 呪術師#
+3230 狩人#
+
+3231 DEPRECATED#
+3232 DEPRECATED#
+3233 DEPRECATED#
+3234 DEPRECATED#
+3235 DEPRECATED#
+3236 DEPRECATED#
+3237 DEPRECATED#
+3238 DEPRECATED#
+
+3239 スキル番号が無効です!#
+3240 あなたの評価は「%s」
+を鑑定するのに十分高くありません。#
+3241 魔法を唱えると呪いが解けていくのを感じます...#
+3242 書物の知識により呪いを制御できます!#
+3243 私の店から出て行け、%s %s!#
+3244 %s の店の「%s は立ち入り禁止」ポリシーについて知ります。#
+3245 泉から %d 個のポーションが落ちました!#
+3246 泉からポーションが落ちました!#
+3247 冷や汗が出始めます...#
+3248 手がふらつき始めます...#
+3249 頭痛がしそうになります...#
+3250 二日酔いが治まりました。#
+3251 %s があなたの飲み仲間になることを決意します!#
+3252 %s があなたの飲み仲間になることを決意します相棒！#
+3253 呪いのせいで体力が落ちた！#
+3254 水に泳ぎに行こう。#
+
+# Skill tooltips
+3255 DEPRECATED#
+3256 DEPRECATED#
+3257 DEPRECATED#
+3258 DEPRECATED#
+3259 DEPRECATED#
+3260 DEPRECATED#
+3261 DEPRECATED#
+3262 DEPRECATED#
+3263 DEPRECATED#
+3264 DEPRECATED#
+3265 DEPRECATED#
+3266 DEPRECATED#
+3267 DEPRECATED#
+3268 DEPRECATED#
+3269 DEPRECATED#
+
+# Additional skill tooltip text
+3270 DEPRECATED#
+3271 DEPRECATED#
+3272 DEPRECATED#
+3273 DEPRECATED#
+3274 DEPRECATED#
+3275 DEPRECATED#
+3276 DEPRECATED#
+3277 DEPRECATED#
+3278 DEPRECATED#
+3279 DEPRECATED#
+3280 DEPRECATED#
+3281 DEPRECATED#
+3282 DEPRECATED#
+3283 DEPRECATED#
+3284 DEPRECATED#
+
+3285 ZAP 旅団が到着しました!
+「ミノタウロスが来ています! ここにいる他の邪悪な獣も倒しましょう!」#
+3286 #
+3287 この %s
+は修理できません。#
+3288 修理できるアイテムがありません!#
+3289 DEPRECATED#
+3290 DEPRECATED#
+3291 DEPRECATED#
+3292 DEPRECATED#
+3293 DEPRECATED#
+3294 DEPRECATED#
+3295 DEPRECATED#
+3296 DEPRECATED#
+3297 DEPRECATED#
+3298 DEPRECATED#
+3299 DEPRECATED#
+3300 DEPRECATED#
+3301 DEPRECATED#
+3302 DEPRECATED#
+3303 DEPRECATED#
+3304 DEPRECATED#
+3305 DEPRECATED#
+3306 DEPRECATED#
+3307 DEPRECATED#
+3308 DEPRECATED#
+3309 DEPRECATED#
+3310 DEPRECATED#
+3311 DEPRECATED#
+3312 DEPRECATED#
+3313 DEPRECATED#
+3314 DEPRECATED#
+3315 DEPRECATED#
+3316 DEPRECATED#
+3317 DEPRECATED#
+3318 DEPRECATED#
+3319 DEPRECATED#
+3320 DEPRECATED#
+3321 DEPRECATED#
+3322 DEPRECATED#
+3323 DEPRECATED#
+3324 DEPRECATED#
+3325 DEPRECATED#
+3326 DEPRECATED#
+3327 これ以上のモンスターを魅了して従わせることはできません!#
+3328 DEPRECATED#
+3329 DEPRECATED#
+3330 DEPRECATED#
+3331 DEPRECATED#
+3332 %s を %s と組み合わせます...#
+3333 未確認のポーションを %s と組み合わせます...#
+3334 %s を未確認のポーションと組み合わせます...#
+3335 未確認のポーション 2 つを組み合わせます...#
+3336 空のフラスコは液体を入れるのに最適のようです。#
+3337 組み合わせる使い魔のポーションがありません!#
+3338 DEPRECATED#
+3339 醸造#
+3340 錬金術#
+3341 醸造を中止#
+3342 混ぜるポーションがもうありません!#
+3343 DEPRECATED#
+3344 DEPRECATED#
+3345 DEPRECATED#
+3346 %s の基本錬金術材料
+について学びます。#
+3347 DEPRECATED#
+3348 DEPRECATED#
+3349 %s
+二次錬金術材料について学びます。#
+3350 醸造を吹き飛ばしました。#
+3351 %s を回復しました。#
+3352 %s を醸造しました。#
+3353 %s を瓶詰めしました。#
+3354 突然、とても強くなったように感じます!#
+3355 体力が正常に戻りました。#
+3356 醸造が水に溶けました...#
+
+3357 DEPRECATED#
+3358 元気が出ましたか?#
+3359 DEPRECATED#
+3360 DEPRECATED#
+3361 DEPRECATED#
+3362 DEPRECATED#
+3363 DEPRECATED#
+3364 DEPRECATED#
+3365 DEPRECATED#
+3366 DEPRECATED#
+3367 DEPRECATED#
+3368 DEPRECATED#
+3369 DEPRECATED#
+3370 DEPRECATED#
+
+3371 DEPRECATED#
+3372 DEPRECATED#
+3373 DEPRECATED#
+3374 DEPRECATED#
+3375 DEPRECATED#
+
+3376 DEPRECATED#
+3377 DEPRECATED#
+3378 DEPRECATED#
+3379 DEPRECATED#
+3380 DEPRECATED#
+3381 DEPRECATED#
+3382 DEPRECATED#
+3383 DEPRECATED#
+
+3384 DEPRECATED#
+3385 DEPRECATED#
+3386 DEPRECATED#
+3387 DEPRECATED#
+3388 DEPRECATED#
+3389 DEPRECATED#
+3390 DEPRECATED#
+3391 DEPRECATED#
+3392 DEPRECATED#
+3393 DEPRECATED#
+3394 DEPRECATED#
+3395 DEPRECATED#
+3396 DEPRECATED#
+3397 DEPRECATED#
+3398 DEPRECATED#
+3399 DEPRECATED#
+
+3400 生命力を消費すると魔法が弱まります!#
+3401 ソコバンの神々があなたの道を助けてくれるのを感じます...#
+3402 DEPRECATED#
+3403 DEPRECATED#
+3404 DEPRECATED#
+3405 DEPRECATED#
+3406 DEPRECATED#
+
+3407 DEPRECATED_SPELL_NAME#
+3408 DEPRECATED_SPELL_NAME#
+3409 DEPRECATED_SPELL_NAME#
+3410 DEPRECATED_SPELL_NAME#
+3411 DEPRECATED_SPELL_NAME#
+3412 DEPRECATED_SPELL_NAME#
+3413 DEPRECATED_SPELL_NAME#
+3414 DEPRECATED_SPELL_NAME#
+3415 DEPRECATED_SPELL_NAME#
+3416 DEPRECATED_SPELL_NAME#
+
+3417 変身が消えて、通常の姿に戻ります。#
+3418 DEPRECATED#
+3419 あなたは %s に変身しました!#
+3420 何も変わりません...#
+3421 DEPRECATED_SPELL_NAME#
+3422 DEPRECATED_SPELL_NAME#
+3423 近くに食べ物がないことを感知しました。#
+3424 鼻がチクチクし始め、食べ物の匂いがします!#
+3425 鼻がピクピク動きますが、新しい匂いはありません。#
+3426 %s に毒がかけられました!#
+3427 %s に毒がかけられました!#
+3428 あなたに毒がかけられました!#
+3429 %s がクモの巣に絡まっています!#
+3430 %s がクモの巣に絡まっています!#
+3431 あなたはクモの巣に絡まっています!#
+3432 現在のフォームではそれを使用できません!#
+3433 DEPRECATED#
+3434 %s は恐怖で怯えています!#
+3435 %s は恐怖で怯えています!#
+3436 あなたは恐怖で怯えています!#
+3437 あなたは原始的な咆哮を放ちます!#
+3438 ...それは誰にも聞こえませんでした。#
+3439 あなたは落ち着きを取り戻します。#
+3440 DEPRECATED_SPELL_NAME#
+3441 属性魔法の威力が正常に戻りました。#
+3442 属性魔法の威力が上昇しました!#
+3443 魔法の維持に失敗しました (属性フォーカス)。#
+3444 ゴブリンとして魔法を習得できません!#
+3445 現在のフォームでは魔法を習得できません!#
+3446 すべての近接能力が向上しました!#
+3447 DEPRECATED_SPELL_NAME#
+3448 DEPRECATED_SPELL_NAME#
+3449 DEPRECATED_SPELL_NAME#
+3450 あなたの魔法が %s を引き寄せます!#
+3451 あなたの魔法が %s を引き寄せます!#
+3452 このエリアでは味方をテレポートできません。#
+3453 ターゲットをテレポートする余地がありません!#
+3454 あなたの鞭が %s の武器に当たりました!#
+3455 あなたの鞭が %s の武器に当たりました!#
+3456 あなたの鞭が %s の盾に当たりました!#
+3457 あなたの鞭が %s の盾に当たりました!#
+3458 DEPRECATED#
+3459 あなたの %s は灰に砕け散りました!#
+3460 装備している間は魔法書を学習できません!#
+3461 魔法の力によってあなたの位置が移動しました!#
+3462 一瞬方向感覚が失われました...#
+3463 %s は秘術の印によって追跡されています!#
+3464 %s は秘術の印によって追跡されています!#
+3465 あなたは秘術の印によって追跡されています!#
+3466 %s の以前の印は消えました。#
+3467 %s の以前の印は消えました。#
+3468 内なる悪魔があなたを挑発しているようです!#
+3469 %s は内なる悪魔によって挑発されています!#
+3470 %s は内なる悪魔によって挑発されています!#
+3471 内なる悪魔を召喚する余地はありません!#
+3472 悪魔を強制的に呼び出すことはできません%s!#
+3473 %s から悪魔を強制的に追い出すことはできません!#
+3474 HT#
+3475 シェイプシフトが消えていくのを感じ、皮膚がひび割れます...#
+3476 体力回復が正常に戻ります。#
+3477 マナ回復が正常に戻ります。#
+3478 %s はあなたの毒で毒されています!#
+3479 %s はあなたの毒で毒されています!#
+3480 統率が低すぎて、これ以上フォロワーを募集できません!#
+3481 統率が低すぎて、%s を募集できません。#
+3482 フォロワーをこれ以上募集できません!#
+3483 ボイラーが満杯です!#
+3484 ボイラーが大量の熱を生成しています!#
+3485 ボイラーがゆっくりとあなたを暖めています。#
+3486 ボイラーがほとんど追いついていません。#
+3487 消費#
+3488 レベルが高くありませんその魔法を使うには十分です。#
+3489 DEPRECATED_SPELL_NAME#
+3490 静脈が温かくなってきました!#
+3491 血流が正常に戻りました。#
+3492 DEPRECATED#
+3493 DEPRECATED#
+3494 遠くで罠が作動する音が聞こえます。#
+3495 近くで罠が作動する音が聞こえます!#
+3496 罠につまずいて死亡します。#
+3497 %s につまずきます!#
+3498 %s があなたの %s につまずきます!#
+3499 %s があなたの %s につまずきます!#
+
+# new new items (3500-3599)
+3500 DEPRECATED_ITEM_NAME#
+3501 DEPRECATED_ITEM_NAME#
+3502 DEPRECATED_ITEM_NAME#
+3503 DEPRECATED_ITEM_NAME#
+3504 DEPRECATED_ITEM_NAME#
+3505 DEPRECATED_ITEM_NAME#
+3506 DEPRECATED_ITEM_NAME#
+3507 DEPRECATED_ITEM_NAME#
+3508 DEPRECATED_ITEM_NAME#
+3509 DEPRECATED_ITEM_NAME#
+3510 DEPRECATED_ITEM_NAME#
+3511 DEPRECATED_ITEM_NAME#
+3512 DEPRECATED_ITEM_NAME#
+3513 DEPRECATED_ITEM_NAME#
+3514 DEPRECATED_ITEM_NAME#
+3515 DEPRECATED_ITEM_NAME#
+3516 DEPRECATED_ITEM_NAME#
+3517 DEPRECATED_ITEM_NAME#
+3518 DEPRECATED_ITEM_NAME#
+3519 DEPRECATED_ITEM_NAME#
+3520 DEPRECATED_ITEM_NAME#
+3521 DEPRECATED_ITEM_NAME#
+3522 DEPRECATED_ITEM_NAME#
+3523 DEPRECATED_ITEM_NAME#
+3524 DEPRECATED_ITEM_NAME#
+3525 DEPRECATED_ITEM_NAME#
+3526 DEPRECATED_ITEM_NAME#
+3527 DEPRECATED_ITEM_NAME#
+3528 DEPRECATED_ITEM_NAME#
+3529 DEPRECATED_ITEM_NAME#
+3530 DEPRECATED_ITEM_NAME#
+3531 DEPRECATED_ITEM_NAME#
+3532 DEPRECATED_ITEM_NAME#
+3533 DEPRECATED_ITEM_NAME#
+3534 DEPRECATED_ITEM_NAME#
+3535 DEPRECATED_ITEM_NAME#
+3536 DEPRECATED_ITEM_NAME#
+3537 DEPRECATED_ITEM_NAME#
+3538 DEPRECATED_ITEM_NAME#
+3539 DEPRECATED_ITEM_NAME#
+3540 DEPRECATED_ITEM_NAME#
+3541 DEPRECATED_ITEM_NAME#
+3542 DEPRECATED_ITEM_NAME#
+3543 DEPRECATED_ITEM_NAME#
+3544 DEPRECATED_ITEM_NAME#
+3545 DEPRECATED_ITEM_NAME#
+3546 DEPRECATED_ITEM_NAME#
+3547 DEPRECATED_ITEM_NAME#
+3548 DEPRECATED_ITEM_NAME#
+3549 DEPRECATED_ITEM_NAME#
+3550 DEPRECATED_ITEM_NAME#
+3551 DEPRECATED_ITEM_NAME#
+3552 DEPRECATED_ITEM_NAME#
+3553 DEPRECATED_ITEM_NAME#
+3554 DEPRECATED_ITEM_NAME#
+3555 DEPRECATED_ITEM_NAME#
+3556 DEPRECATED_ITEM_NAME#
+3557 DEPRECATED_ITEM_NAME#
+3558 DEPRECATED_ITEM_NAME#
+3559 DEPRECATED_ITEM_NAME#
+3560 DEPRECATED_ITEM_NAME#
+3561 DEPRECATED_ITEM_NAME#
+3562 DEPRECATED_ITEM_NAME#
+3563 DEPRECATED_ITEM_NAME#
+3564 DEPRECATED_ITEM_NAME#
+3565 DEPRECATED_ITEM_NAME#
+3566 DEPRECATED_ITEM_NAME#
+3567 DEPRECATED_ITEM_NAME#
+3568 DEPRECATED_ITEM_NAME#
+3569 DEPRECATED_ITEM_NAME#
+3570 DEPRECATED_ITEM_NAME#
+3571 DEPRECATED_ITEM_NAME#
+3572 DEPRECATED_ITEM_NAME#
+3573 DEPRECATED_ITEM_NAME#
+3574 DEPRECATED_ITEM_NAME#
+3575 DEPRECATED_ITEM_NAME#
+3576 DEPRECATED_ITEM_NAME#
+3577 DEPRECATED_ITEM_NAME#
+3578 DEPRECATED_ITEM_NAME#
+3579 DEPRECATED_ITEM_NAME#
+3580 DEPRECATED_ITEM_NAME#
+3581 DEPRECATED_ITEM_NAME#
+3582 DEPRECATED_ITEM_NAME#
+3583 DEPRECATED_ITEM_NAME#
+3584 DEPRECATED_ITEM_NAME#
+3585 DEPRECATED_ITEM_NAME#
+3586 DEPRECATED_ITEM_NAME#
+3587 DEPRECATED_ITEM_NAME#
+3588 DEPRECATED_ITEM_NAME#
+3589 DEPRECATED_ITEM_NAME#
+
+3600 %s を解除しました。#
+3601 %s は吹き飛ばされました!#
+3602 %s は吹き飛ばされました!#
+3603 あなたの罠は %s に効果がありません!#
+3604 あなたの罠は %s に効果がありません!#
+3605 発射スプリングを緩めました。#
+3606 仲間の慎重な足取りではもう罠は作動しません。#
+3607 発射スプリングを最大限締めました。#
+3608 どんな生き物でも作動する可能性があります!#
+3609 発射スプリングを締め始めます...#
+3610 罠は魔法のエネルギーを引き寄せ始めます!#
+3611 あなたは吹き飛ばされました!#
+3612 爆発する %s に当たりました!#
+3613 爆発する %s に当たりました!#
+3614 爆発する %s に当たりました%s!#
+3615 トラップが %s をテレポートできませんでした!#
+3616 トラップが %s をテレポートできませんでした!#
+3617 %s が %s を破壊しました!#
+3618 %s が %s に命中しました!#
+3619 DEPRECATED#
+3620 DEPRECATED#
+3621 DEPRECATED#
+3622 DEPRECATED#
+3623 DEPRECATED#
+3624 DEPRECATED#
+3625 DEPRECATED#
+3626 DEPRECATED#
+3627 DEPRECATED#
+3628 DEPRECATED#
+3629 DEPRECATED#
+3630 DEPRECATED#
+3631 は地上に戻る。#
+3632 DEPRECATED#
+3633 DEPRECATED#
+3634 item#
+3635 DEPRECATED#
+3636 DEPRECATED#
+3637 ジャイロボットはこれ以上アイテムを運べません!#
+3638 統率 スキルが十分ではないため、%s で前のコマンドを使用することができません。#
+3639 いじくり スキルが十分ではないため、%s で前のコマンドを使用することができません。#
+3640 前のコマンドは %s では使用できません。#
+3641 DEPRECATED#
+3642 DEPRECATED#
+3643 は箱に戻ります。#
+3644 クラフト#
+3645 分解#
+3646 修理#
+3647 DEPRECATED#
+3648 %s を作成するための材料が足りません!#
+3649 DEPRECATED#
+3650 見てください...#
+3651 あなたのジャイロボットが取り残された仲間を回収しました!#
+3652 あなたの いじくり スキルは %s を作成するのに十分ではありません!#
+3653 壊れた #
+3654 単純な #
+3655 複雑な #
+3656 複雑な #
+3657 職人 #
+3658 壊れた %d #
+3659 単純な %d #
+3660 複雑な %d #
+3661 複雑な %d #
+3662 職人 %d #
+3663 自動分解...#
+3664 %s を分解できません。#
+3665 %d 個の %s を分解しました。#
+3666 分解から学ぶことは他にありません。#
+3667 %s の作成から学ぶことは他にありません。#
+3668 作成%s!#
+3669 装備したアイテムを分解できません!#
+3670 いじくり#
+3671 ジャイロボットがノイズメーカーに向かって奇妙な足音を検出しました!#
+3672 DEPRECATED#
+3673 このコマンドを使用するには、%s の品質を高くする必要があります。#
+3674 DEPRECATED#
+3675 ​​DEPRECATED#
+3676 %s がローターをロックします。#
+3677 %s がパトロールに戻ります。#
+3678 より多くのオブジェクト タイプを検出するには、%s の品質を高くする必要があります。#
+3679 いじくりスキルが十分ではないため、
+これ以上ジャイロボットの発見を解読できません。#
+3680 あなたのいじくりスキルは、
+ジャイロボットの発見を解読するには十分ではありません。#
+3681 装備したアイテムを修理することはできません。#
+3682 %s を修理します。#
+3683 %s をアップグレードします。#
+3684 アップグレード#
+3685 あなたのいじくりスキルは、%s をアップグレードするには十分ではありません。#
+3686 %s を修理するための材料が足りません。#
+3687 %s をアップグレードするための材料が足りません。#
+3688 あなたのいじくりスキルは、%s を修理するための十分ではありません。#
+3689 %s のロックを解除しても、他に学ぶことはありません。#
+3690 DEPRECATED#
+3691 DEPRECATED#
+3692 DEPRECATED#
+3693 DEPRECATED#
+3694 DEPRECATED#
+3695 DEPRECATED#
+3696 ボイラーは安定して燃焼しています。#
+3697 しかし、これ以上熱を発生できません。#
+3698 自分の姿が映っています。#
+3699 ボイラーが過熱しています!#
+3700 冷たい水がボイラーを蒸気で満たしています!#
+3701 沸騰したお湯でリフレッシュできます!#
+3702 冷たい水がボイラーにあふれています!#
+3703 溶岩がボイラーを過熱しています!#
+3704 燃料がボイラーを暖めています。#
+3705 金属加工に役立つスクラップの破片です。#
+3706 発明に火花を散らす破片です。#
+3707 スクラップがこれ以上熱を発生できません。#
+3708 ボイラーの燃料が切れました...#
+3709 急速に熱が失われています!#
+3710 ギアが固まり始めています!#
+3711 DEPRECATED_SPELL_NAME#
+3712 あなたの魔法は %d 個のアイテムを回収しました!#
+3713 あなたの魔法は近くのアイテムを回収できませんでした。#
+3714 システムが故障しています...#
+3715 魔法は効果がありません!#
+3716 DEPRECATED#
+3717 DEPRECATED#
+3718 刻印#
+3719 修復#
+3720 刻印する空白の巻物を選択#
+3721 DEPRECATED#
+3722 DEPRECATED#
+3723 スロットから外す#
+3724 %s に刻印しました!#
+3725 色あせたテキストの一部をなぞってみました...#
+3726 修復する魔法書を選択してください#
+3727 %s が消耗しました!#
+3728 刻印を完了する前に 
+%s が消耗しました!#
+3729 %s が消耗し始めました。#
+3730 %s がチャージされました!#
+3731 DEPRECATED#
+3732 DEPRECATED#
+3733 あなたのショットは %s をはじきました!#
+3734 あなたのショットは %s をはじきました!#
+3735 %s の悪魔はすでに祓われました!#
+3736 %s の悪魔はすでに祓われました!#
+3737 あなたの態度は良くなりました!#
+3738 a %+2d #
+3739 あなたの矢が %s に火をつけました!#
+3740 あなたの矢が %s に火をつけました!#
+3741 あなたは燃える矢で火をつけられました!#
+3742 あなたは飛んでくる矢でノックバックされました!#
+3743 あなたの銀の矢が %s を打ちました!#
+3744 あなたの銀の矢が %s を打ちました!#
+3745 あなたは銀の矢で打ち倒されました!#
+3746 あなたの %s が戻ってきました!#
+3747 %s は鎮静されました矢によって！#
+3748 %s は矢によって鎮静化しました！#
+3749 あなたは狩猟用の矢によって鎮静化しました！#
+3750 あなたの狩猟用の矢が %s に突き刺さりました！#
+3751 あなたの狩猟用の矢が %s に突き刺さりました！#
+3752 狩猟用の矢があなたの肉体に突き刺さりました！#
+3753 流血があなたに活力を与えます！#
+3754 デュルンウィンが %s を倒しました！#
+3755 デュルンウィンが %s を倒しました！#
+3756 デュルンウィンが %s に火をつけました！#
+3757 デュルンウィンが %s に火をつけました！#
+3758 パラシュが %s に致命的な打撃を与えました！#
+3759 パラシュが %s に致命的な打撃を与えました！#
+3760 グングニルが %s の鎧を突き刺しました！#
+3761 グングニル%s の鎧を貫いた!#
+3762 突然矢筒が目の前に現れた!#
+3763 a #
+3764 DEPRECATED_SPELL_NAME#
+3765 DEPRECATED_SPELL_NAME#
+3766 DEPRECATED#
+3767 あなたの翼はあなたの足を床から引き離します！#
+3768 DEPRECATED#
+3769 ノイズメーカーを巻き戻す必要があります!#
+3770 ノイズメーカーが壊れました!#
+
+3771 DEPRECATED#
+3772 DEPRECATED#
+3773 DEPRECATED#
+3774 DEPRECATED#
+3775 DEPRECATED#
+
+3776 DEPRECATED#
+3777 DEPRECATED#
+3778 DEPRECATED#
+3779 DEPRECATED#
+3780 DEPRECATED#
+3781 DEPRECATED#
+
+3782 DEPRECATED#
+3783 DEPRECATED#
+3784 DEPRECATED#
+3785 DEPRECATED#
+3786 DEPRECATED#
+3787 DEPRECATED#
+
+3788 DEPRECATED#
+
+3789 DEPRECATED#
+
+3790 DEPRECATED#
+
+3791 DEPRECATED#
+
+3792 DEPRECATED#
+3793 DEPRECATED#
+3794 DEPRECATED#
+3795 DEPRECATED#
+3796 DEPRECATED#
+3797 DEPRECATED#
+
+3798 DEPRECATED#
+3799 DEPRECATED#
+3800 DEPRECATED#
+3802 DEPRECATED#
+3803 DEPRECATED#
+3804 DEPRECATED#
+3806 DEPRECATED#
+3807 DEPRECATED#
+3809 DEPRECATED#
+3810 DEPRECATED#
+3811 DEPRECATED#
+
+3812 DEPRECATED#
+3813 DEPRECATED#
+3814 DEPRECATED#
+
+3815 DEPRECATED#
+3816 DEPRECATED#
+3817 DEPRECATED#
+3818 DEPRECATED#
+3819 DEPRECATED#
+3820 DEPRECATED#
+3821 DEPRECATED#
+3822 DEPRECATED#
+3823 DEPRECATED#
+3824 DEPRECATED#
+3825 DEPRECATED#
+3826 DEPRECATED#
+3827 インキュバス#
+3828 DEPRECATED#
+3829 DEPRECATED#
+3830 DEPRECATED#
+3831 DEPRECATED#
+3832 DEPRECATED#
+3833 DEPRECATED#
+
+# new spell tooltips
+3834 DEPRECATED#
+3835 DEPRECATED#
+3836 DEPRECATED#
+3837 DEPRECATED#
+3838 DEPRECATED#
+3839 DEPRECATED#
+3840 DEPRECATED#
+3841 DEPRECATED#
+3842 DEPRECATED#
+3843 DEPRECATED#
+3844 DEPRECATED#
+3845 DEPRECATED#
+3846 DEPRECATED#
+3847 DEPRECATED#
+3848 DEPRECATED#
+3849 DEPRECATED#
+3850 DEPRECATED#
+3851 DEPRECATED#
+3852 DEPRECATED#
+3853 DEPRECATED#
+3854 DEPRECATED#
+3855 DEPRECATED#
+3856 DEPRECATED#
+3857 DEPRECATED#
+3858 DEPRECATED#
+3859 DEPRECATED#
+3860 DEPRECATED#
+3861 DEPRECATED#
+
+3862 ラベル #
+3863 目が見えていない状態では魔法書を読むことはできません!#
+3864 自身を終了します。#
+3865 ジャイロボットが発射スプリングを緩めます。#
+3866 ジャイロボットが発射スプリングを最大限まで締めます。#
+3867 ジャイロボットが発射スプリングを締め始めます...#
+3868 ジャイロボットは落とすものを持っていません。#
+3869 落下する前になんとか自分を支えます!#
+
+3870 この罠はすでに解除されています。#
+3871 ロックピックで罠を解除できませんでした!#
+3872 罠の無効化に成功しました!#
+3873 この罠はすでに空になっています!#
+3874 振り回しながら食べることはできません!#
+3875 パイが %s に当たりました!
+*バタン*#
+3876 パイが %s に当たりました!
+*バタン*#
+3877 飛んできたパイに当たりました!
+*SPLAT*#
+3878 %s は盲目になりました!#
+3879 %s は盲目になりました!#
+3880 %s の仲間はすでに完全に休息しています。#
+3881 %s の仲間は完全に休息した状態で目覚めました。#
+3882 足音がノイズメーカーに向かって引き寄せられる音が聞こえます!#
+3883 現在のスキルでは、これ以上ティンカリング マシンを展開できません!#
+3884 これ以上ティンカリング マシンを展開できません。#
+3885 DEPRECATED_SPELL_NAME#
+3886 DEPRECATED#
+3887 罠を空にするほどの技術がない。#
+3888 ああ！この宝石を持って金細工師のところへ行かなくちゃ！でも、緑が本当に私の色なのかはわからない。#
+3889 うーん。何世紀にもわたる知識から作られたものだという。魔法使いのほとんどがビー玉をなくすなんて信じられる？#
+3890 なるほど！見事な深紅の標本だ…少し湿ってはいるが。これを持ってジョギングしていたの？#
+3891 %s にはそれが役に立たない。#
+3892 %s にはそれが役に立たない。#
+3893 うーん。私と取引するのは
+正しい選択でした。#
+3894 最新のお客様のために
+地元で調達しました。#
+3895 私の素晴らしい商品を
+気に入っていただけると信じています。#
+3896 #
+3897 チェストの中に隠しコンパートメントを見つけました!#
+3898 迫りくる燃える岩を避けられません。#
+3899 迫りくる神秘的な岩を避けられません。#
+3900 そこに置いてはいけません!#
+
+# More keybinds
+3901 DEPRECATED#
+3902 DEPRECATED#
+3903 DEPRECATED#
+3904 DEPRECATED#
+3905 DEPRECATED#
+3906 DEPRECATED#
+3907 DEPRECATED#
+3908 DEPRECATED#
+3909 DEPRECATED#
+
+3910 取引する前に
+服を脱げ！#
+3911 取引する前に
+武器を鞘に収めろ！#
+3912 取引する前に
+道具をしまっておけ！#
+3913 取引する前に
+薬を手放せ！#
+3914 取引する前に
+宝石を手放せ！#
+3915 取引する前に
+羊皮紙を置け！#
+3916 取引する前に
+昼食を手放せ！#
+3917 DEPRECATED#
+3918 DEPRECATED#
+3919 DEPRECATED#
+3920 DEPRECATED#
+3921 レンジャー モードが有効です。非近接武器のみ攻撃できます。#
+3922 レンジャー モードが無効です。すべての武器が許可されます。#
+3923 この武器はレンジャー モードでは無効です。#
+3924 セーブファイルはレンジャーアチーブメントの対象外です。リセットするには再起動してください。#
+3925 クライアント %d のレンジャー モードが無効です。#
+3926 クライアント %d のレンジャー モードが有効です。#
+
+3927 実績「Bony Baron」をアンロックして、すべての種族でこのクラスをアンロックしましょう!#
+3928 実績「Bucktooth Baron」をアンロックして、すべての種族でこのクラスをアンロックしましょう!#
+3929 実績「Bombshel​​l Baron」をアンロックして、すべての種族でこのクラスをアンロックしましょう!#
+3930 実績「Bleating Baron」をアンロックして、すべての種族でこのクラスをアンロックしましょう!#
+3931 実績「Boilerplate Baron」をアンロックして、すべての種族でこのクラスをアンロックしましょう!#
+3932 実績「Bad Boy Baron」をアンロックして、すべての種族でこのクラスをアンロックしましょう!#
+3933 実績「Bayou Baron」をアンロックして、すべての種族でこのクラスをアンロックしましょう!#
+3934 実績「Buggar Baron」をアンロックして、すべての種族でこのクラスをアンロックしましょう!#
+3935 DEPRECATED#
+3936 DEPRECATED#
+3937 DEPRECATED#
+3938 DEPRECATED#
+3939 DEPRECATED#
+3940 DEPRECATED#
+3941 DEPRECATED#
+3942 DEPRECATED#
+3943 DEPRECATED#
+3944 DEPRECATED#
+3945 DEPRECATED#
+3946 DEPRECATED#
+3947 DEPRECATED#
+3948 DEPRECATED#
+3950 DEPRECATED#
+3951 DEPRECATED#
+3952 DEPRECATED#
+3953 DEPRECATED#
+3954 DEPRECATED#
+3955 DEPRECATED#
+3956 DEPRECATED#
+3957 DEPRECATED#
+3958 DEPRECATED#
+3959 DEPRECATED#
+3960 DEPRECATED#
+3961 DEPRECATED#
+3962 DEPRECATED#
+3963 DEPRECATED#
+3964 DEPRECATED#
+3965 DEPRECATED#
+3966 DEPRECATED#
+3967 DEPRECATED#
+3968 DEPRECATED#
+3969 DEPRECATED#
+3970 DEPRECATED#
+3971 DEPRECATED#
+3972 DEPRECATED#
+3973 DEPRECATED#
+3974 その方法では岩を動かすことはできません。#
+3975 DEPRECATED#
+3976 DEPRECATED#
+3977 DEPRECATED#
+3978 DEPRECATED#
+3979 DEPRECATED#
+3980 DEPRECATED#
+3981 DEPRECATED#
+3982 DEPRECATED#
+3983 DEPRECATED#
+3984 DEPRECATED#
+3985 DEPRECATED#
+3986 DEPRECATED#
+3987 DEPRECATED#
+3988 DEPRECATED#
+3989 DEPRECATED#
+3990 DEPRECATED#
+3991 DEPRECATED#
+3992 DEPRECATED#
+3993 DEPRECATED#
+3994 DEPRECATED#
+3995 呪いを解くことができるアイテムがありません!#
+3996 鑑定できるアイテムがありません!#
+3997 パックに %s 
+を装備解除するスペースがありません!#
+# World UI Tooltips
+3998 (ホールド) #
+3999 アイテムを回収する#
+4000 アイテムを拾う#
+4001 金を取る#
+4002 噴水から飲む#
+4003 流しから飲む#
+4004 宝箱を閉じる#
+4005 宝箱を開く#
+4006 トーチを回収する#
+4007 トーチを取る#
+4008 破片を回収する#
+4009 破片を取る#
+4010 墓石を調べる#
+4011 フォロワー#
+4012 コマンド#
+4013 と取引する#
+4014 とやりとりする#
+4015 ドアを閉める#
+4016 ドアを開ける#
+4017 ゲートを調べる#
+4018 スイッチを無効にする#
+4019 スイッチを有効にする#
+4020 クリスタルを回す#
+4021 岩を押す#
+4022 オーブを取る#
+4023 検査#
+4024 松明を引く#
+4025 標識を読む#
+4026 クマの罠を解除する#
+4027 落とし戸を調べる#
+4028 秘密の階を出る#
+4029 秘密の階に入る#
+4030 ダンジョンの床を出る#
+4031 ハムレットを出る#
+4032 ポータルを通り抜ける#
+4033 試練に入る#
+4034 試練を出る#
+4035 ポータルに入る#
+4036 落とし戸に入る#
+4037 はしごを降りる#
+4038 はしごを登る#
+4039 クマの罠を解除する#
+4040 やりとりする#
+# Follower interact text
+4041 インタラクト...#
+4042 攻撃...#
+4043 攻撃 #
+4044 スイッチ#
+4045 トラップ#
+4046 アイテム#
+4047 インタラクションは利用できません#
+4048 自分らしくない気分です。#
+4049 クイック#
+4050 つかむ#
+4051 レベル %d#
+4052 フロア %d#
+4053 閉じる#
+4054 次のページ#
+4055 前のページ#
+4056 レジェンドボーナス#
+4057 なし#
+4058 すべてのアイテム#
+4059 %d メタル#
+4060 %d マジック#
+4061 ティア#
+4062 上下スクロール#
+4063 スクロール#
+4064 インスタント#
+4065 すべて#
+# Skillsheet - Casting MP Regen for insectoid
+4066 N/A
+(Insectoid)#
+# Skillsheet - Casting MP Regen for automaton
+4067 N/A
+(Automaton)#
+4068 ガイド#
+4069 マップを開く#
+4070 ログを開く#
+4071 マップ#
+4072 ログ#
+4073 道標が見えます。#
+4074 スキルリスト#
+# Action Prompts
+4075 攻撃#
+4076 防御#
+4077 スニーク#
+4078 詠唱#
+4079 魔法書
+詠唱#
+4080 ロックピック#
+4081 いじくり#
+4082 投擲#
+4083 雷#
+4084 掘削#
+4085 ここには金は落とせません。#
+4​​086 アイテムの詳細を表示#
+4087 アイテムの詳細を非表示#
+4088 宝箱の中に金貨 %d 枚見つかりました!#
+4089 カニの挟み爪には毒があります!#
+4090 カニの爪に挟まれます。#
+
+# Nav Prompts
+4091 すべて取得#
+4092 カーソルを移動#
+4093 魔法を表示#
+4094 アイテムを表示#
+4095 スキルを表示#
+4096 取得#
+4097 すべて保存#
+4098 チェストに %s 
+を入れる余地がありません!#
+4099 チェストから %d 個のアイテムを取得しました。#
+4100 パックに空きがありません!#
+4101 別の %s を再点火しました。#
+4102 アイテムを鑑定#
+4103 魔法の詳細を表示#
+4104 魔法の詳細を非表示#
+4105 マップを開く#
+4106 ログを開く#
+4107 アクティブ化#
+4108 ゴールドをドロップ#
+4109 タイマーを HUD にピン留め#
+4110 タイマーを HUD からピン留め解除#
+4111 ツールチップを表示 (ホールド)#
+4112 レベル情報を表示(保留)#
+4113 購入#
+4114 販売#
+4115 魔法#
+4116 アイテム#
+4117 スキル#
+4118 ステータス#
+
+# new shop GUI
+
+4119 あなたのゴールド:#
+4120 買戻しアイテム#
+4121 取引停止#
+4122 ストアマークアップ:#
+4123 転売ペナルティ:#
+4124 ショップアイテム#
+4125 私のストアはいっぱいなので、
+これ以上ゴールドを手放すことはできません!#
+4126 オーブを直接私に渡してください。
+今はゴールドの手続きに
+煩わされる必要はありません!#
+4127 %s の#
+4128 レア商品#
+4129 ??? の#
+
+# new tinkering
+4130 作成コスト:#
+4131 保有スクラップ:#
+4132 これは最初に装備を解除する必要があります#
+4133 分解取得:#
+4134 修理コスト:#
+4135 修理コスト:#
+4136 これはすでに完全に修理されています#
+4137 役に立つものは何も分解できません#
+4138 修理できません#
+4139 これはすでに完全にアップグレードされています#
+4140 作成する材料が足りません#
+4141 修理する材料が足りません#
+4142 アップグレードする材料が足りません#
+4143 修理不能、分解するのが一番です#
+4144 修理するにはスキルが低すぎます (%d/%d)#
+4145 アップグレードするにはスキルが低すぎます (%d/%d)#
+4146 使用中はこれを分解できません!#
+4147 作成するにはスキルが低すぎます (%d/%d)#
+4148 完璧すぎます回収する#
+4149 作成するアイテムを選択:#
+4150 回収するアイテムを選択:#
+4151 修理するアイテムを選択:#
+4152 修理キットを修理する必要があります#
+4153 まずこれを鑑定する必要があります#
+4154 すべてを回収する#
+4155 [不明な用途]#
+4156 [基本ポーション]#
+4157 [二次ポーション]#
+4158 [固有の用途なし]#
+4159 何をしているのかわかりません!#
+4160 [鑑定が必要です]#
+4161 不明なポーション#
+4162 [新しい組み合わせ]#
+4163 重複の可能性:#
+4164 [ランダムな結果]#
+4165 [使用するには装備を解除]#
+4166 [左のポーションのコピー]#
+4167 注意!! 
+不安定な組み合わせです!#
+4168 [不足している材料]#
+4169 レシピの選択を解除#
+4170 RECIPES#
+4171 RECIPES#
+4172 選択#
+4173 削除#
+4174 準備#
+4175 クリア#
+4176 醸造#
+4177 デカント#
+4178 醸造#
+4179 新しいレシピ!#
+4180 使用方法を発見!#
+4181 取得: %d/24#
+4182 %s の
+新しい錬金術レシピを発見しました。#
+
+# scribing
+4183 チャージコスト:#
+4184 書き込み#
+4185 この巻物を刻印#
+4186 チャージが足りません#
+4187 刻印を選択#
+4188 書き込み (羽根が破壊される可能性があります)#
+4189 書き込み (羽根が破壊されます)#
+4190 刻印する空白の巻物が見つかりません#
+4191 巻物を作成しました: "%s"#
+4192 羽根チャージ:#
+4193 並べ替え:#
+4194 デフォルト#
+4195 発見#
+4196 不明#
+
+4197 %d 個の %s をチェストに入れました。#
+4198 %3.0f%% 鑑定中...#
+
+4199 設計図#
+4200 %s に...#
+4201 (すべて) #
+4202 修理#
+4203 選択#
+4204 呪いを解く#
+4205 呪いを解くアイテムを選択:#
+4206 チャージ#
+4207 再チャージするアイテムを選択:#
+4208 鑑定#
+4209 鑑定するアイテムを選択:#
+4210 効果に使用不可#
+4211 これはすでに完全にチャージされています#
+4212 これはすでに鑑定されています#
+4213 これはすでに呪いが解かれています#
+4214 コピー#
+4215 ラベル付き#
+4216 %s:#
+
+# NPC insults
+
+4217 ひどい#
+4218 ひどい#
+4219 卑しい#
+4220 汚い#
+4221 卑劣な#
+4222 邪悪な#
+4223 悪臭を放つ#
+4224 ひどい#
+4225 野獣のような#
+4226 汚らしい#
+4227 怪物のような#
+4228 邪悪な#
+4229 悪質な#
+4230 下劣な#
+4231 極悪非道な#
+4232 違法な#
+4233 極悪非道な#
+
+4234 呪われた#
+4235 恐ろしい#
+4236 卑しい#
+4237 汚らしい#
+4238 卑劣な#
+4239 邪悪な#
+4240 悪臭#
+4241 ひどい#
+4242 野獣のような#
+4243 汚らしい#
+4244 怪物のような#
+4245 邪悪な#
+4246 悪質な#
+4247 下劣な#
+4248 極悪非道な#
+4249 違法な#
+4250 極悪非道な#
+
+4251 %d の取引スキル + CHR ステータスが必要です#
+
+# shop try to buy hidden item
+4252 申し訳ありませんが、
+誰にでも販売しているわけではありません。#
+4​​253 申し訳ありませんが、
+別の購入者のために予約しています。#
+4254 最も尊敬する顧客のみ
+に販売しています。#
+
+# shop buy added consumables
+4255 あなただけのための
+私の個人在庫です。#
+4256 誰でも買えるようには
+していません。#
+4​​257 私の限定在庫
+から少しだけ。#
+4258 私の特別な在庫が
+気に入っていただけたようです。#
+4259 お気に入りのお客様のために
+手元に置いています。#
+
+4260 %d gold#
+4261 ???#
+
+# NPC greetings
+
+4262 これから先はない。#
+4263 こんにちは、%s。#
+4264 ピーッ！#
+4265 サンコクサ。#
+4266 *スリップ スロップ*#
+4267 *うなり声*#
+4268 *ブブブ*#
+4269 *ゴボゴボ*#
+4270 *うめき声*#
+4271 *ガラガラ*#
+4272 *スカッ*#
+4273 ヘヘヘ…#
+4274 *ゴボゴボ*#
+4275 ジブ ジャブ チップ ジャブ。#
+4276 *うなり声*#
+4277 踊りたい？#
+4278 *キーキー*#
+4279 こんにちは、人間。#
+4280 電話したの？#
+4281 地獄へようこそ、弱虫。#
+4282 何か買いたいものはありますか？#
+4283 キィーク。#
+4284 *チッチッ*#
+4285 *ゴロゴロ*#
+4286 遊ぼうか？#
+4287 うー！#
+4288 ...#
+4289 *キーキー*#
+4290 *ブザー*#
+4291 バァーアーアーアー。#
+4292 *チューチュー*#
+4293 こんにちは、虫さん。#
+4​​294 こんにちは、バカさん。#
+4​​295 *ヒューッ*#
+4296 *ヒューッ*#
+4297 *チャイム*#
+4298 *ボイン*#
+
+4299 神殿に触れる#
+4300 不活性な石に触れます。#
+4301 神殿があなたの触れ方に反応します!#
+4302 変形が解け、異常な姿に戻ります。#
+4303 変身が消耗します。#
+4304 あなたはもう商人ギルドの敵ではありません。#
+4​​305 あなたは今、暴力を扇動したため
+商人ギルドの敵とみなされます!#
+4306 あなたは今、暴力の共犯者のため
+商人ギルドの敵とみなされます!#
+4307 神殿が見えます。#
+4308 像が見えます。#
+4309 神殿#
+4310 はしご#
+4311 ポータル#
+4312 ポーションの効果はありませんでした。#
+4313 仲間が浄化されたように感じます!#
+4314 先頭/末尾にスキップ#
+4315 ページアップ/ダウン#
+4316 スクロールアップ/ダウン#
+4317 %s は適切な着地地点を検出できませんでした。#
+4318 本の詠唱#
+4319 鑑定できません#
+4320 ポーションの効果は %s にはありませんでした!#
+4321 ポーションの効果は %s にはありませんでした!#
+4322 魔法が %s に跳ね返りました!#
+4323 魔法が %s に跳ね返りました!#
+4324 突然燃えています!#
+4325 魔法を反射しました!#
+4326 次へインタラクション...#
+4327 %s が増加!#
+4328 魔法を習得しました!#
+4329 %s に属する %d 個のアイテムが含まれています。#
+4330 所有者がいない %d 個のアイテムが含まれています。#
+4331 あなたの所有する %d 個のアイテムが含まれています。#
+4332 あなたは箱を壊しました!#
+4333 ロビーでクモ恐怖症フィルターが有効になりました。#
+4334 ロビーでクモ恐怖症フィルターが無効になりました。#
+4335 オブジェクト#
+4336 壁#
+4337 %s を破壊しました!#
+4338 ウェブ#
+4339 葉#
+4340 ウェビング#
+4341 バリケード#
+4342 ロビーで色覚異常支援が有効になりました。#
+4343 ロビーで色覚異常支援が無効になりました。#
+4344 %s があなたの中で砕け散りますつかむ!#
+4345 ステータス効果#
+4346 効果なし#
+4347 コールアウト#
+4348 コールアウト...#
+4349 岩の罠#
+4350 棘の罠#
+4351 矢の罠#
+4352 魔法の罠#
+4353 金#
+4354 シンク#
+4355 噴水#
+4356 クリスタル#
+4357 墓#
+4358 岩#
+4359 秘密の入り口#
+4360 秘密の出口#
+4361 レベルの出口#
+4362 罠#
+4363 看板#
+4364 台座#
+4365 キャンプファイヤー#
+4366 オブジェクト#
+
+# New main menu strings (5000)
+
+5000 戻る#
+5001 この DLC を 
+Nintendo eShop で閲覧しますか?#
+5002 この DLC を
+オンライン ストアで閲覧しますか?#
+5003 はい#
+5004 いいえ#
+5005 DLC キーを入力...#
+5006 DLC シリアル キーを入力#
+5007 確認#
+5008 キャンセル#
+5009 OK#
+5010 確認中#
+5011 確認中。#
+5012 確認中。#
+5013 確認中...#
+5014 確認中....#
+5015 Myths and Outcasts DLC 
+がロック解除されました!#
+5016 Legends and Pariahs DLC 
+がロック解除されました!#
+5017 ライセンス キーが無効です#
+5020 接続中
+.#
+5021 接続中
+..#
+5022 接続中
+...#
+5023 接続中
+....#
+5024 接続中
+.....#
+5025 ホストを待機しています...#
+5026 ストーリースキップ#
+5027 確認 (1)#
+5028 確認 (2)#
+5029 変更を破棄しても
+よろしいですか?#
+5030 はい、
+破棄#
+
+5031 自動在庫動作#
+5032 自動ソート順序#
+
+5033 デフォルトに
+戻す#
+5034 破棄して
+終了#
+5035 確認して
+終了#
+
+5036 %d を表示#
+5037 ウィンドウ表示#
+5038 ボーダー表示#
+5039 ボーダーなし#
+5040 全画面表示#
+5041 「%s」バインディングを削除しました。#
+5042 オフ 　　オン#
+5043 カスタマイズ#
+
+5044 ミニマップ#
+5045 スケール#
+5046 マップ スケール#
+5047 マップを拡大または縮小します。#
+5048 アイコン スケール#
+5049 マップ上のアイコン (プレイヤーや味方など) のサイズを調整します。#
+5050 透明度#
+5051 前景の不透明度#
+5052 ミニマップの前景の不透明度を設定します。#
+5053 背景の不透明度#
+5054 ミニマップの背景の不透明度を設定します。#
+
+5055 メッセージ#
+5056 カテゴリ#
+5057 戦闘メッセージ#
+5058 戦闘中に受けたダメージや与えたダメージの報告を有効にします。#
+5059 ステータス メッセージ#
+5060 キャラクターのステータス変更やその他のパッシブ効果の報告を有効にします。#
+5061 インベントリ メッセージ#
+5062 インベントリとアイテム評価メッセージの報告を有効にします。#
+5063 装備メッセージ#
+5064 プレイヤーの装備変更の報告を有効にします。#
+5065 ワールド メッセージ#
+5066 スピーチやテキストなどのダイジェティック メッセージの報告を有効にします。#
+5067 プレイヤー チャット#
+5068 マルチプレイヤー チャットを有効にします。#
+5069 進行メッセージ#
+5070 プレイヤー キャラクターの進行メッセージ (レベルアップなど) の報告を有効にします。#
+5071 インタラクション メッセージ#
+5072 プレイヤーとワールドのインタラクションの報告を有効にします。#
+5073 検査メッセージ#
+5074 プレイヤーによるワールドの検査を有効にしますオブジェクト。#
+5075 ヒント メッセージ#
+5076 特定のアイテム、ワールド イベントなどの謎めいたヒントを有効にします。#
+5077 死亡記事メッセージ#
+5078 プレイヤーの死亡に関する死亡記事メッセージを有効にします。#
+
+5079 KB & Mouse#
+5080 Gamepad#
+5081 Joystick#
+
+5082 バインディング#
+5083 バインディング#
+5084 ボタンを %s にバインドするか、
+X を押して現在のバインディングを削除します#
+5085 ボタンを %s にバインドするか、
+Y を押して現在のバインディングを削除します#
+5086 入力を %s にバインドします#
+5087 「%s」をバインドします。
+次に押すボタンがこのアクションにバインドされます。#
+5088 「%s」をバインドします。キャンセルするには ESC を押すか、バインディングを削除するには DEL を押します。
+次にアクティブにする入力がこのアクションにバインドされます。#
+5089 「%s」の再バインドをキャンセルしました#
+5090 「%s」バインディングを削除しました。#
+5091 「%s」を再バインドします#
+
+# Crosshair types
+
+5092 Dot#
+5093 Dot (Large)#
+5094 Plus (Small)#
+5095 Plus (Medium)#
+5096 Plus (Large)#
+5097 Cross#
+5098 Carat#
+5099 Circle#
+5100 Dots (3x)#
+5101 Dots (4x)#
+5102 :)#
+5103 @#
+
+# More new menu stuff
+
+5104 一般オプション#
+5105 ゲームオーバー時に即座に再起動#
+5106 死亡後、ゲームをすぐに自動的に再起動します。#
+
+5107 インベントリ オプション#
+5108 ホットバーにアイテムを追加#
+5109 最近収集したアイテムでホットバーを自動的に埋めます。#
+5110 インベントリの並べ替え#
+5111 インベントリ内でアイテムを自動的に並べ替える方法をカスタマイズします。#
+5112 リリース時に使用#
+5113 インベントリ ウィンドウで使用キーをリリースするとすぐにアイテムをアクティブにします。#
+
+5114 HUD オプション#
+5115 HUD スケーリング#
+5116 UI を拡大または縮小します。 (推奨値: 50%、75%、または 100%)#
+5117 敵の体力バーのスケーリング#
+5118 敵の体力バーのワールド内ポップアップのサイズを制御します。#
+5119 ポップアップのスケーリング#
+5120 アイテム、墓石、NPC のダイアログのワールド内ポップアップのサイズを制御します。#
+5121 ポップアップのスケーリング (分割画面)#
+5122 分割画面でのアイテム、墓石、NPC のダイアログのワールド内ポップアップのサイズを制御します。#
+5123 アイテムのツールチップの高さ#
+5124 ワールド内アイテムのツールチップ ポップアップの垂直位置を調整します。#
+5125 クロスヘアの不透明度#
+5126 クロスヘアの不透明度を調整します。#
+5127 クロスヘアのタイプ#
+5128 クロスヘアの外観を調整します。#
+5129 フィルターのスケーリング#
+5130 スケーリングされた UI 要素には有効にすると、シャープさが多少犠牲になりますが、エッジが柔らかくなります。#
+5131 ミニマップ設定#
+5132 ゲーム内のミニマップの外観をカスタマイズします。#
+5133 メッセージを表示#
+5134 プレイヤーに記録されるメッセージ (ある場合) をカスタマイズします。#
+5135 プレイヤー名タグを表示#
+5136 各プレイヤー キャラクターの名前をアバターの上に表示します。#
+
+5137 アクセシビリティ#
+5138 コンテンツ コントロール#
+5139 ゲーム内の血やその他の露骨なコンテンツの表示を無効にします#
+5140 色覚異常モード#
+5141 特定の色覚異常者の視認性を向上させるために、特定の UI 要素の外観を変更します。#
+5142 ゲーム内のすべての巨大なクモを敵対的な甲殻類に置き換えます。#
+5143 ゲーム内のすべての巨大なクモを敵対的な甲殻類に置き換えます。 (現在のダンジョン レベルの終了時に更新されます)#
+5144 クモ恐怖症フィルター#
+5145 揺れ#
+5146 プレイヤーがつまずいたりダメージを受けたりしたときにカメラが回転する機能を切り替えます。#
+5147 上下動#
+5148 プレイヤーが移動するときにカメラが安定して上下する機能を切り替えます。#
+5149 ライトのちらつき#
+5150 ゲーム ワールド内の松明やその他の照明器具のちらつきを切り替えます。#
+5151 押したままで出口をアクティブにする#
+5152 「使用」バインディングを長押しする必要があるダンジョンの出口を変更するかどうかを切り替えます。#
+5153 HUD を表示#
+5154 インベントリが閉じているときにゲーム内のヘルス バーやその他のステータス バーを表示するかどうかを切り替えます。#
+
+5155 表示モード#
+5156 解像度#
+5157 現在のウィンドウ解像度を変更します。#
+5158 デバイス#
+5159 現在の表示デバイスを変更します。#
+5160 ウィンドウ モード#
+5161 現在の表示モードを変更します。#
+5162 垂直同期#
+5163 ゲームのリフレッシュ レートを現在のディスプレイにロックして、画面のティアリングを防止します。#
+5164 表示オプション#
+5165 ガンマ#
+5166 ゲームのビジュアルの明るさを調整します。#
+5167 視野#
+5168 ゲーム内カメラの垂直視野を調整します。#
+5169 FPS 制限#
+5170 ゲーム ウィンドウのフレーム レートを制限します。これをリフレッシュ レートより高く設定しないでください。 (推奨: 自動)#
+5171 ハイダイナミックレンジ (HDR)#
+5172 明るい部分と暗い部分の両方でレンダリングされた世界の色のコントラストを高めます。#
+5173 カメラ補間#
+5174 追加のフレームでカメラの動きを補間して、プレーヤーのカメラをスムーズにします。#
+5175 垂直分割画面#
+5176 2人のプレーヤーがいる分割画面の場合: 画面を水平線ではなく垂直線に沿って分割します。#
+5177 クリップ分割画面#
+5178 2人のプレーヤーがいる分割画面の場合: アスペクト比を維持するために各ビューポートを 20% 縮小します。#
+5179 ずらした分割画面#
+5180 2人のプレーヤーがいる分割画面の場合: 各ビューポートをずらして、それぞれがディスプレイの隅に収まるようにします。#
+5181 自動#
+
+5182 出力#
+5183 デバイス#
+5184 すべてのゲーム オーディオの出力デバイス。#
+5185 音量#
+5186 マスター ボリューム#
+5187 すべてのサウンドソースの音量を均等に調整します。#
+5188 ゲームプレイ ボリューム#
+5189 ほとんどのゲームサウンドエフェクトの音量を調整します。#
+5190 環境ボリューム#
+5191 不気味な地下サウンドキューの音量を調整します。#
+5192 環境ボリューム#
+5193 流れる水と溶岩の音量を調整します。#
+5194 通知ボリューム#
+5195 コールアウト、チャット メッセージ、スキルの向上、レベルアップ通知の音量を調整します。#
+5196 音楽ボリューム#
+5197 ゲームのサウンドトラックの音量を調整します。#
+5198 オプション#
+5199 ミニマップ ピン#
+5200 ミニマップでピンを聞く機能を切り替えます。#
+5201 プレイヤーとモンスターサウンド#
+5202 人間以外のキャラクターをプレイしているときに、怪物のつぶやきを発する確率を切り替えます。#
+5203 フォーカス外のオーディオ#
+5204 ゲーム ウィンドウがフォーカス外の場合でもオーディオ
+ 
+5205 レイアウト#
+5206 - バインドなし -#
+5207 バインド#
+5208 プレーヤー#
+5209 プレーヤー#
+5210 コントロールをカスタマイズするプレーヤーを選択します。#
+5211 デバイス#
+5212 特定のプレーヤーのコントローラーを選択します。#
+5213 プロファイル#
+5214 特定のプレーヤーの定義済みバインドレイアウトを選択します。#
+5215 バインド#
+5216 コントローラー バインドを変更します。#
+5217 マウスとキーボード#
+5218 マウスの感度#
+5219 マウスの動きがカメラの動きに及ぼす影響の速度を制御します。#
+5220 インベントリの数字キー#
+5221 プレーヤーがキーボードの数字キーを使用してインベントリアイテムをホットバーにバインドできるようにします。#
+5222 マウスの反転#
+5223 プレーヤーの向きを制御するためにマウスの上下の動きを反転します。#
+5224 マウスのスムーズ#
+5225 スムーズ数フレームの入力にわたるマウスの動き。#
+5226 インタラクト エイム アシスト#
+5227 無効にすると、インタラクト可能な常に正確なカーソルターゲトを使用し、インタラクトポップアップが削除されます。#
+5228 コントローラー設定#
+5229 モダン#
+5230 クラシック#
+5231 ホットバー レイアウト#
+5232 モダン: ホールド ボタンを使用した 3x3 スロット。クラシック: よりシンプルなコントロールを備えた 10 スロット。#
+5233 旋回感度 X#
+5234 旋回に使用するコントロール スティックの水平感度に影響します。#
+5235 旋回感度 Y#
+5236 旋回に使用するコントロール スティックの垂直感度に影響します。#
+5237 カメラ ルック X を反転#
+5238 プレイヤー カメラの左/右のルック コントロールを反転します。#
+5239 カメラ ルック Y を反転#
+5240 プレイヤー カメラの上下のルック コントロールを反転します。#ソースを有効にします。#
+
+5241 一般#
+5242 ストリーマー モード#
+5243 ストリーマーで、doxxing が何であるかを知っている場合は、必ずこれをオンにしてください。#
+5244 LAN ロビーをホストするときに使用するポート番号。(デフォルト: %d)#
+5245 LAN#
+5246 ポート#
+5247 クロスプレイ#
+5248 クロスプレイの有効化#
+5249 Epic Online Services を通じてクロスプレイを有効にします。#
+
+5250 ゲーム設定#
+5251 空腹#
+5252 空腹がオフの場合、パッシブ HP 再生は無効になり、食べ物を食べるとプレイヤーが直接回復します。#
+5253 ミノタウロス#
+5254 一定時間後にミノタウロスが多くのレベルで出現する機能を切り替えます。#
+5255 ランダム トラップ#
+5256 各レベル全体でトラップをランダムに配置するかどうかを切り替えます。#
+5257 フレンドリー ファイア#
+5258 プレイヤーがお互いや味方に危害を加えることができるようにします。#
+5259 ハードコア モード#
+5260 すべての戦闘の難易度を大幅に上げます。#
+5261 クラシック モード#
+5262 このオプションを切り替えると、バロン ヘルクスとの戦闘後にゲームが終了します。#
+5263 死後もインベントリを保持#
+5264 プレイヤーが死亡すると、次のレベルで復活したときにインベントリが保持されます。#
+5265 エクストラ ライフ#
+5266 命を救うお守り。1 回の死を防ぎます。#
+5267 チート#
+5268 ゲームプレイ中にチート コードを有効にする機能を切り替えます。#
+
+5269 ハイスコア#
+5270 リーダーボード#
+5271 ここに
+%s 
+が眠る#
+5272 勝利者 
+%s 
+に道を譲れ!#
+5273 永遠の 
+%s 
+にひれ伏せ!#
+5274 男爵 
+%s 
+万歳!#
+5275 男爵 
+%s 
+万歳!#
+5276 男爵 
+%s 
+に震え!#
+5277 XP:
+ゴールド:
+ダンジョン レベル:#
+5278 キル数:#
+5279 時間:
+スコア:#
+
+5280 自発的なチャレンジ:#
+5281 なし#
+5282 チートをしました。#
+5283 MOD を使ってプレイしました。#
+5284 友達とプレイしました。#
+5285 ハードコアでした。#
+5286 クラ​​シック モードをプレイしました。#
+5287 無一文でした。#
+5288 何も食べませんでした。#
+5289 ベジタリアンでした。#
+5290 読み書きができませんでした。#
+5291 武器を使用しませんでした。#
+5292 遠距離武器のみを使用しました。#
+5293 非常に素早かったです。#
+5294 とても素早かったです。#
+5295 死後もアイテムを保持しました。#
+5296 余分の命がありました。#
+5297 呪われました。#
+5298 レベル %d %s %s#
+5299 %d/100
+%d
+%d#
+5300 STR#
+5301 DEX#
+5302 CON#
+5303 INT#
+5304 PER#
+5305 CHR#
+5306 スコアが見つかりません。#
+5307 スコアをダウンロードしています...#
+5308 ローカル
+シングルプレイヤー#
+5309 ローカル
+マルチプレイヤー#
+5310 ワールド
+デイリー#
+5311 ワールド
+オールタイム#
+5312 エントリを削除#
+5313 「%s」
+を本当に削除しますか?#
+5314 はい#
+5315 いいえ#
+5316 最初に削除するスコアを
+選択してください#
+5317 了解#
+
+5318 実績#
+5319 %d / %d の実績をロック解除しました (%d%%)#
+5320 楽しみと自慢の権利のために、
+オプションのゲーム内チャレンジを完了しました#
+5321 非表示の実績#
+5322 非表示の実績#
+5323 %d 個の追加実績が残っています...#
+5324 %d 個の追加実績が残っています...#
+5325 %s をロック解除しました#
+5326 ロック解除済み#
+5327 ロック済み#
+
+5328 メッセージ#
+5329 チャット#
+5330 ここにメッセージを入力...#
+5331 *** %s がタイムアウトしました ***#
+5332 *** %s がキックされました ***#
+5333 *** %s がゲームから退出しました ***#
+5334 *** ping 時間 = %4d ミリ秒 ***#
+5335 ロビーはホストによって
+閉じられました。#
+5336 *** %s がゲームから退出しました ***#
+5337 ロビーから
+キックされました。#
+5338 ロビーに参加しています...
+
+%ds#
+5339 ロビーに参加中...
+
+%ds.#
+5340 ロビーに参加中...
+
+%ds..#
+5341 ロビーに参加中...
+
+%ds...#
+5342 ロビーへの接続に失敗しました。#
+5343 ロビーに参加できませんでした。
+クロスプレイが必要です。#
+5344 ロビーに参加できません。
+ルーム コードが無効です。#
+5345 次のホストを解決できませんでした:
+%s#
+5346 UDP ソケットを開けませんでした。#
+5347 ロビーに参加できませんでした。#
+
+5348 蛮族#
+5349 兵士#
+5350 治癒師#
+5351 盗賊#
+5352 旅人#
+5353 学徒#
+5354 商人#
+5355 賢者#
+5356 秘術師#
+5357 道化師#
+5358 墓守#
+5359 忍者#
+5360 修道士#
+5361 召喚師#
+5362 呪われ人#
+5363 カリスマ#
+5364 酒屋#
+5365 整備士#
+5366 断罪者#
+5367 呪術師#
+5368 狩人#
+
+5369 人間#
+5370 骸骨#
+5371 吸血鬼#
+5372 サキュバス#
+5373 山羊人#
+5374 自動人形#
+5375 インキュバス#
+5376 ゴブリン#
+5377 インセクト#
+
+5378 飢餓を無効にする#
+5379 ランダムなミノタウルス
+を無効にする#
+5380 ライフセービング
+アミュレットを有効にする#
+5381 死亡時にアイテム保持#
+5382 ランダムトラップ無効化#
+5383 フレンドリーファイア
+を無効にする#
+5384 クラシックエンディング
+を有効にする#
+5385 ハードコア難易度
+を有効にする#
+5386 チートを有効にする#
+
+5387 実績無効
+(MODDED)#
+5388 実績無効
+(MODDED LOBBY)#
+5389 実績無効#
+5390 実績有効#
+
+5391 ロビー設定#
+5392 ゲームフラグ#
+5393 招待のみ#
+5394 友達のみ#
+5395 ロビーを開く#
+6018 プレイヤー数
+を設定#
+5396 これにより %s と 
+%s がキックされます!#
+5397 これにより %s 
+がキックされます。よろしいですか?#
+5398 OK#
+5399 戻る#
+5400 はい#
+5401 いいえ#
+5402 プレイヤーをキック#
+5403 %s をキックしても
+よろしいですか?#
+
+5404 種族 選択#
+5405 ランドガード#
+5406 ノースボーン#
+5407 ファイヤブランド#
+5408 ハードブレッド#
+5409 ハイウォッチ#
+5410 グルームフォージ#
+5411 パイレブルーム#
+5412 スネークストーン#
+5413 ウィンドクラン#
+5414 ウォーブラッド#
+5415 ミルバウンド#
+5416 サンストーク#
+5417 クレイマウント#
+5418 ストームワード#
+5419 トレードフォール#
+5420 ナイトヒル#
+5421 ベイタワー#
+5422 ウェットソング#
+5423 モンスターの種族能力
+を無効にする#
+5424 種族を非表示
+する情報#
+5425 種族を表示
+する情報#
+
+5426 クラス 選択#
+5427 HP:
+MP:#
+5428 生存度:
+複雑度:#
+5429 クラス情報を非表示#
+5430 クラス情報を表示#
+5431 *** 別のクラスを提案する前に %d 秒お待ちください。***#
+5432 %s: %s が必要です。#
+
+5433 名前:#
+5434 プレイヤー %d の名前を入力してください#
+5435 ゲーム設定を表示#
+5436 *** [LB] を押してパーティーのクラスを提案してください ***#
+5437 *** [L] を押してパーティーのクラスを提案してください ***#
+5438 *** [L1] を押してパーティーのクラスを提案してください ***#
+5439 *** [L1] を押してパーティーのクラスを提案してください ***#
+5440 準備完了#
+5441 ロックされています#
+5442 新しいプレイヤーは
+参加できません#
+5443 プレイヤー %d#
+5444 ボタンを押して開始#
+5445 コントローラーを接続#
+5446 お待ちください#
+5447 招待#
+5448 クリックして招待#
+5449 開く#
+5450 プレイヤーの参加を
+待っています#
+5451 *** %s がゲームに参加しました ***#
+5452 準備完了!#
+5453 準備ができていません#
+5454 このロビーを
+離れてもよろしいですか?#
+5455 はい#
+5456 いいえ#
+5457 このロビーのパブリック名を設定します。#
+5458 ローカル ロビー#
+5459 ワイヤレス ロビー#
+5460 LAN ロビー#
+5461 オンライン ロビー (Epic)#
+5462 オンライン ロビー (Steam)#
+5463 オンライン ロビー#
+5464 LAN アドレス#
+5465 ルーム コード#
+5466 ワイヤレス ロビーが正常に開きました。#
+5467 サーバーが LAN 上で正常にホストされました。#
+5468 ロビーが Steam 経由で正常にホストされました。#
+5469 ロビーが Epic Online 経由で正常にホストされました。#
+5470 ワイヤレス ロビーに正常に参加しました。#
+5471 LAN サーバーに正常に参加しました。#
+5472 Steam 経由でロビーに正常に参加しました。#
+5473 Epic Online 経由でロビーに正常に参加しました。#
+5474 コントローラーの A を押して、それをプレイヤー %d に割り当てるか、
+ここをクリックしてくださいマウスとキーボードのみを割り当てる
+
+
+
+#
+5475 コントローラーの A を押して今すぐ起動するか、
+マウスとキーボードのみを使用する場合はここをクリックします
+
+
+
+#
+5476 コントローラの割り当て#
+5477 P%d#
+
+5478 プライベートロビー#
+5479 [MODDED]#
+5480 ロビーに参加できません。
+ロビーは改造されています。#
+5481 ロビーに参加できません。
+ロビーはロックされています。#
+5482 OK#
+5483 ロビーリストをリクエストしています...#
+5484 キャンセル#
+5485 オンラインロビーブラウザ#
+5486 フィルター#
+5487 参加不可を表示#
+5488 友達のみを表示#
+5489 実績有効#
+5490 チート有効#
+5491 フレンドリーファイア有効#
+5492 ミノタウルス有効#
+5493 飢餓有効#
+5494 ランダムトラップ有効#
+5495 ハードコアモード#
+5496 クラシックモード#
+5497 死亡時にアイテムを保持#
+5498 +1 ライフ#
+
+5500 チート#
+5501 味方を傷つける#
+5502 ミノタウルス#
+5503 飢餓#
+5504 罠#
+5505 ハードコア#
+5506 クラシック#
+5507 アイテムを保持#
+5508 +1 ライフ#
+5509 なし#
+5510 名前:#
+5511 フラグ:#
+5512 ロビー情報#
+5513 オンライン#
+5514 Epic Online に接続できません
+オンライン プレイは利用できません。#
+5515 了解#
+5516 ワイヤレス#
+5517 LAN#
+5518 接続先の IP アドレスを入力してください。#
+5519 接続先のロビーのコードを入力してください。#
+5520 IP アドレスを入力...#
+5521 ルームコードを入力...#
+5522 接続#
+5523 キャンセル#
+5524 ロビーに入る
+コード#
+5525 IP アドレスを
+入力#
+5526 最初に参加するロビーを選択してください。#
+5527 ロビーに参加#
+5528 ロビー名#
+5529 ロビー名 (%d 非表示)#
+5530 プレイヤー#
+5531 バージョン#
+5532 Ping#
+5533 フィルター設定#
+5534 クロスプレイ#
+
+5535 チュートリアル#
+5536 冒険のスキルを教えてテストする 10 のチャレンジに挑戦し、
+ダンジョンに挑戦する準備をしましょう。#
+5537 トライアル#
+5538 ベストタイム#
+5539 ​​ハブ#
+5540 トライアルのホール#
+5541 トライアル 1: ダンジョンの基本と近接戦闘#
+5542 トライアル 2: 弓、矢、投擲武器#
+5543 トライアル 3: ダンジョンの罠、スパイク、岩#
+5544 トライアル 4: 食べ物、鑑定、呪い#
+5545 トライアル 5: 魔法、魔法書、詠唱#
+5546 トライアル 6: ステルス攻撃とスニーク攻撃#
+5547 トライアル 7: 仲間の募集とコマンド#
+5548 トライアル 8: ポーションと錬金術#
+5549 トライアル 9: いじくり#
+5550 トライアル 10: 商人とショップ#
+5551 合計クリア時間#
+5552 トライアルの
+進行状況をリセット#
+5553 ベストタイムを
+リセットしてもよろしいですか?#
+5554 はい#
+5555 いいえ#
+5556 レベルに入る#
+5557 最初に開始するレベルを選択してください。#
+5558 了解#
+5559 ゲームプレイ#
+5560 チュートリアル#
+5561  
+続行#
+5562
+新規#
+5563 Epic ロビーを作成しています...#
+5564 Epic ロビーのホストに失敗しました。#
+5565 Epic ロビーのホストに失敗しました。
+
+後でもう一度お試しください。#
+5566 Steam ロビーを作成しています...#
+5567 Steam ロビーをホストできませんでした。#
+5568 ロビーをホストできません:
+オンライン プレイは利用できません。#
+5569 クロスプレイ用に 
+Epic Online 経由でホストしますか?#
+5570 ポート %hu で 
+UDP ソケットを開けませんでした。#
+
+5571 シングルプレイヤーでプレイするか、
+分割画面で2～%d人とプレイする#
+5572 ワイヤレス接続で 2 ～ %d 人の
+プレイヤーとゲームをホストする#
+5573 ローカルエリアネットワーク (LAN) で 
+2～%d人とゲームをホストする#
+5574 インターネットで 2 ～ %d 人の
+プレイヤーとゲームをホストする#
+5575 インターネット (無効) で 2 ～ %d 人の
+プレイヤーとゲームをホストする#
+5576 マルチプレイヤー ゲームに参加する#
+5577 新しい冒険者#
+5578 近くの友達と#
+5579 ワイヤレス パーティーを
+ホストする#
+5580 LANホスト#
+5581 オンラインホスト#
+5582 ロビー一覧#
+
+5583 Barony はやりがいのあるゲームです。
+チュートリアルをプレイしますか?#
+5584 はい#
+5585 いいえ#
+5586 チュートリアルは
+「ゲームをプレイ」メニューにあります。#
+5587 わかりました#
+5588 セーブ ゲーム「%s」を
+削除してもよろしいですか?#
+5589 警告: これは改造セーブ ゲームです!
+現在、改造はロードされていません。
+
+続行すると、セーブ データに問題が発生する可能性があります。
+
+セーブ ゲーム「%s」を
+ロードしてもよろしいですか?#
+5590 警告: これは改造されていないセーブ ゲームです!
+現在 %d 個の MOD がロードされています。
+
+続行すると、このセーブの実績が無効になる可能性があります。
+
+セーブ ゲーム「%s」を
+ロードしてもよろしいですか?#
+5591 キャンセル#
+5592 セーブ ゲーム「%s」を
+ロードしてもよろしいですか?#
+5593 P%d
+Lv%d#
+5594 Lv%d#
+5595 互換性のあるセーブファイルが見つかりません。#
+5596 シングルプレイヤー#
+5597 オンラインホスト %dp (p1)#
+5598 オンラインクライアント %dp (p%d)#
+5599 ローカルホスト %dp (p1)#
+5600 ローカルクライアント %dp (p%d)#
+5601 分割画面 %dp#
+5602 冒険を続ける#
+5603 ローカルゲーム#
+5604 ネットゲーム#
+5605 セーブを削除#
+5606 最初に削除するセーブゲームを選択してください。#
+5607 了解#
+5608 ダンジョンに入る#
+5609 最初にロードするセーブゲームを選択してください。#
+
+5610 アドベンチャー アーカイブ#
+5611 実績#
+5612 概要#
+5613 ハイスコア#
+5614 リーダーボード#
+5615 ストーリー紹介#
+5616 クレジット#
+5617 メインメニューに戻る#
+
+5618 一般#
+5619 ビデオ#
+5620 オーディオ#
+5621 コントロール#
+5622 オンライン#
+5623 ゲーム#
+5624 設定#
+5625 デフォルト
+に戻す#
+5626 破棄して
+終了#
+5627 変更を破棄しても
+よろしいですか?#
+5628 はい、
+破棄#
+5629 キャンセル#
+5630 確認して
+終了#
+5631 一部の設定を有効にするには、
+Baronyを再起動する必要があります。#
+5632 了解#
+
+5633 本当に死にたいですか?
+ここから戻ることはできません。#
+5634 人生を終える#
+5635 キャンセル#
+5636 脱落しますか?
+このプレイヤーは永遠に失われます。#
+5637 了解#
+5638 キャンセル#
+5639 本当に再開しますか?
+この冒険は永遠に失われます。#
+5640 現在のトライアルを
+再開してもよろしいですか?#
+5641 再開#
+5642 キャンセル#
+5643 本当に試練の殿堂に
+戻ってもよろしいですか?#
+5644 本当に試練の殿堂のレベルを
+リセットしてもよろしいですか?#
+5645 了解#
+5646 キャンセル#
+5647 現在のダンジョンレベルより前の
+すべての進行状況が保存されます。#
+5648 本当にメインメニューに
+戻ってもよろしいですか?#
+5649 メニューに戻る#
+5650 キャンセル#
+
+# quit messages
+
+5700 出て行きたいんだろ？
+それなら出て行って、二度と戻ってこないでくれ！#
+5701 いいよ、おい#
+5702 絶対ダメ！#
+5703 小さなゴブウィンが
+君の気持ちを傷つけたか？#
+5704 はい#
+5705 いいえ#
+5706 予定をキャンセルすればいい。
+待ってるよ。#
+5707 頑張ってね#
+5708 もちろん#
+5709 どうせリッチは殺せないだろう。#
+5710 君の言う通り#
+5711 ああ、そうか?#
+5712 悪いから怒ってる!
+上手くなれ!#
+5713 怒ってるよ#
+5714 オーケー#
+5715 ノームたちが笑ってるよ!
+本当にそれを取るつもり?#
+5716 うん :(#
+5717 ありえない!#
+5718 今は行かないで！
+角を曲がったところに岩の罠があるよ！#
+5719 殺してよ#
+5720 ありがとう#
+5721 親に悪い言葉を
+使ったって言うよ。#
+5722 うんち#
+5723 やめてください#
+5724 行かないで！
+まだ宝がたくさんあるよ！#
+5725 どうでもいいよ#
+5726 もっと戦利品を！#
+5727 現実世界ではミノタウロスを
+召喚できないだけでよかった。#
+5728 残念だ#
+5729 了解しました#
+5730 辛辣なレビューを残しに行くのね？#
+5731 ... うん#
+5732 ありえない！#
+5733 私も辞めるよ。
+このゲームはMinecraftにそっくり。#
+5734 笑#
+5735 痛い#
+5736 わかった、分かった。
+明日もまだここにいるか見てみろ。#
+5737 何でもいいよ#
+5738 愛してるよ！#
+5739 今辞めないで、次のランで
+勝つつもりだったのに。#
+5740 嘘をつかないで#
+5741 本当ですか?#
+5742 弱虫の冒険者は
+今すぐにでも辞めてしまいます。#
+5743 弱虫の時間です#
+5744 違います!#
+5745 冒険者が閉じ込められ、
+あなたの助けが必要です!#
+5746 誰が気にするんだ#
+5747 私がやるよ!#
+5748 やめるやつが何て言うんだ?#
+5749 何?#
+5750 今日はだめ#
+5751 やめないんだ。
+ただはったりを言っているだけ。#
+5752 賭けたよ#
+5753 俺を捕まえたよ。#
+5754 あと1つ言ったら
+このゲームから追い出すよ。#
+5755 Thing#
+5756 ...#
+
+5757 画面は正常ですか?
+%llu...#
+5758 はい#
+5759 いいえ#
+
+5760 押してスタート#
+5761 ゲームに戻る#
+5762 コントローラー割り当て#
+5763 概要#
+5764 実績#
+5765 設定#
+5766 冒険を終わる#
+5767 DROP OUT#
+5768 最初からやり直す#
+5769 トライアル再開#
+5770 トライアルハブに戻る#
+5771 メインメニューに戻る#
+5772 デスクトップに戻る#
+5773 プレイ#
+5774 ゲームをプレイ#
+5775 MOD入りをプレイ#
+5776 MODSをやめる#
+5777 ADVENTURE ARCHIVES#
+5778 設定#
+5779 エディター#
+5780 終了#
+
+5781 実績が無効 (MODD ロビー)#
+5782 実績が無効 (MODD ロビー)#
+5783 実績が無効 (以前に MODD ロビー)#
+5784 実績が無効#
+5785 実績が有効#
+
+5786 人のプレイヤーがオンライン: ... #
+5787 人のプレイヤーがオンライン: %d #
+
+5788 ゲームへのネットワーク接続が失われました。#
+5789 ゲームへのネットワーク接続が失われました。
+
+ネットワーク接続を再確立して、後でもう一度お試しください。#
+5790 ゲームへのネットワーク接続が失われました。
+
+現在のダンジョン レベルまでのゲームの進行状況はすべて保存されています。
+
+ネットワーク接続を再確立して、後でもう一度お試しください。#
+5791 ネットワーク接続が
+失われました。#
+
+5792 あなたは死にました。#
+5793 あなたのパーティーは全滅しました。#
+5794 不明#
+5795 モンスター#
+5796 アイテム#
+5797 裏切り#
+5798 強盗未遂#
+5799 不法侵入#
+5800 矢の罠#
+5801 熊の罠#
+5802 スパイクの罠#
+5803 魔法の罠#
+5804 爆弾の罠#
+5805 岩#
+5806 溶岩#
+5807 熱湯#
+5808 召喚#
+5809 飢餓#
+5810 毒#
+5811 出血#
+5812 燃焼#
+5813 絞殺#
+5814 面白い薬#
+5815 底なしの穴#
+5816 燃料不足#
+5817 噴水#
+5818 シンク#
+5819 錬金術#
+
+5820 君のことをほとんど知らなかったよ。#
+5821 安らかにお眠りください。#
+5822 君がいなくて寂しくなるよ。#
+5823 また会う日まで。#
+5824 今は安らかに眠っている。#
+5825 私の死を悲しまないで。#
+5826 記憶の中に消えた。#
+5827 愛を込めて。#
+5828 彼らは記憶の中に眠っている。#
+5829 いなくなったが忘れられていない。#
+5830 殺害者: #
+
+5831 テストを完了できなかった
+ことから学びましょう!#
+5832 パーティーが次のレベルに
+到達すれば復活します。#
+5833 ローカル ハイスコアで
+ (%d) 位になりました!#
+5834 ローカル ハイスコアで
+順位を得られませんでした。#
+
+5835 終了#
+5836 ハブに戻る#
+5837 メインに戻る#
+5838 リスタート#
+5839 OK#
+
+5840 おめでとうございます。最初のチュートリアルが完了しました。
+
+あなたは今、試練の殿堂にいます。
+さらに9つの試練があり、あなたに教え、試練を与えることができます。
+
+試練の殿堂を探索して詳細を確認するか、
+メインメニューに戻って冒険を始めましょう。#
+5841 試練の殿堂を
+探索#
+5842 メインメニューに
+戻る#
+5843 コントローラーを再接続してください#
+5844 コントローラーを再接続してください#
+5845 コントローラーを再接続#
+
+5846 クロスプレイを有効にすると、Epic Games, Inc. 
+経由でロビーをホストしたり参加したりできるようになります。
+
+[承認]をクリックすると、Steam プロフィールの公開情報と
+お客様の Steam プロフィールに関する公開情報を
+共有することに同意するものとします。#
+
+5847 オンラインでプレイするために、Epic Games, Inc. 
+がホストするオンライン アカウントにデバイスをリンクしますか?
+
+[承認]を選択すると、オンラインプレイを可能にする目的で、
+Nintendoコンソールに関する情報を Epic Games, Inc. 
+と共有することに同意するものとします。#
+
+5848 オンラインプレイを有効にすると、Epic Games, Inc. 
+がホストするオンラインロビーを主催したり参加したりできるようになります。
+
+[承認]をクリックすると、オンラインプレイを可能にする目的で、
+デバイスに関する情報の一部を Epic Games, Inc. 
+と共有することに同意するものとします。#
+
+5849 承認#
+5850 表示
+プライバシーポリシー#
+5851 拒否#
+
+5852 ロードするmodを少なくとも1つ選択してください。#
+5853 了解#
+5854 Modをオフにします#
+5855 Modをロードします#
+5856 ロード順序: #
+5857 Modを更新します#
+5858 Steam ワークショップ#
+5859 サブスクリプションを取得中...#
+5860 キャンセル#
+5861 アイテムを取得中...#
+5862 ワークショップ アイテムが見つかりません。#
+5863 ローカルModフォルダーをロード中...#
+5864 /mods/ ディレクトリにフォルダーが見つかりません。#
+5865 MODS#
+5866 ローカル
+Mods#
+5867 Steam
+Workshop#
+5868 My Workshop
+Items#
+5869 このメニューを終了しますか?
+アクティブなMODはすべてオフにされます。#
+5870 はい#
+5871 いいえ#
+5872 
+Mods Loaded:
+#
+5873 Local Mods:
+Workshop:
+Total Loaded:#
+5874 実績
+無効#
+5875 実績
+有効#
+5876 注:ゲーム開始前に全MODを
+検証し、実績が有効かを
+確認できるわけではありません。#
+5877 了解#
+5878 Mod入り
+ゲーム開始#
+5879 New Workshop
+Mod#
+5880 Browse
+Workshop#
+5881 Workshop
+を開く#
+5882 コミュニティが作成したMODを閲覧し、
+「サブスクライブ」してMODダウンロードして使用します。
+
+Baronyの実行中にサブスクライブする場合は、
+Steamがダウンロードするために終了する必要がある場合があります。
+
+Current game version: #
+5883 ワークショップのアイテムが
+リロードされます。#
+5884 了解#
+5885 キャンセル#
+5886 空のMod
+フォルダを作成#
+5887 これにより、Barony/mods/ディレクトリ内に
+空のファイルとpreview.pngファイルを
+持つ新しいmodフォルダが作成されます。#
+5888 新しいフォルダの名前を入力してください#
+5889 決定#
+5890 キャンセル#
+5891 エラー: フォルダ名は
+空白にできません。#
+5892 新しいフォルダ: '%s'
+正常に作成されました!#
+5893 エラー: '%s' という
+名前のフォルダが既に存在します。#
+5894 エラー: フォルダに書き込めません
+'%s'#
+5895 タイトル#
+5896 説明#
+5897 UPDATE WORKSHOP MOD#
+5898 NEW WORKSHOP MOD#
+5899 /mods/ ディレクトリ内に、MOD用のフォルダをアップロードします。
+ファイル/タグは、作成後にこのメニュー内で変更できます。#
+5900 アップデートを送信すると、タグ付けされたバージョンが変更されます。
+新しいフォルダの選択やタグの変更はオプションです。#
+5901 アップロードフォルダ:#
+5902 フォルダが選択されていません#
+5903 選択...#
+5904 エラー: 親フォルダは「mods」
+である必要があります。#
+5905 エラー: フォルダを開けませんでした:#
+5906 タイトル:#
+5907 編集...#
+5908 作成後にSteamWorkshopページ内で、
+より長く編集できます。#
+5909 アイテムのタイトルを入力してください#
+5910 決定#
+5911 キャンセル#
+5912 既存のアイテムについては、Workshop
+ページにアクセスして編集してください。#
+5913 説明:#
+5914 このアイテムの説明を入力してください#
+5915 既存のアイテムについては、Workshopページに
+アクセスして編集してください。#
+5916 タグ:#
+5917 管理中
+Workshop#
+5918 Workshopページで、HTML対応の長い説明、
+公開設定、カルーセルへのスクリーンショットの
+追加など、MOD のほとんどの属性を
+直接表示および編集できます。
+
+プレビュー画像や改造ファイルを編集する必要がある場合は、
+代わりにゲーム内のアップロードウィンドウを使用してください。#
+5919 Workshop
+を開く#
+5920 Workshop
+アイテムがリロードされます。#
+5921 送信
+更新#
+5922 新しいWorkshop
+モッドを送信#
+5923 新しいファイルは選択されていません:
+タグ/バージョンのみが変更されます。#
+5924 新しいファイルがアップロードされ、
+タグ/バージョンが変更されます。#
+5925 続行#
+5926 キャンセル#
+5927 アップロードを開始#
+5928 既存のアイテムを変更#
+5929 アイテムを作成#
+5930 更新ハンドルを待機#
+5931 タイトルを設定#
+5932 説明を設定#
+5933 タグを設定#
+5934 コンテンツを準備#
+5935 注: preview.png 画像が見つかりません#
+5936 最初のアップロードです。#
+5937 アイテムが更新されました。#
+5938 コンテンツをアップロードしています。
+時間がかかる場合があります。#
+5939 アップロード中にタイムアウトしました。
+再試行中 1/3...#
+5940 アップロード中にタイムアウトしました。
+再試行中 2/3...#
+5941 アップロード中にタイムアウトしました。
+再試行中 3/3...#
+5942 アップロード中にタイムアウトしました。
+後でもう一度お試しください。#
+5943 コンテンツを正常にアップロードしました。#
+5944 不明なエラー#
+5945 待機中#
+5946 エラー: ログインしていません。#
+5947 エラー: アップロードするコンテンツ
+フォルダが選択されていません。#
+5948 エラー: コンテンツフォルダを
+読み取れませんでした。#
+5949 アップロードを開始しています。#
+5950 お待ち
+ください。#
+5951 アイテムを表示#
+5952 再試行
+アップロード#
+5953 エラーコード: #
+5954 カスタム難易度#
+5955 登録済みのWorkshop itemsが見つかりません。#
+
+5956 装備#
+5957 ドロップ#
+5958 魔法#
+5959 宝箱#
+5960 全取得#
+5961 スキルレベル:#
+5962 関連ステータス:#
+5963 攻撃#
+5964 スニーク#
+5965 魔法発動#
+5966 マップ#
+5967 ログ#
+5968 キャラクターシート#
+5969 ゴールド#
+
+5970 攻撃#
+5971 使用#
+5972 魔法を唱える#
+5973 防御#
+5974 スニーク#
+5975 キャラクター ステータス#
+5976 ゲームを一時停止#
+5977 魔法リスト#
+5978 スキル シート#
+5979 インベントリの自動並べ替え#
+5980 NPC にコマンド#
+5981 NPC コマンドを表示#
+5982 NPC を切り替え#
+5983 マップを開く#
+5984 ログを開く#
+5985 ミニマップを切り替える#
+5986 ホットバー左#
+5987 ホットバー右#
+5988 ホットバー上 / 選択#
+5989 ホットバー下 / キャンセル#
+5990 インタラクト ツールチップ 次へ#
+5991 インタラクト ツールチップ 前へ#
+5992 インベントリ ツールチップを展開#
+5993 クイックターン#
+5994 チャット#
+5995 前進#
+5996 左に移動#
+5997 後退#
+5998 右に移動#
+5999 左に曲がる#
+6000 右に曲がる#
+6001 上を見る#
+6002 下を見る#
+6003 スクリーンショット#
+6004 ホットバースロット 1#
+6005 ホットバースロット 2#
+6006 ホットバースロット 3#
+6007 ホットバースロット 4#
+6008 ホットバースロット 5#
+6009 ホットバースロット 6#
+6010 ホットバースロット 7#
+6011 ホットバースロット 8#
+6012 ホットバースロット 9#
+6013 ホットバースロット 10#
+
+6014 スタンダード#
+6015 エキスパート#
+6016 クラシック#
+6017 ミニマル#
+#6018 was missed earlier, so it is used.
+
+6019 ホットバーにデータを追加#
+6020 音楽ファイルをプリロード#
+6021 プリロードするとplaybackが向上しますが、システムメモリの使用量が増えます。(次回の起動時に適用)#
+6022 ホリデー テーマ#
+6023 フェスティバル コンテンツ#
+6024 ホリデー テーマのコンテンツを必要に応じてオンまたはオフに切り替えます。ばかげた話です!#
+6025 クレジット#
+6026 表示#
+6027 ホリデー コンテンツのクレジットを表示します。#
+6028 次の
+ページ#
+6029 閉じる#
+
+# Scarony Barony Credits:
+
+6030 caves00 - Among Us by Myuu
+caves01 - Fatal Shrine by Myuu
+caves02 - Tormented Souls by Myuu
+citadel00 - Evil Returns by Myuu
+citadel01 - Friday the 13th by Myuu
+citadel02 - October 31st by Myuu#
+
+6031 endgame - The Order's Theme by Myuu
+herxboss - Soul Rail by Myuu
+intermission - Echo by Myuu
+intro - Ghost Town by Myuu
+intro01 - Countdown by Myuu
+intro02 - Untold Secrets by Myuu#
+
+6032 labyrinth00 - Final Showdown by Myuu
+labyrinth01 - Living in the Dark by Myuu
+labyrinth02 - Silent Turmoil by Myuu
+library - Countdown by Myuu
+mines00 - Look Out by Myuu
+mines01 - Haunted House by Myuu#
+
+6033 mines02 - Nebula by Myuu
+mines03 - Strange Vision by Myuu
+mines04 - The Crypt by Myuu
+minetown - Haunted By Screams by Myuu
+minotaur00 - Run! by Myuu
+minotaur01 - Cornered by Myuu#
+
+6034 ruins00 - You're Next by Myuu
+ruins01 - Into the Depths by Myuu
+ruins02 - The Backrooms by Myuu
+sanctum - Metamorphosis by Myuu
+shop - Carnival Freaks by Myuu
+swamp00 - Poltergeist by Myuu#
+
+6035 swamp01 - Abyss by Myuu
+swamp02 - Danger by Myuu
+swamp03 - Growing Shadows
+temple - Extinction by Myuu#
+
+# Merry Barony credits:
+
+6036 caves00 - Sleigh Bells by Myuu
+caves01 - Deck the Halls by Myuu
+caves02 - Snow Wonders by Myuu
+citadel00 - Jingle Bells by Myuu
+citadel01 - Underneath the Christmas Tree by Myuu
+citadel02 - God Rest Ye Merry Gentlemen by Myuu#
+
+6037 endgame - Disintegrating by Myuu
+escape - Deck the Halls by Myuu
+hell00 - Deck the Halls by Myuu
+hell01 - Santa's Tricks by Myuu
+hell02 - Winter Trouble by Myuu
+herxboss - Krampus is Here by Myuu#
+
+6038 intermission - Disintegrating by Myuu
+introduction - Disintegrating by Myuu
+labyrinth00 - Ice Land (Part 1) by Myuu
+labyrinth01 - Holiday Macabre by Myuu
+labyrinth02 - Disintegrating by Myuu
+library - Santa's Tricks by Myuu#
+
+6039 mines00 - Sleigh Bells by Myuu
+mines01 - God Rest Ye Merry Gentlemen by Myuu
+mines02 - Silent Night by Myuu
+mines03 - Carol of the Bells by Myuu
+mines04 - Angels We Have Heard on High by Myuu
+minetown - Underneath the Christmas Tree by Myuu#
+
+6040 minotaur00 - Krampus is Here by Myuu
+minotaur01 - Deck the Halls by Myuu
+ruins00 - Ice Land (Part 2) by Myuu
+ruins01 - Winter Trouble by Myuu
+ruins02 - Snow Wonders by Myuu
+sanctum - Krampus is Here by Myuu#
+
+6041 shop - Sleigh Bells by Myuu
+swamp00 - Jingle Bells by Myuu
+swamp01 - Rudolph the Red Nosed Reindeer by Myuu
+swamp02 - Dance of the Sugar Plum Fairy by Myuu
+swamp03 - What Child is This by Myuu
+temple - Santa's Tricks by Myuu#
+
+6042 underworld00 - Ice Land (Part 1) by Myuu
+underworld01 - Deck the Halls by Myuu
+underworld02 - Winter Trouble by Myuu
+intro - God Rest Ye Merry Gentlemen by NaturesEye#
+
+6043 現在アクティブな休日はありません。#
+
+6044 コールアウト#
+6045 プッシュアイテム#
+6046 チル#
+6047 幽霊#
+6048 プッシュ#
+6049 ホイールを見る#
+6050 観戦#
+6051 ゴーストとして出現#
+6052 パーティーは全滅しました...#
+6053 ルールをカスタマイズ#
+6054 カスタムシード#
+6055 シード名を入力...#
+6056 なし#
+6057 ここに眠る
+%s
+死因 %s#
+6058 無一文モードが有効です。ゴールドのピックアップは無効です。#
+6059 無一文モードが無効です。ゴールドのピックアップは有効です。#
+6060 プレイヤーのセーブファイルは無一文達成の対象外です。リセットするにはゲームを再起動してください。#
+6061 グローバル リーダーボードに接続できません。
+後でもう一度お試しください。#
+6062 トップ 100#
+6063 近くの人#
+6064 勝利#
+6065 敗北#
+6066 トップスコア#
+6067 ベストタイム#
+6068 ソロ#
+6069 協力プレイ#
+6070 人間#
+6071 モンスター#
+6072 ノーマル#
+6073 ハードコア#
+6074 適用
+フィルター#
+6075 シタデル#
+6076 クラシック#
+6077 ヘル#
+6078 リーダーボード フィルター#
+6079 リーダーボード
+フィルター#
+6080 深度#
+6081 ミミックが開きます!#
+6082 待ってください! それはミミックです!#
+6083 ミミックをロックしました!#
+6084 ミミックが骸骨キーを回避しました!#
+6085 ミミックがあなたの %s を食べます!#
+6086 %s があなたに毒を盛っています!#
+6087 おい! その %s があなたの %s を盗みました!#
+6088 でもゴーグルがあなたを守ってくれます!#
+6089 ゴーグルが爆発からあなたを守ってくれます!#
+6090 ゴーグルは何もしてくれません!#
+6091 *咳*#
+6092 帽子が蒸し暑いです!#
+6093 ATK#
+6094 AC#
+6095 PWR#
+6096 RES#
+6097 RGN#
+6098 WGT#
+6099 エラー: 保存ファイル「%s」を読み込めません。
+エラー コード: %d
+
+この保存ファイルをロードするために必要なDLCが
+インストールされているかどうかを確認できませんでした。
+
+DLC が正しくインストールされていることを確認し、
+ゲームを再起動してもう一度お試しください。#
+6100 DLC がインストールされているかどうか確認できず、
+一致する保存ファイルをロードできませんでした。#
+6101 賞金 %d を達成しました!#
+6102 賞金の目標達成に失敗しました。#
+6103 効果修飾子:#
+6104 射撃により %s が不意を突かれました!#
+6105 射撃により %s が不意を突かれました!#
+6106 / 100 XP#
+6107 XP#
+6108 このリーダーボードには、
+近くのスコアを検索するための
+エントリがまだありません。#
+6109 注意: このチャレンジはまもなく終了します!
+期限前に終了して
+リーダーボードに載りましょう!#
+6110 ワンショット
+チャレンジ#
+6111 無制限
+チャレンジ#
+6112 イベント
+チャレンジ#
+6113 接続を確認しています#
+6114 チャレンジを読み込めません。
+しばらくしてからもう一度お試しください。#
+6115 チャレンジを読み込めません。
+しばらくしてからもう一度お試しください。#
+6116 イベントの更新中です。
+数分後にもう一度お試しください。#
+6117 現在、チャレンジは
+利用できません。#
+6118 次の
+イベント:#
+6119 シードイベント#
+6120 リーダーボードに載るチャンスは
+1回だけ！ローカルプレイのみ。#
+6121 毎週セットのダンジョンに挑戦しましょう!
+ソロおよびマルチプレイヤー用。#
+6122 毎週末にさまざまなイベントが目白押し!
+ソロおよびマルチプレイヤー用。#
+6123 セーブゲームが一致しません。
+LID が一致しません。#
+6124 参加したロビーは、選択した
+チャレンジをホストしていません。#
+6125 このチャレンジへの挑戦は
+既に送信されています!
+
+このチャレンジは再プレイできますが、
+スコアボードの順位は変わりません。
+
+このチャレンジを再度プレイしますか?#
+6126 このチャレンジを再度プレイするには、
+Myths and Outcasts DLC が必要です!
+
+
+#
+6127 このチャレンジを再度プレイするには
+Legends and Pariahs DLC が必要です!
+
+
+#
+6128 リーダーボードが更新されました!#
+6129 ロビーに参加できません。
+選択したチャレンジが
+ホストのチャレンジと一致しません。#
+6130 ロビーに参加できません。
+チャレンジへの参加は
+サポートされていません。#
+6131 シード イベントでは、開始前にmodを
+オフにする必要があります。#
+6132 ロビーでは、参加前にmodを
+オフする必要があります。#
+6133 セーブファイルでは、ロード前にmod
+をオフにする必要があります。#
+6134 
+リーダーボードで
+%s
+新しいランクを達成しました!#
+6135 このチャレンジではクラスの変更は
+許可されていません!#
+6136 このチャレンジでは人種の変更は
+許可されていません!#
+6137 実績が無効です
+(チャレンジイベント)#
+6138 実績が無効です(チャレンジイベント)#
+6139 チャレンジイベント!#
+# Audio speaker mode settings
+6140 構成#
+6141 デフォルト#
+6142 Raw#
+6143 モノラル#
+6144 ステレオ#
+6145 クアッド#
+6146 Surround Sound#
+6147 5.1 Surround Sound#
+6148 7.1 Surround Sound#
+6149 7.1.4 Surround Sound#
+6150 希望するスピーカー構成。#
+6151 現在のフィルターではスコアが見つかりません。
+より多くの結果を表示するには、
+別のリーダーボードフィルターを試してください。#
+6152 はチャレンジに失敗しました。#
+6153 チャレンジ#
+6154 チャレンジの進行状況#
+6155 パーティーキル数#
+6156 チャレンジ完了!#
+6157 家具が破壊されました#
+6158 詳細:#
+6159 種族:#
+6160 クラス:#
+6161 任意#
+6162 ゲームモード:#
+6163 アクティブイベント:#
+6164 スキル:#
+6165 破壊者
+%s
+に道を空けろ!#
+6166 スレイヤー
+%s
+に震えろ!#
+6167 ここで終了しても、ワンショットスコアの
+試みにはカウントされません。#
+6168 ここで終了すると、この実行が終了し、
+ワンショットスコアとして提出されます。#
+6169 新しいシードイベントが利用可能になりました!#
+6170 参加するにはシードイベント
+メニューにアクセスしてください。#
+6171 実績のロックを解除:
+"%s"
+クラスの組み合わせをプレイする.#
+6172 
+魔法が必要: %d (%s)#
+6173 ダンジョンフロア:#
+6174 住人#
+6175 アイテム#
+6176 魔法#
+6177 世界#
+6178 コーデックス#
+6179 前のエントリ: #
+6180 次のエントリ: #
+6181 %d / %d#
+6182 コンテンツ#
+6183 新規エントリ!#
+6184 実績#
+6185 記録#
+6186 レシピ表#
+6187 使用のヒント#
+6188 詳細#
+6189 統計#
+6190 レベル#
+6191 ダメージ タイプ 有効性:#
+6192 能力:#
+6193 インベントリ:#
+6194 利用可能な伝承ポイント#
+6195 並べ替えアルファベット順#
+6196 未発見を隠す#
+6197 ATK:#
+6198 PWR:#
+6199 HP:#
+6200 AC:#
+6201 SPD:#
+6202 ヒューマノイド#
+6203 獣人#
+6204 獣#
+6205 アンデッド#
+6206 悪魔#
+6207 構築#
+6208 エレメンタル#
+6209 ポイント#
+6210 合計完了#
+6211 研究#
+6212 ショップ看板#
+# breakables
+6213 瓶#
+6214 バスケット#
+6215 棺#
+6216 ケージ#
+6217 壷#
+6218 袋#
+6219 石棺#
+6220 壺#
+6221 カート#
+6222 パレット#
+6223 木箱#
+6224 テント#
+6225 聖骨箱#
+6226 電球#
+6227 アイアンメイデン#
+6228 手押し車#
+6229 水晶#
+6230 キャビネット#
+6231 カプセル#
+6232 樽#
+6233 切り株#
+6234 %s が %s から飛び出します!#
+6235 激流に押し戻されます!#
+6236 グリースが飛び散ります!#
+6237 マグマが飛び散ります!#
+6238 %s に燃えるマグマが飛び散ります!#
+6239 %s に燃えるマグマが飛び散ります!#
+6240 %s に腐食性ヘドロが飛び散ります!#
+6241 %s に腐食性ヘドロが飛び散ります!#
+6242 腐食性ヘドロが飛び散ります!#
+6243 %s にグリースが飛び散ります!#
+6244 %s にグリースが飛び散ります!#
+6245 手が滑りやすくなります!#
+6246 シールドが指の間から滑り落ちます!#
+6247 ロックで並べ替え最初#
+6248 %s が飛び出しました!#
+6249 失敗しました!#
+6250 統計 (ハードコア)#
+6251 コンペンディウムを開く#
+6252 近くのコウモリが目を覚ましました!#
+6253 %s から何人かの %s が飛び出しました!#
+6254 コウモリに激しく体力を奪われました。#
+6255 バグベアに乱暴に扱われました。#
+6256 バグベア#
+6257 バグベア#
+6258 攻撃#
+6259 *うなり声*#
+6260 ダイダロスの神殿が見えました。#
+6261 ダイダロスの神殿#
+6262 ダイダロスの神殿に触れました#
+6263 %s を攻撃して怪我をしました!#
+6264 %s を攻撃して怪我をしました!#
+6265 ノームの仲間が恐怖で震え上がりました!#
+6266 十分なLoreポイントがありません。
+実績をアンロックしてさらに獲得しましょう!#
+6267 出口が姿を現しました!#
+6268 ロープを引っ張ります...#
+6269 ベル#
+6270 ベル#
+6271 ベルを鳴らします#
+6272 ベルの中に何かが詰まっています!#
+6273 このベルは壊れています!#
+6274 しかし、何も起こりません。#
+6275 ベルが激しく落ちてきます!#
+6276 落ちてくるベルにぶつかります!#
+6277 ベルが鳴らされます。#
+6278 ベル#
+6279 クラッパーが壊れます!#
+6280 チャイムがあなたの %s を元気づけます!#
+6281 体力#
+6282 スタミナ#
+6283 敏捷性#
+6284 精神力#
+6285 ミノタウロスが近づいています、急いでください!#
+6286 攻撃をかわしました!#
+6287 攻撃をかわしました%s!#
+6288 スタミナが正常に戻ります。#
+6289 敏捷性が正常に戻ります。#
+6290 精神が正常に戻ります。#
+6291 空飛ぶ矢#
+6292 空飛ぶボルト#
+6293 空飛ぶ岩#
+6294 飛んでくる %s をかわしました!#
+6295 魔法#
+6296 発射物#
+6297 ロープに火が付きました!#
+6298 チャイムがあなたを元気づけます!#
+6299 ロビー: オープン#
+6300 ロビー: 友達のみ#
+6301 ロビー: 招待者のみ#
+6302 ノーム泥棒#
+6303 泥棒リーダー#
+6304 武器エンチャント#
+6305 防具エンチャント#
+6306 エンチャントするアイテムを選択してください:#
+6307 この %s
+はエンチャントできません。#
+6308 あなたの %s は祝福の一部を失います。#
+6309 あなたは激流に吹き飛ばされています!#
+6310 クイックターン速度#
+6311 クイックターンアクションの水平速度に影響します。#
+6312 戻る#
+6313 顔#
+6314 お守り#
+6315 指輪#
+6316 クレーム#
+6317 すでにクレーム済み#
+6318 クレームするアイテムがありません#
+6319 変更先:
+#
+6320 現在: #
+6321 アイテム#
+6322 人種#
+6323 クラス#
+6324 アシストアイテム選択#
+6325 人種選択#
+6326 クラス選択#
+6327 変更後: #
+6328 アシスト:#
+6329 スコアペナルティ:#
+6330 実績:#
+6331 有効#
+6332 無効#
+6333 選択した人種により、
+クラスの選択がリセットされました。#
+6334 キャラクターが変更されました。#
+6335 変更は、
+次のゲーム開始時に適用されます。#
+6336 %s は、次のゲーム開始時にキャラクターを変更しました。
+(%s %s)#
+6337 サーバーに送信しています...#
+6338 無効なクラスです!#
+6339 最大 4 つのギフトを受け取って、
+待ち受ける冒険を楽にしましょう。
+
+援助ポイントごとに
+パーティの最終スコアランキングが下がります。#
+6340 アシストアイテム#
+6341 アシストされました。(%d ポイント)#
+6342 アシストアイテム#
+6343 開始フロアのアシスト神殿からアイテムを取得して難易度を調整できます。#
+6344 アシストアイテムを有効にする#
+6345 アシストアイテムが有効です#
+6346 アシストアイテムが無効です#
+6347 最大 4 つのギフトを受け取って、
+待ち受ける冒険を楽にしましょう。
+
+アシストアイテムはゲーム設定で無効になっています。
+アシストアイテムを使用するには、
+オプションをオンに切り替えてください。
+
+#
+6348 最大 4 つのギフトを受け取って、
+待ち受ける冒険を楽にしましょう。
+
+アシストアイテムはゲーム設定で無効になっています。
+ゲーム設定を有効にするには、
+ホストにリクエストを送信してください。
+
+#
+6349 アシストアイテムをリクエスト#
+6350 ゲーム設定を表示#
+6351 神社は現在他のユーザーによって使用されています。#
+6352 アシスト神社が表示されています。#
+6353 アシスト神社#
+6354 アシスト神社を使用#
+6355 次回のゲーム開始時にキャラクターが変更されました。
+(%s %s)#
+6356 神社から %d アシストポイントを獲得しました。#
+6357 %s はアシスト神社から %d アシストポイントを獲得しました。#
+
+6399 END#

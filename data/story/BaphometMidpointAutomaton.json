@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "press_a_to_advance": true,
+  "text": [
+    "*2あなたの行く手にあるすべての悪魔をハッキングして、あなたは飛び越えます。\n",
+    "ポータル。^ 定命の者であろうと不死の者であろうと、いかなる実体もあなたの力に挑戦することはできません。\n",
+    "*2突然、あなたは点在する果てしない白いホールの中に疲れ果てて立っていることに気づきます。\n",
+    "見渡す限り高く伸びる巨大な柱。\n",
+    "※2安心感に圧倒され、リフレッシュされます。\n",
+    "削除されました。",
+    "*3「リッチなヘルクスは塵となったが、より賢い敵が地獄のような悪を引き寄せる。\n",
+    "ハムレットは今のところ自由ですが、世界は安全ではありません。\n",
+    "力ある者は天秤をひっくり返さなければなりません。",
+    "*2何の前触れもなく、あなたは定命の世界に連れ戻されます。\n",
+    "「ハムレットからすべての悪を断ち切らなければ、平和はあり得ません。」\n",
+    "*2新たなエネルギーを得て、あなたはハムレットに立っていることに気づきます。\n",
+    "盛大な祝賀行事が鉱山の門から近くのホステルまで流れます。\n",
+    "*1魔術師ギルドがあなたの探索を手伝ってくれるでしょう..."
+  ],
+  "images": [
+    "*images/ui/Main Menus/Story/black.png",
+    "*images/ui/Main Menus/Story/white.png",
+    "*images/ui/Main Menus/Story/NoEternals.png",
+    "*images/ui/Main Menus/Story/Eternals.png",
+    "*images/ui/Main Menus/Story/white.png",
+    "*images/ui/Main Menus/Story/MagiciansGuild.png",
+    "*images/ui/Main Menus/Story/black.png"
+  ]
+}

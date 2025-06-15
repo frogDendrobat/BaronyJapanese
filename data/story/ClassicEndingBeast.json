@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "press_a_to_advance": true,
+  "text": [
+    "*3勝利したあなたはポータルに足を踏み入れます。\n",
+    "喜びにあふれています。\n",
+    "もう手の届くところにあります。\n",
+    "*3考える間もなく、あなたは突然鉱山の前に立っています。\n",
+    "もう一度。\n",
+    "はさらに遠いです。",
+    "*3突然、鉱山への扉が大きく開きます。\n",
+    "内なる悪を内から振り出す 百人の感謝する人間として\n",
+    "飛び出す。",
+    "*4その暗黒の力の地獄のような源はあなたにとって謎のままであり、一部の人は\n",
+    "物陰から盗み聞きすると、魔術師ギルドの存在を信じてしまいます。\n",
+    "何らかの闇の魔術に関する手がかりがあるかもしれない。\n",
+    "そしてハムレットの秘密を探るためにもう一度戻ってきます..."
+  ],
+  "images": [
+    "*images/ui/Main Menus/Story/black.png",
+    "*images/ui/Main Menus/Story/intro4.png",
+    "*images/ui/Main Menus/Story/Hamlet_Rescue.png",
+    "*images/ui/Main Menus/Story/MagiciansGuild.png"
+  ]
+}

@@ -1,0 +1,5769 @@
+{
+	"version": 1,
+	"default_text_colors": {
+		"heading": {
+			"r": 67,
+			"g": 195,
+			"b": 157,
+			"a": 255
+		},
+		"icons": {
+			"r": 188,
+			"g": 154,
+			"b": 114,
+			"a": 255
+		},
+		"description": {
+			"r": 188,
+			"g": 154,
+			"b": 114,
+			"a": 255
+		},
+		"details": {
+			"r": 67,
+			"g": 195,
+			"b": 157,
+			"a": 255
+		},
+		"positive_color": {
+			"r": 188,
+			"g": 154,
+			"b": 114,
+			"a": 255
+		},
+		"negative_color": {
+			"r": 215,
+			"g": 38,
+			"b": 61,
+			"a": 255
+		},
+		"status_effect": {
+			"r": 160,
+			"g": 74,
+			"b": 252,
+			"a": 255
+		},
+		"faint_text": {
+			"r": 128,
+			"g": 128,
+			"b": 128,
+			"a": 255
+		}
+	},
+	"adjectives": {
+		"spell_prefixes": {
+			"spell_of": "魔法:"
+		},
+		"scroll_prefixes": {
+			"scroll_of": "魔法の巻物",
+			"piece_of": "破片",
+			"unknown_scroll": "未知の巻物"
+		},
+		"equipment_status": {
+			"broken": "壊れた(0)",
+			"decrepit": "老朽化した(1)",
+			"worn": "摩耗した(2)",
+			"serviceable": "有用な(3)",
+			"excellent": "素晴らしい(4)"
+		},
+		"food_status": {
+			"broken": "腐った(0)",
+			"decrepit": "カビが生えた(1)",
+			"worn": "古びた(2)",
+			"serviceable": "やや古びた(3)",
+			"excellent": "新鮮な(4)"
+		},
+		"potion_status": {
+			"broken": "蒸発した(0)",
+			"decrepit": "濁った(1)",
+			"worn": "渦巻いた(2)",
+			"serviceable": "普通の(3)",
+			"excellent": "泡立った(4)"
+		},
+		"book_status": {
+			"broken": "ぼろぼろの(0)",
+			"decrepit": "破れた(1)",
+			"worn": "色あせた(2)",
+			"serviceable": "傷のある(3)",
+			"excellent": "素晴らしい(4)"
+		},
+		"jewelry_status": {
+			"broken": "壊れた(0)",
+			"decrepit": "ひび割れた(1)",
+			"worn": "粗い(2)",
+			"serviceable": "欠陥のある(3)",
+			"excellent": "素晴らしい(4)"
+		},
+		"tinkering_status": {
+			"broken": "壊れた(0)",
+			"decrepit": "ひび割れた(1)",
+			"worn": "粗い(2)",
+			"serviceable": "欠陥のある(3)",
+			"excellent": "素晴らしい(4)"
+		},
+		"beatitude_status": {
+			"cursed": "呪われた",
+			"blessed": "祝福された",
+			"uncursed": "呪われていない"
+		},
+		"skill_modifiers": {
+			"penalty": "ペナルティ",
+			"bonus": "ボーナス"
+		},
+		"item_identified_status": {
+			"unidentified": "未鑑定",
+			"cursed": "呪われた",
+			"blessed": "祝福された",
+			"uncursed": "呪われていない"
+		},
+		"potion_ally_damage": {
+			"no_harm_ally": "\n+味方にダメージを与えない",
+			"harm_ally": ""
+		},
+		"potion_alchemy_types": {
+			"base_ingredient": "混合用のベース材料",
+			"secondary_ingredient": "混合用副材料",
+			"no_ingredient": "固有の効果なし",
+			"unknown": "効果不明"
+		},
+		"proficiency_levels": {
+			"none": "なし",
+			"novice": "初心者",
+			"basic": "基本的",
+			"skilled": "上級者",
+			"expert": "エキスパート",
+			"master": "マスター",
+			"legend": "伝説"
+		},
+		"proficiency_types": {
+			"mace": "メイス",
+			"sword": "剣",
+			"axe": "斧",
+			"polearm": "槍",
+			"unarmed": "拳",
+			"shield": "盾",
+			"ranged": "遠距離"
+		},
+		"equipment_slot_types": {
+			"breastpiece": "胴体",
+			"gloves": "手袋",
+			"helm": "兜",
+			"boots": "靴",
+			"mainhand": "メインハンド",
+			"offhand": "オフハンド",
+			"ring": "指輪",
+			"amulet": "お守り",
+			"mask": "顔",
+			"cloak": "マント",
+			"unknown": "不明"
+		},
+		"stat_short_name": {
+			"STR": "STR",
+			"DEX": "DEX",
+			"CON": "CON",
+			"INT": "INT",
+			"PER": "PER",
+			"CHR": "CHR",
+			"AC": "AC"
+		},
+		"stat_long_name": {
+			"STR": "筋力",
+			"DEX": "器用",
+			"CON": "体格",
+			"INT": "知能",
+			"PER": "知覚",
+			"CHR": "魅力",
+			"AC": "守備力"
+		},
+		"spell_strings": {
+			"healing": "回復",
+			"damage": "ダメージ",
+			"duration": "継続時間",
+			"spell_type_area": "エリア",
+			"spell_type_self": "自己効果",
+			"spell_type_self_sustain": "持続",
+			"spell_type_projectile": "投射",
+			"spell_type_projectile_3x": "3倍投射"
+		},
+		"equipment_effects_icon_text": {
+			"EFF_LEVITATION": "[浮遊]付与",
+			"EFF_FEATHER": "[軽量]",
+			"EFF_WATERWALKING": "[水走り]付与",
+			"EFF_POISONRESIST": "[毒耐性]付与",
+			"EFF_MAGICRESIST": "+1 [魔法耐性]",
+			"EFF_MAGICRESIST_SHIELD": "+1 [魔法耐性]",
+			"EFF_MAGICREFLECT": "[魔法反射]付与",
+			"EFF_SEXCHANGE": "[性転換]を適用",
+			"EFF_WATERBREATHING": "[水中呼吸]付与",
+			"EFF_STRANGULATION": "[絞殺]を適用",
+			"EFF_QUIVER_HUNTING": "[狩猟]ダメージ追加",
+			"EFF_QUIVER_HUNTING2": "[3秒][毒/スロウ]を与える",
+			"EFF_QUIVER_SILVER": "[スマイト]ダメージ追加",
+			"EFF_QUIVER_PIERCING": "+50% [装甲貫通]",
+			"EFF_QUIVER_SWIFT": "[高速装填]付与",
+			"EFF_QUIVER_KNOCKBACK": "ヒット時[ノックバック]付与",
+			"EFF_QUIVER_FIRE": "ヒット時[炎上]を与える",
+			"EFF_SLOWDIGESTION": "[消化緩慢]付与",
+			"EFF_WARNING": "[危険察知]付与",
+			"EFF_FOOTSTEP_WARNING": "[危機察知(小)]",
+			"EFF_INVISIBLE": "[透明化]付与",
+			"EFF_MAGICRESIST1": "",
+			"EFF_CONFLICT": "着用者の周囲に\n[対立]を誘発する",
+			"EFF_REGENERATION": "[HP自動回復]",
+			"EFF_DISABLE_REGENERATION": "HP自動回復\nを無効にする",
+			"EFF_MP_REGENERATION": "[MP自動回復]",
+			"EFF_TELEPORTATION": "ランダムな間隔で\n[テレポート]を適用",
+			"EFF_UNBREAKABLE": "[破壊不能]",
+			"EFF_DISARMING": "武器と盾を[武装解除]",
+			"EFF_FIRERESIST": "[炎上耐性]付与",
+			"EFF_BLEED_ENERGIZE": "敵を[出血]時\n[MP自動回復]付与",
+			"EFF_COLDRESIST": "[氷耐性]",
+			"EFF_PWR": "魔法力",
+			"EFF_PWR_DMG": "[攻撃魔法]を使うとき\n追加魔法力\n",
+			"EFF_PWR_HEAL": "[回復魔法]を使うとき\n追加魔法力\n"
+		},
+		"equipment_effects_attributes_text": {
+			"EFF_FEATHER": "Lightweight",
+			"EFF_WARNING": "",
+			"EFF_HOOD_WHISPERS": "",
+			"EFF_SILKEN_BOW": ""
+		}
+	},
+	"templates": {
+		"": [ "" ],
+		"template_potion_base_damage": [ "\n投擲時:", "%+d Base Potion damage" ],
+		"template_potion_beatitude": [ "%+d Potion damage from %s" ],
+		"template_potion_alchemy_damage": [ "%+d%% damage from Alchemy skill%s" ],
+		"template_alchemy_type": [ "錬金術:", "* %s" ],
+		"template_potion_curse_sideeffect": [ "^* 追加効果 from %s" ],
+		"template_amulet_curse_sideeffect": [ "^* 追加効果 from %s\n" ],
+		"template_ring_curse_sideeffect": [ "^* 追加効果 from %s\n" ],
+		"template_shamanmask_curse_sideeffect": [ "^* 追加効果 from %s" ],
+		"template_monocle_curse_sideeffect": [ "^* 追加効果 from %s\n" ],
+		"template_doublet_curse_sideeffect": [ "^* 追加効果 from\n^%s\n" ],
+		"template_scroll_curse_sideeffect": [ "^* 追加効果 from %s" ],
+		"template_hatnewline_curse_sideeffect": [ "^* 追加効果 from %s\n" ],
+		"template_food_curse_sideeffect": [ "^* 追加効果 from %s\n" ],
+		"template_armor_base_ac": [ "%+d base item AC" ],
+		"template_armor_beatitude_ac": [ "%+d AC from %s" ],
+		"template_armor_shield_bonus": [ "+%d AC passive %s skill bonus", "+%d AC defending %s skill bonus" ],
+		"template_tool_shield_bonus": [ "+%d AC defending %s skill bonus" ],
+		"template_armor_shield_resistance_bonus": [ "* Additional +1  [Magic Resistance] \n while defending" ],
+		"template_shield_description": [ "防御中に追加の AC を提供します。" ],
+		"template_mirror_shield_description": [ "防御中にすべての魔法の弾丸を反射する脆弱なシールド。" ],
+		"template_armor_cloak_backpack_description": [ "在庫容量を増加します。", "バックを外すと、中のアイテムは下に落ちます" ],
+		"template_torch_description": [ "保持している間、時間の経過とともに燃え尽きます。 防御中に追加のACと光を提供します。" ],
+		"template_shard_description": [ "永遠に燃え続ける脆弱な光源。\n防御中に追加のACと光を提供します。" ],
+		"template_shield_brittle": [ "防御中に攻撃を受けた場合、\n劣化確率が100%増加" ],
+		"template_whip_description": [ "Long reach melee weapon. 溜め[攻撃]でクリティカル攻撃になる。" ],
+		"template_knuckles_description": [ "Provides ATK when Main-hand is empty." ],
+		"template_thrown_description": [ "Thrown weapon. 溜め[攻撃]でダメージと距離が増加します。" ],
+		"template_gem_description": [ "Can be sold for a high price or thrown. Hold [Attack] to increase damage and distance." ],
+		"template_rock_description": [ "Heavy thrown weapon. Hold [Attack] to increase damage and distance." ],
+		"template_glass_description": [ "捨ててしまえばいい模造宝石。 Hold [Attack] to increase damage and distance." ],
+		"template_amulet_description_single_use": [ "起動すると分解します。" ],
+		"template_amulet_description_lifesaving": [ "起動すると分解します。" ],
+		"template_armor_monocle_description": [ "着用時、店主に味方と認識されます。" ],
+		"template_mask_bandit_description": [ "着用時、店主に敵と認識されます。" ],
+		"template_amulet_description_generic": [ "" ],
+		"template_potion_description": [ "消費や投擲できる" ],
+		"template_potion_empty_description": [ "Equip and [Attack]\nto tap liquids into the bottle from a spout." ],
+		"template_ranged_description_long": [ "Long distance ranged weapon.", "Hold [Attack] to continuously fire." ],
+		"template_ranged_description_short": [ "Short distance ranged weapon.", "Hold [Attack] to continuously fire." ],
+		"template_ranged_description_medium": [ "Medium distance ranged weapon.", "Hold [Attack] to continuously fire." ],
+		"template_quiver_description": [ "遠距離武器の弾薬。 弓やクロスボウを発射するときに使用する装備です。" ],
+		"template_readable_book_description": [ "男爵領の住人によって書かれた。", "本を使って内容を読んでください。", "ボイラーの燃料としても最適です。" ],
+		"template_scrap_metal_description": [ "工作キットで使う一般素材。", "ボイラーを加熱するのに不十分です。" ],
+		"template_scrap_magic_description": [ "工作キットで使う希少な魔法素材。", "ボイラーを加熱するのに適してます。" ],
+		"template_tool_sentrybot_description": [ "Equip and use [Attack] to deploy." ],
+		"template_spellbot_rate_of_fire": [ "%+d%% rate of fire" ],
+		"template_tinkerbot_status_bonus": [ "Attributes: (%s quality)" ],
+		"template_tinkerbot_turn_rate": [ "%+dx turn rate" ],
+		"template_tinkerbot_atk_initiative": [ "* Faster target acquisition" ],
+		"template_tinkerbot_broken_description": [ "Best salvaged for scrap." ],
+		"template_tool_dummybot_description": [ "Equip and use [Attack] to deploy." ],
+		"template_tool_gyrobot_description": [ "Equip and use [Attack] to deploy." ],
+		"template_tool_decoy_description": [ "Equip and use [Attack] to deploy.", "Audible through walls." ],
+		"template_tool_mirror_description": [ "\"The face is the mirror of the mind,", "And eyes without speaking confess the secrets of the heart.\"", "-Anonymous" ],
+		"template_tool_towel_description": [ "Use to clean yourself and to bandage bleeding wounds." ],
+		"template_tool_beartrap_description": [ "Equip and hold [Attack] to set." ],
+		"template_beartrap_degrade_on_use": [ "%+d%% chance to break from", "%s quality when deployed" ],
+		"template_beartrap_degrade_on_use_cursed": [ "%+d%% chance to break from %s when deployed" ],
+		"template_tool_detonated_charge_description": [ "使い終わった罠の役に立たない残骸。", "スクラップとして回収するのが最適です。" ],
+		"template_tool_bomb_description": [ "Equip and use [Attack] to deploy.", "Sticks to surfaces and objects." ],
+		"template_tool_bomb_lockpickable": [ "* Toggle trigger behavior by using [Attack] with a lockpick after deploying" ],
+		"template_bomb_atk_stat_per": [ "%+d ATK from %d%% PER stat" ],
+		"template_tool_teleport_bomb_description": [ "Equip and use [Attack] to deploy.", "Configure as a receiver for another teleport trap by using a lockpick." ],
+		"template_tool_decoy_range": [ "%+d tile radius", "* 5 second cooldown for successive", "lures on the same target" ],
+		"template_tool_pickaxe_description": [ "Breaks boulders and walls on hit." ],
+		"template_tool_lockpick_description": [ "Unlocks chests, doors and enables tinkering with mechanisms.", "Press [Attack] while equipped to use." ],
+		"template_tool_skeletonkey_description": [ "Unlocks and locks chests and doors.", "Press [Attack] while equipped to use." ],
+		"template_tool_tinopener_description": [ "インベントリ内にある\n缶詰食品を開けることができます。" ],
+		"template_food_tin_description": [ "空腹度を大幅に回復します。", "食べるには缶切りが必要です。" ],
+		"template_weapon_base_atk": [ "%+d base item ATK" ],
+		"template_weapon_beatitude_atk": [ "%+d ATK from %s" ],
+		"template_weapon_on_degraded_atk": [ "%+d ATK from %s quality" ],
+		"template_armor_on_degraded_ac": [ "%+d AC from %s quality" ],
+		"template_weapon_mace_effects": [ "+10% armor break on hit" ],
+		"template_weapon_axe_effects": [ "* Increased ATK on wooden objects" ],
+		"template_weapon_sword_effects": [ "+10% [Bleed] chance on hit" ],
+		"template_weapon_polearm_effects": [ "+10% minimum weapon damage" ],
+		"template_weapon_legendary_polearm_effects": [ "* Always strikes for maximum damage" ],
+		"template_weapon_skill_modifier": [ "%+d%% effectiveness from %s skill" ],
+		"template_weapon_skill_modifier_range": [ "* (%d%% - %d%%) ATK variance from", "%s skill" ],
+		"template_when_equipped_text": [ "\nWhen equipped:" ],
+		"template_when_equipped_text_no_leading_newline": [ "When equipped:" ],
+		"template_player_atk_stat_str": [ "%+d ATK from STR stat" ],
+		"template_player_atk_stat_whip": [ "%+d ATK from 50%% STR + DEX stat" ],
+		"template_knuckles_base_ac": [ "%+d base item AC / ATK" ],
+		"template_knuckles_beatitude_ac": [ "%+d AC / ATK from %s" ],
+		"template_ranged_armor_pierce": [ "%+d%% chance Armor Pierce from PER stat" ],
+		"template_ranged_quiver_augment": [ "* Applies effects of quivers in", " %s slot" ],
+		"template_ranged_rate_of_fire": [ "%+d%% base rate of fire" ],
+		"template_player_unarmed_atk_stat_str": [ "%+d ATK from STR stat" ],
+		"template_ring_unarmed_atk": [ "%+d Unarmed ATK from %s" ],
+		"template_player_atk_stat_dex": [ "%+d ATK from DEX stat" ],
+		"template_knuckle_skill_modifier": [ "%+d ATK from %s skill" ],
+		"template_knuckle_knockback_modifier": [ "+%d%% Knockback on critical hit" ],
+		"template_weapon_durability": [ "%+d%% durability from %s skill" ],
+		"template_weapon_legendary_durability": [ "* Unbreakable from %s skill" ],
+		"template_shield_durability": [ "%+d%% durability from %s skill" ],
+		"template_shield_legendary_durability": [ "* Unbreakable from %s skill" ],
+		"template_fragile_equipment_description": [ "Fragile." ],
+		"template_fragile_weapon_description": [ "Fragile." ],
+		"template_weapon_bonus_exp": [ "%+d%% chance to increase %s skill" ],
+		"template_equipment_fragile_durability": [ "%+d%% durability from Fragile" ],
+		"template_armor_fragile_durability": [ "%+d%% durability from Fragile" ],
+		"template_attributes_text": [ "Attributes:" ],
+		"template_weapon_damage_text": [ "Weapon damage bonuses:" ],
+		"template_quiver_damage_text": [ "Ranged damage bonuses:" ],
+		"template_armor_ac_text": [ "Armor bonuses:" ],
+		"template_thrown_skill_modifier": [ "%+d%% damage from %s skill" ],
+		"template_gem_skill_modifier": [ "%+d damage from %s skill" ],
+		"template_quiver_silver_attributes": [ "[スマイト]によるアンデッドと\nデーモンの攻撃力+50%" ],
+		"template_quiver_piercing_attributes": [ "* [装甲貫通]はターゲットACの\n50%を無視する" ],
+		"template_quiver_swift_attributes": [ "[高速装填]による遠距離攻撃間の\nリロード時間を+50%短縮" ],
+		"template_quiver_fire_attributes": [ "* Provides light on floors and walls" ],
+		"template_quiver_knockback_attributes": [ "* ステータス効果によって行動不能\nになったターゲットは、より大きな\n[ノックバック]を受ける" ],
+		"template_quiver_hunting_attributes": [ "[狩猟]による大型・小型獣への攻撃力+50%" ],
+		"template_attributes_text_armor_conditional_tags": [
+			"STR",
+			"DEX",
+			"CON",
+			"INT",
+			"PER",
+			"CHR",
+			"FRAGILE",
+			"EFF_FEATHER",
+			"EFF_WATERWALKING",
+			"EFF_POISONRESIST",
+			"EFF_WATERBREATHING",
+			"EFF_LIFESAVING",
+			"EFF_MAGICREFLECT",
+			"EFF_STRANGULATION",
+			"EFF_SEXCHANGE",
+			"EFF_MAGICRESIST_SHIELD",
+			"EFF_QUIVER_SILVER",
+			"EFF_QUIVER_PIERCING",
+			"EFF_QUIVER_SWIFT",
+			"EFF_SHIELD_BRITTLE",
+			"EFF_UNBREAKABLE",
+			"EFF_QUIVER_FIRE",
+			"EFF_QUIVER_KNOCKBACK",
+			"EFF_QUIVER_HUNTING",
+			"EFF_QUIVER_HUNTING2",
+			"EFF_QUIVER_CRYSTAL",
+			"EFF_WARNING",
+			"EFF_FOOTSTEP_WARNING",
+			"EFF_TELEPORTATION",
+			"EFF_CONFLICT",
+			"EFF_SLOWDIGESTION",
+			"EFF_BREAKABLE",
+			"EFF_BLEED_ENERGIZE",
+			"EFF_LIGHT",
+			"EFF_CHEF2",
+			"EFF_TECH_GOGGLES1",
+			"EFF_THORNS",
+			"EFF_INSPIRATION",
+			"EFF_CELEBRATION",
+			"EFF_BOUNTY",
+			"EFF_FOLLOWER_DMGRESIST",
+			"EFF_HOOD_WHISPERS",
+			"EFF_SILKEN_BOW",
+			"EFF_CLOAK_GUARDIAN",
+			"EFF_MARIGOLD1"
+		],
+		"template_armor_stat_bonus": [ "%+d base item %s", "%+d %s from %s" ],
+		"template_equipment_effect_feather": [ "%+d base item weight from %s" ],
+		"template_equipment_effect_waterwalking": [ "* Wearer floats on water and lava from [Waterwalking]" ],
+		"template_equipment_effect_poisonresist": [ "* Cures [Poison] status effect", "+2 [Magic Resist] against\nPoison / Acid spells" ],
+		"template_equipment_effect_magicreflect": [ "* Reflects magic spells when hit", "* 50% chance to degrade on reflection" ],
+		"template_equipment_effect_waterbreathing": [ "* 100% movement speed in water or\n lava" ],
+		"template_equipment_effect_warning": [ "* Reveals enemy locations\non the map from [Warning]", "%+d tile radius from %s" ],
+		"template_equipment_effect_footstep_warning": [ "* Reveals locations of moving enemies on the map from [Lesser Warning]", "+20 tile radius" ],
+		"template_equipment_effect_teleportation": [ "* Teleports the wearer to random locations" ],
+		"template_equipment_effect_conflict": [ "* Causes monsters to hunt others regardless of allegiance", "+7 tile radius" ],
+		"template_equipment_effect_slowdigestion": [ "* Increases food satiation and delays starvation" ],
+		"template_equipment_effect_freeaction": [ "", "When equipped:", "* Cures [Sleep] [Paralysis] [Slow]", "status effects from [Free Action]" ],
+		"template_equipment_effect_telepathy": [ "", "When equipped:", "* Reveals monsters through walls from [Telepathy]" ],
+		"template_tool_pickaxe_degrade": [ "* 50% chance to degrade on [Digging]" ],
+		"template_lockpick_text_tinkering": [ "* Effects based on Tinkering skill", "" ],
+		"template_lockpick_text_chestsdoors": [ "Unlocking Chests and Doors:" ],
+		"template_lockpick_chestsdoors_unlock_chance": [ "%+d%% base chance to unlock" ],
+		"template_lockpick_skeletonkey_chestsdoors_unlock_chance": [ "+100% base chance to unlock" ],
+		"template_lockpick_chests_scrap_chance": [ "宝箱を開けると、いじくりスクラップが%+d%%の確率で手に入る" ],
+		"template_lockpick_skeletonkey_chests_scrap_chance": [ "宝箱を開けると、いじくりスクラップが+0%の確率で手に入る" ],
+		"template_lockpick_text_mechanisms": [ "", "メカニズム:", "* ワールドに設定された\nいじくりトラップの有効化を切り替えます" ],
+		"template_lockpick_skeletonkey_text_mechanisms": [ "", "Mechanisms:" ],
+		"template_lockpick_arrow_disarm": [ "矢の罠を解除する確率が %+d%% になる" ],
+		"template_lockpick_automaton_disarm": [ "%+d%% の確率で自動人形を解体して修理用スクラップにする" ],
+		"template_lockpick_durability_chance": [ "* 20% chance to degrade on use" ],
+		"template_food_puke_chance": [ "%+d%% chance for [Indigestion] from %s quality" ],
+		"template_food_on_eating": [ "On consuming:" ],
+		"template_spellbook_cast_bonus": [ "", "魔法書詠唱ボーナス:", "%+d%% %s から %s 統計", "%+d%% %s から %s" ],
+		"template_spellbook_cast_success": [ "未学習時の詠唱成功率 %+d%%" ],
+		"template_spellbook_extramana_chance": [ "%+d%% MP効率" ],
+		"template_spellbook_magic_requirement": [ "魔法を習得するための要件: %d (%s)" ],
+		"template_spellbook_magic_current": [ "Current Magic skill + INT stat: %d (%s)" ],
+		"template_spellbook_icon_damage_bonus": [ "Spellbook-Cast effect:", "%+d%% Magic Damage" ],
+		"template_spellbook_icon_duration_bonus": [ "Spellbook-Cast effect:", "%+d%% Effect duration" ],
+		"template_spellbook_icon_heal_bonus": [ "Spellbook-Cast effect:", "%+d%% HP Restoration" ],
+		"template_spellbook_icon_cureailment_bonus": [ "Spellbook-Cast effect:", "%+ds [HP Regen] on cast" ],
+		"template_icon_spell_forcebolt": [ "%+d Magic Damage" ],
+		"template_icon_spell_magicmissile": [ "%+d Magic Damage" ],
+		"template_icon_spell_cold": [ "%+d Magic Damage\nInflicts [Slow]" ],
+		"template_icon_spell_fireball": [ "%+d Magic Damage\nInflicts [Burning]" ],
+		"template_icon_spell_light": [ "Summons a [Light]", "following the caster" ],
+		"template_icon_spell_removecurse": [ "Removes [Curse]" ],
+		"template_icon_spell_lightning": [ "%+d Magic Damage" ],
+		"template_icon_spell_identify": [ "[Identify] an item" ],
+		"template_icon_spell_magicmapping": [ "[Reveals] the current", "dungeon floor" ],
+		"template_icon_spell_sleep": [ "Inflicts [Sleep]" ],
+		"template_icon_spell_confuse": [ "Inflicts [Confuse]" ],
+		"template_icon_spell_slow": [ "Inflicts [Slow]" ],
+		"template_icon_spell_opening": [ "[Opens] doors, gates", "and locked containers" ],
+		"template_icon_spell_locking": [ "[Locks] doors", "and chests" ],
+		"template_icon_spell_levitation": [ "Grants [Levitation]", "while sustained" ],
+		"template_icon_spell_invisibility": [ "Grants [Invisibility]", "while sustained" ],
+		"template_icon_spell_teleportation": [ "[Teleport] to a ", "random location" ],
+		"template_icon_spell_healing": [ "%+d [HP Restore]\nHeals nearby allies" ],
+		"template_icon_spell_extrahealing": [ "%+d [HP Restore]\nHeals nearby allies" ],
+		"template_icon_spell_cureailment": [ "[Cures] status effects of", "caster and nearby allies" ],
+		"template_icon_spell_dig": [ "Breaks boulders", "and walls" ],
+		"template_icon_spell_summon": [ "Conjures %d", "Skeleton ally(s)" ],
+		"template_icon_spell_stoneblood": [ "Inflicts [Paralysis]" ],
+		"template_icon_spell_bleed": [ "%+d Magic Damage", "Inflicts [Bleed/Slow]" ],
+		"template_icon_spell_reflect_magic": [ "Grants [Magic Reflection]", "while sustained" ],
+		"template_icon_spell_dominate": [ "モンスターを[支配]", "して仲間にする" ],
+		"template_icon_spell_acid_spray": [ "%+d Magic Damage", "Inflicts [Poison]" ],
+		"template_icon_spell_steal_weapon": [ "[Steal] held weapons" ],
+		"template_icon_spell_drain_soul": [ "%+d Magic Damage", "Inflicts [MP Damage]" ],
+		"template_icon_spell_vampiric_aura": [ "Grants unarmed attack %\n[Lifesteal] [Bleeding]" ],
+		"template_icon_spell_charm": [ "Attempts to [Charm] a", "monster into an ally" ],
+		"template_icon_spell_revert_form": [ "Removes active", "[Shapeshift] or ", "[Polymorph] effects" ],
+		"template_icon_spell_rat_form": [ "[Shapeshift] temporarily", "into a different form" ],
+		"template_icon_spell_spider_form": [ "[Shapeshift] temporarily", "into a different form" ],
+		"template_icon_spell_troll_form": [ "[Shapeshift] temporarily", "into a different form" ],
+		"template_icon_spell_imp_form": [ "[Shapeshift] temporarily", "into a different form" ],
+		"template_icon_spell_spray_web": [ "Inflicts +1  [Webbed]", "instance (Max 3x)" ],
+		"template_icon_spell_poison": [ "%+d magic damage\nInflicts [Poison]" ],
+		"template_icon_spell_speed": [ "Grants [Speed] to caster", "and nearby allies" ],
+		"template_icon_spell_fear": [ "Inflicts [Fear] on nearby", "enemies" ],
+		"template_icon_spell_strike": [ "Charges a powerful melee\nstrike dealing +400%% ATK" ],
+		"template_icon_spell_detect_food": [ "現在のダンジョンフロアの", "食料の場所を明らかにする" ],
+		"template_icon_spell_weakness": [ " [魔法弱点]付与" ],
+		"template_icon_spell_amplify_magic": [ "[火の玉][氷][雷]", "[マジックミサイル]を強化する" ],
+		"template_icon_spell_shadow_tag": [ " [無効化]付与し", "対象の場所を明らかにする" ],
+		"template_icon_spell_telepull": [ "[Teleports] a target\ntowards the caster" ],
+		"template_icon_spell_demon_illu": [ "Exorcises an Inner Demon", "that inflicts [Provoke]" ],
+		"template_icon_spell_trolls_blood": [ "Grants [HP Regen] to", "caster and nearby allies" ],
+		"template_icon_spell_salvage": [ "[Transmutes] nearby items", "into Tinkering scrap" ],
+		"template_icon_spell_flutter": [ "Grants [Levitation]", "briefly" ],
+		"template_icon_spell_dash": [ "[Propels] caster in", "current moving direction" ],
+		"template_icon_spell_ghost_bolt": [ "Inflicts [Knockback]", "and [Slow]" ],
+		"template_icon_spell_self_polymorph": [ "[Polymorph] temporarily", "into a random humanoid" ],
+		"template_desc_spell_forcebolt": [ "Press [Cast] while equipped", "to cast the [Projectile]." ],
+		"template_desc_spell_magicmissile": [ "Press [Cast] while equipped", "to cast the [Projectile]." ],
+		"template_desc_spell_cold": [ "Press [Cast] while equipped", "to cast the [Projectile]." ],
+		"template_desc_spell_fireball": [ "Press [Cast] while equipped", "to cast the [Projectile]." ],
+		"template_desc_spell_ghost_bolt": [ "Press [Cast] while equipped", "to cast the [Projectile]." ],
+		"template_desc_spell_light": [ "Press [Cast] while equipped to toggle", "the [Sustained] effect." ],
+		"template_desc_spell_removecurse": [ "Press [Cast] while equipped", "to select an item to Uncurse." ],
+		"template_desc_spell_lightning": [ "Press [Cast] while equipped", "to cast the [Projectile]." ],
+		"template_desc_spell_identify": [ "Press [Cast] while equipped", "to select an item to Identify." ],
+		"template_desc_spell_magicmapping": [ "Press [Cast] while equipped to show", "unexplored areas on the map." ],
+		"template_desc_spell_sleep": [ "Press [Cast] while equipped", "to cast the [Projectile]." ],
+		"template_desc_spell_confuse": [ "Press [Cast] while equipped", "to cast the [Projectile]." ],
+		"template_desc_spell_slow": [ "Press [Cast] while equipped", "to cast the [Projectile]." ],
+		"template_desc_spell_opening": [ "Press [Cast] while equipped to ", "cast the [Projectile]." ],
+		"template_desc_spell_locking": [ "Press [Cast] while equipped", "to cast the [Projectile]." ],
+		"template_desc_spell_levitation": [ "Press [Cast] while equipped to", "toggle the [Sustained] effect." ],
+		"template_desc_spell_invisibility": [ "Press [Cast] while equipped to", "toggle the [Sustained] effect." ],
+		"template_desc_spell_teleportation": [ "Press [Cast] while equipped", "to instantly teleport." ],
+		"template_desc_spell_healing": [ "Press [Cast] while equipped to", "invoke the [Area] effect." ],
+		"template_desc_spell_extrahealing": [ "Press [Cast] while equipped to", "invoke the [Area] effect." ],
+		"template_desc_spell_cureailment": [ "Press [Cast] while equipped to", "invoke the [Area] effect." ],
+		"template_desc_spell_dig": [ "Press [Cast] while equipped", "to cast the [Projectile]." ],
+		"template_desc_spell_summon": [ "Press [Cast] while equipped to summon.", "Existing summons are recalled and", "restore MP on subsequent casts." ],
+		"template_desc_spell_stoneblood": [ "Short-range spell.", "Press [Cast] while equipped ", "to cast 3x [Projectiles]." ],
+		"template_desc_spell_bleed": [ "Press [Cast] while equipped", "to cast the [Projectile]." ],
+		"template_desc_spell_reflect_magic": [ "Press [Cast] while equipped to", "toggle the [Sustained] effect." ],
+		"template_desc_spell_dominate": [ "支配対象のHPに応じて", "MP消費量が増加する。", "装備中に[詠唱]を押す", "[投射物]を発射します。" ],
+		"template_desc_spell_acid_spray": [ "Corrodes armor on hit.", "Short-range spell.", "Press [Cast] while equipped ", "to cast 3x [Projectiles]." ],
+		"template_desc_spell_steal_weapon": [ "Stolen weapon is added to", "the caster's inventory.", "Press [Cast] while equipped", "to cast the [Projectile]." ],
+		"template_desc_spell_drain_soul": [ "与えたダメージに応じて回復します。", "装備中に[詠唱]を押す", "[投射物]を発射します。" ],
+		"template_desc_spell_vampiric_aura": [ "アクティブ中は空腹率が上昇します。", "装備中に[詠唱]を押す", "効果が[持続]します。" ],
+		"template_desc_spell_charm": [ "Success varies with monster type.", "Only 1 monster may be Charmed into", "an ally at one time.", "Press [Cast] while equipped to cast", "the [Projectile]." ],
+		"template_desc_spell_revert_form": [ "Press [Cast] while equipped to", "return to normal form." ],
+		"template_desc_spell_rat_form": [ "Press [Cast] while equipped to", "change into Rat form." ],
+		"template_desc_spell_spider_form": [ "Press [Cast] while equipped to", "change into Arthropod form." ],
+		"template_desc_spell_troll_form": [ "Press [Cast] while equipped to", "change into Troll form." ],
+		"template_desc_spell_imp_form": [ "Press [Cast] while equipped to", "change into Imp form." ],
+		"template_desc_spell_spray_web": [ "Each instance increases effectiveness.", "Short-range spell. Press [Cast] while", "equipped to cast 3x [Projectiles]." ],
+		"template_desc_spell_poison": [ "Press [Cast] while equipped", "to cast the [Projectile]." ],
+		"template_desc_spell_speed": [ "Press [Cast] while equipped to", "invoke the [Area] effect." ],
+		"template_desc_spell_fear": [ "Feared targets are unable to attack", "and focuses attention on the caster.", "Press [Cast] while equipped to invoke", "the [Area] effect." ],
+		"template_desc_spell_strike": [ "Press [Cast] while equipped to", "charge the strike." ],
+		"template_desc_spell_detect_food": [ "Press [Cast] while equipped to", "show food locations on the map." ],
+		"template_desc_spell_weakness": [ "Inflicts [Magic Weakness]" ],
+		"template_desc_spell_amplify_magic": [ "Increases damage and reduces range", "of elemental spells cast.", "Press [Cast] while equipped to toggle", "the [Sustained] effect." ],
+		"template_desc_spell_shadow_tag": [ "Marked targets refocus Teleportation", "spells cast around the target.", "Press [Cast] while equipped to cast", "the [Projectile]." ],
+		"template_desc_spell_telepull": [ "Disoriented targets temporarily", "are unable to act until hit.", "Press [Cast] while equipped to", "cast the [Projectile]." ],
+		"template_desc_spell_demon_illu": [ "Demon's stats are based on caster.", "Press [Cast] while equipped to cast", "the [Projectile]." ],
+		"template_desc_spell_trolls_blood": [ "Press [Cast] while equipped to", "invoke the [Area] effect." ],
+		"template_desc_spell_salvage": [ "Only affects items on the ground.", "Press [Cast] while equipped to", "invoke the [Area] effect." ],
+		"template_desc_spell_flutter": [ "Press [Cast] while equipped", "to take flight." ],
+		"template_desc_spell_dash": [ "Casting while stationary performs", "a backwards leap.", "Press [Cast] while equipped to dash." ],
+		"template_desc_spell_self_polymorph": [ "Press [Cast] while equipped to", "change form and racial traits.", "Non-humans always Polymorph into", "a human form." ],
+		"template_spell_cost": [ "Cost: %d MP" ],
+		"template_spell_cost_dominate": [ "Cost: %d + ?? MP" ],
+		"template_spell_cost_demon_illusion": [ "Cost: %d MP", "10%% Max HP " ],
+		"template_spell_cost_sustained": [ "Cost: %d MP", "(1 MP/%1.2fs)" ],
+		"template_spell_damage_bonus": [ "Spell %s bonuses:", "%+d base spell %s", "%+.f%% %s from %s stat", "%+.f%% %s from equipment" ],
+		"template_spell_cast_success": [ "^Low Casting skill penalty:", "^* %d%% cast success rate" ],
+		"template_spell_extramana_chance": [ "^* %d%% chance to consume", "^additional MP " ],
+		"template_attr_spell_shadow_tag": [ "属性:", "* 無効化された敵へのダメージタイプ\n(遠距離、斧など)は常に100%ダメージを与えます。", "テレポート魔法発動中はMP消費が50%減少", "", "* [テレポート]は術者をターゲットに移動させます", "* [別テレポート]を唱えると、\nマークされたターゲットが術者の前に移動する。" ],
+		"template_attr_spell_summon": [ "属性:", "* 召喚された仲間のLVは詠唱間で維持され、\n5レベルごとに装備が強化されます。(最高30レベル)", "* 召喚ランクに応じてMPコストが増加", "* エキスパート(60)魔法スキル+INTステータスは\n追加の召喚を作成する", "", "仲間コマンド:", "* [魂開放]は召喚獣を破壊し、\n現在のHPに応じてMPを回復します" ],
+		"template_attr_spell_self_polymorph": [ "属性:", "* 水に触れたり飲んだりすると[変身]効果は消える" ],
+		"template_attr_spell_acid_spray": [ "属性:", "攻撃ごとに装甲を劣化させる基本確率 +25%", "" ],
+		"template_attr_spell_charm": [ "魅了:", "[混乱]または[酔い]モンスターの発生確率+30%%", "INTステータスによる確率は%+d%%", "CHRステータス + 統率スキルによる確率 %+d%%" ],
+		"template_attr_spell_dominate": [ "属性:", "* モンスターを支配すると、\n統率スキルの味方の制限を超えることができます", "", "支配MPコスト:", "* 弱体化したモンスターは支配に必要なMPを減らす\n (例えば、現在のHPが20のモンスターは41MPを消費します。)" ],
+		"template_attr_spell_revert_form": [ "属性:", "* 一度に削除できる効果は1つだけです" ],
+		"template_attr_magicstaff_charm": [ "", "魅了:", "[混乱]または[酔い]モンスターの発生確率+30%%", "CHRステータス + 統率スキルによる確率 %+d%%" ],
+		"template_magicstaff_degrade_chance": [ "属性:", "* 使用すると劣化する確率は %d%% です" ],
+		"template_magicstaff_charm_worn_degrade": [ "属性:", "* %s ステータスから使用時に %d%% の確率で劣化します" ],
+		"template_spellbook_degrade_chance": [ "* 読むと100%の確率で劣化", "* 魔法書詠唱時に12%の確率で劣化" ]
+	},
+	"tooltips": {
+		"tooltip_artifact_orb_blue": {
+			"icons": [
+				{
+					"text": "[キーアイテム]",
+					"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/keyitem.png"
+				}
+			],
+			"description": [ "遺跡の奥深くで発見された遺物。\n装備中に[攻撃]を押すと使用できます。" ],
+			"size": {
+				"min_width": 260
+			}
+		},
+		"tooltip_artifact_orb_red": {
+			"icons": [
+				{
+					"text": "[キーアイテム]",
+					"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/keyitem.png"
+				}
+			],
+			"description": [ "迷宮の奥深くで発見された遺物。\n装備中に[攻撃]を押すと使用できます。" ],
+			"size": {
+				"min_width": 260
+			}
+		},
+		"tooltip_artifact_orb_green": {
+			"icons": [
+				{
+					"text": "[キーアイテム]",
+					"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/keyitem.png"
+				}
+			],
+			"description": [ "沼地の奥深くで見つかった遺物。\n装備中に[攻撃]を押すと使用できます。" ],
+			"size": {
+				"min_width": 250
+			}
+		},
+		"tooltip_artifact_orb_purple": {
+			"icons": [
+				{
+					"text": "[キーアイテム]",
+					"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/keyitem.png"
+				}
+			],
+			"description": [ "哀れなリッチの残骸から発見された遺物。\n装備中に[攻撃]を押すと使用できます。" ],
+			"size": {
+				"min_width": 270
+			}
+		},
+		"tooltip_gem_rock": {
+			"icons": [
+				{
+					"text": "%+d 投擲ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+				},
+				{
+					"text": "%s",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/feather.png",
+					"conditional_attribute": "EFF_FEATHER"
+				}
+			],
+			"description": "template_rock_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"piercing": [ "+50% 装甲貫通" ]
+				},
+				{
+					"degrade": [ "ヒット時に粉砕する確率+50%" ]
+				},
+				{
+					"EFF_FEATHER": "template_equipment_effect_feather"
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"thrown_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"fully_charged": [ "フルチャージ投げで攻撃力+3" ]
+				},
+				{
+					"thrown_skill_modifier": "template_gem_skill_modifier"
+				}
+			],
+			"size": {
+				"max_width": 0,
+				"min_width": 316,
+				"max_header_width": 290
+			}
+		},
+		"tooltip_gem_glass": {
+			"icons": [
+				{
+					"text": "%+d 投擲ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+				}
+			],
+			"description": "template_glass_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"piercing": [ "+50% 装甲貫通" ]
+				},
+				{
+					"degrade": [ "ヒット時に粉砕する確率+50%" ]
+				},
+				{
+					"EFF_FEATHER": "template_equipment_effect_feather"
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"thrown_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"fully_charged": [ "フルチャージ投げで攻撃力+3" ]
+				},
+				{
+					"thrown_skill_modifier": "template_gem_skill_modifier"
+				}
+			],
+			"size": {
+				"max_width": 0,
+				"min_width": 304,
+				"max_header_width": 290
+			}
+		},
+		"tooltip_gem": {
+			"icons": [
+				{
+					"text": "%+d 投擲ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+				}
+			],
+			"description": "template_gem_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"piercing": [ "+50% 装甲貫通" ]
+				},
+				{
+					"degrade": [ "ヒット時に粉砕する確率+50%" ]
+				},
+				{
+					"EFF_FEATHER": "template_equipment_effect_feather"
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"thrown_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"fully_charged": [ "フルチャージ投げで攻撃力+3" ]
+				},
+				{
+					"thrown_skill_modifier": "template_gem_skill_modifier"
+				}
+			],
+			"size": {
+				"max_width": 0,
+				"min_width": 304,
+				"max_header_width": 290
+			}
+		},
+		"tooltip_magicstaff": {
+			"icons": [
+				{
+					"text": "",
+					"icon_path": "",
+					"conditional_attribute": "magicstaff_light"
+				},
+				{
+					"text": "",
+					"icon_path": "",
+					"conditional_attribute": "magicstaff_digging"
+				},
+				{
+					"text": "",
+					"icon_path": "",
+					"conditional_attribute": "magicstaff_locking"
+				},
+				{
+					"text": "",
+					"icon_path": "",
+					"conditional_attribute": "magicstaff_magicmissile"
+				},
+				{
+					"text": "",
+					"icon_path": "",
+					"conditional_attribute": "magicstaff_opening"
+				},
+				{
+					"text": "",
+					"icon_path": "",
+					"conditional_attribute": "magicstaff_slow"
+				},
+				{
+					"text": "",
+					"icon_path": "",
+					"conditional_attribute": "magicstaff_cold"
+				},
+				{
+					"text": "",
+					"icon_path": "",
+					"conditional_attribute": "magicstaff_fire"
+				},
+				{
+					"text": "",
+					"icon_path": "",
+					"conditional_attribute": "magicstaff_lightning"
+				},
+				{
+					"text": "",
+					"icon_path": "",
+					"conditional_attribute": "magicstaff_sleep"
+				},
+				{
+					"text": "",
+					"icon_path": "",
+					"conditional_attribute": "magicstaff_stoneblood"
+				},
+				{
+					"text": "",
+					"icon_path": "",
+					"conditional_attribute": "magicstaff_bleed"
+				},
+				{
+					"text": "",
+					"icon_path": "",
+					"conditional_attribute": "magicstaff_charm"
+				},
+				{
+					"text": "",
+					"icon_path": "",
+					"conditional_attribute": "magicstaff_poison"
+				}
+			],
+			"description": [ "装備中に[攻撃]を押すと、\n込められた魔法を発動します。" ],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"magicstaff_degrade_chance": "template_magicstaff_degrade_chance"
+				},
+				{
+					"magicstaff_charm_degrade_chance": "template_magicstaff_charm_worn_degrade"
+				},
+				{
+					"attribute_spell_charm": "template_attr_magicstaff_charm"
+				}
+			],
+			"size": {
+				"max_width": 0,
+				"min_width": 300,
+				"max_header_width": 310,
+				"item_overrides": {
+					"magicstaff_charm": {
+						"min_width": 320
+					}
+				}
+			}
+		},
+		"tooltip_scroll_mail": {
+			"icons": [
+				{
+					"text": "ラベル付き:\n%s",
+					"icon_path": "images/system/int64.png",
+					"conditional_attribute": "SCROLL_LABEL"
+				}
+			],
+			"description": [ "他人に宛てた手紙。" ],
+			"details": [
+				{
+					"default": [ "" ]
+				}
+			],
+			"size": {
+				"min_width": 200
+			}
+		},
+		"tooltip_scroll_blank": {
+			"icons": [
+				{
+					"text": "効果なし",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png"
+				},
+				{
+					"text": "ラベル付き:\n%s",
+					"icon_path": "images/system/int64.png",
+					"conditional_attribute": "SCROLL_LABEL"
+				}
+			],
+			"description": [ "刻印することで\n魔法の効果を与えることができます。" ],
+			"details": [
+				{
+					"default": [ "" ]
+				}
+			],
+			"size": {
+				"max_width": 0,
+				"min_width": 220
+			}
+		},
+		"tooltip_scroll": {
+			"icons": [
+				{
+					"text": "選択したメインハンド\n装備を[祝福]する",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "scroll_enchantweapon"
+				},
+				{
+					"text": "現在の場所に\n[光源]を作成します",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "scroll_light"
+				},
+				{
+					"text": "着用済みの鎧を\nランダムに1つ破壊する",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "scroll_destroyarmor"
+				},
+				{
+					"text": "選択した防具または\nオフハンド装備を[祝福]する",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "scroll_enchantarmor"
+				},
+				{
+					"text": "選択した装備を\n[修理]する",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "scroll_repair"
+				},
+				{
+					"text": "選択したアイテムから\n[呪い]を削除します",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "scroll_removecurse"
+				},
+				{
+					"text": "現在の場所に\n炎を[召喚]する",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "scroll_fire"
+				},
+				{
+					"text": "いくつかの食べ物を\n[召喚]する",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "scroll_food"
+				},
+				{
+					"text": "遠距離武器の弾薬を\n[召喚]する",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "scroll_conjurearrow"
+				},
+				{
+					"text": "現在のダンジョンフロア\nを[明確]にする",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "scroll_magicmapping"
+				},
+				{
+					"text": "ランダムな場所に\n[テレポート]する",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "scroll_teleportation"
+				},
+				{
+					"text": "ランダムな数のモンスターを\n[召喚]する",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "scroll_summon"
+				},
+				{
+					"text": "選択した装備を\n[鑑定]する",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "scroll_identify"
+				},
+				{
+					"text": "魔法の杖と\n魔法の羽を[修理]する",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "scroll_charging"
+				},
+				{
+					"text": "ラベル付き:\n%s",
+					"icon_path": "images/system/int64.png",
+					"conditional_attribute": "SCROLL_LABEL"
+				}
+			],
+			"description": [ "読むと魔法の効果が適用されます。\n使用すると消えます。" ],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"scroll_on_cursed_sideeffect": "template_scroll_curse_sideeffect"
+				}
+			],
+			"size": {
+				"max_width": 0,
+				"min_width": 280,
+				"max_header_width": 280
+			}
+		},
+		"tooltip_spell_item": {
+			"icons": [
+				{
+					"text": "",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "SPELL_ICON_EFFECT"
+				},
+				{
+					"text": "[MP]を消費することで\n魔法ダメージを反射する",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "spell_reflect_magic"
+				},
+				{
+					"text": "[MP]が枯渇すると\n魔法は[HP]を消費します",
+					"icon_path": "#*images/system/Hunger_blood.png",
+					"conditional_attribute": "spell_dominate"
+				},
+				{
+					"text": "STR/DEX増加",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "spell_vampiric_aura"
+				},
+				{
+					"text": "-100% [HP自動回復]",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "spell_vampiric_aura"
+				},
+				{
+					"text": "術者の[HP/MP]を回復",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "spell_drain_soul"
+				},
+				{
+					"text": "[魅了]できない場合\n[鎮静]付与",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "spell_charm"
+				},
+				{
+					"text": "ねずみ形態では、\n+DEX +INT +PER付与",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "spell_rat_form"
+				},
+				{
+					"text": "[スピード][食料発見]\n魔法付与",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "spell_rat_form"
+				},
+				{
+					"text": "クモ形態では、\n+STR +CON +PER付与",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "spell_spider_form"
+				},
+				{
+					"text": "[毒][クモの巣噴射]\n魔法付与",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "spell_spider_form"
+				},
+				{
+					"text": "トロール形態では、\n+STR +CON -DEX付与",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "spell_troll_form"
+				},
+				{
+					"text": "[トロールの血][パワーストライク]\n魔法付与",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "spell_troll_form"
+				},
+				{
+					"text": "インプ形態では\n+INT +PER と [浮遊]付与",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "spell_imp_form"
+				},
+				{
+					"text": "[雷][混乱][元素焦点]\n魔法付与",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "spell_imp_form"
+				},
+				{
+					"text": "[粘着][スロウ]付与\n近接攻撃に[ノックバック]",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "spell_spray_web"
+				},
+				{
+					"text": "衝撃で岩、壁、ドアを\n破壊します",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "spell_strike"
+				},
+				{
+					"text": "悪魔に与えたダメージは\n攻撃者に[反転]",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "spell_demon_illu"
+				},
+				{
+					"text": "魔法は[最大HP]の10%\nを消費します",
+					"icon_path": "#*images/system/Hunger_blood.png",
+					"conditional_attribute": "spell_demon_illu"
+				},
+				{
+					"text": "衝撃でドアが壊れる",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "spell_dash"
+				},
+				{
+					"text": "[無効化]ダメージタイプの\n弱点と耐性を削除します",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "spell_shadow_tag"
+				},
+				{
+					"text": "移動距離に基づいて\n[方向音痴]付与",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "spell_telepull"
+				}
+			],
+			"description": [ "装備中に[詠唱]を押す" ],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attribute_spell_shadow_tag": "template_attr_spell_shadow_tag"
+				},
+				{
+					"attribute_spell_summon": "template_attr_spell_summon"
+				},
+				{
+					"attribute_spell_self_polymorph": "template_attr_spell_self_polymorph"
+				},
+				{
+					"attribute_spell_acid_spray": "template_attr_spell_acid_spray"
+				},
+				{
+					"attribute_spell_charm": "template_attr_spell_charm"
+				},
+				{
+					"attribute_spell_dominate": "template_attr_spell_dominate"
+				},
+				{
+					"attribute_spell_revert_form": "template_attr_spell_revert_form"
+				},
+				{
+					"spell_damage_bonus": "template_spell_damage_bonus"
+				},
+				{
+					"spell_newbie_newline": ""
+				},
+				{
+					"spell_cast_success": "template_spell_cast_success"
+				},
+				{
+					"spell_extramana_chance": "template_spell_extramana_chance"
+				}
+			],
+			"size": {
+				"max_width": 0,
+				"min_width": 250,
+				"max_header_width": 280,
+				"item_overrides": {
+					"spell_forcebolt": {
+						"min_width": 240
+					},
+					"spell_magicmissile": {
+						"min_width": 240
+					},
+					"spell_cold": {
+						"min_width": 240
+					},
+					"spell_fireball": {
+						"min_width": 240
+					},
+					"spell_light": {
+						"min_width": 316
+					},
+					"spell_removecurse": {
+						"min_width": 250
+					},
+					"spell_lightning": {
+						"min_width": 240
+					},
+					"spell_identify": {
+						"min_width": 256
+					},
+					"spell_magicmapping": {
+						"min_width": 300
+					},
+					"spell_sleep": {
+						"min_width": 240
+					},
+					"spell_confuse": {
+						"min_width": 240
+					},
+					"spell_slow": {
+						"min_width": 240
+					},
+					"spell_opening": {
+						"min_width": 280
+					},
+					"spell_locking": {
+						"min_width": 240
+					},
+					"spell_levitation": {
+						"min_width": 256
+					},
+					"spell_invisibility": {
+						"min_width": 256
+					},
+					"spell_teleportation": {
+						"min_width": 240
+					},
+					"spell_healing": {
+						"min_width": 250
+					},
+					"spell_extrahealing": {
+						"min_width": 250
+					},
+					"spell_cureailment": {
+						"min_width": 300
+					},
+					"spell_dig": {
+						"min_width": 240
+					},
+					"spell_summon": {
+						"min_width": 320
+					},
+					"spell_stoneblood": {
+						"min_width": 240
+					},
+					"spell_bleed": {
+						"min_width": 270
+					},
+					"spell_reflect_magic": {
+						"min_width": 290
+					},
+					"spell_dominate": {
+						"min_width": 280
+					},
+					"spell_acid_spray": {
+						"min_width": 250
+					},
+					"spell_steal_weapon": {
+						"min_width": 260
+					},
+					"spell_drain_soul": {
+						"min_width": 270
+					},
+					"spell_vampiric_aura": {
+						"min_width": 316
+					},
+					"spell_charm": {
+						"min_width": 320
+					},
+					"spell_revert_form": {
+						"min_width": 260
+					},
+					"spell_rat_form": {
+						"min_width": 290
+					},
+					"spell_spider_form": {
+						"min_width": 290
+					},
+					"spell_troll_form": {
+						"min_width": 290
+					},
+					"spell_imp_form": {
+						"min_width": 290
+					},
+					"spell_spray_web": {
+						"min_width": 320
+					},
+					"spell_poison": {
+						"min_width": 240
+					},
+					"spell_speed": {
+						"min_width": 290
+					},
+					"spell_fear": {
+						"min_width": 310
+					},
+					"spell_strike": {
+						"min_width": 310
+					},
+					"spell_detect_food": {
+						"min_width": 286
+					},
+					"spell_weakness": {
+						"min_width": 300
+					},
+					"spell_amplify_magic": {
+						"min_width": 310
+					},
+					"spell_shadow_tag": {
+						"min_width": 320
+					},
+					"spell_telepull": {
+						"min_width": 280
+					},
+					"spell_demon_illu": {
+						"min_width": 300
+					},
+					"spell_trolls_blood": {
+						"min_width": 290
+					},
+					"spell_salvage": {
+						"min_width": 310
+					},
+					"spell_flutter": {
+						"min_width": 240
+					},
+					"spell_dash": {
+						"min_width": 300
+					},
+					"spell_self_polymorph": {
+						"min_width": 290
+					},
+					"spell_ghost_bolt": {
+						"min_width": 300
+					}
+				}
+			}
+		},
+		"tooltip_spellbook": {
+			"icons": [
+				{
+					"text": "読むと\n[%s]を教えます",
+					"icon_path": "",
+					"conditional_attribute": "SPELLBOOK_SPELLINFO_UNLEARNED"
+				},
+				{
+					"text": "",
+					"icon_path": "",
+					"conditional_attribute": "SPELLBOOK_SPELLINFO_LEARNED"
+				},
+				{
+					"text": "",
+					"icon_path": "images/ui/CharSheet/HUD_CharSheet_SPWR_00.png",
+					"conditional_attribute": "SPELLBOOK_CAST_BONUS"
+				},
+				{
+					"text": "[まだ学習できません]",
+					"icon_path": "#*images/system/Broken24x.png",
+					"conditional_attribute": "SPELLBOOK_UNLEARNED"
+				},
+				{
+					"text": "[学習可能]",
+					"icon_path": "images/system/int64u.png",
+					"conditional_attribute": "SPELLBOOK_LEARNABLE"
+				},
+				{
+					"text": "[学習不可能]",
+					"icon_path": "#*images/system/Broken24x.png",
+					"conditional_attribute": "SPELLBOOK_UNLEARNABLE"
+				}
+			],
+			"description": [ "オフハンドに持っているときに\n[防御]を押すと、魔法書詠唱を実行します。" ],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"spellbook_degrade": "template_spellbook_degrade_chance"
+				},
+				{
+					"spellbook_cast_bonus": "template_spellbook_cast_bonus"
+				},
+				{
+					"spellbook_unlearned_blank_space": [ "" ]
+				},
+				{
+					"spellbook_magic_requirement": "template_spellbook_magic_requirement"
+				},
+				{
+					"spellbook_magic_current": "template_spellbook_magic_current"
+				}
+			],
+			"size": {
+				"max_width": 360,
+				"min_width": 350,
+				"max_header_width": 360
+			}
+		},
+		"tooltip_readable_book": {
+			"description": "template_readable_book_description",
+			"size": {
+				"min_width": 280
+			}
+		},
+		"tooltip_scrap_metal": {
+			"description": "template_scrap_metal_description",
+			"size": {
+				"min_width": 260
+			}
+		},
+		"tooltip_scrap_magic": {
+			"description": "template_scrap_magic_description",
+			"size": {
+				"min_width": 260
+			}
+		},
+		"tooltip_enchanted_feather": {
+			"description": [ "魔法書を修復したり、\n空白の巻物に魔法の言葉を\n刻んだりするのに使用します。" ]
+		},
+		"tooltip_tool_tinkering_kit": {
+			"description": [ "アイテムをスクラップに\n分解できます。", "作成、分解、修理するには、\n「いじくり」を使用します。" ],
+			"size": {
+				"min_width": 340
+			}
+		},
+		"tooltip_tool_mirror": {
+			"description": "template_tool_mirror_description",
+			"size": {
+				"min_width": 280
+			}
+		},
+		"tooltip_tool_towel": {
+			"icons": [
+				{
+					"text": "[脂][ごみ][出血]\nをふき取る",
+					"icon_path": "images/ui/HUD/statusfx/grease.png"
+				}
+			],
+			"description": "template_tool_towel_description",
+			"size": {
+				"min_width": 240
+			}
+		},
+		"tooltip_tool_beartrap": {
+			"icons": [
+				{
+					"text": "%+d ダメージ",
+					"icon_path": "#*images/ui/Inventory/tooltips/HUD_Tooltip_Icon_Damage_00.png"
+				},
+				{
+					"text": " [麻痺]付与\n効果時間: [%d秒]",
+					"icon_path": "images/ui/HUD/statusfx/paralyze.png",
+					"conditional_attribute": "EFF_PARALYZE"
+				},
+				{
+					"text": " [出血]付与\n効果時間: [%d秒]",
+					"icon_path": "images/ui/HUD/statusfx/bleed.png",
+					"conditional_attribute": "EFF_BLEEDING"
+				}
+			],
+			"description": "template_tool_beartrap_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"beartrap_degrade_on_use": "template_beartrap_degrade_on_use"
+				},
+				{
+					"beartrap_degrade_on_use_cursed": "template_beartrap_degrade_on_use_cursed"
+				},
+				{
+					"degrade": [ "* 使用されると劣化する" ]
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				}
+			],
+			"size": {
+				"min_width": 284
+			}
+		},
+		"tooltip_tool_alembic": {
+			"description": [ "ポーションの混合を\n開始するために使用します。", "ポーションの効果は\n錬金術スキルによって向上します。" ],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_tool_sentrybot": {
+			"icons": [
+				{
+					"text": "%+d 遠距離ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png",
+					"conditional_attribute": "TINKERBOT_RANGEDATK"
+				},
+				{
+					"text": "%d HP\n%d 防御力",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
+					"conditional_attribute": "TINKERBOT_HPAC"
+				},
+				{
+					"text": "[アップグレード可能]",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Tinkering01.png",
+					"conditional_attribute": "TINKERBOT_UPGRADEABLE"
+				},
+				{
+					"text": "[修復不可能]",
+					"icon_path": "#*images/system/Broken24x.png",
+					"conditional_attribute": "TINKERBOT_BROKEN"
+				}
+			],
+			"description": "template_tool_sentrybot_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"tinkerbot_status_bonus": "template_tinkerbot_status_bonus"
+				},
+				{
+					"tinkerbot_turn_rate": "template_tinkerbot_turn_rate"
+				},
+				{
+					"tinkerbot_atk_initiative": "template_tinkerbot_atk_initiative"
+				}
+			],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_tool_spellbot": {
+			"icons": [
+				{
+					"text": "%+d 魔法ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Magic01.png",
+					"conditional_attribute": "TINKERBOT_MAGICATK"
+				},
+				{
+					"text": "%d HP\n%d 防御力",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
+					"conditional_attribute": "TINKERBOT_HPAC"
+				},
+				{
+					"text": "[アップグレード可能]",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Tinkering01.png",
+					"conditional_attribute": "TINKERBOT_UPGRADEABLE"
+				},
+				{
+					"text": "[修復不可能]",
+					"icon_path": "#*images/system/Broken24x.png",
+					"conditional_attribute": "TINKERBOT_BROKEN"
+				}
+			],
+			"description": "template_tool_sentrybot_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"tinkerbot_status_bonus": "template_tinkerbot_status_bonus"
+				},
+				{
+					"spellbot_rate_of_fire": "template_spellbot_rate_of_fire"
+				},
+				{
+					"tinkerbot_turn_rate": "template_tinkerbot_turn_rate"
+				},
+				{
+					"tinkerbot_atk_initiative": "template_tinkerbot_atk_initiative"
+				}
+			],
+			"size": {
+				"min_width": 280
+			}
+		},
+		"tooltip_tool_dummybot": {
+			"icons": [
+				{
+					"text": "%d HP\n%d 防御力",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
+					"conditional_attribute": "TINKERBOT_HPAC"
+				},
+				{
+					"text": "[アップグレード可能]",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Tinkering01.png",
+					"conditional_attribute": "TINKERBOT_UPGRADEABLE"
+				},
+				{
+					"text": "[修復不可能]",
+					"icon_path": "#*images/system/Broken24x.png",
+					"conditional_attribute": "TINKERBOT_BROKEN"
+				}
+			],
+			"description": "template_tool_dummybot_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"dummybot_info": [ "* 敵を誘い出すのに効果的", "* 基本スキルレベルまで\n戦闘訓練に使用可能" ]
+				}
+			],
+			"size": {
+				"min_width": 280
+			}
+		},
+		"tooltip_tool_gyrobot": {
+			"icons": [
+				{
+					"text": "%d HP",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
+					"conditional_attribute": "TINKERBOT_HPAC"
+				},
+				{
+					"text": "[アップグレード可能]",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Tinkering01.png",
+					"conditional_attribute": "TINKERBOT_UPGRADEABLE"
+				},
+				{
+					"text": "[修復不可能]",
+					"icon_path": "#*images/system/Broken24x.png",
+					"conditional_attribute": "TINKERBOT_BROKEN"
+				}
+			],
+			"description": "template_tool_gyrobot_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"gyrobot_info": [ "* 退出フロアでアクティブな\n機械仲間を自動的に回収する" ]
+				},
+				{
+					"gyrobot_info_interact": [ "* アイテムを拾ったり配置したり、\n罠を設定したりできる (%s 品質)" ]
+				}
+			],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_tool_detonated_charge": {
+			"description": "template_tool_detonated_charge_description",
+			"size": {
+				"min_width": 280
+			}
+		},
+		"tooltip_tool_bomb_fire": {
+			"icons": [
+				{
+					"text": "%+d 魔法ダメージ\n [炎上]付与",
+					"icon_path": "#*items/images/spells/fireball.png",
+					"conditional_attribute": "BOMB_ATK"
+				}
+			],
+			"description": "template_tool_bomb_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"tool_bomb_lockpickable": "template_tool_bomb_lockpickable"
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"tool_bomb_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"tool_bomb_per_atk": "template_bomb_atk_stat_per"
+				}
+			],
+			"size": {
+				"min_width": 348
+			}
+		},
+		"tooltip_tool_bomb_sleep": {
+			"icons": [
+				{
+					"text": "[睡眠]魔法が\n拡散する",
+					"icon_path": "#*items/images/spells/sleep.png"
+				}
+			],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"tool_bomb_lockpickable": "template_tool_bomb_lockpickable"
+				}
+			],
+			"description": "template_tool_bomb_description",
+			"size": {
+				"min_width": 316
+			}
+		},
+		"tooltip_tool_bomb_freeze": {
+			"icons": [
+				{
+					"text": "%+d 魔法ダメージ\n [スロウ]付与",
+					"icon_path": "#*items/images/spells/cold.png",
+					"conditional_attribute": "BOMB_ATK"
+				}
+			],
+			"description": "template_tool_bomb_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"tool_bomb_lockpickable": "template_tool_bomb_lockpickable"
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"tool_bomb_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"tool_bomb_per_atk": "template_bomb_atk_stat_per"
+				}
+			],
+			"size": {
+				"min_width": 348
+			}
+		},
+		"tooltip_tool_bomb_teleport": {
+			"icons": [
+				{
+					"text": "対象を[テレポート]",
+					"icon_path": "#*items/images/spells/teleport.png"
+				}
+			],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"tool_bomb_lockpickable": "template_tool_bomb_lockpickable"
+				}
+			],
+			"description": "template_tool_teleport_bomb_description",
+			"size": {
+				"min_width": 316
+			}
+		},
+		"tooltip_tool_decoy": {
+			"icons": [
+				{
+					"text": "近くの敵を[誘導]する",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/noise.png"
+				}
+			],
+			"description": "template_tool_decoy_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"tool_decoy_range": "template_tool_decoy_range"
+				}
+			],
+			"size": {
+				"min_width": 324
+			}
+		},
+		"tooltip_tool_tinopener": {
+			"description": "template_tool_tinopener_description",
+			"size": {
+				"min_width": 240
+			}
+		},
+		"tooltip_armor_blindfold": {
+			"icons": [
+				{
+					"text": "[テレパシー]付与",
+					"icon_path": "images/ui/HUD/statusfx/telepathy.png",
+					"conditional_attribute": "EFF_TELEPATHY"
+				},
+				{
+					"text": "[自由行動]付与",
+					"icon_path": "images/ui/HUD/statusfx/freeaction.png",
+					"conditional_attribute": "EFF_FREEACTION"
+				},
+				{
+					"text": "[失明]適用",
+					"icon_path": "images/ui/HUD/statusfx/blind.png"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_PER_00.png",
+					"conditional_attribute": "PER"
+				}
+			],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"EFF_FREEACTION": "template_equipment_effect_freeaction"
+				},
+				{
+					"EFF_TELEPATHY": "template_equipment_effect_telepathy"
+				}
+			],
+			"size": {
+				"max_width": 300,
+				"min_width": 286,
+				"max_header_width": 270,
+				"item_overrides": {
+					"tool_blindfold_focus": {
+						"max_header_width": 200,
+						"min_width": 270
+					}
+				}
+			}
+		},
+		"tooltip_tool_lockpick": {
+			"icons": [
+				{
+					"text": "[いじくり]道具",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Tinkering01.png"
+				},
+				{
+					"text": "%s",
+					"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/unbreakable.png",
+					"conditional_attribute": "EFF_UNBREAKABLE"
+				}
+			],
+			"description": "template_tool_lockpick_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"EFF_BREAKABLE": "template_lockpick_durability_chance"
+				},
+				{
+					"lockpick_text_tinkering": "template_lockpick_text_tinkering"
+				},
+				{
+					"lockpick_text_chestsdoors": "template_lockpick_text_chestsdoors"
+				},
+				{
+					"lockpick_chestsdoors_unlock_chance": "template_lockpick_chestsdoors_unlock_chance"
+				},
+				{
+					"lockpick_chests_scrap_chance": "template_lockpick_chests_scrap_chance"
+				},
+				{
+					"lockpick_text_mechanisms": "template_lockpick_text_mechanisms"
+				},
+				{
+					"lockpick_arrow_disarm": "template_lockpick_arrow_disarm"
+				},
+				{
+					"lockpick_automaton_disarm": "template_lockpick_automaton_disarm"
+				}
+			],
+			"size": {
+				"min_width": 296
+			}
+		},
+		"tooltip_tool_skeletonkey": {
+			"icons": [
+				{
+					"text": "%s",
+					"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/unbreakable.png",
+					"conditional_attribute": "EFF_UNBREAKABLE"
+				}
+			],
+			"description": "template_tool_skeletonkey_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"lockpick_text_chestsdoors": "template_lockpick_text_chestsdoors"
+				},
+				{
+					"lockpick_chestsdoors_unlock_chance": "template_lockpick_skeletonkey_chestsdoors_unlock_chance"
+				},
+				{
+					"lockpick_chests_scrap_chance": "template_lockpick_skeletonkey_chests_scrap_chance"
+				},
+				{
+					"lockpick_text_mechanisms": "template_lockpick_skeletonkey_text_mechanisms"
+				},
+				{
+					"lockpick_arrow_disarm": "template_lockpick_arrow_disarm"
+				}
+			],
+			"size": {
+				"min_width": 296
+			}
+		},
+		"tooltip_tool_pickaxe": {
+			"icons": [
+				{
+					"text": "%+d ダメージ",
+					"icon_path": "#*images/ui/Inventory/tooltips/HUD_Tooltip_Icon_Damage_00.png"
+				},
+				{
+					"text": "[掘削]",
+					"icon_path": "items/images/spells/dig.png"
+				}
+			],
+			"description": "template_tool_pickaxe_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"tool_pickaxe_degrade": "template_tool_pickaxe_degrade"
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				}
+			],
+			"size": {
+				"min_width": 280
+			}
+		},
+		"tooltip_ring": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_STR_00.png",
+					"conditional_attribute": "STR"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_DEX_00.png",
+					"conditional_attribute": "DEX"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_CON_00.png",
+					"conditional_attribute": "CON"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_INT_00.png",
+					"conditional_attribute": "INT"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_PER_00.png",
+					"conditional_attribute": "PER"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_CHA_00.png",
+					"conditional_attribute": "CHR"
+				},
+				{
+					"text": "%s",
+					"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/slowdigestion.png",
+					"conditional_attribute": "EFF_SLOWDIGESTION"
+				},
+				{
+					"text": "%s",
+					"icon_path": "images/ui/HUD/statusfx/warning.png",
+					"conditional_attribute": "EFF_WARNING"
+				},
+				{
+					"text": "%s",
+					"icon_path": "items/images/spells/invisible.png",
+					"conditional_attribute": "EFF_INVISIBLE"
+				},
+				{
+					"text": "%s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_RES_00.png",
+					"conditional_attribute": "EFF_MAGICRESIST"
+				},
+				{
+					"text": "%s",
+					"icon_path": "images/ui/HUD/statusfx/conflict.png",
+					"conditional_attribute": "EFF_CONFLICT"
+				},
+				{
+					"text": "%s",
+					"icon_path": "items/images/spells/levitation.png",
+					"conditional_attribute": "EFF_LEVITATION"
+				},
+				{
+					"text": "%+d  %s",
+					"icon_path": "images/ui/HUD/statusfx/regen_hp.png",
+					"conditional_attribute": "EFF_REGENERATION"
+				},
+				{
+					"text": "%s",
+					"icon_path": "items/images/spells/teleport.png",
+					"conditional_attribute": "EFF_TELEPORTATION"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
+					"conditional_attribute": "AC"
+				},
+				{
+					"text": "[押出]付与",
+					"icon_path": "#*images/ui/HUD/statusfx/push.png",
+					"conditional_attribute": "PUSH"
+				},
+				{
+					"text": "+%d [Max HP] [Max MP]付与",
+					"icon_path": "images/ui/HUD/statusfx/fortify_hpmp.png",
+					"conditional_attribute": "EFF_RING_RESOLVE"
+				}
+			],
+			"description": "",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"ring_on_cursed_sideeffect": "template_ring_curse_sideeffect"
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_WARNING": "template_equipment_effect_warning"
+				},
+				{
+					"EFF_TELEPORTATION": "template_equipment_effect_teleportation"
+				},
+				{
+					"EFF_CONFLICT": "template_equipment_effect_conflict"
+				},
+				{
+					"EFF_SLOWDIGESTION": "template_equipment_effect_slowdigestion"
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"when_equipped": [ "\n装備時:" ]
+				},
+				{
+					"ring_unarmed_atk": "template_ring_unarmed_atk"
+				}
+			],
+			"size": {
+				"max_width": 290,
+				"min_width": 280,
+				"max_header_width": 290
+			}
+		},
+		"tooltip_quiver": {
+			"icons": [
+				{
+					"text": "%+d 遠距離ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+				},
+				{
+					"text": "%s",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/smite.png",
+					"conditional_attribute": "EFF_QUIVER_SILVER"
+				},
+				{
+					"text": "%s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
+					"conditional_attribute": "EFF_QUIVER_PIERCING"
+				},
+				{
+					"text": "%s",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/swift.png",
+					"conditional_attribute": "EFF_QUIVER_SWIFT"
+				},
+				{
+					"text": "%s",
+					"icon_path": "images/ui/HUD/statusfx/burning.png",
+					"conditional_attribute": "EFF_QUIVER_FIRE"
+				},
+				{
+					"text": "%s",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/knockback.png",
+					"conditional_attribute": "EFF_QUIVER_KNOCKBACK"
+				},
+				{
+					"text": "%s",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/hunting.png",
+					"conditional_attribute": "EFF_QUIVER_HUNTING"
+				},
+				{
+					"text": "%s",
+					"icon_path": "images/ui/HUD/statusfx/poisoned.png",
+					"conditional_attribute": "EFF_QUIVER_HUNTING2"
+				}
+			],
+			"description": "template_quiver_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_QUIVER_SILVER": "template_quiver_silver_attributes"
+				},
+				{
+					"EFF_QUIVER_PIERCING": "template_quiver_piercing_attributes"
+				},
+				{
+					"EFF_QUIVER_SWIFT": "template_quiver_swift_attributes"
+				},
+				{
+					"EFF_QUIVER_FIRE": "template_quiver_fire_attributes"
+				},
+				{
+					"EFF_QUIVER_KNOCKBACK": "template_quiver_knockback_attributes"
+				},
+				{
+					"EFF_QUIVER_HUNTING": "template_quiver_hunting_attributes"
+				},
+				{
+					"blank_text_if_armor_has_stats": [ "* Allows sneaking while equipped\n" ]
+				},
+				{
+					"weapon_damage_text": "template_quiver_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				}
+			],
+			"size": {
+				"max_width": 316,
+				"min_width": 316,
+				"max_header_width": 300
+			}
+		},
+		"tooltip_ranged": {
+			"icons": [
+				{
+					"text": "%+d 遠距離ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+				}
+			],
+			"description": "template_ranged_description_medium",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_ranged_rate_of_fire": "template_ranged_rate_of_fire"
+				},
+				{
+					"weapon_ranged_quiver_augment": "template_ranged_quiver_augment"
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"weapon_ranged_armor_pierce": "template_ranged_armor_pierce"
+				},
+				{
+					"weapon_skill_modifier_range": "template_weapon_skill_modifier_range"
+				},
+				{
+					"weapon_durability": "template_weapon_durability"
+				},
+				{
+					"weapon_legendary_durability": "template_weapon_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 330
+			}
+		},
+		"tooltip_ranged_artifact": {
+			"icons": [
+				{
+					"text": "%+d 遠距離ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01_Gold.png"
+				},
+				{
+					"text": "発射時にチャンスを追加: (%.f%%)\n+ランダムに[矢筒]効果を適用\n+装備した矢筒の弾薬を節約",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/legendary.png",
+					"conditional_attribute": "EFF_ARTIFACT_BOW"
+				}
+			],
+			"description": [ "遠距離スキルにより効果が上昇します。", "中距離射撃武器。", "溜め[攻撃]で連射できます。" ],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_ranged_rate_of_fire": "template_ranged_rate_of_fire"
+				},
+				{
+					"weapon_ranged_quiver_augment": "template_ranged_quiver_augment"
+				},
+				{
+					"artifact_bow": [ "* 破壊不能" ]
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"weapon_ranged_armor_pierce": "template_ranged_armor_pierce"
+				},
+				{
+					"weapon_skill_modifier_range": "template_weapon_skill_modifier_range"
+				}
+			],
+			"size": {
+				"min_width": 330
+			}
+		},
+		"tooltip_ranged_short": {
+			"icons": [
+				{
+					"text": "%+d 遠距離ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+				}
+			],
+			"description": "template_ranged_description_short",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_ranged_rate_of_fire": "template_ranged_rate_of_fire"
+				},
+				{
+					"weapon_ranged_quiver_augment": "template_ranged_quiver_augment"
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"weapon_ranged_armor_pierce": "template_ranged_armor_pierce"
+				},
+				{
+					"weapon_skill_modifier_range": "template_weapon_skill_modifier_range"
+				},
+				{
+					"weapon_durability": "template_weapon_durability"
+				},
+				{
+					"weapon_legendary_durability": "template_weapon_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 340
+			}
+		},
+		"tooltip_ranged_long": {
+			"icons": [
+				{
+					"text": "%+d 遠距離ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+				}
+			],
+			"description": "template_ranged_description_long",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_ranged_rate_of_fire": "template_ranged_rate_of_fire"
+				},
+				{
+					"weapon_ranged_quiver_augment": "template_ranged_quiver_augment"
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"weapon_ranged_armor_pierce": "template_ranged_armor_pierce"
+				},
+				{
+					"weapon_skill_modifier_range": "template_weapon_skill_modifier_range"
+				},
+				{
+					"weapon_durability": "template_weapon_durability"
+				},
+				{
+					"weapon_legendary_durability": "template_weapon_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 330
+			}
+		},
+		"tooltip_amulet": {
+			"icons": [
+				{
+					"text": "%s",
+					"icon_path": "images/ui/HUD/statusfx/resist_poison.png",
+					"conditional_attribute": "EFF_POISONRESIST"
+				},
+				{
+					"text": "%s",
+					"icon_path": "images/ui/HUD/statusfx/waterbreathing.png",
+					"conditional_attribute": "EFF_WATERBREATHING"
+				},
+				{
+					"text": "%s",
+					"icon_path": "items/images/spells/reflect_magic.png",
+					"conditional_attribute": "EFF_MAGICREFLECT"
+				}
+			],
+			"description": "template_amulet_description_generic",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"when_equipped": "template_when_equipped_text_no_leading_newline"
+				},
+				{
+					"EFF_POISONRESIST": "template_equipment_effect_poisonresist"
+				},
+				{
+					"EFF_WATERBREATHING": "template_equipment_effect_waterbreathing"
+				},
+				{
+					"EFF_MAGICREFLECT": "template_equipment_effect_magicreflect"
+				}
+			],
+			"size": {
+				"max_width": 340,
+				"min_width": 320,
+				"max_header_width": 340
+			}
+		},
+		"tooltip_amulet_sexchange": {
+			"icons": [
+				{
+					"text": "%s",
+					"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/sexchange.png",
+					"conditional_attribute": "EFF_SEXCHANGE"
+				}
+			],
+			"description": "template_amulet_description_single_use",
+			"size": {
+				"max_width": 320,
+				"min_width": 280,
+				"max_header_width": 320
+			}
+		},
+		"tooltip_amulet_strangulation": {
+			"icons": [
+				{
+					"text": "%s",
+					"icon_path": "images/ui/HUD/statusfx/strangulation.png",
+					"conditional_attribute": "EFF_STRANGULATION"
+				}
+			],
+			"description": "template_amulet_description_generic",
+			"size": {
+				"max_width": 320,
+				"min_width": 300,
+				"max_header_width": 320
+			}
+		},
+		"tooltip_amulet_lifesaving": {
+			"icons": [
+				{
+					"text": "Grants [Revival] on death\nrestoring [%+d HP]",
+					"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/lifesaving.png",
+					"conditional_attribute": "EFF_LIFESAVING"
+				}
+			],
+			"description": "template_amulet_description_lifesaving",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"equipment_on_cursed_sideeffect": "template_amulet_curse_sideeffect"
+				},
+				{
+					"attributes_text": [ "起動時:" ]
+				},
+				{
+					"lifesaving_revival": [ "* 状態異常を治す", "* +5秒[浮遊]適用 " ]
+				}
+			],
+			"size": {
+				"max_width": 320,
+				"min_width": 320,
+				"max_header_width": 320
+			}
+		},
+		"tooltip_thrown": {
+			"icons": [
+				{
+					"text": "%+d 投擲ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+				}
+			],
+			"description": "template_thrown_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"piercing": [ "+50% 装甲貫通" ]
+				},
+				{
+					"unbreakable": [ "* 破壊不能" ]
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"thrown_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"fully_charged": [ "フルチャージ投げで攻撃力+3 / 装甲貫通+25%" ]
+				},
+				{
+					"thrown_skill_modifier": "template_thrown_skill_modifier"
+				}
+			],
+			"size": {
+				"min_width": 304
+			}
+		},
+		"tooltip_boomerang": {
+			"icons": [
+				{
+					"text": "%+d 投擲ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+				}
+			],
+			"description": "template_thrown_description",
+			"details": [
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"returns_to_thrower": [ "* 投げた人に戻る" ]
+				},
+				{
+					"powerful_when_repaired": [ "* 修理すると異常に強力になる" ]
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"thrown_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"fully_charged": [ "フルチャージ投げで\n攻撃力+3 / 装甲貫通+25%" ]
+				},
+				{
+					"thrown_skill_modifier": "template_thrown_skill_modifier"
+				}
+			],
+			"size": {
+				"min_width": 304
+			}
+		},
+		"tooltip_thrown_bouncy": {
+			"icons": [
+				{
+					"text": "%+d 投擲ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+				}
+			],
+			"description": "template_thrown_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"piercing": [ "+50% 装甲貫通" ]
+				},
+				{
+					"unbreakable": [ "* 破壊不能" ]
+				},
+				{
+					"bouncy": [ "*壁から跳ね返る" ]
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"thrown_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"fully_charged": [ "フルチャージ投げで\n攻撃力+3 / 装甲貫通+25%" ]
+				},
+				{
+					"thrown_skill_modifier": "template_thrown_skill_modifier"
+				}
+			],
+			"size": {
+				"min_width": 304
+			}
+		},
+		"tooltip_armor_shield": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
+					"color": {
+						"r": 188,
+						"g": 154,
+						"b": 114,
+						"a": 255
+					}
+				},
+				{
+					"text": "[脆弱]",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+					"conditional_attribute": "EFF_SHIELD_BRITTLE"
+				},
+				{
+					"text": "[脆弱]",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+					"conditional_attribute": "FRAGILE"
+				},
+				{
+					"text": "%s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_RES_00.png",
+					"conditional_attribute": "EFF_MAGICRESIST_SHIELD"
+				}
+			],
+			"description": "template_shield_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_MAGICRESIST_SHIELD": "template_armor_shield_resistance_bonus"
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"armor_shield_bonus": "template_armor_shield_bonus"
+				},
+				{
+					"shield_durability": "template_shield_durability"
+				},
+				{
+					"shield_legendary_durability": "template_shield_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 320,
+				"max_width": 320,
+				"max_header_width": 310
+			}
+		},
+		"tooltip_armor_mirror_shield": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
+					"color": {
+						"r": 188,
+						"g": 154,
+						"b": 114,
+						"a": 255
+					}
+				},
+				{
+					"text": "[脆弱]",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+					"conditional_attribute": "FRAGILE"
+				},
+				{
+					"text": "[脆弱]",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+					"conditional_attribute": "EFF_SHIELD_BRITTLE"
+				},
+				{
+					"text": "%s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_RES_00.png",
+					"conditional_attribute": "EFF_MAGICRESIST_SHIELD"
+				}
+			],
+			"description": "template_mirror_shield_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_SHIELD_BRITTLE": "template_shield_brittle"
+				},
+				{
+					"EFF_MAGICRESIST_SHIELD": "template_armor_shield_resistance_bonus"
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"armor_shield_bonus": "template_armor_shield_bonus"
+				},
+				{
+					"shield_durability": "template_shield_durability"
+				},
+				{
+					"shield_legendary_durability": "template_shield_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 320,
+				"max_width": 320,
+				"max_header_width": 310
+			}
+		},
+		"tooltip_offhand_torch": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+				},
+				{
+					"text": "[光源]を提供する",
+					"icon_path": "items/images/spells/light.png"
+				}
+			],
+			"description": "template_torch_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_LIGHT": [ "光量 +7", "* 2.5分ごとに劣化します" ]
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"armor_shield_bonus": "template_tool_shield_bonus"
+				},
+				{
+					"shield_durability": "template_shield_durability"
+				},
+				{
+					"shield_legendary_durability": "template_shield_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_offhand_lantern": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+				},
+				{
+					"text": "[光源]を提供する",
+					"icon_path": "items/images/spells/light.png"
+				}
+			],
+			"description": "template_torch_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_LIGHT": [ "+10 light intensity", "* Degrades every 3.5 mins" ]
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"armor_shield_bonus": "template_tool_shield_bonus"
+				},
+				{
+					"shield_durability": "template_shield_durability"
+				},
+				{
+					"shield_legendary_durability": "template_shield_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_offhand_shard": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+				},
+				{
+					"text": "[光源]を提供する",
+					"icon_path": "items/images/spells/light.png"
+				},
+				{
+					"text": "[脆弱]",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+					"conditional_attribute": "EFF_SHIELD_BRITTLE"
+				}
+			],
+			"description": "template_shard_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_LIGHT": [ "+5 light intensity" ]
+				},
+				{
+					"EFF_SHIELD_BRITTLE": "template_shield_brittle"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"armor_shield_bonus": "template_tool_shield_bonus"
+				},
+				{
+					"shield_durability": "template_shield_durability"
+				},
+				{
+					"shield_legendary_durability": "template_shield_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 316
+			}
+		},
+		"tooltip_armor_helm": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+				},
+				{
+					"text": "[脆弱]",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+					"conditional_attribute": "FRAGILE"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_STR_00.png",
+					"conditional_attribute": "STR"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_DEX_00.png",
+					"conditional_attribute": "DEX"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_CON_00.png",
+					"conditional_attribute": "CON"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_INT_00.png",
+					"conditional_attribute": "INT"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_PER_00.png",
+					"conditional_attribute": "PER"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_CHA_00.png",
+					"conditional_attribute": "CHR"
+				}
+			],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_UNBREAKABLE": [ "* 破壊不能", "" ]
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"artifact_armor_on_degraded": "template_armor_on_degraded_ac"
+				}
+			],
+			"size": {
+				"min_width": 220,
+				"item_overrides": {
+					"crystal_helm": {
+						"min_width": 240
+					},
+					"artifact_helm": {
+						"min_width": 260
+					}
+				}
+			}
+		},
+		"tooltip_armor_cloak": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+				},
+				{
+					"text": "%s",
+					"icon_path": "items/images/spells/invisible.png",
+					"conditional_attribute": "EFF_INVISIBLE"
+				},
+				{
+					"text": "%s",
+					"icon_path": "items/images/spells/reflect_magic.png",
+					"conditional_attribute": "EFF_MAGICREFLECT"
+				},
+				{
+					"text": "%s",
+					"icon_path": "items/images/spells/levitation.png",
+					"conditional_attribute": "EFF_LEVITATION"
+				},
+				{
+					"text": "%+d  %s",
+					"icon_path": "images/ui/HUD/statusfx/regen_mp.png",
+					"conditional_attribute": "EFF_MP_REGENERATION"
+				},
+				{
+					"text": "%+d%% [Damage Resistance]",
+					"icon_path": "images/ui/HUD/statusfx/protection.png",
+					"conditional_attribute": "EFF_CLOAK_GUARDIAN1"
+				},
+				{
+					"text": "%+d%% [Trap Resistance]",
+					"icon_path": "images/ui/HUD/statusfx/protection.png",
+					"conditional_attribute": "EFF_CLOAK_GUARDIAN2"
+				}
+			],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_UNBREAKABLE": [ "* 難燃性", "* 破壊不能" ]
+				},
+				{
+					"EFF_MAGICREFLECT": "template_equipment_effect_magicreflect"
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				}
+			],
+			"size": {
+				"min_width": 220,
+				"max_header_width": 300,
+				"item_overrides": {
+					"cloak_magicreflection": {
+						"min_width": 260
+					},
+					"cloak_guardian": {
+						"min_width": 310
+					}
+				}
+			}
+		},
+		"tooltip_armor_cloak_backpack": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+				}
+			],
+			"description": "template_armor_cloak_backpack_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				}
+			],
+			"size": {
+				"min_width": 250,
+				"max_header_width": 280
+			}
+		},
+		"tooltip_armor_hat_fez": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+				}
+			],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				}
+			],
+			"size": {
+				"min_width": 220
+			}
+		},
+		"tooltip_armor_hat": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_STR_00.png",
+					"conditional_attribute": "STR"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_DEX_00.png",
+					"conditional_attribute": "DEX"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_CON_00.png",
+					"conditional_attribute": "CON"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_INT_00.png",
+					"conditional_attribute": "INT"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_PER_00.png",
+					"conditional_attribute": "PER"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_CHA_00.png",
+					"conditional_attribute": "CHR"
+				},
+				{
+					"text": "%s",
+					"icon_path": "images/ui/HUD/statusfx/regen_mp.png",
+					"conditional_attribute": "EFF_BLEED_ENERGIZE"
+				}
+			],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"EFF_BLEED_ENERGIZE": [ "[出血]を与えると+5秒[MP自動回復]" ]
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				}
+			],
+			"size": {
+				"min_width": 220,
+				"item_overrides": {
+					"punisher_hood": {
+						"min_width": 300
+					}
+				}
+			}
+		},
+		"tooltip_armor_monocle": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_PER_00.png",
+					"conditional_attribute": "PER"
+				},
+				{
+					"text": "宝石鑑定速度 %d%%",
+					"icon_path": "images/ui/SkillSheet/Icons/Appraisal01.png",
+					"conditional_attribute": "EFF_MONOCLE_APPRAISE"
+				}
+			],
+			"description": "template_armor_monocle_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"armor_on_cursed_sideeffect": "template_monocle_curse_sideeffect"
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"monocle_hostility_effect": [ "* No ally effect if actively", "[Wanted!] in your current form" ]
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				}
+			],
+			"size": {
+				"min_width": 220,
+				"max_header_width": 220,
+				"item_overrides": {
+					"mask_shaman": {
+						"min_width": 270,
+						"max_header_width": 270
+					},
+					"monocle": {
+						"min_width": 270,
+						"max_header_width": 270
+					},
+					"tool_glasses": {
+						"min_width": 220,
+						"max_header_width": 300
+					}
+				}
+			}
+		},
+		"tooltip_armor_mask": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_STR_00.png",
+					"conditional_attribute": "STR"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_DEX_00.png",
+					"conditional_attribute": "DEX"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_CON_00.png",
+					"conditional_attribute": "CON"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_INT_00.png",
+					"conditional_attribute": "INT"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_PER_00.png",
+					"conditional_attribute": "PER"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_CHA_00.png",
+					"conditional_attribute": "CHR"
+				},
+				{
+					"text": "[形態変化]中\n+1[MP自動回復]付与",
+					"icon_path": "images/ui/HUD/statusfx/regen_mp.png",
+					"conditional_attribute": "EFF_MP_SHAMAN_MASK"
+				}
+			],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"armor_on_cursed_sideeffect": "template_shamanmask_curse_sideeffect"
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				}
+			],
+			"size": {
+				"min_width": 220,
+				"max_header_width": 220,
+				"item_overrides": {
+					"mask_shaman": {
+						"min_width": 270,
+						"max_header_width": 270
+					},
+					"tool_glasses": {
+						"min_width": 220,
+						"max_header_width": 300
+					}
+				}
+			}
+		},
+		"tooltip_armor_boots": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+				},
+				{
+					"text": "[脆弱]",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+					"conditional_attribute": "FRAGILE"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_STR_00.png",
+					"conditional_attribute": "STR"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_DEX_00.png",
+					"conditional_attribute": "DEX"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_CON_00.png",
+					"conditional_attribute": "CON"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_INT_00.png",
+					"conditional_attribute": "INT"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_PER_00.png",
+					"conditional_attribute": "PER"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_CHA_00.png",
+					"conditional_attribute": "CHR"
+				},
+				{
+					"text": "%s",
+					"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/feather.png",
+					"conditional_attribute": "EFF_FEATHER"
+				},
+				{
+					"text": "%s",
+					"icon_path": "items/images/spells/levitation.png",
+					"conditional_attribute": "EFF_LEVITATION"
+				},
+				{
+					"text": "%s",
+					"icon_path": "images/ui/HUD/statusfx/waterwalking.png",
+					"conditional_attribute": "EFF_WATERWALKING"
+				},
+				{
+					"text": "%s",
+					"icon_path": "images/ui/HUD/statusfx/lesserwarning.png",
+					"conditional_attribute": "EFF_FOOTSTEP_WARNING"
+				}
+			],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_FOOTSTEP_WARNING": "template_equipment_effect_footstep_warning"
+				},
+				{
+					"EFF_UNBREAKABLE": [ "* 破壊不能" ]
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				},
+				{
+					"EFF_FEATHER": "template_equipment_effect_feather"
+				},
+				{
+					"EFF_WATERWALKING": "template_equipment_effect_waterwalking"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"artifact_armor_on_degraded": "template_armor_on_degraded_ac"
+				}
+			],
+			"size": {
+				"max_width": 260,
+				"min_width": 240,
+				"max_header_width": 260,
+				"item_overrides": {
+					"artifact_boots": {
+						"min_width": 300,
+						"max_width": 320,
+						"max_header_width": 320
+					}
+				}
+			}
+		},
+		"tooltip_armor_breastpiece": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+				},
+				{
+					"text": "[脆弱]",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+					"conditional_attribute": "FRAGILE"
+				},
+				{
+					"text": "%+d  %s",
+					"icon_path": "images/ui/HUD/statusfx/regen_mp.png",
+					"conditional_attribute": "EFF_MP_REGENERATION"
+				},
+				{
+					"text": "%s",
+					"icon_path": "images/ui/HUD/statusfx/regen_hpoff.png",
+					"conditional_attribute": "EFF_DISABLE_REGENERATION"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_STR_00.png",
+					"conditional_attribute": "STR"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_DEX_00.png",
+					"conditional_attribute": "DEX"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_CON_00.png",
+					"conditional_attribute": "CON"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_INT_00.png",
+					"conditional_attribute": "INT"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_PER_00.png",
+					"conditional_attribute": "PER"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_CHA_00.png",
+					"conditional_attribute": "CHR"
+				},
+				{
+					"text": "%+d  %s",
+					"icon_path": "images/ui/HUD/statusfx/regen_hp.png",
+					"conditional_attribute": "EFF_REGENERATION"
+				},
+				{
+					"text": "%s",
+					"icon_path": "images/ui/HUD/statusfx/resist_fire.png",
+					"conditional_attribute": "EFF_FIRERESIST"
+				}
+			],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"armor_on_cursed_sideeffect": "template_doublet_curse_sideeffect"
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_UNBREAKABLE": [ "* 破壊不能" ]
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"artifact_armor_on_degraded": "template_armor_on_degraded_ac"
+				}
+			],
+			"size": {
+				"max_width": 320,
+				"min_width": 240,
+				"max_header_width": 320,
+				"item_overrides": {
+					"artifact_breastpiece": {
+						"min_width": 260,
+						"max_width": 320,
+						"max_header_width": 320
+					},
+					"machinist_apron": {
+						"min_width": 260,
+						"max_width": 320,
+						"max_header_width": 320
+					}
+				}
+			}
+		},
+		"tooltip_armor_gloves": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+				},
+				{
+					"text": "[脆弱]",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+					"conditional_attribute": "FRAGILE"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_STR_00.png",
+					"conditional_attribute": "STR"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_DEX_00.png",
+					"conditional_attribute": "DEX"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_CON_00.png",
+					"conditional_attribute": "CON"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_INT_00.png",
+					"conditional_attribute": "INT"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_PER_00.png",
+					"conditional_attribute": "PER"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_CHA_00.png",
+					"conditional_attribute": "CHR"
+				},
+				{
+					"text": "%s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_RES_00.png",
+					"conditional_attribute": "EFF_MAGICRESIST"
+				},
+				{
+					"text": "[押出]付与",
+					"icon_path": "#*images/ui/HUD/statusfx/push.png",
+					"conditional_attribute": "PUSH"
+				}
+			],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_UNBREAKABLE": [ "* 破壊不能" ]
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"artifact_armor_on_degraded": "template_armor_on_degraded_ac"
+				}
+			],
+			"size": {
+				"max_width": 280,
+				"min_width": 260,
+				"max_header_width": 280,
+				"item_overrides": {
+					"artifact_gloves": {
+						"min_width": 260,
+						"max_width": 320,
+						"max_header_width": 320
+					}
+				}
+			}
+		},
+		"tooltip_armor_knuckles": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+				},
+				{
+					"text": "%+d 拳ATK",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Unarmed01.png"
+				}
+			],
+			"description": "template_knuckles_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_knuckles_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_knuckles_beatitude_ac"
+				},
+				{
+					"when_equipped": [ "\n装備時: (メインハンドが空)" ]
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_unarmed_atk_stat_str"
+				},
+				{
+					"knuckle_skill_modifier": "template_knuckle_skill_modifier"
+				},
+				{
+					"weapon_durability": "template_weapon_durability"
+				},
+				{
+					"weapon_legendary_durability": "template_weapon_legendary_durability"
+				},
+				{
+					"knuckle_knockback_modifier": "template_knuckle_knockback_modifier"
+				}
+			],
+			"size": {
+				"min_width": 328
+			}
+		},
+		"tooltip_mace": {
+			"icons": [
+				{
+					"text": "%+d メイスダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Maces01.png"
+				},
+				{
+					"text": "[脆弱]",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+					"conditional_attribute": "FRAGILE"
+				}
+			],
+			"description": "template_weapon_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_base_effects": "template_weapon_mace_effects"
+				},
+				{
+					"weapon_bonus_exp": "template_weapon_bonus_exp"
+				},
+				{
+					"equipment_fragile_durability": "template_equipment_fragile_durability"
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_str"
+				},
+				{
+					"weapon_skill_modifier_range": "template_weapon_skill_modifier_range"
+				},
+				{
+					"weapon_durability": "template_weapon_durability"
+				},
+				{
+					"weapon_legendary_durability": "template_weapon_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 296
+			}
+		},
+		"tooltip_mace_artifact": {
+			"icons": [
+				{
+					"text": "%+d メイスダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Maces01_Gold.png"
+				},
+				{
+					"text": "装備時:\n+基礎[MP自動回復]増加\n+よく喋ってくる",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/legendary.png",
+					"conditional_attribute": "EFF_ARTIFACT_MACE"
+				}
+			],
+			"description": [ "メイススキルに応じて効果が上昇します。", "溜め[攻撃]でクリティカル攻撃になる" ],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_base_effects": "template_weapon_mace_effects"
+				},
+				{
+					"artifact_mace": [ "* 破壊不能" ]
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_str"
+				},
+				{
+					"weapon_skill_modifier_range": "template_weapon_skill_modifier_range"
+				}
+			],
+			"size": {
+				"min_width": 310
+			}
+		},
+		"tooltip_sword": {
+			"icons": [
+				{
+					"text": "%+d 剣ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Swords01.png"
+				},
+				{
+					"text": "[脆弱]",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+					"conditional_attribute": "FRAGILE"
+				}
+			],
+			"description": "template_weapon_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_base_effects": "template_weapon_sword_effects"
+				},
+				{
+					"weapon_bonus_exp": "template_weapon_bonus_exp"
+				},
+				{
+					"equipment_fragile_durability": "template_equipment_fragile_durability"
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_str"
+				},
+				{
+					"weapon_skill_modifier_range": "template_weapon_skill_modifier_range"
+				},
+				{
+					"weapon_durability": "template_weapon_durability"
+				},
+				{
+					"weapon_legendary_durability": "template_weapon_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 304
+			}
+		},
+		"tooltip_sword_artifact": {
+			"icons": [
+				{
+					"text": "%+d 剣ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Swords01_Gold.png"
+				},
+				{
+					"text": "ヒット時に確率追加: (%.f%%)\n+[炎上]を与え\n+%.f%% [スマイト]ダメージ",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/legendary.png",
+					"conditional_attribute": "EFF_ARTIFACT_SWORD"
+				}
+			],
+			"description": [ "剣スキルに応じて効果が上昇します。", "溜め[攻撃]でクリティカル攻撃になる" ],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_base_effects": "template_weapon_sword_effects"
+				},
+				{
+					"artifact_sword": [ "* アンデッドと悪魔に[スマイト]ダメージを与えるとボーナスダメージを与える", "* 破壊不能" ]
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_str"
+				},
+				{
+					"weapon_skill_modifier_range": "template_weapon_skill_modifier_range"
+				}
+			],
+			"size": {
+				"min_width": 320
+			}
+		},
+		"tooltip_axe": {
+			"icons": [
+				{
+					"text": "%+d 斧ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Axes01.png"
+				},
+				{
+					"text": "[脆弱]",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+					"conditional_attribute": "FRAGILE"
+				}
+			],
+			"description": "template_weapon_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_base_effects": "template_weapon_axe_effects"
+				},
+				{
+					"weapon_bonus_exp": "template_weapon_bonus_exp"
+				},
+				{
+					"equipment_fragile_durability": "template_equipment_fragile_durability"
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_str"
+				},
+				{
+					"weapon_skill_modifier_range": "template_weapon_skill_modifier_range"
+				},
+				{
+					"weapon_durability": "template_weapon_durability"
+				},
+				{
+					"weapon_legendary_durability": "template_weapon_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 296
+			}
+		},
+		"tooltip_axe_artifact": {
+			"icons": [
+				{
+					"text": "%+d 斧ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Axes01_Gold.png"
+				},
+				{
+					"text": "ヒット時に確率追加: (%.f%%)\n+%.f%% ボーナスダメージ\n+ [スロウ]付与",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/legendary.png",
+					"conditional_attribute": "EFF_ARTIFACT_AXE"
+				}
+			],
+			"description": [ "斧スキルに応じて効果が上昇します。", "溜め[攻撃]でクリティカル攻撃になる" ],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_base_effects": "template_weapon_axe_effects"
+				},
+				{
+					"artifact_axe": [ "* 破壊不能" ]
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_str"
+				},
+				{
+					"weapon_skill_modifier_range": "template_weapon_skill_modifier_range"
+				}
+			],
+			"size": {
+				"min_width": 296
+			}
+		},
+		"tooltip_whip": {
+			"icons": [
+				{
+					"text": "%+d 遠距離ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+				},
+				{
+					"text": "%s",
+					"icon_path": "items/images/spells/identify.png",
+					"conditional_attribute": "EFF_DISARMING"
+				}
+			],
+			"description": "template_whip_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_base_effects": [ "攻撃範囲+50%", "側面攻撃時の [出血] 確率 +20%", "武装解除攻撃の[出血]確率+100%", "* 破壊不能" ]
+				},
+				{
+					"whip_disarm": [ "", "武装解除:", "[酔い]または[混乱]状態の敵に+33%の確率", "[不動]または[方向音痴]の敵の確率+100%" ]
+				},
+				{
+					"weapon_bonus_exp": "template_weapon_bonus_exp"
+				},
+				{
+					"equipment_fragile_durability": "template_equipment_fragile_durability"
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_whip"
+				},
+				{
+					"weapon_skill_modifier_range": "template_weapon_skill_modifier_range"
+				}
+			],
+			"size": {
+				"min_width": 360
+			}
+		},
+		"tooltip_polearm": {
+			"icons": [
+				{
+					"text": "%+d 槍ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Polearms01.png"
+				},
+				{
+					"text": "[脆弱]",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+					"conditional_attribute": "FRAGILE"
+				}
+			],
+			"description": "template_weapon_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_base_effects": "template_weapon_polearm_effects"
+				},
+				{
+					"weapon_bonus_exp": "template_weapon_bonus_exp"
+				},
+				{
+					"equipment_fragile_durability": "template_equipment_fragile_durability"
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_str"
+				},
+				{
+					"weapon_skill_modifier_range": "template_weapon_skill_modifier_range"
+				},
+				{
+					"weapon_durability": "template_weapon_durability"
+				},
+				{
+					"weapon_legendary_durability": "template_weapon_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 316
+			}
+		},
+		"tooltip_polearm_artifact": {
+			"icons": [
+				{
+					"text": "%+d 槍ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Polearms01_Gold.png"
+				},
+				{
+					"text": "ヒット時に確率追加: (%.f%%)\n+%.f%% [装甲貫通]",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/legendary.png",
+					"conditional_attribute": "EFF_ARTIFACT_SPEAR"
+				}
+			],
+			"description": [ "槍スキルに応じて効果が上昇します。", "溜め[攻撃]でクリティカル攻撃になる" ],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_base_effects": "template_weapon_legendary_polearm_effects"
+				},
+				{
+					"artifact_spear": [ "* [装甲貫通] 敵のACの50%を無視する", "* 破壊不能" ]
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_str"
+				},
+				{
+					"weapon_skill_modifier_range": "template_weapon_skill_modifier_range"
+				}
+			],
+			"size": {
+				"min_width": 330
+			}
+		},
+		"tooltip_food_small": {
+			"description": [ "空腹度を少し回復します。" ],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"food_on_cursed_sideeffect": "template_food_curse_sideeffect"
+				},
+				{
+					"food_quality": "template_food_on_eating"
+				},
+				{
+					"food_puke_chance": "template_food_puke_chance"
+				}
+			],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_food_large": {
+			"description": [ "空腹度を大幅に回復します。" ],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"food_on_cursed_sideeffect": "template_food_curse_sideeffect"
+				},
+				{
+					"food_quality": "template_food_on_eating"
+				},
+				{
+					"food_puke_chance": "template_food_puke_chance"
+				}
+			],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_food_med": {
+			"description": [ "空腹度を中程度回復します。" ],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"food_on_cursed_sideeffect": "template_food_curse_sideeffect"
+				},
+				{
+					"food_quality": "template_food_on_eating"
+				},
+				{
+					"food_puke_chance": "template_food_puke_chance"
+				}
+			],
+			"size": {
+				"min_width": 310
+			}
+		},
+		"tooltip_food_creampie": {
+			"icons": [
+				{
+					"text": "[投擲可能]",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/ammo.png"
+				}
+			],
+			"description": [ "食べると中程度の空腹度を回復します。" ],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"food_on_cursed_sideeffect": "template_food_curse_sideeffect"
+				},
+				{
+					"food_quality": "template_food_on_eating"
+				},
+				{
+					"food_puke_chance": "template_food_puke_chance"
+				}
+			],
+			"size": {
+				"min_width": 280
+			}
+		},
+		"tooltip_food_tin": {
+			"icons": [
+				{
+					"text": "匂いは...%s",
+					"icon_path": "items/images/spells/sensefood.png"
+				}
+			],
+			"description": "template_food_tin_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"food_on_cursed_sideeffect": "template_food_curse_sideeffect"
+				},
+				{
+					"attributes_text": [ "属性:" ]
+				},
+				{
+					"food_tin_regen": [ "* [HP/MP自動回復]付与することがある" ]
+				},
+				{
+					"food_tin_greasy": [ "* 手が[脂]まみれになることがある" ]
+				},
+				{
+					"blank_space": [ "" ]
+				},
+				{
+					"food_quality": "template_food_on_eating"
+				},
+				{
+					"food_puke_chance": "template_food_puke_chance"
+				}
+			],
+			"size": {
+				"min_width": 300,
+				"max_width": 300,
+				"max_header_width": 260
+			}
+		},
+		"tooltip_food_blood": {
+			"description": [ "\"血は命...\nそしてそれは私のものとなるでしょう!\"", "-ドラキュラ" ]
+		},
+		"tooltip_potion_empty": {
+			"description": "template_potion_empty_description",
+			"size": {
+				"min_width": 290
+			}
+		},
+		"tooltip_potion_water": {
+			"icons": [
+				{
+					"text": "%+d [HP回復]",
+					"icon_path": "items/images/spells/healing.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_blessed": [ "* %sからのアンデッドへの\nポーションダメージ %+d" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 290
+			}
+		},
+		"tooltip_potion_booze": {
+			"icons": [
+				{
+					"text": "%+d [HP回復]",
+					"icon_path": "items/images/spells/healing.png"
+				},
+				{
+					"text": " [酔い]付与\n効果時間: [%d-%d秒]",
+					"icon_path": "#*images/ui/HUD/statusfx/drunk.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"potion_additional_effects": [ "* 空腹度を少し回復する", "* 二日酔いを治す" ]
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 310
+			}
+		},
+		"tooltip_potion_juice": {
+			"icons": [
+				{
+					"text": "%+d [HP回復]",
+					"icon_path": "items/images/spells/healing.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"potion_additional_effects": [ "* 空腹度を少し回復する" ]
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 268
+			}
+		},
+		"tooltip_potion_sickness": {
+			"icons": [
+				{
+					"text": "%+d ポーションダメージ",
+					"icon_path": "images/ui/SkillSheet/Icons/Alchemy01.png"
+				},
+				{
+					"text": " [毒]付与",
+					"icon_path": "images/ui/HUD/statusfx/poisoned.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 284
+			}
+		},
+		"tooltip_potion_confusion": {
+			"icons": [
+				{
+					"text": " [混乱]付与\n効果時間 [%d秒]",
+					"icon_path": "items/images/spells/confuse.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 284
+			}
+		},
+		"tooltip_potion_extrahealing": {
+			"icons": [
+				{
+					"text": "+%d [HP回復]",
+					"icon_path": "items/images/spells/extrahealing.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"potion_extrahealing_bonus": [ "* CONから%+dHP回復" ]
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 310
+			}
+		},
+		"tooltip_potion_healing": {
+			"icons": [
+				{
+					"text": "+%d [HP回復]",
+					"icon_path": "items/images/spells/healing.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"potion_healing_bonus": [ "* CONから%+dHP回復" ]
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_potion_cureailment": {
+			"icons": [
+				{
+					"text": "[治療] ステータス効果",
+					"icon_path": "items/images/spells/cureailment.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_blessed": [ "* %sから %+d秒[HP/MP自動回復]" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 308
+			}
+		},
+		"tooltip_potion_blindness": {
+			"icons": [
+				{
+					"text": " [失明]付与\n効果時間 [%d-%d秒]",
+					"icon_path": "images/ui/HUD/statusfx/blind.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 284
+			}
+		},
+		"tooltip_potion_restoremagic": {
+			"icons": [
+				{
+					"text": "+%d [MP回復]",
+					"icon_path": "images/ui/HUD/statusfx/regen_mp.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"potion_restoremagic_bonus": [ "* INTからのMP回復%+d" ]
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 310
+			}
+		},
+		"tooltip_potion_invisibility": {
+			"icons": [
+				{
+					"text": "[透明化]適用\n効果時間 [%d-%d秒]",
+					"icon_path": "items/images/spells/invisible.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_potion_levitation": {
+			"icons": [
+				{
+					"text": "[浮遊]適用\n効果時間 [%d-%d秒]",
+					"icon_path": "items/images/spells/levitation.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_potion_speed": {
+			"icons": [
+				{
+					"text": "[スピード]適用\n効果時間 [%d秒]",
+					"icon_path": "items/images/spells/speed.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 268
+			}
+		},
+		"tooltip_potion_acid": {
+			"icons": [
+				{
+					"text": "%+d ポーションダメージ",
+					"icon_path": "images/ui/SkillSheet/Icons/Alchemy01.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 284
+			}
+		},
+		"tooltip_potion_paralysis": {
+			"icons": [
+				{
+					"text": " [麻痺]付与\n効果時間 [%d-%d秒]",
+					"icon_path": "images/ui/HUD/statusfx/paralyze.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 284
+			}
+		},
+		"tooltip_potion_polymorph": {
+			"icons": [
+				{
+					"text": "[変身]適用",
+					"icon_path": "items/images/spells/polymorph.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"potion_polymorph_duration": [ "* モンスターに永久的な影響を与える\n\nプレイヤー[変身]効果:\n* 効果時間 [%d-%d分]\n* [変身]効果は水に触れたり摂取すると消えます" ]
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 284
+			}
+		},
+		"tooltip_potion_firestorm": {
+			"icons": [
+				{
+					"text": "%+d ポーションダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Alchemy01.png"
+				},
+				{
+					"text": "[火の玉]魔法が3回爆発する",
+					"icon_path": "items/images/spells/fireball.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 284
+			}
+		},
+		"tooltip_potion_icestorm": {
+			"icons": [
+				{
+					"text": "%+d ポーションダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Alchemy01.png"
+				},
+				{
+					"text": "[氷]魔法が3回爆発する",
+					"icon_path": "items/images/spells/cold.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 284
+			}
+		},
+		"tooltip_potion_thunderstorm": {
+			"icons": [
+				{
+					"text": "%+d ポーションダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Alchemy01.png"
+				},
+				{
+					"text": "[雷]魔法が3回爆発する",
+					"icon_path": "items/images/spells/lightning.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 292
+			}
+		},
+		"tooltip_potion_strength": {
+			"icons": [
+				{
+					"text": "[力][押出]適用\n効果時間 [%d秒]",
+					"icon_path": "images/ui/HUD/statusfx/strengthbuff.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 334
+			}
+		},
+		"tooltip_loot_bag": {
+			"icons": [
+				{
+					"text": "[重量]",
+					"icon_path": "images/ui/HUD/HUD_CharSheet_WGT_00.png"
+				}
+			],
+			"description": [ "倒れたパーティメンバーの戦利品が含まれています。" ],
+			"size": {
+				"min_width": 260
+			}
+		},
+		"tooltip_default": {
+			"description": [ "これはデフォルトのツールチップです", "このアイテムにはまだツールチップがありません。" ]
+		},
+		"tooltip_unidentified": {
+			"icons": [
+				{
+					"text": "[効果不明]",
+					"icon_path": "items/images/spells/identify.png"
+				}
+			],
+			"description": [ "詳細は、鑑定してください。" ],
+			"size": {
+				"min_width": 260
+			}
+		},
+		"tooltip_mask_bandit": {
+			"icons": [
+				{
+					"text": "[個人特定]を隠す",
+					"icon_path": "items/images/spells/polymorph.png",
+					"conditional_attribute": "EFF_DISGUISE"
+				}
+			],
+			"description": "template_mask_bandit_description",
+			"details": [
+			],
+			"size": {
+				"min_width": 270,
+				"max_header_width": 270
+			}
+		},
+		"tooltip_armor_mask_pipe": {
+			"icons": [
+				{
+					"text": "[再生]の間\n%+d%% の確率: [-1 HP] [+1 MP]",
+					"icon_path": "images/ui/HUD/statusfx/stimulant.png",
+					"conditional_attribute": "EFF_PIPE"
+				}
+			],
+			"description": [ "インセクトにとって危険です。" ],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"armor_on_cursed_sideeffect": "template_hatnewline_curse_sideeffect"
+				}
+			],
+			"size": {
+				"min_width": 320,
+				"max_header_width": 320
+			}
+		},
+		"tooltip_armor_helm_mining": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
+					"conditional_attribute": "AC"
+				},
+				{
+					"text": "%+d%% [岩石耐性]",
+					"icon_path": "images/ui/HUD/statusfx/resist_boulders.png",
+					"conditional_attribute": "EFF_BOULDER_RES"
+				}
+			],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"armor_on_cursed_sideeffect": "template_hatnewline_curse_sideeffect"
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				}
+			],
+			"size": {
+				"min_width": 260,
+				"max_header_width": 260
+			}
+		},
+		"tooltip_armor_mask_plague": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
+					"conditional_attribute": "AC"
+				},
+				{
+					"text": "[吐き気耐性]",
+					"icon_path": "images/ui/HUD/statusfx/resist_nausea.png",
+					"conditional_attribute": "EFF_PLAGUE"
+				}
+			],
+			"description": ["一度取り外すと、順応するまでに時間がかかります。"],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"armor_on_cursed_sideeffect": "template_hatnewline_curse_sideeffect"
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				}
+			],
+			"size": {
+				"min_width": 320,
+				"max_header_width": 320
+			}
+		},
+		"tooltip_armor_hat2": {
+			"icons": [
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
+					"conditional_attribute": "AC"
+				},
+				{
+					"text": "[脆弱]",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+					"conditional_attribute": "FRAGILE"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_STR_00.png",
+					"conditional_attribute": "STR"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_DEX_00.png",
+					"conditional_attribute": "DEX"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_CON_00.png",
+					"conditional_attribute": "CON"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_INT_00.png",
+					"conditional_attribute": "INT"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_PER_00.png",
+					"conditional_attribute": "PER"
+				},
+				{
+					"text": "%+d %s",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_CHA_00.png",
+					"conditional_attribute": "CHR"
+				},
+				{
+					"text": "%+d%% %s",
+					"icon_path": "images/ui/HUD/statusfx/resist_cold.png",
+					"conditional_attribute": "EFF_COLDRESIST"
+				},
+				{
+					"text": "%+d%% %s",
+					"icon_path": "images/ui/CharSheet/HUD_CharSheet_SPWR_00.png",
+					"conditional_attribute": "EFF_PWR"
+				},
+				{
+					"text": "%+d [%s] スキルボーナス",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Casting01.png",
+					"conditional_attribute": "EFF_SKILL_6"
+				},
+				{
+					"text": "[レベルアップ: +INT]付与",
+					"icon_path": "#*images/ui/HUD/HUD_CharSheet_INT_00.png",
+					"conditional_attribute": "EFF_GROWTH_INT"
+				},
+				{
+					"text": "%+d%% %s",
+					"icon_path": "items/images/spells/magicmissile.png",
+					"conditional_attribute": "EFF_PWR_DMG"
+				},
+				{
+					"text": "%+d%% %s",
+					"icon_path": "items/images/spells/healing.png",
+					"conditional_attribute": "EFF_PWR_HEAL"
+				},
+				{
+					"text": "%+d%% いじくり[展開速度]",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Tinkering01.png",
+					"conditional_attribute": "EFF_TECH_GOGGLES1"
+				},
+				{
+					"text": "友好的なセントリーの\n攻撃に対して[免疫]付与\n",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Tinkering01.png",
+					"conditional_attribute": "EFF_TECH_GOGGLES2"
+				},
+				{
+					"text": "グールや影に対して\n[中立]付与\n",
+					"icon_path": "items/images/spells/polymorph.png",
+					"conditional_attribute": "EFF_MASK_SPOOKY"
+				},
+				{
+					"text": "インキュバスやサキュバスに対して\n[中立]付与\n",
+					"icon_path": "items/images/spells/polymorph.png",
+					"conditional_attribute": "EFF_MASK_MOUTHROSE"
+				},
+				{
+					"text": "%+d [スニーク視界]",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Stealth01.png",
+					"conditional_attribute": "EFF_EYEPATCH"
+				},
+				{
+					"text": "[変装]付与",
+					"icon_path": "items/images/spells/polymorph.png",
+					"conditional_attribute": "EFF_DISGUISE"
+				},
+				{
+					"text": "%+d%% [岩石耐性]",
+					"icon_path": "images/ui/HUD/statusfx/resist_boulders.png",
+					"conditional_attribute": "EFF_BOULDER_RES"
+				},
+				{
+					"text": "%+d%% [ストレイフ/バックステップ]\n移動速度\n",
+					"icon_path": "images/ui/HUD/statusfx/celerity.png",
+					"conditional_attribute": "EFF_STRAFE"
+				},
+				{
+					"text": "%+d%% [ゴールド減量]",
+					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/feather.png",
+					"conditional_attribute": "EFF_MASK_GOLDEN"
+				},
+				{
+					"text": "%+d [%s] スキルボーナス",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Trading01.png",
+					"conditional_attribute": "EFF_SKILL_2"
+				},
+				{
+					"text": "投擲された薬や\n錬金術の爆発、飛沫攻撃に\n[飛沫耐性]付与\n\n",
+					"icon_path": "images/ui/HUD/statusfx/splash_protection.png",
+					"conditional_attribute": "EFF_HAZARD_GOGGLES"
+				},
+				{
+					"text": "%+d [%s] スキルボーナス",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Alchemy01.png",
+					"conditional_attribute": "EFF_SKILL_15"
+				},
+				{
+					"text": "%+d [%s] スキルボーナス",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Leadership01.png",
+					"conditional_attribute": "EFF_SKILL_5"
+				},
+				{
+					"text": "%+d [%s] スキルボーナス",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png",
+					"conditional_attribute": "EFF_SKILL_8"
+				},
+				{
+					"text": "ダンジョンフロアに入ると\n%+d体の[賞金]モンスターをマークする\n",
+					"icon_path": "images/ui/HUD/statusfx/targeting.png",
+					"conditional_attribute": "EFF_BOUNTY"
+				},
+				{
+					"text": "%+d 遠距離[距離]",
+					"icon_path": "images/ui/HUD/statusfx/attack_range.png",
+					"conditional_attribute": "EFF_RANGED_DISTANCE"
+				},
+				{
+					"text": "%+d%% 遠距離[装填速度]",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png",
+					"conditional_attribute": "EFF_RANGED_FIRERATE"
+				},
+				{
+					"text": "%+d [近接武器] スキルボーナス",
+					"icon_path": "#*images/ui/CharSheet/HUD_CharSheet_ATT_00.png",
+					"conditional_attribute": "EFF_SKILL_MELEE_STEEL"
+				},
+				{
+					"text": "%+d [近接武器] スキルボーナス",
+					"icon_path": "#*images/ui/CharSheet/HUD_CharSheet_ATT_00.png",
+					"conditional_attribute": "EFF_SKILL_MELEE_ARTIFACT"
+				},
+				{
+					"text": "最初に背面攻撃するとき\n[方向音痴]付与\n",
+					"icon_path": "items/images/spells/confuse.png",
+					"conditional_attribute": "EFF_PHANTOM"
+				},
+				{
+					"text": "%.2fx [空腹速度]",
+					"icon_path": "images/ui/HUD/statusfx/lesser_slowdigestion.png",
+					"conditional_attribute": "EFF_SPRIG"
+				},
+				{
+					"text": "%+d [報復] ダメージ",
+					"icon_path": "images/ui/HUD/statusfx/thorns.png",
+					"conditional_attribute": "EFF_THORNS"
+				},
+				{
+					"text": "%+d%% [食事の満腹感]",
+					"icon_path": "images/ui/HUD/statusfx/lesser_slowdigestion.png",
+					"conditional_attribute": "EFF_CHEF"
+				},
+				{
+					"text": "倒した敵から肉を\n受け取る確率は %+.f%%\n",
+					"icon_path": "items/images/Meat.png",
+					"conditional_attribute": "EFF_CHEF2"
+				},
+				{
+					"text": "全ての味方:\n%+d%% [インスピレーション]",
+					"icon_path": "images/ui/HUD/statusfx/inspiration.png",
+					"conditional_attribute": "EFF_INSPIRATION"
+				},
+				{
+					"text": "仲間:\n%+d%% [ダメージ耐性]\n",
+					"icon_path": "images/ui/HUD/statusfx/protection.png",
+					"conditional_attribute": "EFF_FOLLOWER_DMGRESIST"
+				},
+				{
+					"text": "仲間:\n%+d%% [罠耐性]\n",
+					"icon_path": "images/ui/HUD/statusfx/protection.png",
+					"conditional_attribute": "EFF_FOLLOWER_TRAPRESIST"
+				},
+				{
+					"text": "仲間:\n[再生]中[%+d HP]\n",
+					"icon_path": "images/ui/HUD/statusfx/regen_hp.png",
+					"conditional_attribute": "EFF_FOLLOWER_REGEN"
+				},
+				{
+					"text": "自分/仲間:\n%+d%% [祝福]\n",
+					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+					"conditional_attribute": "EFF_CELEBRATION"
+				},
+				{
+					"text": "%+d%% チャンス: \n[再生]中[+1 MP]\n",
+					"icon_path": "images/ui/HUD/statusfx/regen_mp.png",
+					"conditional_attribute": "EFF_HOOD_APPRENTICE"
+				},
+				{
+					"text": "%+d [バックスタブ]ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Stealth01.png",
+					"conditional_attribute": "EFF_HOOD_ASSASSIN"
+				},
+				{
+					"text": "%+d [%s] スキルボーナス",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Stealth01.png",
+					"conditional_attribute": "EFF_SKILL_1"
+				},
+				{
+					"text": "%+d 遠距離[バックスタブ]ダメージ",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png",
+					"conditional_attribute": "EFF_HOOD_WHISPERS"
+				},
+				{
+					"text": "[鎮静]付与と\n近接攻撃を回避するチャンス\n",
+					"icon_path": "items/images/spells/charm.png",
+					"conditional_attribute": "EFF_SILKEN_BOW"
+				},
+				{
+					"text": "食べ物を食べると\n%+d [HP回復]\n",
+					"icon_path": "images/ui/HUD/statusfx/growth.png",
+					"conditional_attribute": "EFF_MARIGOLD1"
+				},
+				{
+					"text": "食べ物を食べると\n[30秒]かけて%+d [HP回復]\n",
+					"icon_path": "images/ui/HUD/statusfx/growth.png",
+					"conditional_attribute": "EFF_MARIGOLD1_HUNGER"
+				},
+				{
+					"text": "[吐き気耐性]付与",
+					"icon_path": "images/ui/HUD/statusfx/resist_nausea.png",
+					"conditional_attribute": "EFF_MARIGOLD2"
+				}
+			],
+			"details": [
+				{
+					"default": [ "" ]
+				},
+				{
+					"armor_on_cursed_sideeffect": "template_hatnewline_curse_sideeffect"
+				},
+				{
+					"EFF_TECH_GOGGLES1": [ "展開速度:", "* ベアトラップ使用中は効果なし", "" ]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_UNBREAKABLE": [ "* 破壊不能" ]
+				},
+				{
+					"EFF_CHEF2": [ "* 肉のドロップ確率は", "赤い血のモンスターにのみ適用される" ]
+				},
+				{
+					"EFF_THORNS": [ "* [報復]によるダメージを受けた", "近接攻撃者にダメージを与える" ]
+				},
+				{
+					"EFF_INSPIRATION": [ "* レベルが低い味方は[インスピレーション]", "から得られるXPが増加する" ]
+				},
+				{
+					"EFF_CELEBRATION": [ "* [祝福]による最大HPに応じて", "HP回復量が増加" ]
+				},
+				{
+					"EFF_BOUNTY": [ "* [賞金首]のターゲットを倒すと、", "追加のゴールド入手" ]
+				},
+				{
+					"EFF_FOLLOWER_DMGRESIST": [ "* トラップによるダメージは影響を受けません", "[ダメージ耐性]" ]
+				},
+				{
+					"EFF_HOOD_WHISPERS": [ "* 遠距離[バックスタブ]ATK増加", "%s スキル" ]
+				},
+				{
+					"EFF_MARIGOLD1": [ "* 病気を引き起こす食品には効果なし" ]
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"EFF_SILKEN_BOW": [ "チャンスを鎮める:", "基本アイテム確率 +%d%%", "+%d%% ボーナスチャンス", "%s スキル + %s ステータス" ]
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"artifact_armor_on_degraded": "template_armor_on_degraded_ac"
+				}
+			],
+			"size": {
+				"min_width": 220,
+				"item_overrides": {
+					"hat_warm": {
+						"min_width": 280
+					},
+					"hat_miter": {
+						"min_width": 260
+					},
+					"hat_headdress": {
+						"min_width": 280
+					},
+					"hat_circlet": {
+						"min_width": 260
+					},
+					"hat_circlet_wisdom": {
+						"min_width": 260
+					},
+					"mask_tech_goggles": {
+						"min_width": 280
+					},
+					"mask_eyepatch": {
+						"min_width": 260
+					},
+					"hat_tophat": {
+						"min_width": 260
+					},
+					"hat_bandana": {
+						"min_width": 260
+					},
+					"mask_golden": {
+						"min_width": 280
+					},
+					"mask_hazard_goggles": {
+						"min_width": 320
+					},
+					"hat_plumed_cap": {
+						"min_width": 280
+					},
+					"mask_grass_sprig": {
+						"min_width": 280
+					},
+					"hat_chef": {
+						"min_width": 280
+					},
+					"hat_turban": {
+						"min_width": 280
+					},
+					"hat_crown": {
+						"min_width": 300
+					},
+					"hat_bycocket": {
+						"min_width": 300
+					},
+					"hat_silken_bow": {
+						"min_width": 260
+					},
+					"hat_hood_whispers": {
+						"min_width": 280
+					},
+					"hat_hood_assassin": {
+						"min_width": 280
+					},
+					"hat_crowned_helm": {
+						"min_width": 300
+					},
+					"hat_laurels": {
+						"min_width": 280
+					},
+					"mask_mouthknife": {
+						"min_width": 320
+					},
+					"mask_plague": {
+						"min_width": 300
+					},
+					"mask_phantom": {
+						"min_width": 320
+					},
+					"mask_pipe": {
+						"min_width": 320
+					},
+					"mask_steel_visor": {
+						"min_width": 280
+					},
+					"mask_crystal_visor": {
+						"min_width": 280
+					},
+					"mask_artifact_visor": {
+						"min_width": 280
+					},
+					"mask_marigold": {
+						"min_width": 280
+					}
+				}
+			}
+		}
+	}
+}

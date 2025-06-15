@@ -1,0 +1,1515 @@
+{
+    "version": 1,
+    "items": {
+      "wooden_shield": {
+        "name_identified": "木の盾",
+        "name_unidentified": "木の盾"
+      },
+      "quarterstaff": {
+        "name_identified": "クォータースタッフ",
+        "name_unidentified": "クォータースタッフ"
+      },
+      "bronze_sword": {
+        "name_identified": "青銅の剣",
+        "name_unidentified": "青銅の剣"
+      },
+      "bronze_mace": {
+        "name_identified": "青銅のメイス",
+        "name_unidentified": "青銅のメイス"
+      },
+      "bronze_axe": {
+        "name_identified": "青銅の斧",
+        "name_unidentified": "青銅の斧"
+      },
+      "bronze_shield": {
+        "name_identified": "青銅の盾",
+        "name_unidentified": "青銅の盾"
+      },
+      "sling": {
+        "name_identified": "スリングショット",
+        "name_unidentified": "スリングショット"
+      },
+      "iron_spear": {
+        "name_identified": "鉄の槍",
+        "name_unidentified": "鉄の槍"
+      },
+      "iron_sword": {
+        "name_identified": "鉄の剣",
+        "name_unidentified": "鉄の剣"
+      },
+      "iron_mace": {
+        "name_identified": "鉄のメイス",
+        "name_unidentified": "鉄のメイス"
+      },
+      "iron_axe": {
+        "name_identified": "鉄の斧",
+        "name_unidentified": "鉄の斧"
+      },
+      "iron_shield": {
+        "name_identified": "鉄の盾",
+        "name_unidentified": "鉄の盾"
+      },
+      "shortbow": {
+        "name_identified": "ショートボウ",
+        "name_unidentified": "ショートボウ"
+      },
+      "steel_halberd": {
+        "name_identified": "鋼鉄のハルバード",
+        "name_unidentified": "鋼鉄のハルバード"
+      },
+      "steel_sword": {
+        "name_identified": "鋼の剣",
+        "name_unidentified": "鋼の剣"
+      },
+      "steel_mace": {
+        "name_identified": "スチールメイス",
+        "name_unidentified": "スチールメイス"
+      },
+      "steel_axe": {
+        "name_identified": "鋼鉄の斧",
+        "name_unidentified": "鋼鉄の斧"
+      },
+      "steel_shield": {
+        "name_identified": "鋼鉄の盾",
+        "name_unidentified": "鋼鉄の盾"
+      },
+      "steel_shield_resistance": {
+        "name_identified": "魔法耐性の鋼鉄の盾",
+        "name_unidentified": "鋼鉄の盾"
+      },
+      "crossbow": {
+        "name_identified": "クロスボウ",
+        "name_unidentified": "クロスボウ"
+      },
+      "gloves": {
+        "name_identified": "革手袋",
+        "name_unidentified": "手袋"
+      },
+      "gloves_dexterity": {
+        "name_identified": "器用な革手袋",
+        "name_unidentified": "手袋"
+      },
+      "bracers": {
+        "name_identified": "鉄のブレーサー",
+        "name_unidentified": "ブレイサー"
+      },
+      "bracers_constitution": {
+        "name_identified": "体格の鉄のブレイサー",
+        "name_unidentified": "ブレイサー"
+      },
+      "gauntlets": {
+        "name_identified": "鋼鉄のガントレット",
+        "name_unidentified": "ガントレット"
+      },
+      "gauntlets_strength": {
+        "name_identified": "鋼の力のガントレット",
+        "name_unidentified": "ガントレット"
+      },
+      "cloak": {
+        "name_identified": "マント",
+        "name_unidentified": "マント"
+      },
+      "cloak_magicreflection": {
+        "name_identified": "魔法反射のマント",
+        "name_unidentified": "マント"
+      },
+      "cloak_invisibility": {
+        "name_identified": "透明マント",
+        "name_unidentified": "マント"
+      },
+      "cloak_protection": {
+        "name_identified": "保護のマント",
+        "name_unidentified": "マント"
+      },
+      "leather_boots": {
+        "name_identified": "レザーブーツ",
+        "name_unidentified": "レザーブーツ"
+      },
+      "leather_boots_speed": {
+        "name_identified": "スピードの革ブーツ",
+        "name_unidentified": "レザーブーツ"
+      },
+      "iron_boots": {
+        "name_identified": "鉄のブーツ",
+        "name_unidentified": "鉄のブーツ"
+      },
+      "iron_boots_waterwalking": {
+        "name_identified": "水走りの鉄のブーツ",
+        "name_unidentified": "鉄のブーツ"
+      },
+      "steel_boots": {
+        "name_identified": "スチールブーツ",
+        "name_unidentified": "スチールブーツ"
+      },
+      "steel_boots_levitation": {
+        "name_identified": "浮遊の鋼鉄ブーツ",
+        "name_unidentified": "スチールブーツ"
+      },
+      "steel_boots_feather": {
+        "name_identified": "羽の鋼鉄ブーツ",
+        "name_unidentified": "スチールブーツ"
+      },
+      "leather_breastpiece": {
+        "name_identified": "革の胸当て",
+        "name_unidentified": "革の胸当て"
+      },
+      "iron_breastpiece": {
+        "name_identified": "鉄の胸当て",
+        "name_unidentified": "鉄の胸当て"
+      },
+      "steel_breastpiece": {
+        "name_identified": "スチール胸当て",
+        "name_unidentified": "スチール胸当て"
+      },
+      "hat_phrygian": {
+        "name_identified": "フリギア帽",
+        "name_unidentified": "フリギア帽"
+      },
+      "hat_hood": {
+        "name_identified": "フード",
+        "name_unidentified": "フード"
+      },
+      "hat_wizard": {
+        "name_identified": "魔法使いの帽子",
+        "name_unidentified": "魔法使いの帽子"
+      },
+      "hat_jester": {
+        "name_identified": "道化師の帽子",
+        "name_unidentified": "道化師の帽子"
+      },
+      "leather_helm": {
+        "name_identified": "革の兜",
+        "name_unidentified": "革の兜"
+      },
+      "iron_helm": {
+        "name_identified": "鉄の兜",
+        "name_unidentified": "鉄の兜"
+      },
+      "steel_helm": {
+        "name_identified": "鋼鉄の兜",
+        "name_unidentified": "鋼鉄の兜"
+      },
+      "amulet_sexchange": {
+        "name_identified": "性転換のお守り",
+        "name_unidentified": "お守り"
+      },
+      "amulet_lifesaving": {
+        "name_identified": "救命のお守り",
+        "name_unidentified": "お守り"
+      },
+      "amulet_waterbreathing": {
+        "name_identified": "水中呼吸のお守り",
+        "name_unidentified": "お守り"
+      },
+      "amulet_magicreflection": {
+        "name_identified": "魔法反射のお守り",
+        "name_unidentified": "お守り"
+      },
+      "amulet_strangulation": {
+        "name_identified": "絞殺のお守り",
+        "name_unidentified": "お守り"
+      },
+      "amulet_poisonresistance": {
+        "name_identified": "毒耐性のお守り",
+        "name_unidentified": "お守り"
+      },
+      "potion_water": {
+        "name_identified": "水のボトル",
+        "name_unidentified": "薬"
+      },
+      "potion_booze": {
+        "name_identified": "酒のボトル",
+        "name_unidentified": "薬"
+      },
+      "potion_juice": {
+        "name_identified": "果汁のボトル",
+        "name_unidentified": "薬"
+      },
+      "potion_sickness": {
+        "name_identified": "病気の薬",
+        "name_unidentified": "薬"
+      },
+      "potion_confusion": {
+        "name_identified": "混乱のポーション",
+        "name_unidentified": "薬"
+      },
+      "potion_extrahealing": {
+        "name_identified": "追加回復のポーション",
+        "name_unidentified": "薬"
+      },
+      "potion_healing": {
+        "name_identified": "回復のポーション",
+        "name_unidentified": "薬"
+      },
+      "potion_cureailment": {
+        "name_identified": "状態異常回復ポーション",
+        "name_unidentified": "薬"
+      },
+      "potion_blindness": {
+        "name_identified": "失明のポーション",
+        "name_unidentified": "薬"
+      },
+      "potion_restoremagic": {
+        "name_identified": "MP回復のポーション",
+        "name_unidentified": "薬"
+      },
+      "potion_invisibility": {
+        "name_identified": "透明化のポーション",
+        "name_unidentified": "薬"
+      },
+      "potion_levitation": {
+        "name_identified": "浮遊のポーション",
+        "name_unidentified": "薬"
+      },
+      "potion_speed": {
+        "name_identified": "スピードのポーション",
+        "name_unidentified": "薬"
+      },
+      "potion_acid": {
+        "name_identified": "酸のポーション",
+        "name_unidentified": "薬"
+      },
+      "potion_paralysis": {
+        "name_identified": "麻痺のポーション",
+        "name_unidentified": "薬"
+      },
+      "scroll_mail": {
+        "name_identified": "郵便物",
+        "name_unidentified": "刻印された巻物"
+      },
+      "scroll_identify": {
+        "name_identified": "鑑定の巻物",
+        "name_unidentified": "巻物"
+      },
+      "scroll_light": {
+        "name_identified": "光の巻物",
+        "name_unidentified": "巻物"
+      },
+      "scroll_blank": {
+        "name_identified": "空白の巻物",
+        "name_unidentified": "巻物"
+      },
+      "scroll_enchantweapon": {
+        "name_identified": "エンチャント武器の巻物",
+        "name_unidentified": "巻物"
+      },
+      "scroll_enchantarmor": {
+        "name_identified": "エンチャントアーマーの巻物",
+        "name_unidentified": "巻物"
+      },
+      "scroll_removecurse": {
+        "name_identified": "解呪の巻物",
+        "name_unidentified": "巻物"
+      },
+      "scroll_fire": {
+        "name_identified": "火の巻物",
+        "name_unidentified": "巻物"
+      },
+      "scroll_food": {
+        "name_identified": "食べ物の巻物",
+        "name_unidentified": "巻物"
+      },
+      "scroll_magicmapping": {
+        "name_identified": "地図魔法の巻物",
+        "name_unidentified": "巻物"
+      },
+      "scroll_repair": {
+        "name_identified": "修理の巻物",
+        "name_unidentified": "巻物"
+      },
+      "scroll_destroyarmor": {
+        "name_identified": "破壊鎧の巻物",
+        "name_unidentified": "巻物"
+      },
+      "scroll_teleportation": {
+        "name_identified": "テレポートの巻物",
+        "name_unidentified": "巻物"
+      },
+      "scroll_summon": {
+        "name_identified": "召喚の巻物",
+        "name_unidentified": "巻物"
+      },
+      "magicstaff_light": {
+        "name_identified": "光の魔法杖",
+        "name_unidentified": "魔法杖"
+      },
+      "magicstaff_digging": {
+        "name_identified": "掘削の魔法杖",
+        "name_unidentified": "魔法杖"
+      },
+      "magicstaff_locking": {
+        "name_identified": "ロックの魔法杖",
+        "name_unidentified": "魔法杖"
+      },
+      "magicstaff_magicmissile": {
+        "name_identified": "マジックミサイルの魔法杖",
+        "name_unidentified": "魔法杖"
+      },
+      "magicstaff_opening": {
+        "name_identified": "オープニングの魔法杖",
+        "name_unidentified": "魔法杖"
+      },
+      "magicstaff_slow": {
+        "name_identified": "スロウの魔法杖",
+        "name_unidentified": "魔法杖"
+      },
+      "magicstaff_cold": {
+        "name_identified": "氷の魔法杖",
+        "name_unidentified": "魔法杖"
+      },
+      "magicstaff_fire": {
+        "name_identified": "火の魔法杖",
+        "name_unidentified": "魔法杖"
+      },
+      "magicstaff_lightning": {
+        "name_identified": "雷の魔法杖",
+        "name_unidentified": "魔法杖"
+      },
+      "magicstaff_sleep": {
+        "name_identified": "睡眠の魔法杖",
+        "name_unidentified": "魔法杖"
+      },
+      "ring_adornment": {
+        "name_identified": "装飾品の指輪",
+        "name_unidentified": "指輪"
+      },
+      "ring_slowdigestion": {
+        "name_identified": "消化遅延の指輪",
+        "name_unidentified": "指輪"
+      },
+      "ring_protection": {
+        "name_identified": "守護の指輪",
+        "name_unidentified": "指輪"
+      },
+      "ring_warning": {
+        "name_identified": "警告の指輪",
+        "name_unidentified": "指輪"
+      },
+      "ring_strength": {
+        "name_identified": "力の指輪",
+        "name_unidentified": "指輪"
+      },
+      "ring_constitution": {
+        "name_identified": "体格の指輪",
+        "name_unidentified": "指輪"
+      },
+      "ring_invisibility": {
+        "name_identified": "不可視の指輪",
+        "name_unidentified": "指輪"
+      },
+      "ring_magicresistance": {
+        "name_identified": "魔法耐性の指輪",
+        "name_unidentified": "指輪"
+      },
+      "ring_conflict": {
+        "name_identified": "対立の指輪",
+        "name_unidentified": "指輪"
+      },
+      "ring_levitation": {
+        "name_identified": "浮遊の指輪",
+        "name_unidentified": "指輪"
+      },
+      "ring_regeneration": {
+        "name_identified": "再生の指輪",
+        "name_unidentified": "指輪"
+      },
+      "ring_teleportation": {
+        "name_identified": "テレポートの指輪",
+        "name_unidentified": "指輪"
+      },
+      "spellbook_forcebolt": {
+        "name_identified": "フォースボルトの魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_magicmissile": {
+        "name_identified": "マジックミサイルの魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_cold": {
+        "name_identified": "氷の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_fireball": {
+        "name_identified": "火の玉の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_light": {
+        "name_identified": "光の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_removecurse": {
+        "name_identified": "解呪の魔法の書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_lightning": {
+        "name_identified": "雷の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_identify": {
+        "name_identified": "鑑定の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_magicmapping": {
+        "name_identified": "地図魔法の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_sleep": {
+        "name_identified": "睡眠の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_confuse": {
+        "name_identified": "混乱の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_slow": {
+        "name_identified": "スロウの魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_opening": {
+        "name_identified": "オープニングの魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_locking": {
+        "name_identified": "ロックの魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_levitation": {
+        "name_identified": "浮遊の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_invisibility": {
+        "name_identified": "透明化の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_teleportation": {
+        "name_identified": "テレポートの魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_healing": {
+        "name_identified": "回復の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_extrahealing": {
+        "name_identified": "追加回復の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_cureailment": {
+        "name_identified": "状態異常回復の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_dig": {
+        "name_identified": "掘削の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "gem_rock": {
+        "name_identified": "ロック",
+        "name_unidentified": "ロック"
+      },
+      "gem_luck": {
+        "name_identified": "幸運の石",
+        "name_unidentified": "ロック"
+      },
+      "gem_garnet": {
+        "name_identified": "ガーネット",
+        "name_unidentified": "宝石"
+      },
+      "gem_ruby": {
+        "name_identified": "ルビー",
+        "name_unidentified": "宝石"
+      },
+      "gem_jacinth": {
+        "name_identified": "ジャシンス",
+        "name_unidentified": "宝石"
+      },
+      "gem_amber": {
+        "name_identified": "アンバー",
+        "name_unidentified": "宝石"
+      },
+      "gem_citrine": {
+        "name_identified": "シトリン",
+        "name_unidentified": "宝石"
+      },
+      "gem_jade": {
+        "name_identified": "翡翠",
+        "name_unidentified": "宝石"
+      },
+      "gem_emerald": {
+        "name_identified": "エメラルド",
+        "name_unidentified": "宝石"
+      },
+      "gem_sapphire": {
+        "name_identified": "サファイア",
+        "name_unidentified": "宝石"
+      },
+      "gem_aquamarine": {
+        "name_identified": "アクアマリン",
+        "name_unidentified": "宝石"
+      },
+      "gem_amethyst": {
+        "name_identified": "アメジスト",
+        "name_unidentified": "宝石"
+      },
+      "gem_fluorite": {
+        "name_identified": "蛍石",
+        "name_unidentified": "宝石"
+      },
+      "gem_opal": {
+        "name_identified": "オパール",
+        "name_unidentified": "宝石"
+      },
+      "gem_diamond": {
+        "name_identified": "ダイヤモンド",
+        "name_unidentified": "宝石"
+      },
+      "gem_jetstone": {
+        "name_identified": "ジェットストーン",
+        "name_unidentified": "宝石"
+      },
+      "gem_obsidian": {
+        "name_identified": "黒曜石",
+        "name_unidentified": "宝石"
+      },
+      "gem_glass": {
+        "name_identified": "価値のないガラス片",
+        "name_unidentified": "宝石"
+      },
+      "tool_pickaxe": {
+        "name_identified": "つるはし",
+        "name_unidentified": "つるはし"
+      },
+      "tool_tinopener": {
+        "name_identified": "缶切り",
+        "name_unidentified": "缶切り"
+      },
+      "tool_mirror": {
+        "name_identified": "鏡",
+        "name_unidentified": "鏡"
+      },
+      "tool_lockpick": {
+        "name_identified": "ロックピック",
+        "name_unidentified": "ロックピック"
+      },
+      "tool_skeletonkey": {
+        "name_identified": "スケルトンキー",
+        "name_unidentified": "鍵"
+      },
+      "tool_torch": {
+        "name_identified": "松明",
+        "name_unidentified": "松明"
+      },
+      "tool_lantern": {
+        "name_identified": "ランタン",
+        "name_unidentified": "ランタン"
+      },
+      "tool_blindfold": {
+        "name_identified": "目隠し",
+        "name_unidentified": "目隠し"
+      },
+      "tool_towel": {
+        "name_identified": "タオル",
+        "name_unidentified": "タオル"
+      },
+      "tool_glasses": {
+        "name_identified": "メガネ",
+        "name_unidentified": "メガネ"
+      },
+      "tool_beartrap": {
+        "name_identified": "ベアトラップ",
+        "name_unidentified": "ベアトラップ"
+      },
+      "food_bread": {
+        "name_identified": "パン",
+        "name_unidentified": "パン"
+      },
+      "food_creampie": {
+        "name_identified": "クリームパイ",
+        "name_unidentified": "クリームパイ"
+      },
+      "food_cheese": {
+        "name_identified": "チーズ",
+        "name_unidentified": "チーズ"
+      },
+      "food_apple": {
+        "name_identified": "りんご",
+        "name_unidentified": "りんご"
+      },
+      "food_meat": {
+        "name_identified": "肉",
+        "name_unidentified": "肉"
+      },
+      "food_fish": {
+        "name_identified": "魚",
+        "name_unidentified": "魚"
+      },
+      "food_tin": {
+        "name_identified": "缶詰め",
+        "name_unidentified": "缶詰め"
+      },
+      "readable_book": {
+        "name_identified": "本",
+        "name_unidentified": "読みやすい本"
+      },
+      "spell_item": {
+        "name_identified": "魔法",
+        "name_unidentified": "魔法"
+      },
+      "artifact_sword": {
+        "name_identified": "ディアンウィン",
+        "name_unidentified": "魔法の剣"
+      },
+      "artifact_mace": {
+        "name_identified": "シャルル",
+        "name_unidentified": "魔法のメイス"
+      },
+      "artifact_spear": {
+        "name_identified": "グングニル",
+        "name_unidentified": "魔法の槍"
+      },
+      "artifact_axe": {
+        "name_identified": "パラシュ",
+        "name_unidentified": "魔法の斧"
+      },
+      "artifact_bow": {
+        "name_identified": "クリセラカトス",
+        "name_unidentified": "魔法の弓"
+      },
+      "artifact_breastpiece": {
+        "name_identified": "ドラゴンメール",
+        "name_unidentified": "アーティファクトの胸当て"
+      },
+      "artifact_helm": {
+        "name_identified": "スフィンクスのベール",
+        "name_unidentified": "アーティファクトヘルム"
+      },
+      "artifact_boots": {
+        "name_identified": "オラクルの足跡",
+        "name_unidentified": "アーティファクトブーツ"
+      },
+      "artifact_cloak": {
+        "name_identified": "レイスのガウン",
+        "name_unidentified": "アーティファクトのマント"
+      },
+      "artifact_gloves": {
+        "name_identified": "ジンニのブレス",
+        "name_unidentified": "アーティファクトの手袋"
+      },
+      "crystal_breastpiece": {
+        "name_identified": "水晶胸当て",
+        "name_unidentified": "水晶胸当て"
+      },
+      "crystal_helm": {
+        "name_identified": "水晶ヘルム",
+        "name_unidentified": "水晶ヘルム"
+      },
+      "crystal_boots": {
+        "name_identified": "水晶ブーツ",
+        "name_unidentified": "水晶ブーツ"
+      },
+      "crystal_shield": {
+        "name_identified": "水晶シールド",
+        "name_unidentified": "水晶シールド"
+      },
+      "crystal_gloves": {
+        "name_identified": "水晶ガントレット",
+        "name_unidentified": "水晶ガントレット"
+      },
+      "vampire_doublet": {
+        "name_identified": "吸血鬼ダブレット",
+        "name_unidentified": "ダブレット"
+      },
+      "wizard_doublet": {
+        "name_identified": "ウィザードダブレット",
+        "name_unidentified": "ダブレット"
+      },
+      "healer_doublet": {
+        "name_identified": "ヒーラーダブレット",
+        "name_unidentified": "ダブレット"
+      },
+      "mirror_shield": {
+        "name_identified": "ミラーシールド",
+        "name_unidentified": "ミラーシールド"
+      },
+      "brass_knuckles": {
+        "name_identified": "ブラスナックル",
+        "name_unidentified": "ナックル"
+      },
+      "iron_knuckles": {
+        "name_identified": "アイアンナックル",
+        "name_unidentified": "ナックル"
+      },
+      "spiked_gauntlets": {
+        "name_identified": "スパイクガントレット",
+        "name_unidentified": "ナックル"
+      },
+      "food_tomalley": {
+        "name_identified": "トマリー",
+        "name_unidentified": "トマリー"
+      },
+      "tool_crystalshard": {
+        "name_identified": "水晶の破片",
+        "name_unidentified": "水晶の破片"
+      },
+      "crystal_sword": {
+        "name_identified": "水晶の剣",
+        "name_unidentified": "水晶の剣"
+      },
+      "crystal_spear": {
+        "name_identified": "水晶スピア",
+        "name_unidentified": "水晶スピア"
+      },
+      "crystal_battleaxe": {
+        "name_identified": "水晶アックス",
+        "name_unidentified": "水晶アックス"
+      },
+      "crystal_mace": {
+        "name_identified": "水晶メイス",
+        "name_unidentified": "水晶メイス"
+      },
+      "bronze_tomahawk": {
+        "name_identified": "青銅のトマホーク",
+        "name_unidentified": "青銅のトマホーク"
+      },
+      "iron_dagger": {
+        "name_identified": "鉄の短剣",
+        "name_unidentified": "鉄の短剣"
+      },
+      "steel_chakram": {
+        "name_identified": "鋼鉄のチャクラム",
+        "name_unidentified": "鋼鉄のチャクラム"
+      },
+      "crystal_shuriken": {
+        "name_identified": "水晶手裏剣",
+        "name_unidentified": "水晶手裏剣"
+      },
+      "cloak_black": {
+        "name_identified": "黒いマント",
+        "name_unidentified": "黒いマント"
+      },
+      "magicstaff_stoneblood": {
+        "name_identified": "ストーンブラッドの魔法杖",
+        "name_unidentified": "魔法杖"
+      },
+      "magicstaff_bleed": {
+        "name_identified": "吸血の魔法杖",
+        "name_unidentified": "魔法杖"
+      },
+      "magicstaff_summon": {
+        "name_identified": "骸骨召喚マジックスタッフ",
+        "name_unidentified": "魔法杖"
+      },
+      "tool_blindfold_focus": {
+        "name_identified": "自由行動の目隠し",
+        "name_unidentified": "目隠し"
+      },
+      "tool_blindfold_telepathy": {
+        "name_identified": "テレパシーの目隠し",
+        "name_unidentified": "目隠し"
+      },
+      "spellbook_summon": {
+        "name_identified": "骸骨召喚魔法の書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_stoneblood": {
+        "name_identified": "ストーンブラッドの魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_bleed": {
+        "name_identified": "吸血の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_reflect_magic": {
+        "name_identified": "魔法反射の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_acid_spray": {
+        "name_identified": "酸噴出の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_steal_weapon": {
+        "name_identified": "武器窃盗の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_drain_soul": {
+        "name_identified": "魂ドレインの魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_vampiric_aura": {
+        "name_identified": "吸血鬼のオーラの魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_charm": {
+        "name_identified": "モンスター魅了の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "potion_empty": {
+        "name_identified": "空の瓶",
+        "name_unidentified": "空の瓶"
+      },
+      "artifact_orb_blue": {
+        "name_identified": "青の神秘的なオーブ",
+        "name_unidentified": "青の神秘的なオーブ"
+      },
+      "artifact_orb_red": {
+        "name_identified": "赤の神秘的なオーブ",
+        "name_unidentified": "赤の神秘的なオーブ"
+      },
+      "artifact_orb_purple": {
+        "name_identified": "紫の神秘的なオーブ",
+        "name_unidentified": "紫の神秘的なオーブ"
+      },
+      "artifact_orb_green": {
+        "name_identified": "緑の神秘的なオーブ",
+        "name_unidentified": "緑の神秘的なオーブ"
+      },
+      "tunic": {
+        "name_identified": "チュニック",
+        "name_unidentified": "チュニック"
+      },
+      "hat_fez": {
+        "name_identified": "フェズ",
+        "name_unidentified": "フェズ"
+      },
+      "magicstaff_charm": {
+        "name_identified": "モンスター魅了の魔法杖",
+        "name_unidentified": "魔法杖"
+      },
+      "potion_polymorph": {
+        "name_identified": "変身のポーション",
+        "name_unidentified": "薬"
+      },
+      "food_blood": {
+        "name_identified": "血液の小瓶",
+        "name_unidentified": "薬"
+      },
+      "cloak_backpack": {
+        "name_identified": "バックパック",
+        "name_unidentified": "バックパック"
+      },
+      "tool_alembic": {
+        "name_identified": "蒸留器",
+        "name_unidentified": "蒸留器"
+      },
+      "potion_firestorm": {
+        "name_identified": "炎嵐のポーション",
+        "name_unidentified": "不安定なポーション"
+      },
+      "potion_icestorm": {
+        "name_identified": "氷嵐のポーション",
+        "name_unidentified": "不安定なポーション"
+      },
+      "potion_thunderstorm": {
+        "name_identified": "雷雨のポーション",
+        "name_unidentified": "不安定なポーション"
+      },
+      "potion_strength": {
+        "name_identified": "力のポーション",
+        "name_unidentified": "薬"
+      },
+      "suede_boots": {
+        "name_identified": "スエードブーツ",
+        "name_unidentified": "スエードブーツ"
+      },
+      "suede_gloves": {
+        "name_identified": "スエードの手袋",
+        "name_unidentified": "スエードの手袋"
+      },
+      "cloak_silver": {
+        "name_identified": "銀のマント",
+        "name_unidentified": "銀のマント"
+      },
+      "hat_hood_silver": {
+        "name_identified": "銀のフード",
+        "name_unidentified": "銀のフード"
+      },
+      "hat_hood_red": {
+        "name_identified": "赤いフード",
+        "name_unidentified": "赤いフード"
+      },
+      "silver_doublet": {
+        "name_identified": "シルバーダブレット",
+        "name_unidentified": "シルバーダブレット"
+      },
+      "spellbook_revert_form": {
+        "name_identified": "形態解除の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_rat_form": {
+        "name_identified": "ネズミの姿の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_spider_form": {
+        "name_identified": "クモの形の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_troll_form": {
+        "name_identified": "トロール形態の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_imp_form": {
+        "name_identified": "インプ形態の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_spray_web": {
+        "name_identified": "クモの巣噴出の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_poison": {
+        "name_identified": "毒の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_speed": {
+        "name_identified": "スピードの魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_fear": {
+        "name_identified": "恐怖の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_strike": {
+        "name_identified": "パワーストライクの魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_detect_food": {
+        "name_identified": "食物発見の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_weakness": {
+        "name_identified": "弱体化の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "mask_shaman": {
+        "name_identified": "シャーマンマスク",
+        "name_unidentified": "シャーマンマスク"
+      },
+      "spellbook_amplify_magic": {
+        "name_identified": "増幅魔法の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_shadow_tag": {
+        "name_identified": "秘術の印の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_telepull": {
+        "name_identified": "テレポートの魔法書 その他",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_demon_illu": {
+        "name_identified": "内なる悪魔の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_trolls_blood": {
+        "name_identified": "トロールの血の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_salvage": {
+        "name_identified": "分解の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "tool_whip": {
+        "name_identified": "ホイップ",
+        "name_unidentified": "ホイップ"
+      },
+      "spellbook_flutter": {
+        "name_identified": "羽ばたきの魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_dash": {
+        "name_identified": "ダッシュの魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_self_polymorph": {
+        "name_identified": "変身の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_9": {
+        "name_identified": "9の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "spellbook_10": {
+        "name_identified": "10の魔法書",
+        "name_unidentified": "魔法書"
+      },
+      "magicstaff_poison": {
+        "name_identified": "毒の魔法杖",
+        "name_unidentified": "魔法杖"
+      },
+      "tool_metal_scrap": {
+        "name_identified": "金属のスクラップ",
+        "name_unidentified": "スクラップ"
+      },
+      "tool_magic_scrap": {
+        "name_identified": "魔法のスクラップ",
+        "name_unidentified": "スクラップ"
+      },
+      "tool_tinkering_kit": {
+        "name_identified": "工作キット",
+        "name_unidentified": "工作キット"
+      },
+      "tool_sentrybot": {
+        "name_identified": "セントリーボット",
+        "name_unidentified": "セントリーボット"
+      },
+      "tool_detonated_charge": {
+        "name_identified": "雷管",
+        "name_unidentified": "雷管"
+      },
+      "tool_fire_bomb": {
+        "name_identified": "火炎トラップ",
+        "name_unidentified": "トラップ"
+      },
+      "tool_sleep_bomb": {
+        "name_identified": "睡眠トラップ",
+        "name_unidentified": "トラップ"
+      },
+      "tool_freeze_bomb": {
+        "name_identified": "氷トラップ",
+        "name_unidentified": "トラップ"
+      },
+      "tool_teleport_bomb": {
+        "name_identified": "テレポートトラップ",
+        "name_unidentified": "トラップ"
+      },
+      "tool_gyrobot": {
+        "name_identified": "ジャイロボット",
+        "name_unidentified": "ジャイロボット"
+      },
+      "tool_spellbot": {
+        "name_identified": "魔法ボット",
+        "name_unidentified": "魔法ボット"
+      },
+      "tool_decoy": {
+        "name_identified": "ノイズメーカー",
+        "name_unidentified": "ノイズメーカー"
+      },
+      "tool_dummybot": {
+        "name_identified": "ダミーボット",
+        "name_unidentified": "ダミーボット"
+      },
+      "machinist_apron": {
+        "name_identified": "革エプロン",
+        "name_unidentified": "エプロン"
+      },
+      "enchanted_feather": {
+        "name_identified": "魔法の羽根",
+        "name_unidentified": "フェザー"
+      },
+      "punisher_hood": {
+        "name_identified": "死刑執行人のフード",
+        "name_unidentified": "フード"
+      },
+      "scroll_charging": {
+        "name_identified": "充電の巻物",
+        "name_unidentified": "巻物"
+      },
+      "quiver_silver": {
+        "name_identified": "銀の弾薬の矢筒",
+        "name_unidentified": "矢筒"
+      },
+      "quiver_pierce": {
+        "name_identified": "貫通弾の矢筒",
+        "name_unidentified": "矢筒"
+      },
+      "quiver_lightweight": {
+        "name_identified": "素早い弾薬の矢筒",
+        "name_unidentified": "矢筒"
+      },
+      "quiver_fire": {
+        "name_identified": "火の弾薬の矢筒",
+        "name_unidentified": "矢筒"
+      },
+      "quiver_heavy": {
+        "name_identified": "スプリングショット弾薬の矢筒",
+        "name_unidentified": "矢筒"
+      },
+      "quiver_crystal": {
+        "name_identified": "水晶弾薬の矢筒",
+        "name_unidentified": "矢筒"
+      },
+      "quiver_hunting": {
+        "name_identified": "狩猟用弾薬の矢筒",
+        "name_unidentified": "矢筒"
+      },
+      "longbow": {
+        "name_identified": "長弓",
+        "name_unidentified": "長弓"
+      },
+      "compound_bow": {
+        "name_identified": "複合弓",
+        "name_unidentified": "複合弓"
+      },
+      "heavy_crossbow": {
+        "name_identified": "アーバレスト",
+        "name_unidentified": "アーバレスト"
+      },
+      "boomerang": {
+        "name_identified": "ブーメラン",
+        "name_unidentified": "ブーメラン"
+      },
+      "scroll_conjurearrow": {
+        "name_identified": "魔法の矢の巻物",
+        "name_unidentified": "巻物"
+      },
+      "monocle": {
+        "name_identified": "片眼鏡",
+        "name_unidentified": "片眼鏡"
+      },
+      "tool_player_loot_bag": {
+        "name_identified": "デスボックス",
+        "name_unidentified": "デスボックス"
+      },
+		"mask_bandit": {
+			"name_identified": "盗賊マスク",
+			"name_unidentified": "盗賊マスク"
+		},
+		"mask_eyepatch": {
+			"name_identified": "眼帯",
+			"name_unidentified": "眼帯"
+		},
+		"mask_masquerade": {
+			"name_identified": "仮面舞踏会のマスク",
+			"name_unidentified": "仮面舞踏会のマスク"
+		},
+		"mask_mouth_rose": {
+			"name_identified": "薔薇",
+			"name_unidentified": "薔薇"
+		},
+		"mask_golden": {
+			"name_identified": "金のマスク",
+			"name_unidentified": "金のマスク"
+		},
+		"mask_spooky": {
+			"name_identified": "不気味なマスク",
+			"name_unidentified": "不気味なマスク"
+		},
+		"mask_tech_goggles": {
+			"name_identified": "ハイテクゴーグル",
+			"name_unidentified": "ハイテクゴーグル"
+		},
+		"mask_hazard_goggles": {
+			"name_identified": "危険防止ゴーグル",
+			"name_unidentified": "危険防止ゴーグル"
+		},
+		"mask_phantom": {
+			"name_identified": "ファントムマスク",
+			"name_unidentified": "ファントムマスク"
+		},
+		"mask_pipe": {
+			"name_identified": "パイプ",
+			"name_unidentified": "パイプ"
+		},
+		"mask_grass_sprig": {
+			"name_identified": "スウィートグラスの小枝",
+			"name_unidentified": "スウィートグラスの小枝"
+		},
+		"mask_plague": {
+			"name_identified": "ペストマスク",
+			"name_unidentified": "ペストマスク"
+		},
+		"mask_mouthknife": {
+			"name_identified": "口ナイフ",
+			"name_unidentified": "口ナイフ"
+		},
+		"hat_silken_bow": {
+			"name_identified": "絹の弓帽子",
+			"name_unidentified": "絹の弓帽子"
+		},
+		"hat_plumed_cap": {
+			"name_identified": "羽飾りのついた帽子",
+			"name_unidentified": "羽飾りのついた帽子"
+		},
+		"hat_bycocket": {
+			"name_identified": "バイコケット",
+			"name_unidentified": "バイコケット"
+		},
+		"hat_tophat": {
+			"name_identified": "シルクハット",
+			"name_unidentified": "シルクハット"
+		},
+		"hat_bandana": {
+			"name_identified": "バンダナ",
+			"name_unidentified": "バンダナ"
+		},
+		"hat_circlet": {
+			"name_identified": "サークレット",
+			"name_unidentified": "サークレット"
+		},
+		"hat_crown": {
+			"name_identified": "王冠",
+			"name_unidentified": "王冠"
+		},
+		"hat_laurels": {
+			"name_identified": "栄誉",
+			"name_unidentified": "栄誉"
+		},
+		"hat_turban": {
+			"name_identified": "ターバン",
+			"name_unidentified": "ターバン"
+		},
+		"hat_crowned_helm": {
+			"name_identified": "冠付きヘルメット",
+			"name_unidentified": "冠付きヘルメット"
+		},
+		"hat_warm": {
+			"name_identified": "暖かい帽子",
+			"name_unidentified": "暖かい帽子"
+		},
+		"hat_wolf_hood": {
+			"name_identified": "狼の頭巾",
+			"name_unidentified": "狼の頭巾"
+		},
+		"hat_bear_hood": {
+			"name_identified": "クマの頭巾",
+			"name_unidentified": "クマの頭巾"
+		},
+		"hat_stag_hood": {
+			"name_identified": "鹿の頭巾",
+			"name_unidentified": "鹿の頭巾"
+		},
+		"hat_bunny_hood": {
+			"name_identified": "ウサギの頭巾",
+			"name_unidentified": "ウサギの頭巾"
+		},
+		"hat_bountyhunter": {
+			"name_identified": "賞金稼ぎの帽子",
+			"name_unidentified": "賞金稼ぎの帽子"
+		},
+		"hat_miter": {
+			"name_identified": "司祭のミトラ",
+			"name_unidentified": "司祭のミトラ"
+		},
+		"hat_headdress": {
+			"name_identified": "魔術師の頭飾り",
+			"name_unidentified": "魔術師の頭飾り"
+		},
+		"hat_chef": {
+			"name_identified": "シェフの帽子",
+			"name_unidentified": "シェフの帽子"
+		},
+		"helm_mining": {
+			"name_identified": "採鉱ヘルメット",
+			"name_unidentified": "採鉱ヘルメット"
+		},
+		"mask_steel_visor": {
+			"name_identified": "スチールバイザー",
+			"name_unidentified": "スチールバイザー"
+		},
+		"mask_crystal_visor": {
+			"name_identified": "水晶バイザー",
+			"name_unidentified": "水晶バイザー"
+		},
+		"mask_artifact_visor": {
+			"name_identified": "ヴァルキリーのヴェール",
+			"name_unidentified": "アーティファクトバイザー"
+		},
+		"hat_circlet_wisdom": {
+			"name_identified": "知恵の輪",
+			"name_unidentified": "サークレット"
+		},
+		"hat_hood_apprentice": {
+			"name_identified": "見習いのフード",
+			"name_unidentified": "フード"
+		},
+		"hat_hood_assassin": {
+			"name_identified": "暗殺者のフード",
+			"name_unidentified": "フード"
+		},
+		"hat_hood_whispers": {
+			"name_identified": "ささやきのフード",
+			"name_unidentified": "フード"
+		},
+		"ring_resolve": {
+			"name_identified": "決意の指輪",
+			"name_unidentified": "指輪"
+		},
+		"cloak_guardian": {
+			"name_identified": "守護者のマント",
+			"name_unidentified": "マント"
+		},
+		"mask_marigold": {
+			"name_identified": "マリーゴールド",
+			"name_unidentified": "マリーゴールド"
+		}
+    },
+	"spell_names": {
+        "spell_forcebolt": {
+            "name": "フォースボルト"
+        },
+        "spell_magicmissile": {
+            "name": "マジックミサイル"
+        },
+        "spell_cold": {
+            "name": "氷"
+        },
+        "spell_fireball": {
+            "name": "火の玉"
+        },
+        "spell_lightning": {
+            "name": "雷"
+        },
+        "spell_removecurse": {
+            "name": "解呪"
+        },
+        "spell_light": {
+            "name": "光"
+        },
+        "spell_identify": {
+            "name": "鑑定"
+        },
+        "spell_magicmapping": {
+            "name": "地図魔法"
+        },
+        "spell_sleep": {
+            "name": "睡眠"
+        },
+        "spell_confuse": {
+            "name": "混乱"
+        },
+        "spell_slow": {
+            "name": "スロウ"
+        },
+        "spell_opening": {
+            "name": "オープン"
+        },
+        "spell_locking": {
+            "name": "ロック"
+        },
+        "spell_levitation": {
+            "name": "浮遊"
+        },
+        "spell_invisibility": {
+            "name": "透明化"
+        },
+        "spell_teleportation": {
+            "name": "テレポート"
+        },
+        "spell_healing": {
+            "name": "回復"
+        },
+        "spell_extrahealing": {
+            "name": "追加回復"
+        },
+        "spell_cureailment": {
+            "name": "状態異常回復"
+        },
+        "spell_dig": {
+            "name": "掘削"
+        },
+        "spell_summon": {
+            "name": "骸骨召喚"
+        },
+        "spell_stoneblood": {
+            "name": "ストーンブラッド"
+        },
+        "spell_bleed": {
+            "name": "吸血"
+        },
+        "spell_dominate": {
+            "name": "支配"
+        },
+        "spell_reflect_magic": {
+            "name": "魔法反射"
+        },
+        "spell_acid_spray": {
+            "name": "酸噴出"
+        },
+        "spell_steal_weapon": {
+            "name": "武器窃盗"
+        },
+        "spell_drain_soul": {
+            "name": "魂ドレイン"
+        },
+        "spell_vampiric_aura": {
+            "name": "吸血鬼オーラ"
+        },
+        "spell_charm": {
+            "name": "モンスター魅了"
+        },
+        "spell_revert_form": {
+            "name": "変形解除"
+        },
+        "spell_rat_form": {
+            "name": "ネズミ変形"
+        },
+        "spell_spider_form": {
+            "name": "クモ変形"
+        },
+        "spell_troll_form": {
+            "name": "トロール変形"
+        },
+        "spell_imp_form": {
+            "name": "インプ変形"
+        },
+        "spell_spray_web": {
+            "name": "蜘蛛の巣噴射"
+        },
+        "spell_poison": {
+            "name": "毒"
+        },
+        "spell_speed": {
+            "name": "速度上昇"
+        },
+        "spell_fear": {
+            "name": "恐怖"
+        },
+        "spell_strike": {
+            "name": "パワーストライク"
+        },
+        "spell_detect_food": {
+            "name": "食料発見"
+        },
+        "spell_weakness": {
+            "name": "弱体化"
+        },
+        "spell_amplify_magic": {
+            "name": "元素焦点"
+        },
+        "spell_shadow_tag": {
+            "name": "秘術の印"
+        },
+        "spell_telepull": {
+            "name": "テレプール"
+        },
+        "spell_demon_illu": {
+            "name": "内なる悪魔"
+        },
+        "spell_trolls_blood": {
+            "name": "トロールの血"
+        },
+        "spell_salvage": {
+            "name": "分解"
+        },
+        "spell_flutter": {
+            "name": "羽ばたき"
+        },
+        "spell_dash": {
+            "name": "ダッシュ"
+        },
+        "spell_self_polymorph": {
+            "name": "変身"
+        },
+        "spell_crab_form": {
+            "name": "カニ変形"
+        },
+        "spell_crab_web": {
+            "name": "泡噴射"
+		},
+		"spell_ghost_bolt": {
+			"name": "ゴーストボルト"
+		},
+		"spell_slime_acid": {
+			"name": "スライム噴射 (酸)"
+		},
+		"spell_slime_water": {
+			"name": "スライム噴射 (水)"
+		},
+		"spell_slime_fire": {
+			"name": "スライム噴射 (マグマ)"
+		},
+		"spell_slime_tar": {
+			"name": "スライム噴射 (タール)"
+		},
+		"spell_slime_metal": {
+			"name": "スライム噴射 (メタル)"
+		}
+    }
+}

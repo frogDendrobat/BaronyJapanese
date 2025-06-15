@@ -1,0 +1,1874 @@
+{
+	"version": 1,
+	"panel_center_x_offset": -62,
+	"panel_center_y_offset": -24,
+	"panel_radius": 94,
+	"panel_button_thickness": 52,
+	"panel_inner_circle_radius_offset": -6,
+	"colors": {
+		"title": {
+			"r": 210,
+			"g": 183,
+			"b": 76,
+			"a": 255
+		},
+		"title_creature_highlight": {
+			"r": 255,
+			"g": 255,
+			"b": 255,
+			"a": 255
+		},
+		"banner_default": {
+			"r": 201,
+			"g": 162,
+			"b": 100,
+			"a": 255
+		},
+		"banner_highlight_default": {
+			"r": 255,
+			"g": 255,
+			"b": 255,
+			"a": 255
+		}
+	},
+	"help_strings": {
+		"hungry": "Hungry",
+		"very_hungry": "Very Hungry",
+		"starving": "Starving",
+		"hungry_blood": "Hungry",
+		"very_hungry_blood": "Very Hungry",
+		"starving_blood": "Starving",
+		"healing": "Needs Healing",
+		"healing_urgent": "Needs Healing",
+		"low_steam": "Low Boiler",
+		"empty_steam": "Empty Boiler",
+		"ghost": "Deceased",
+		"separator": "/"
+	},
+	"world_icons" : {
+		"tag_spot": {
+			"default": "tag_spot.png",
+			"0": "tagGold_spot.png",
+			"1": "tagGreen_spot.png",
+			"2": "tagRed_spot.png",
+			"3": "tagPink_spot.png",
+			"4": "tagWhite_spot.png"
+		},
+		"tag_spot-interact_me": {
+			"default": "tag_spot-interact_me.png",
+			"0": "tagGold_spot-interact_me.png",
+			"1": "tagGreen_spot-interact_me.png",
+			"2": "tagRed_spot-interact_me.png",
+			"3": "tagPink_spot-interact_me.png",
+			"4": "tagWhite_spot-interact_me.png"
+		},
+		"tag_self_player-wave": {
+			"default": "self_player-wave.png",
+			"0": "self_playerGold-wave.png",
+			"1": "self_playerGreen-wave.png",
+			"2": "self_playerRed-wave.png",
+			"3": "self_playerPink-wave.png",
+			"4": "self_playerWhite-wave.png"
+		},
+		"tag_self_player-wave_display_self": {
+			"default": "btn_locked_wave.png",
+			"0": "btn_playerGold_wave.png",
+			"1": "btn_playerGreen_wave.png",
+			"2": "btn_playerRed_wave.png",
+			"3": "btn_playerPink_wave.png",
+			"4": "btn_playerWhite_wave.png"
+		},
+		"tag_btn_player_wave_hover": {
+			"default": "",
+			"0": "btn_playerGold_wave_hover.png",
+			"1": "btn_playerGreen_wave_hover.png",
+			"2": "btn_playerRed_wave_hover.png",
+			"3": "btn_playerPink_wave_hover.png",
+			"4": "btn_playerWhite_wave_hover.png"
+		},
+		"tag_btn_player_wave": {
+			"default": "",
+			"0": "btn_playerGold_wave.png",
+			"1": "btn_playerGreen_wave.png",
+			"2": "btn_playerRed_wave.png",
+			"3": "btn_playerPink_wave.png",
+			"4": "btn_playerWhite_wave.png"
+		},
+		"tag_btn_player_wave_to_me": {
+			"default": "btn_locked_wave.png",
+			"0": "btn_playerGold_wave_to_me.png",
+			"1": "btn_playerGreen_wave_to_me.png",
+			"2": "btn_playerRed_wave_to_me.png",
+			"3": "btn_playerPink_wave_to_me.png",
+			"4": "btn_playerWhite_wave_to_me.png"
+		},
+		"tag_spot-item": {
+			"default": "tag_spot-item.png",
+			"0": "tagGold_spot-item.png",
+			"1": "tagGreen_spot-item.png",
+			"2": "tagRed_spot-item.png",
+			"3": "tagPink_spot-item.png",
+			"4": "tagWhite_spot-item.png"
+		},
+		"tag_spot-item_me": {
+			"default": "tag_spot-item_me.png",
+			"0": "tagGold_spot-item_me.png",
+			"1": "tagGreen_spot-item_me.png",
+			"2": "tagRed_spot-item_me.png",
+			"3": "tagPink_spot-item_me.png",
+			"4": "tagWhite_spot-item_me.png"
+		},
+		"tag_spot-trap": {
+			"default": "tag_spot-trap.png",
+			"0": "tagGold_spot-trap.png",
+			"1": "tagGreen_spot-trap.png",
+			"2": "tagRed_spot-trap.png",
+			"3": "tagPink_spot-trap.png",
+			"4": "tagWhite_spot-trap.png"
+		},
+		"tag_spot_me": {
+			"default": "tag_spot_me.png",
+			"0": "tagGold_spot_me.png",
+			"1": "tagGreen_spot_me.png",
+			"2": "tagRed_spot_me.png",
+			"3": "tagPink_spot_me.png",
+			"4": "tagWhite_spot_me.png"
+		},
+		"tag_good": {
+			"default": "tag_good.png",
+			"0": "tagGold_good.png",
+			"1": "tagGreen_good.png",
+			"2": "tagRed_good.png",
+			"3": "tagPink_good.png",
+			"4": "tagWhite_good.png"
+		},
+		"tag_good_display_self": {
+			"default": "btn_player_up.png",
+			"0": "btn_playerGold_up.png",
+			"1": "btn_playerGreen_up.png",
+			"2": "btn_playerRed_up.png",
+			"3": "btn_playerPink_up.png",
+			"4": "btn_playerWhite_up.png"
+		},
+		"tag_good-NPC": {
+			"default": "tag_good-NPC.png",
+			"0": "tagGold_good-NPC.png",
+			"1": "tagGreen_good-NPC.png",
+			"2": "tagRed_good-NPC.png",
+			"3": "tagPink_good-NPC.png",
+			"4": "tagWhite_good-NPC.png"
+		},
+		"tag_good-item": {
+			"default": "tag_good-item.png",
+			"0": "tagGold_good-item.png",
+			"1": "tagGreen_good-item.png",
+			"2": "tagRed_good-item.png",
+			"3": "tagPink_good-item.png",
+			"4": "tagWhite_good-item.png"
+		},
+		"tag_good-trap": {
+			"default": "tag_good-trap.png",
+			"0": "tagGold_good-trap.png",
+			"1": "tagGreen_good-trap.png",
+			"2": "tagRed_good-trap.png",
+			"3": "tagPink_good-trap.png",
+			"4": "tagWhite_good-trap.png"
+		},
+		"tag_good-interact": {
+			"default": "tag_good-interact.png",
+			"0": "tagGold_good-interact.png",
+			"1": "tagGreen_good-interact.png",
+			"2": "tagRed_good-interact.png",
+			"3": "tagPink_good-interact.png",
+			"4": "tagWhite_good-interact.png"
+		},
+		"tag_bad": {
+			"default": "tag_bad.png",
+			"0": "tagGold_bad.png",
+			"1": "tagGreen_bad.png",
+			"2": "tagRed_bad.png",
+			"3": "tagPink_bad.png",
+			"4": "tagWhite_bad.png"
+		},
+		"tag_bad_display_self": {
+			"default": "btn_player_down.png",
+			"0": "btn_playerGold_down.png",
+			"1": "btn_playerGreen_down.png",
+			"2": "btn_playerRed_down.png",
+			"3": "btn_playerPink_down.png",
+			"4": "btn_playerWhite_down.png"
+		},
+		"tag_bad-item": {
+			"default": "tag_bad-item.png",
+			"0": "tagGold_bad-item.png",
+			"1": "tagGreen_bad-item.png",
+			"2": "tagRed_bad-item.png",
+			"3": "tagPink_bad-item.png",
+			"4": "tagWhite_bad-item.png"
+		},
+		"tag_bad-trap": {
+			"default": "tag_bad-trap.png",
+			"0": "tagGold_bad-trap.png",
+			"1": "tagGreen_bad-trap.png",
+			"2": "tagRed_bad-trap.png",
+			"3": "tagPink_bad-trap.png",
+			"4": "tagWhite_bad-trap.png"
+		},
+		"tag_bad-interact": {
+			"default": "tag_bad-interact.png",
+			"0": "tagGold_bad-interact.png",
+			"1": "tagGreen_bad-interact.png",
+			"2": "tagRed_bad-interact.png",
+			"3": "tagPink_bad-interact.png",
+			"4": "tagWhite_bad-interact.png"
+		},
+		"tag_bad-NPC": {
+			"default": "tag_bad-NPC.png",
+			"0": "tagGold_bad-NPC.png",
+			"1": "tagGreen_bad-NPC.png",
+			"2": "tagRed_bad-NPC.png",
+			"3": "tagPink_bad-NPC.png",
+			"4": "tagWhite_bad-NPC.png"
+		},
+		"tag_help": {
+			"default": "tag_help.png",
+			"0": "tagGold_help.png",
+			"1": "tagGreen_help.png",
+			"2": "tagRed_help.png",
+			"3": "tagPink_help.png",
+			"4": "tagWhite_help.png"
+		},
+		"tag_help_display_self": {
+			"default": "btn_player_genhelp.png",
+			"0": "btn_playerGold_genhelp.png",
+			"1": "btn_playerGreen_genhelp.png",
+			"2": "btn_playerRed_genhelp.png",
+			"3": "btn_playerPink_genhelp.png",
+			"4": "btn_playerWhite_genhelp.png"
+		},
+		"tag_help-ghost": {
+			"default": "tag_help-ghost.png",
+			"0": "tagGold_help-ghost.png",
+			"1": "tagGreen_help-ghost.png",
+			"2": "tagRed_help-ghost.png",
+			"3": "tagPink_help-ghost.png",
+			"4": "tagWhite_help-ghost.png"
+		},
+		"tag_help-ghost_display_self": {
+			"default": "btn_player_help-ghost.png",
+			"0": "btn_playerGold_help-ghost.png",
+			"1": "btn_playerGreen_help-ghost.png",
+			"2": "btn_playerRed_help-ghost.png",
+			"3": "btn_playerPink_help-ghost.png",
+			"4": "btn_playerWhite_help-ghost.png"
+		},
+		"tag_help-cure": {
+			"default": "tag_help-cure.png",
+			"0": "tagGold_help-cure.png",
+			"1": "tagGreen_help-cure.png",
+			"2": "tagRed_help-cure.png",
+			"3": "tagPink_help-cure.png",
+			"4": "tagWhite_help-cure.png"
+		},
+		"tag_help-cure_display_self": {
+			"default": "btn_player_help-cure.png",
+			"0": "btn_playerGold_help-cure.png",
+			"1": "btn_playerGreen_help-cure.png",
+			"2": "btn_playerRed_help-cure.png",
+			"3": "btn_playerPink_help-cure.png",
+			"4": "btn_playerWhite_help-cure.png"
+		},
+		"tag_help-food": {
+			"default": "tag_help-food.png",
+			"0": "tagGold_help-food.png",
+			"1": "tagGreen_help-food.png",
+			"2": "tagRed_help-food.png",
+			"3": "tagPink_help-food.png",
+			"4": "tagWhite_help-food.png"
+		},
+		"tag_help-food_display_self": {
+			"default": "btn_player_help-food.png",
+			"0": "btn_playerGold_help-food.png",
+			"1": "btn_playerGreen_help-food.png",
+			"2": "btn_playerRed_help-food.png",
+			"3": "btn_playerPink_help-food.png",
+			"4": "btn_playerWhite_help-food.png"
+		},
+		"tag_help-hp": {
+			"default": "tag_help-hp.png",
+			"0": "tagGold_help-hp.png",
+			"1": "tagGreen_help-hp.png",
+			"2": "tagRed_help-hp.png",
+			"3": "tagPink_help-hp.png",
+			"4": "tagWhite_help-hp.png"
+		},
+		"tag_help-hp_display_self": {
+			"default": "btn_player_help-hp.png",
+			"0": "btn_playerGold_help-hp.png",
+			"1": "btn_playerGreen_help-hp.png",
+			"2": "btn_playerRed_help-hp.png",
+			"3": "btn_playerPink_help-hp.png",
+			"4": "btn_playerWhite_help-hp.png"
+		},
+		"tag_help-item": {
+			"default": "tag_help-item.png",
+			"0": "tagGold_help-item.png",
+			"1": "tagGreen_help-item.png",
+			"2": "tagRed_help-item.png",
+			"3": "tagPink_help-item.png",
+			"4": "tagWhite_help-item.png"
+		},
+		"tag_help-npc": {
+			"default": "tag_help-npc.png",
+			"0": "tagGold_help-npc.png",
+			"1": "tagGreen_help-npc.png",
+			"2": "tagRed_help-npc.png",
+			"3": "tagPink_help-npc.png",
+			"4": "tagWhite_help-npc.png"
+		},
+		"tag_move": {
+			"default": "tag_move.png",
+			"0": "tagGold_move.png",
+			"1": "tagGreen_move.png",
+			"2": "tagRed_move.png",
+			"3": "tagPink_move.png",
+			"4": "tagWhite_move.png"
+		},
+		"tag_move_display_self": {
+			"default": "btn_player_point.png",
+			"0": "btn_playerGold_point.png",
+			"1": "btn_playerGreen_point.png",
+			"2": "btn_playerRed_point.png",
+			"3": "btn_playerPink_point.png",
+			"4": "btn_playerWhite_point.png"
+		},
+		"tag_move-exit": {
+			"default": "tag_move-exit.png",
+			"0": "tagGold_move-exit.png",
+			"1": "tagGreen_move-exit.png",
+			"2": "tagRed_move-exit.png",
+			"3": "tagPink_move-exit.png",
+			"4": "tagWhite_move-exit.png"
+		},
+		"tag_move-NPC": {
+			"default": "tag_move-NPC.png",
+			"0": "tagGold_move-NPC.png",
+			"1": "tagGreen_move-NPC.png",
+			"2": "tagRed_move-NPC.png",
+			"3": "tagPink_move-NPC.png",
+			"4": "tagWhite_move-NPC.png"
+		},
+		"thanks": {
+			"default": "self_player-thanks.png",
+			"0": "self_playerGold-thanks.png",
+			"1": "self_playerGreen-thanks.png",
+			"2": "self_playerRed-thanks.png",
+			"3": "self_playerPink-thanks.png",
+			"4": "self_playerWhite-thanks.png"
+		},
+		"thanks_display_self": {
+			"default": "self_player_thanks.png",
+			"0": "btn_playerGold_thanks.png",
+			"1": "btn_playerGreen_thanks.png",
+			"2": "btn_playerRed_thanks.png",
+			"3": "btn_playerPink_thanks.png",
+			"4": "btn_playerWhite_thanks.png"
+		},
+		"mini_spot": {
+			"default": "mini_spot.png",
+			"0": "miniGold_spot.png",
+			"1": "miniGreen_spot.png",
+			"2": "miniRed_spot.png",
+			"3": "miniPink_spot.png",
+			"4": "miniWhite_spot.png"
+		},
+		"mini_no": {
+			"default": "mini_no.png",
+			"0": "miniGold_no.png",
+			"1": "miniGreen_no.png",
+			"2": "miniRed_no.png",
+			"3": "miniPink_no.png",
+			"4": "miniWhite_no.png"
+		},
+		"mini_yes": {
+			"default": "mini_yes.png",
+			"0": "miniGold_yes.png",
+			"1": "miniGreen_yes.png",
+			"2": "miniRed_yes.png",
+			"3": "miniPink_yes.png",
+			"4": "miniWhite_yes.png"
+		},
+		"mini_move": {
+			"default": "mini_move.png",
+			"0": "miniGold_move.png",
+			"1": "miniGreen_move.png",
+			"2": "miniRed_move.png",
+			"3": "miniPink_move.png",
+			"4": "miniWhite_move.png"
+		},
+		"mini_item": {
+			"default": "mini_item.png",
+			"0": "miniGold_item.png",
+			"1": "miniGreen_item.png",
+			"2": "miniRed_item.png",
+			"3": "miniPink_item.png",
+			"4": "miniWhite_item.png"
+		},
+		"mini_help": {
+			"default": "mini_help.png",
+			"0": "miniGold_help.png",
+			"1": "miniGreen_help.png",
+			"2": "miniRed_help.png",
+			"3": "miniPink_help.png",
+			"4": "miniWhite_help.png"
+		},
+		"mini_heal": {
+			"default": "mini_heal.png",
+			"0": "miniGold_heal.png",
+			"1": "miniGreen_heal.png",
+			"2": "miniRed_heal.png",
+			"3": "miniPink_heal.png",
+			"4": "miniWhite_heal.png"
+		},
+		"mini_danger": {
+			"default": "mini_danger.png",
+			"0": "miniGold_danger.png",
+			"1": "miniGreen_danger.png",
+			"2": "miniRed_danger.png",
+			"3": "miniPink_danger.png",
+			"4": "miniWhite_danger.png"
+		}
+	},
+	"panels": [{
+			"direction": "north",
+			"x": -2,
+			"y": -126,
+			"icon_offset_x": 64,
+			"icon_offset_y": 52,
+			"path": "#*images/ui/CalloutWheel/panels/cmd_player_N.png",
+			"path_locked": "#*images/ui/CalloutWheel/panels/cmd_player_N_u.png",
+			"path_hover": "#*images/ui/CalloutWheel/panels/cmd_player_N_h.png",
+			"path_locked_hover": "#*images/ui/CalloutWheel/panels/cmd_player_N_uh.png"
+		},
+		{
+			"direction": "northwest",
+			"x": -76,
+			"y": -114,
+			"icon_offset_x": 68,
+			"icon_offset_y": 68,
+			"path": "#*images/ui/CalloutWheel/panels/cmd_player_NW.png",
+			"path_locked": "#*images/ui/CalloutWheel/panels/cmd_player_NW_u.png",
+			"path_hover": "#*images/ui/CalloutWheel/panels/cmd_player_NW_h.png",
+			"path_locked_hover": "#*images/ui/CalloutWheel/panels/cmd_player_NW_uh.png"
+		},
+		{
+			"direction": "west",
+			"x": -88,
+			"y": -38,
+			"icon_offset_x": 58,
+			"icon_offset_y": 64,
+			"path": "#*images/ui/CalloutWheel/panels/cmd_player_W.png",
+			"path_locked": "#*images/ui/CalloutWheel/panels/cmd_player_W_u.png",
+			"path_hover": "#*images/ui/CalloutWheel/panels/cmd_player_W_h.png",
+			"path_locked_hover": "#*images/ui/CalloutWheel/panels/cmd_player_W_uh.png"
+		},
+		{
+			"direction": "southwest",
+			"x": -76,
+			"y": 34,
+			"icon_offset_x": 72,
+			"icon_offset_y": 60,
+			"path": "#*images/ui/CalloutWheel/panels/cmd_player_SW.png",
+			"path_locked": "#*images/ui/CalloutWheel/panels/cmd_player_SW_u.png",
+			"path_hover": "#*images/ui/CalloutWheel/panels/cmd_player_SW_h.png",
+			"path_locked_hover": "#*images/ui/CalloutWheel/panels/cmd_player_SW_uh.png"
+		},
+		{
+			"direction": "south",
+			"x": -2,
+			"y": 48,
+			"icon_offset_x": 64,
+			"icon_offset_y": 72,
+			"path": "#*images/ui/CalloutWheel/panels/cmd_player_S.png",
+			"path_locked": "#*images/ui/CalloutWheel/panels/cmd_player_S_u.png",
+			"path_hover": "#*images/ui/CalloutWheel/panels/cmd_player_S_h.png",
+			"path_locked_hover": "#*images/ui/CalloutWheel/panels/cmd_player_S_uh.png"
+		},
+		{
+			"direction": "southeast",
+			"x": 74,
+			"y": 34,
+			"icon_offset_x": 58,
+			"icon_offset_y": 60,
+			"path": "#*images/ui/CalloutWheel/panels/cmd_player_SE.png",
+			"path_locked": "#*images/ui/CalloutWheel/panels/cmd_player_SE_u.png",
+			"path_hover": "#*images/ui/CalloutWheel/panels/cmd_player_SE_h.png",
+			"path_locked_hover": "#*images/ui/CalloutWheel/panels/cmd_player_SE_uh.png"
+		},
+		{
+			"direction": "east",
+			"x": 88,
+			"y": -40,
+			"icon_offset_x": 72,
+			"icon_offset_y": 64,
+			"path": "#*images/ui/CalloutWheel/panels/cmd_player_E.png",
+			"path_locked": "#*images/ui/CalloutWheel/panels/cmd_player_E_u.png",
+			"path_hover": "#*images/ui/CalloutWheel/panels/cmd_player_E_h.png",
+			"path_locked_hover": "#*images/ui/CalloutWheel/panels/cmd_player_E_uh.png"
+		},
+		{
+			"direction": "northeast",
+			"x": 74,
+			"y": -114,
+			"icon_offset_x": 60,
+			"icon_offset_y": 66,
+			"path": "#*images/ui/CalloutWheel/panels/cmd_player_NE.png",
+			"path_locked": "#*images/ui/CalloutWheel/panels/cmd_player_NE_u.png",
+			"path_hover": "#*images/ui/CalloutWheel/panels/cmd_player_NE_h.png",
+			"path_locked_hover": "#*images/ui/CalloutWheel/panels/cmd_player_NE_uh.png"
+		},
+		{
+			"direction": "center",
+			"x": -78,
+			"y": -118,
+			"icon_offset_x": 0,
+			"icon_offset_y": 0,
+			"path": "#*images/ui/CalloutWheel/panels/cmd_player_ctr.png",
+			"path_locked": "#*images/ui/CalloutWheel/panels/cmd_player_ctr.png",
+			"path_hover": "#*images/ui/CalloutWheel/panels/cmd_player_ctr_h.png",
+			"path_locked_hover": "#*images/ui/CalloutWheel/panels/cmd_player_ctr_u.png"
+		}
+	],
+	"icons": [{
+		"action": "look_at",
+		"id": 0,
+		"path": "#*images/ui/CalloutWheel/icons/btn_player_check.png",
+		"path_hover": "#*images/ui/CalloutWheel/icons/btn_player_check_hover.png",
+		"text_maps": [{
+			"default" : 
+			{
+				"text": "これを見てほしい！",
+				"word_highlights" : [],
+				"msg_says": "%s\"これを見てほしい！\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"player_wave":
+			{
+				"text": "%sに手を振ってください!",
+				"word_highlights" : [2],
+				"msg_emote": "%s waves to %s!",
+				"msg_emote_you": "%sに手を振る!",
+				"msg_emote_to_you": "%s が手を振っている!",
+				"world_icon": "tag_self_player-wave",
+				"world_icon_small": "mini_spot"
+			},
+			"location" :
+			{
+				"text": "この場所にジェスチャーをする。",
+				"word_highlights" : [],
+				"msg_emote": "%s はあそこの場所を指さします。",
+				"msg_emote_you": "あそこの一点を指さします。",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"item" : 
+			{
+				"text": "ここには%sがあります。",
+				"word_highlights" : [2],
+				"msg_says": "%s\"ここには%sがあります。\"",
+				"world_icon": "tag_spot-item",
+				"world_icon_small": "mini_item"
+			},
+			"item_an" : 
+			{
+				"text": "ここには%sがあります。",
+				"word_highlights" : [2],
+				"msg_says": "%s\"ここには%sがあります。\"",
+				"world_icon": "tag_spot-item",
+				"world_icon_small": "mini_item"
+			},
+			"npc" : 
+			{
+				"text": "ここには%sがあります。",
+				"word_highlights" : [2],
+				"msg_says": "%s\"ここには%sがあります。\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"npc_named" : 
+			{
+				"text": "%s がここにいます。",
+				"word_highlights" : [0],
+				"msg_says": "%s\"%s がここにいます。\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"npc_an" : 
+			{
+				"text": "ここには%sがあります。",
+				"word_highlights" : [2],
+				"msg_says": "%s\"ここには%sがあります。\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"npc_enemy_named" : 
+			{
+				"text": "敵 %s がここにいます!",
+				"word_highlights" : [2],
+				"msg_says": "%s\"敵 %s がここにいます!\"",
+				"world_icon": "tag_bad-NPC",
+				"world_icon_small": "mini_spot"
+			},
+			"npc_enemy" : 
+			{
+				"text": "敵 %s がここにいます!",
+				"word_highlights" : [1],
+				"msg_says": "%s\"敵 %s がここにいます!\"",
+				"world_icon": "tag_bad-NPC",
+				"world_icon_small": "mini_spot"
+			},
+			"npc_ally" : 
+			{
+				"text": "味方の%sがここにいます。",
+				"word_highlights" : [2],
+				"msg_says": "%s\"味方の%sがここにいます。\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_heal"
+			},
+			"player_look" : 
+			{
+				"text": "味方の%sがここにいます。",
+				"word_highlights" : [2],
+				"msg_says": "%s\"味方の%sがここにいます。\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_heal"
+			},
+			"chest" : 
+			{
+				"text": "宝箱を指摘します。",
+				"word_highlights" : [3],
+				"msg_says": "%s\"宝箱を見つけたよ！\"",
+				"world_icon": "tag_spot-item",
+				"world_icon_small": "mini_item"
+			},
+			"switch_on" : 
+			{
+				"text": "このアクティブスイッチを指摘します。",
+				"word_highlights" : [3, 4],
+				"msg_says": "%s\"あそこのスイッチはすでに引かれています。\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"switch_off" : 
+			{
+				"text": "この非アクティブなスイッチを指摘します。",
+				"word_highlights" : [3, 4],
+				"msg_says": "%s\"あそこのスイッチは引かれていない。\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"switch" : 
+			{
+				"text": "スイッチを指摘してください。",
+				"word_highlights" : [3],
+				"msg_says": "%s\"あそこにスイッチがあります。\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"boulder" : 
+			{
+				"text": "岩を指さしてください。",
+				"word_highlights" : [3],
+				"msg_emote": "%s は岩を指さします。",
+				"msg_emote_you": "あなたは岩を指さします。",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"trap" : 
+			{
+				"text": "ここには%sがあります。",
+				"word_highlights" : [2],
+				"msg_says": "%s\"ここには%sがあります。\"",
+				"world_icon": "tag_spot-trap",
+				"world_icon_small": "mini_spot"
+			},
+			"generic_interactable" : 
+			{
+				"text": "%s を指摘してください。",
+				"word_highlights" : [3, 4],
+				"msg_says": "%s\"ここには%sがいます。\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"shrine" : 
+			{
+				"text": "神社を指さしてください。",
+				"word_highlights" : [3],
+				"msg_says": "%s\"ここには神社があります。\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"bell" : 
+			{
+				"text": "ベルを指さしてください。",
+				"word_highlights" : [3],
+				"msg_says": "%s\"ここに鐘があります。\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"daedalus" : 
+			{
+				"text": "ダイダロス神殿を指差す.",
+				"word_highlights" : [3, 4],
+				"msg_says": "%s\"ここにはダイダロスの神殿があります。\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"exit" : 
+			{
+				"text": "出口を指摘してください。",
+				"word_highlights" : [3],
+				"msg_says": "%s\"出口はここです。\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"secret_exit" : 
+			{
+				"text": "秘密のレベルの出口を指摘します。",
+				"word_highlights" : [3, 4, 5],
+				"msg_emote": "%s は秘密レベルの出口を指します。",
+				"msg_emote_you": "秘密のレベルの出口を指さします。",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"secret_entrance" : 
+			{
+				"text": "秘密のレベルの入り口を指摘します。",
+				"word_highlights" : [3, 4, 5],
+				"msg_emote": "%s は秘密のエリアへの入り口を指し示しています。",
+				"msg_emote_you": "あなたは秘密のエリアへの入り口を指さします。",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"gold" : 
+			{
+				"text": "金を指摘してください。",
+				"word_highlights" : [3],
+				"msg_emote": "%s は金を指摘する.",
+				"msg_emote_you": "あなたは金を指摘します。",
+				"world_icon": "tag_spot-item",
+				"world_icon_small": "mini_item"
+			},
+			"fountain" : 
+			{
+				"text": "噴水を指さしてください。",
+				"word_highlights" : [3],
+				"msg_emote": "%s は噴水を指さします。",
+				"msg_emote_you": "あなたは噴水を指さします。",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"sink" : 
+			{
+				"text": "シンクを指差してください。",
+				"word_highlights" : [3],
+				"msg_emote": "%s はシンクを指しています。",
+				"msg_emote_you": "あなたはシンクを指さします。",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"teleporter" : 
+			{
+				"text": "テレポーターを指摘してください。",
+				"word_highlights" : [3],
+				"msg_says": "%s\"ここにはテレポーターがあるようです。\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"teleporter_up" : 
+			{
+				"text": "上への道を指示してください。",
+				"word_highlights" : [3, 4],
+				"msg_says": "%s\"このはしごは上へ続きます。\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"teleporter_down" : 
+			{
+				"text": "下りる道を指示してください。",
+				"word_highlights" : [3, 4],
+				"msg_says": "%s\"このはしごは私たちを下へ連れて行きます。\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"bomb" : 
+			{
+				"text": "%s を指摘してください。",
+				"word_highlights" : [3],
+				"msg_says": "%s\"%s がここに配置されました。\"",
+				"world_icon": "tag_spot-trap",
+				"world_icon_small": "mini_spot"
+			},
+			"collider" : 
+			{
+				"text": "壊れやすい%sを指摘してください。",
+				"word_highlights" : [4],
+				"msg_says": "%s\"私たちはこの%sを突破することができます。\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			}
+		}]
+	},
+	{
+		"action": "player_wave_1",
+		"id": 4,
+		"path": "#*images/ui/CalloutWheel/icons/btn_player_check.png",
+		"path_hover": "#*images/ui/CalloutWheel/icons/btn_player_check_hover.png",
+		"text_maps": [{
+			"player_wave":
+			{
+				"text": "%sに手を振ってください!",
+				"word_highlights" : [2],
+				"msg_emote": "%s waves to %s!",
+				"msg_emote_you": "%sに手を振る!",
+				"msg_emote_to_you": "%s が手を振っている!",
+				"world_icon": "tag_self_player-wave",
+				"world_icon_small": "mini_spot"
+			},
+			"unavailable":
+			{
+				"text": "プレーヤーが利用できません",
+				"word_highlights" : [0,  1, 2],
+				"msg_emote": "",
+				"msg_emote_you": "",
+				"world_icon": "",
+				"world_icon_small": ""
+			}
+		}]
+	},
+	{
+		"action": "player_wave_2",
+		"id": 6,
+		"path": "#*images/ui/CalloutWheel/icons/btn_player_check.png",
+		"path_hover": "#*images/ui/CalloutWheel/icons/btn_player_check_hover.png",
+		"text_maps": [{
+			"player_wave":
+			{
+				"text": "%sに手を振ってください!",
+				"word_highlights" : [2],
+				"msg_emote": "%s waves to %s!",
+				"msg_emote_you": "%sに手を振る!",
+				"msg_emote_to_you": "%s が手を振っている!",
+				"world_icon": "tag_self_player-wave",
+				"world_icon_small": "mini_spot"
+			},
+			"unavailable":
+			{
+				"text": "プレーヤーが利用できません",
+				"word_highlights" : [0,  1, 2],
+				"msg_emote": "",
+				"msg_emote_you": "",
+				"world_icon": "",
+				"world_icon_small": ""
+			}
+		}]
+	},
+	{
+		"action": "player_wave_3",
+		"id": 2,
+		"path": "#*images/ui/CalloutWheel/icons/btn_player_check.png",
+		"path_hover": "#*images/ui/CalloutWheel/icons/btn_player_check_hover.png",
+		"text_maps": [{
+			"player_wave":
+			{
+				"text": "%sに手を振ってください!",
+				"word_highlights" : [2],
+				"msg_emote": "%s waves to %s!",
+				"msg_emote_you": "%sに手を振る!",
+				"msg_emote_to_you": "%s が手を振っている!",
+				"world_icon": "tag_self_player-wave",
+				"world_icon_small": "mini_spot"
+			},
+			"unavailable":
+			{
+				"text": "プレーヤーが利用できません",
+				"word_highlights" : [0,  1, 2],
+				"msg_emote": "",
+				"msg_emote_you": "",
+				"world_icon": "",
+				"world_icon_small": ""
+			}
+		}]
+	},
+	{
+		"action": "help",
+		"id": 3,
+		"path": "#*images/ui/CalloutWheel/icons/btn_player_help.png",
+		"path_hover": "#*images/ui/CalloutWheel/icons/btn_player_help_hover.png",
+		"text_maps": [{
+			"default" : 
+			{
+				"text": "助けを呼んでください!",
+				"word_highlights" : [],
+				"msg_emote": "%s が助けを求めています!",
+				"msg_emote_you": "助けを求めます！",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"help_all_conditions":
+			{
+				"text": "助けを求めてください! (%s)",
+				"word_highlights" : [],
+				"msg_emote": "%s が助けを求めています!\n(%s)",
+				"msg_emote_you": "助けを求めます！\n(%s)",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"help_deceased":
+			{
+				"text": "助けを求めてください! (%s)",
+				"word_highlights" : [],
+				"msg_emote": "%s が助けを求めています!\n(%s)",
+				"msg_emote_you": "助けを求めます！\n(%s)",
+				"world_icon": "tag_help-ghost",
+				"world_icon_small": "mini_help"
+			},
+			"condition_food_hungry":
+			{
+				"text": "I need food! (Hungry)",
+				"word_highlights" : [3],
+				"msg_says": "%s\"I need food! (Hungry)",
+				"world_icon": "tag_help-food",
+				"world_icon_small": "mini_help"
+			},
+			"condition_blood_hungry":
+			{
+				"text": "食べ物が欲しい！（お腹が空いた）",
+				"word_highlights" : [],
+				"msg_says": "%s\"血がほしい！（お腹が空いた）",
+				"world_icon": "tag_help-food",
+				"world_icon_small": "mini_help"
+			},
+			"condition_food_weak":
+			{
+				"text": "食べ物が欲しい！（弱っている）",
+				"word_highlights" : [],
+				"msg_says": "%s\"食べ物が欲しい！（弱っている）",
+				"world_icon": "tag_help-food",
+				"world_icon_small": "mini_help"
+			},
+			"condition_blood_weak":
+			{
+				"text": "血がほしい！（弱っている）",
+				"word_highlights" : [],
+				"msg_says": "%s\"血がほしい！（弱っている）",
+				"world_icon": "tag_help-food",
+				"world_icon_small": "mini_help"
+			},
+			"condition_steam_empty":
+			{
+				"text": "ボイラーが空です！",
+				"word_highlights" : [],
+				"msg_says": "%s\"ボイラーが空です！",
+				"world_icon": "tag_help-food",
+				"world_icon_small": "mini_help"
+			},
+			"condition_food_starving":
+			{
+				"text": "飢えで死にそうです！",
+				"word_highlights" : [],
+				"msg_says": "%s\"飢えで死にそうです！",
+				"world_icon": "tag_help-food",
+				"world_icon_small": "mini_help"
+			},
+			"condition_blood_starving":
+			{
+				"text": "飢えて死にそうだ！（血）",
+				"word_highlights" : [],
+				"msg_says": "%s\"飢えて死にそうだ！（血）",
+				"world_icon": "tag_help-food",
+				"world_icon_small": "mini_help"
+			},
+			"condition_heal":
+			{
+				"text": "回復が必要です！",
+				"word_highlights" : [],
+				"msg_says": "%s\"回復が必要です！",
+				"world_icon": "tag_help-hp",
+				"world_icon_small": "mini_help"
+			},
+			"condition_heal_urgent":
+			{
+				"text": "もう体力がなくなってしまいました！",
+				"word_highlights" : [],
+				"msg_says": "%s\"もう体力がなくなってしまいました！",
+				"world_icon": "tag_help-hp",
+				"world_icon_small": "mini_help"
+			},
+			"condition_cure_ailment":
+			{
+				"text": "病気を治してほしい！",
+				"word_highlights" : [],
+				"msg_says": "%s\"病気を治してほしい！",
+				"world_icon": "tag_help-cure",
+				"world_icon_small": "mini_help"
+			},
+			"location" :
+			{
+				"text": "私は助けが必要です！",
+				"word_highlights" : [],
+				"msg_emote": "%s は助けが必要です!",
+				"msg_emote_you": "助けを求めます!",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"item" : 
+			{
+				"text": "この %s に関してサポートが必要です。",
+				"word_highlights" : [5],
+				"msg_says": "%s\"この %s に関してサポートが必要です。\"",
+				"world_icon": "tag_help-item",
+				"world_icon_small": "mini_help"
+			},
+			"item_an" : 
+			{
+				"text": "この %s に関してサポートが必要です。",
+				"word_highlights" : [5],
+				"msg_says": "%s\"この %s に関してサポートが必要です。\"",
+				"world_icon": "tag_help-item",
+				"world_icon_small": "mini_help"
+			},
+			"npc" : 
+			{
+				"text": "この %s について助けが必要です!",
+				"word_highlights" : [5],
+				"msg_says": "%s\"この %s について助けが必要です!\"",
+				"world_icon": "tag_help-npc",
+				"world_icon_small": "mini_help"
+			},
+			"npc_named" : 
+			{
+				"text": "%s に関して助けが必要です!",
+				"word_highlights" : [4],
+				"msg_says": "%s\"%s に関して助けが必要です!\"",
+				"world_icon": "tag_help-npc",
+				"world_icon_small": "mini_help"
+			},
+			"npc_an" : 
+			{
+				"text": "この %s について助けが必要です!",
+				"word_highlights" : [5],
+				"msg_says": "%s\"この %s について助けが必要です!\"",
+				"world_icon": "tag_help-npc",
+				"world_icon_small": "mini_help"
+			},
+			"npc_enemy_named" : 
+			{
+				"text": "%s に関して助けが必要です!",
+				"word_highlights" : [4],
+				"msg_says": "%s\"%s に関して助けが必要です!\"",
+				"world_icon": "tag_help-npc",
+				"world_icon_small": "mini_help"
+			},
+			"npc_enemy" : 
+			{
+				"text": "この %s について助けが必要です!",
+				"word_highlights" : [5],
+				"msg_says": "%s\"この %s について助けが必要です!\"",
+				"world_icon": "tag_help-npc",
+				"world_icon_small": "mini_help"
+			},
+			"npc_ally" : 
+			{
+				"text": "味方の %s が助けを必要としています!",
+				"word_highlights" : [2],
+				"msg_says": "%s\"味方の %s が助けを必要としています!\"",
+				"world_icon": "tag_help-npc",
+				"world_icon_small": "mini_help"
+			},
+			"chest" : 
+			{
+				"text": "この宝箱の件で助けが必要です。",
+				"word_highlights" : [5],
+				"msg_says": "%s\"この宝箱の件で助けが必要です。\"",
+				"world_icon": "tag_help-item",
+				"world_icon_small": "mini_help"
+			},
+			"switch_on" : 
+			{
+				"text": "このスイッチに関して助けが必要です。",
+				"word_highlights" : [5],
+				"msg_says": "%s\"このスイッチに関して助けが必要です。\"",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"switch_off" : 
+			{
+				"text": "このスイッチに関して助けが必要です。",
+				"word_highlights" : [5],
+				"msg_says": "%s\"このスイッチに関して助けが必要です。\"",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"switch" : 
+			{
+				"text": "このスイッチに関して助けが必要です。",
+				"word_highlights" : [5],
+				"msg_says": "%s\"このスイッチに関して助けが必要です。\"",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"boulder" : 
+			{
+				"text": "この岩については助けが必要です。",
+				"word_highlights" : [5],
+				"msg_says": "%s\"この岩については助けが必要です。\"",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"trap" : 
+			{
+				"text": "この %s の助けが必要です!",
+				"word_highlights" : [5],
+				"msg_says": "%s\"この %s の助けが必要です!\"",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"generic_interactable" : 
+			{
+				"text": "この %s の助けが必要です!",
+				"word_highlights" : [5, 6],
+				"msg_says": "%s\"この %s の助けが必要です!\"",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"shrine" : 
+			{
+				"text": "この神社に助けが必要です!",
+				"word_highlights" : [5],
+				"msg_says": "%s\"この神社に助けが必要です!\"",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"daedalus" : 
+			{
+				"text": "このダイダロス神殿の助けが必要です!",
+				"word_highlights" : [5, 6],
+				"msg_says": "%s\"このダイダロス神殿の助けが必要です!\"",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"bell" : 
+			{
+				"text": "このベルのそばで助けが必要です!",
+				"word_highlights" : [5],
+				"msg_says": "%s\"このベルのそばで助けが必要です!\"",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"exit" : 
+			{
+				"text": "出口で助けを求めてください。",
+				"word_highlights" : [4],
+				"msg_emote": "%s が出口で助けを求めています!",
+				"msg_emote_you": "%s が出口で助けを求めています!",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"secret_exit" : 
+			{
+				"text": "秘密レベルの出口で助けを要請してください。",
+				"word_highlights" : [4, 5, 6],
+				"msg_emote": "%s は秘密レベルの出口で助けを求めています!",
+				"msg_emote_you": "秘密のレベルの出口で助けを求めます!",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"secret_entrance" : 
+			{
+				"text": "秘密のレベルの入り口で助けを求めてください。",
+				"word_highlights" : [4, 5, 6],
+				"msg_emote": "%s が秘密レベルの入り口で助けを求めています!",
+				"msg_emote_you": "秘密のレベルの入り口で助けを求めます!",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"gold" : 
+			{
+				"text": "この金を運ぶのに助けが必要です。",
+				"word_highlights" : [5],
+				"msg_says": "%s\"この金を運ぶのに助けが必要です。\"",
+				"world_icon": "tag_help-item",
+				"world_icon_small": "mini_help"
+			},
+			"fountain" : 
+			{
+				"text": "この噴水のそばで助けが必要です!",
+				"word_highlights" : [5],
+				"msg_says": "%s\"この噴水のそばで助けが必要です!\"",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"sink" : 
+			{
+				"text": "このシンクのそばで助けが必要です!",
+				"word_highlights" : [5],
+				"msg_says": "%s\"このシンクのそばで助けが必要です!\"",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"teleporter" : 
+			{
+				"text": "このテレポーターの助けが必要です!",
+				"word_highlights" : [5],
+				"msg_says": "%s\"このテレポーターの助けが必要です!\"",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"teleporter_up" : 
+			{
+				"text": "このはしごのそばで助けが必要です!",
+				"word_highlights" : [5],
+				"msg_says": "%s\"このはしごのそばで助けが必要です!\"",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"teleporter_down" : 
+			{
+				"text": "このはしごのそばで助けが必要です!",
+				"word_highlights" : [5],
+				"msg_says": "%s\"このはしごのそばで助けが必要です!\"",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"bomb" : 
+			{
+				"text": "この %s の助けが必要です!",
+				"word_highlights" : [5],
+				"msg_says": "%s\"この %s の助けが必要です!\"",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
+			"collider" : 
+			{
+				"text": "この壊れやすい %s について助けが必要です。",
+				"word_highlights" : [6],
+				"msg_says": "%s\"この壊れやすい %s について助けが必要です。\"",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			}
+		}]
+	},
+	{
+		"action": "move",
+		"id": 1,
+		"path": "#*images/ui/CalloutWheel/icons/btn_player_point.png",
+		"path_hover": "#*images/ui/CalloutWheel/icons/btn_player_point_hover.png",
+		"text_maps": [{
+			"default" : 
+			{
+				"text": "ここに移動しろ！",
+				"word_highlights" : [],
+				"msg_says": "%s\"ここに移動しろ！\"",
+				"world_icon": "tag_move",
+				"world_icon_small": "mini_move"
+			}
+		}]
+	},
+	{
+		"action": "thanks",
+		"id": 11,
+		"path": "#*images/ui/CalloutWheel/icons/btn_player_up.png",
+		"path_hover": "#*images/ui/CalloutWheel/icons/btn_player_up_hover.png",
+		"text_maps": [{
+			"default" : 
+			{
+				"text": "ありがとう %s!",
+				"word_highlights" : [1],
+				"msg_emote": "%s ありがとう %s!",
+				"msg_emote_you": "%sに感謝します!",
+				"msg_emote_to_you": "%s ありがとう！",
+				"world_icon": "thanks",
+				"world_icon_small": "mini_spot"
+			}
+		}]
+	},
+	{
+		"action": "affirmative",
+		"id": 7,
+		"path": "#*images/ui/CalloutWheel/icons/btn_player_up.png",
+		"path_hover": "#*images/ui/CalloutWheel/icons/btn_player_up_hover.png",
+		"text_maps": [{
+			"default" : 
+			{
+				"text": "親指を立ててください。",
+				"word_highlights" : [],
+				"msg_emote_you": "親指を立ててください！",
+				"msg_emote": "%s さんが親指を立てました!",
+				"world_icon": "tag_good",
+				"world_icon_small": "mini_yes"
+			},
+			"player_thanks":
+			{
+				"text": "ありがとう %s!",
+				"word_highlights" : [1],
+				"msg_emote": "%s ありがとう %s!",
+				"msg_emote_you": "%sに感謝します!",
+				"msg_emote_to_you": "%s ありがとう！",
+				"world_icon": "thanks",
+				"world_icon_small": "mini_spot"
+			},
+			"location" :
+			{
+				"text": "ここで親指を立ててください!",
+				"word_highlights" : [],
+				"msg_emote_you": "ここで親指を立ててください!",
+				"msg_emote": "%s さんが親指を立てました!",
+				"world_icon": "tag_good",
+				"world_icon_small": "mini_yes"
+			},
+			"item" : 
+			{
+				"text": "この%sは良いです。",
+				"word_highlights" : [1],
+				"msg_says": "%s\"この%sは良いです。\"",
+				"world_icon": "tag_good-item",
+				"world_icon_small": "mini_yes"
+			},
+			"item_an" : 
+			{
+				"text": "この%sは良いです。",
+				"word_highlights" : [1],
+				"msg_says": "%s\"この%sは良いです。\"",
+				"world_icon": "tag_good-item",
+				"world_icon_small": "mini_yes"
+			},
+			"npc" : 
+			{
+				"text": "この %s に対処する必要があります。",
+				"word_highlights" : [1],
+				"msg_says": "%s\"この %s に対処する必要があります。\"",
+				"world_icon": "tag_good-NPC",
+				"world_icon_small": "mini_move"
+			},
+			"npc_named" : 
+			{
+				"text": "%s に対処する必要があります。",
+				"word_highlights" : [0],
+				"msg_says": "%s\"%s に対処する必要があります。\"",
+				"world_icon": "tag_good-NPC",
+				"world_icon_small": "mini_move"
+			},
+			"npc_an" : 
+			{
+				"text": "この %s に対処する必要があります。",
+				"word_highlights" : [1],
+				"msg_says": "%s\"この %s に対処する必要があります。\"",
+				"world_icon": "tag_good-NPC",
+				"world_icon_small": "mini_move"
+			},
+			"npc_enemy_named" : 
+			{
+				"text": "%s を攻撃してください!",
+				"word_highlights" : [1],
+				"msg_says": "%s\"%s を攻撃してください!\"",
+				"world_icon": "tag_good-NPC",
+				"world_icon_small": "mini_move"
+			},
+			"npc_enemy" : 
+			{
+				"text": "%s を攻撃してください!",
+				"word_highlights" : [2],
+				"msg_says": "%s\"%s を攻撃してください!\"",
+				"world_icon": "tag_good-NPC",
+				"world_icon_small": "mini_move"
+			},
+			"npc_ally" : 
+			{
+				"text": "仲間 %s がその任務を遂行します。",
+				"word_highlights" : [2],
+				"msg_says": "%s\"仲間 %s がその任務を遂行します。\"",
+				"world_icon": "tag_good",
+				"world_icon_small": "mini_yes"
+			},
+			"chest" : 
+			{
+				"text": "宝箱をチェックしてみます。",
+				"word_highlights" : [3],
+				"msg_says": "%s\"宝箱をチェックしてみます。\"",
+				"world_icon": "tag_good-item",
+				"world_icon_small": "mini_yes"
+			},
+			"switch_on" : 
+			{
+				"text": "スイッチをオフにしてください!",
+				"word_highlights" : [2, 3],
+				"msg_says": "%s\"スイッチをオフにしてください!\"",
+				"world_icon": "tag_good-interact",
+				"world_icon_small": "mini_yes"
+			},
+			"switch_off" : 
+			{
+				"text": "スイッチをオンにしてください!",
+				"word_highlights" : [2, 3],
+				"msg_says": "%s\"スイッチをオンにしてください!\"",
+				"world_icon": "tag_good-interact",
+				"world_icon_small": "mini_yes"
+			},
+			"switch" : 
+			{
+				"text": "さあ、そのスイッチを使ってください。",
+				"word_highlights" : [5],
+				"msg_says": "%s\"さあ、そのスイッチを使ってください。\"",
+				"world_icon": "tag_good-interact",
+				"world_icon_small": "mini_yes"
+			},
+			"boulder" : 
+			{
+				"text": "その岩は処理する必要がある。",
+				"word_highlights" : [1],
+				"msg_says": "%s\"その岩は処理する必要がある。\"",
+				"world_icon": "tag_good-interact",
+				"world_icon_small": "mini_yes"
+			},
+			"trap" : 
+			{
+				"text": "%s は安全だと思います。",
+				"word_highlights" : [3],
+				"msg_says": "%s\"%s は安全だと思います。\"",
+				"world_icon": "tag_good-trap",
+				"world_icon_small": "mini_yes"
+			},
+			"generic_interactable" : 
+			{
+				"text": "この %s はすぐに使用できます。",
+				"word_highlights" : [1],
+				"msg_says": "%s\"この %s はすぐに使用できます。\"",
+				"world_icon": "tag_good-interact",
+				"world_icon_small": "mini_spot"
+			},
+			"shrine" : 
+			{
+				"text": "神社を使います。",
+				"word_highlights" : [3],
+				"msg_says": "%s\"神社を使います。\"",
+				"world_icon": "tag_good-interact",
+				"world_icon_small": "mini_spot"
+			},
+			"daedalus" : 
+			{
+				"text": "ダイダロス神殿を使います。",
+				"word_highlights" : [3, 4],
+				"msg_says": "%s\"ダイダロス神殿を使います。\"",
+				"world_icon": "tag_good-interact",
+				"world_icon_small": "mini_spot"
+			},
+			"bell" : 
+			{
+				"text": "ベルを使います。",
+				"word_highlights" : [3],
+				"msg_says": "%s\"ベルを使います。\"",
+				"world_icon": "tag_good-interact",
+				"world_icon_small": "mini_spot"
+			},
+			"exit" : 
+			{
+				"text": "出口を使う準備はできました。",
+				"word_highlights" : [5],
+				"msg_says": "%s\"出口を使う準備はできました。\"",
+				"world_icon": "tag_move-exit",
+				"world_icon_small": "mini_move"
+			},
+			"secret_exit" : 
+			{
+				"text": "ここから出よう！",
+				"word_highlights" : [3, 4],
+				"msg_says": "%s\"ここから出よう！\"",
+				"world_icon": "tag_move-exit",
+				"world_icon_small": "mini_move"
+			},
+			"secret_entrance" : 
+			{
+				"text": "秘密の道を進みましょう。",
+				"word_highlights" : [3, 4],
+				"msg_says": "%s\"秘密の道を進みましょう。\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
+			"gold" : 
+			{
+				"text": "私は金を運びます。",
+				"word_highlights" : [3],
+				"msg_says": "%s\"私は金を運びます。\"",
+				"world_icon": "tag_good-item",
+				"world_icon_small": "mini_yes"
+			},
+			"fountain" : 
+			{
+				"text": "噴水を使います。",
+				"word_highlights" : [3],
+				"msg_says": "%s\"噴水を使います。\"",
+				"world_icon": "tag_good-interact",
+				"world_icon_small": "mini_spot"
+			},
+			"sink" : 
+			{
+				"text": "シンクを使います。",
+				"word_highlights" : [3],
+				"msg_says": "%s\"シンクを使います。\"",
+				"world_icon": "tag_good-interact",
+				"world_icon_small": "mini_spot"
+			},
+			"teleporter" : 
+			{
+				"text": "テレポーターを経由します。",
+				"word_highlights" : [4],
+				"msg_says": "%s\"テレポーターを経由します。\"",
+				"world_icon": "tag_move-exit",
+				"world_icon_small": "mini_move"
+			},
+			"teleporter_up" : 
+			{
+				"text": "はしごを登っています。",
+				"word_highlights" : [4],
+				"msg_says": "%s\"はしごを登っています。\"",
+				"world_icon": "tag_move-exit",
+				"world_icon_small": "mini_move"
+			},
+			"teleporter_down" : 
+			{
+				"text": "はしごを降りています。",
+				"word_highlights" : [4],
+				"msg_says": "%s\"はしごを降りています。\"",
+				"world_icon": "tag_move-exit",
+				"world_icon_small": "mini_move"
+			},
+			"bomb" : 
+			{
+				"text": "この %s は準備完了です。",
+				"word_highlights" : [1],
+				"msg_says": "%s\"この %s は準備完了です。\"",
+				"world_icon": "tag_good-trap",
+				"world_icon_small": "mini_yes"
+			},
+			"collider" : 
+			{
+				"text": "この %s を突破しましょう。",
+				"word_highlights" : [4],
+				"msg_says": "%s\"この %s を突破しましょう。\"",
+				"world_icon": "tag_good-NPC",
+				"world_icon_small": "mini_help"
+			}
+		}]
+	},
+	{
+		"action": "negative",
+		"id": 5,
+		"path": "#*images/ui/CalloutWheel/icons/btn_player_down.png",
+		"path_hover": "#*images/ui/CalloutWheel/icons/btn_player_down_hover.png",
+		"text_maps": [{
+			"default" : 
+			{
+				"text": "親指を下に向けてください。",
+				"word_highlights" : [],
+				"msg_emote_you": "親指を下に向けてください。",
+				"msg_emote": "%s 親指を下に向けてください。",
+				"world_icon": "tag_bad",
+				"world_icon_small": "mini_no"
+			},
+			"location" :
+			{
+				"text": "親指を下に向けてください。",
+				"word_highlights" : [],
+				"msg_emote_you": "親指を下に向けてください。",
+				"msg_emote": "%s 親指を下に向けください。",
+				"world_icon": "tag_bad",
+				"world_icon_small": "mini_no"
+			},
+			"item" : 
+			{
+				"text": "この %s は私には適していません。",
+				"word_highlights" : [1],
+				"msg_says": "%s\"この %s は私には適していません。\"",
+				"world_icon": "tag_bad-item",
+				"world_icon_small": "mini_no"
+			},
+			"item_an" : 
+			{
+				"text": "この %s は私には適していません。",
+				"word_highlights" : [1],
+				"msg_says": "%s\"この %s は私には適していません。\"",
+				"world_icon": "tag_bad-item",
+				"world_icon_small": "mini_no"
+			},
+			"npc" : 
+			{
+				"text": "%s を避けてください!",
+				"word_highlights" : [2],
+				"msg_says": "%s\"%s を避けてください!\"",
+				"world_icon": "tag_bad-NPC",
+				"world_icon_small": "mini_no"
+			},
+			"npc_named" : 
+			{
+				"text": "%s を避けてください!",
+				"word_highlights" : [1],
+				"msg_says": "%s\"%s を避けてください!\"",
+				"world_icon": "tag_bad-NPC",
+				"world_icon_small": "mini_no"
+			},
+			"npc_an" : 
+			{
+				"text": "%s を避けてください!",
+				"word_highlights" : [2],
+				"msg_says": "%s\"%s を避けてください!\"",
+				"world_icon": "tag_bad-NPC",
+				"world_icon_small": "mini_no"
+			},
+			"npc_enemy_named" : 
+			{
+				"text": "%s から逃げろ!",
+				"word_highlights" : [2],
+				"msg_says": "%s\"%s から逃げろ!\"",
+				"world_icon": "tag_move-NPC",
+				"world_icon_small": "mini_danger"
+			},
+			"npc_enemy" : 
+			{
+				"text": "%s から逃げろ!",
+				"word_highlights" : [3],
+				"msg_says": "%s\"%s から逃げろ!\"",
+				"world_icon": "tag_move-NPC",
+				"world_icon_small": "mini_danger"
+			},
+			"npc_ally" : 
+			{
+				"text": "仲間 %s はその任務を遂行できません。",
+				"word_highlights" : [2],
+				"msg_says": "%s\"仲間 %s はその任務を遂行できません。\"",
+				"world_icon": "tag_bad",
+				"world_icon_small": "mini_no"
+			},
+			"chest" : 
+			{
+				"text": "この宝箱には役に立つものは何もありません。",
+				"word_highlights" : [2],
+				"msg_says": "%s\"この宝箱には役に立つものは何もありません。\"",
+				"world_icon": "tag_bad-item",
+				"world_icon_small": "mini_no"
+			},
+			"switch_on" : 
+			{
+				"text": "スイッチはオンにしておいてください!",
+				"word_highlights" : [2, 3],
+				"msg_says": "%s\"スイッチはオンにしておいてください!\"",
+				"world_icon": "tag_bad-interact",
+				"world_icon_small": "mini_no"
+			},
+			"switch_off" : 
+			{
+				"text": "スイッチはオフにしておいてください!",
+				"word_highlights" : [2, 3],
+				"msg_says": "%s\"スイッチはオフにしておいてください!\"",
+				"world_icon": "tag_bad-interact",
+				"world_icon_small": "mini_no"
+			},
+			"switch" : 
+			{
+				"text": "そのスイッチに触れないでください!",
+				"word_highlights" : [3],
+				"msg_says": "%s\"そのスイッチに触れないでください!\"",
+				"world_icon": "tag_bad-interact",
+				"world_icon_small": "mini_no"
+			},
+			"boulder" : 
+			{
+				"text": "あの岩に気をつけて！",
+				"word_highlights" : [4],
+				"msg_says": "%s\"あの岩に気をつけて！\"",
+				"world_icon": "tag_move-NPC",
+				"world_icon_small": "mini_danger"
+			},
+			"trap" : 
+			{
+				"text": "その%sは問題になるかもしれません。",
+				"word_highlights" : [1],
+				"msg_says": "%s\"その%sは問題になるかもしれません。\"",
+				"world_icon": "tag_bad-trap",
+				"world_icon_small": "mini_danger"
+			},
+			"generic_interactable" : 
+			{
+				"text": "その%sを使用しないでください。",
+				"word_highlights" : [3],
+				"msg_says": "%s\"その%sを使用しないでください。\"",
+				"world_icon": "tag_bad-interact",
+				"world_icon_small": "mini_no"
+			},
+			"shrine" : 
+			{
+				"text": "その神社を使わないでください。",
+				"word_highlights" : [3],
+				"msg_says": "%s\"その神社を使わないでください。\"",
+				"world_icon": "tag_bad-interact",
+				"world_icon_small": "mini_no"
+			},
+			"daedalus" : 
+			{
+				"text": "ダイダロス神殿は使わないでください。",
+				"word_highlights" : [3, 4],
+				"msg_says": "%s\"ダイダロス神殿は使わないでください。\"",
+				"world_icon": "tag_bad-interact",
+				"world_icon_small": "mini_no"
+			},
+			"bell" : 
+			{
+				"text": "そのベルを使わないでください。",
+				"word_highlights" : [3],
+				"msg_says": "%s\"そのベルを使わないでください。\"",
+				"world_icon": "tag_bad-interact",
+				"world_icon_small": "mini_no"
+			},
+			"exit" : 
+			{
+				"text": "出口を使う準備ができていません。",
+				"word_highlights" : [6],
+				"msg_says": "%s\"出口を使う準備ができていません。\"",
+				"world_icon": "tag_bad-interact",
+				"world_icon_small": "mini_no"
+			},
+			"secret_exit" : 
+			{
+				"text": "秘密のレベルを離れる準備ができていません。",
+				"word_highlights" : [6, 7],
+				"msg_says": "%s\"秘密のレベルを離れる準備ができていません。\"",
+				"world_icon": "tag_bad-interact",
+				"world_icon_small": "mini_no"
+			},
+			"secret_entrance" : 
+			{
+				"text": "秘密の道は避けるべきです。",
+				"word_highlights" : [4, 5],
+				"msg_says": "%s\"秘密の道は避けるべきです。\"",
+				"world_icon": "tag_bad-interact",
+				"world_icon_small": "mini_no"
+			},
+			"gold" : 
+			{
+				"text": "この金は必要ありません。",
+				"word_highlights" : [4],
+				"msg_says": "%s\"この金は必要ありません。\"",
+				"world_icon": "tag_bad-item",
+				"world_icon_small": "mini_no"
+			},
+			"fountain" : 
+			{
+				"text": "この噴水は私には役に立たない。",
+				"word_highlights" : [1],
+				"msg_says": "%s\"この噴水は私には役に立たない。\"",
+				"world_icon": "tag_bad-interact",
+				"world_icon_small": "mini_no"
+			},
+			"sink" : 
+			{
+				"text": "このシンクは私にはダメです。",
+				"word_highlights" : [1],
+				"msg_says": "%s\"このシンクは私にはダメです。\"",
+				"world_icon": "tag_bad-interact",
+				"world_icon_small": "mini_no"
+			},
+			"teleporter" : 
+			{
+				"text": "まだテレポーターを通過する準備ができていません。",
+				"word_highlights" : [7],
+				"msg_says": "%s\"まだテレポーターを通過する準備ができていません。\"",
+				"world_icon": "tag_bad-interact",
+				"world_icon_small": "mini_no"
+			},
+			"teleporter_up" : 
+			{
+				"text": "まだ昇る準備ができていません。",
+				"word_highlights" : [],
+				"msg_says": "%s\"まだ昇る準備ができていません。\"",
+				"world_icon": "tag_bad-interact",
+				"world_icon_small": "mini_no"
+			},
+			"teleporter_down" : 
+			{
+				"text": "まだ降りる準備ができていません。",
+				"word_highlights" : [],
+				"msg_says": "%s\"まだ降りる準備ができていません。\"",
+				"world_icon": "tag_bad-interact",
+				"world_icon_small": "mini_no"
+			},
+			"bomb" : 
+			{
+				"text": "%s をそのままにしておけ。",
+				"word_highlights" : [2],
+				"msg_says": "%s\"%s をそのままにしておけ。\"",
+				"world_icon": "tag_bad-trap",
+				"world_icon_small": "mini_no"
+			},
+			"collider" : 
+			{
+				"text": "%s をそのままにしておけ。",
+				"word_highlights" : [2],
+				"msg_says": "%s\"%s をそのままにしておけ。\"",
+				"world_icon": "tag_bad-interact",
+				"world_icon_small": "mini_no"
+			}
+		}]
+	},
+	{
+		"action": "cancel",
+		"id": -1,
+		"path": "",
+		"path_hover": "",
+		"path_active": "",
+		"path_active_hover": "",
+		"text_maps": [{
+			"default" : 
+			{
+				"text": "キャンセル",
+				"word_highlights" : [0]
+			}
+		}]
+	},
+	{
+		"action": "invalid_action",
+		"id": -1,
+		"path": "",
+		"path_hover": "",
+		"path_active": "",
+		"path_active_hover": "",
+		"text_maps": [{
+			"skill_missing_leader" : 
+			{
+				"text": "不足しているスキル/ステータス要件: %d / %d",
+				"word_highlights" : [0,1,2,3,4,5,6,7,8,9]
+			},
+			"skill_missing_tinker" : 
+			{
+				"text": "不足しているスキル/ステータス要件: %d / %d",
+				"word_highlights" : [0,1,2,3,4,5,6,7,8,9]
+			},
+			"command_unavailable" : 
+			{
+				"text": "%s コマンドが利用できません",
+				"word_highlights" : [0,1,2,3,4,5,6,7,8,9]
+			},
+			"rest_cooldown" : 
+			{
+				"text": "このコマンドはフロアごとに1回のみ使用できます",
+				"word_highlights" : [0,1,2,3,4,5,6,7,8,9]
+			},
+			"tinker_quality_low" : 
+			{
+				"text": "より高品質な %s が必要です",
+				"word_highlights" : [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+			}
+		}]
+	}
+	]
+}

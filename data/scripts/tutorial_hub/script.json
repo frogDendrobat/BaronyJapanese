@@ -1,0 +1,907 @@
+{
+    "version": 1,
+	"default_attributes": {
+		"font_color": {
+			"r": 239,
+			"g": 237,
+			"b": 235,
+			"a": 255
+		},
+		"font_outline_color": {
+			"r": 50,
+			"g": 29,
+			"b": 25,
+			"a": 255
+		},
+		"font_highlight_color": {
+			"r": 18,
+			"g": 196,
+			"b": 131,
+			"a": 255
+		},
+		"font_highlight2_color": {
+			"r": 64,
+			"g": 192,
+			"b": 255,
+			"a": 255
+		}
+	},
+    "script_entries": {
+        "tutorial_huba": {
+            "sign": [
+                "魔法書"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubb": {
+            "sign": [
+                "魔法",
+				"アイテム"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubc": {
+            "sign": [
+                "遠距離",
+				"武器"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubd": {
+            "sign": [
+                "防具"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hube": {
+            "sign": [
+                "近距離",
+				"武器"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubf": {
+            "sign": [
+                "ようこそ",
+				"マスターズウィングへ"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubg": {
+            "sign": [
+                "試練 2:",
+				"",
+				"弓, 矢 &",
+				"投擲武器"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubh": {
+            "sign": [
+                "試練 3:",
+				"",
+				"ダンジョンの罠,",
+				"棘 & 岩石"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubi": {
+            "sign": [
+                "試練 4:",
+				"",
+				"食べ物, 鑑定",
+				"& 呪い"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubj": {
+            "sign": [
+                "試練 1:",
+				"",
+				"ダンジョンの基本",
+				"& 近距離戦闘",
+				"",
+				"入門レッスン"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[0,1,2,3,4,5]
+				]
+            },
+            "variables": []
+        },
+        "tutorial_hubk": {
+            "sign": [
+                "ここは中庭に面した",
+				"西の間です",
+				"",
+                "中庭の家",
+				"試練 5 - 8"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubl": {
+            "sign": [
+                "西の間に入る",
+				"",
+                "西の間では",
+				"試練 1 - 4"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubm": {
+            "sign": [
+                "ご希望に応じて試練を",
+				"スキップや完了できます",
+				"",
+                "一部のヒーローはマスター",
+				"すべての試練."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubn": {
+            "sign": [
+                "ようこそ",
+				"試練の間へ",
+				"",
+				"ここで学び、",
+				"試されるでしょう"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubo": {
+            "sign": [
+                "試練 5:",
+				"",
+				"魔法, 魔法書",
+				"& 詠唱"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubp": {
+            "sign": [
+                "試練 6:",
+				"",
+				"ステルス &",
+				"スニーク攻撃"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubq": {
+            "sign": [
+                "試練 7:",
+				"",
+				"仲間募集",
+				"& コマンド",
+				"",
+				"上級レッスン"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubr": {
+            "sign": [
+                "試練 8:",
+				"",
+				"ポーション & 錬金術",
+				"",
+                "上級レッスン"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},							
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubs": {
+            "sign": [
+                "東の間に近づいています",
+				"",
+                "東の間",
+				"試練 9 と 10"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubt": {
+            "sign": [
+                "試練 9:",
+				"いじくり",
+				"",
+                "上級レッスン"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubu": {
+            "sign": [
+                "試練 10:",
+				"",
+				"店主 & 店",
+				"",
+                "上級レッスン"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3,4]
+				],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubv": {
+            "sign": [
+                "レバーを引くと",
+				"ランダムな敵が沸きます",
+				"",
+                "注意:",
+				"自己責任で利用してください"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+				[],
+				[],
+				[],
+				[0]
+				],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubw": {
+            "sign": [
+                "いじくり",
+				"供給"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubx": {
+            "sign": [
+                "錬金術",
+				"供給"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_huby": {
+            "sign": [
+                "衣装"
+            ],
+            "attributes": {
+                "font": "fonts/kongtext.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial_hubz": {
+            "sign": [
+                "ダンジョンに挑む冒険者は",
+				"職業を選択し、それによって、",
+				"初期能力と装備が",
+				"決まります。",
+				"",
+                "$ $ $",
+				"すべての職業は試練の教えから",
+				"恩恵を受けることができます。"
+            ],
+            "attributes": {
+                "font": "fonts/pixel_maz_multiline.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[3],
+					[],
+					[0,2]
+					
+				]
+            },
+            "variables": [
+							{
+					"type": "image",
+					"value": "*#images/ui/Main Menus/Play/PlayerCreation/ClassSelection/ClassSelect_Icon_Warrior_00.png",
+					"sizex": 0,
+					"sizey": 0
+				},				
+				{
+					"type": "image",
+					"value": "*#images/ui/Main Menus/Play/PlayerCreation/ClassSelection/ClassSelect_Icon_Rogue_00.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "image",
+					"value": "*#images/ui/Main Menus/Play/PlayerCreation/ClassSelection/ClassSelect_Icon_Wizard_00.png",
+					"sizex": 0,
+					"sizey": 0
+				}
+			]
+        },
+        "tutorial_hubab": {
+            "sign": [
+                "あなたのステータスは多くのアクションや",
+                "機能の基礎として機能します",
+				"",
+				"$$$$$$",
+				"",
+                "冒険者の職業は異なる",
+                "ステータス値から始まり、",
+                "異なる速度で増加します。"
+            ],
+            "attributes": {
+                "font": "fonts/pixel_maz_multiline.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[1],
+					[1,3],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2],
+					[0,2,3]
+				]
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "image",
+					"value": "*#images/ui/CharSheet/HUD_CharSheet_DEX_00.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "image",
+					"value": "*#images/ui/CharSheet/HUD_CharSheet_CON_00.png",
+					"sizex": 0,
+					"sizey": 0
+				},				
+				{
+					"type": "image",
+					"value": "*#images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "image",
+					"value": "*#images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "image",
+					"value": "*#images/ui/CharSheet/HUD_CharSheet_CHA_00.png",
+					"sizex": 0,
+					"sizey": 0
+				}
+			]
+        },
+        "tutorial_hubac": {
+            "sign": [
+                "ダンジョン内では、冒険者は",
+				"色んな行為によって",
+				"経験値(XP)を獲得します。",
+				"",
+				"100XPを獲得すると、レベルが上がり、",
+				"より高いステータス、",
+				"ヒットポイント(HP),マジックポイント(MP)",
+				"を獲得できます。"
+            ],
+            "attributes": {
+                "font": "fonts/pixel_maz_multiline.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[1,2,3],
+					[],
+					[],
+					[2,3],
+					[2],
+					[1,2,3,4],
+					[1,2,3]
+				]
+            },
+            "variables": []
+        },
+        "tutorial_hubad": {
+            "sign": [
+                "ダンジョンでレベルを上げると、",
+                "冒険者は3つの異なるステータスが",
+                "+1増加されます。",
+				"",
+				"冒険者がスキルトレーニングに",
+				"集中している場合、4つめのステータスに",
+				"+1のボーナスが増加されます。"
+            ],
+            "attributes": {
+                "font": "fonts/pixel_maz_multiline.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[2],
+					[],
+					[0,1,3,4,5],
+					[],
+					[1,2],
+					[1,2],
+					[1,3]
+				]
+            },
+            "variables": []
+        },
+        "tutorial_class": {
+            "sign": [
+				"成績優秀な生徒は、他の卒業生と",
+				"チームを組み、お互いの才能を",
+				"補いあう職業を選択する",
+				"ことがよくあります。",
+				"",
+				"これにより、最終的に",
+				"ダンジョンでの冒険に",
+				"挑戦する勇気を得た時に",
+				"成功する可能性上がります。" 
+            ],
+            "attributes": {
+                "font": "fonts/pixel_maz_multiline.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0,1],
+					[],
+					[0,1,2],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				]
+            },
+            "variables": []
+        },
+        "tutorial_garden": {
+            "sign": [
+				"冒険者の庭",
+				"",
+				"これより先に",
+				"試練はありません。"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",		
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[0,1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial_cy": {
+            "sign": [
+				"職業の中庭",
+				"",
+				"内なる英雄の知恵を",
+				"探し求めなさい。"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",		
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[0,1]
+				]
+            },
+            "variables": []
+        },								
+        "tutorial_pupil": {
+            "sign": [
+				"試練の間の生徒は、",
+				"学習中に職業を選択することを",
+				"禁じられています。",
+				"ここでの彼らの行為は",
+				"忘れ去られるだろう。",
+				"",
+				"冒険者を求めることで、",
+				"卒業生は職業のタイトルを誇り、",
+				"冒険者アーカイブに自分の名前を",
+				"残すことができます。"
+            ],
+            "attributes": {
+                "font": "fonts/pixel_maz_multiline.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},							
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[1],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[1,2]
+				]
+            },
+            "variables": []
+        },				
+        "tutorial_quit": {
+            "sign": [
+                "いつでも試練の間に",
+				"戻ってレッスンを",
+				"続けることができます。",
+				"",
+				"冒険に出かけたい場合は、",
+				"$ と[メインメニュー]",
+				"を押してください。"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+				[],
+				[],
+				[],
+				[],
+				[0],
+				[1,2,3,4]
+				],
+                "word_highlights2": [
+					[3],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Pause Game"
+				}					
+			]
+        }		
+    }
+}

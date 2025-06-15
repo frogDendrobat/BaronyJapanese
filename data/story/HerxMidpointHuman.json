@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "press_a_to_advance": true,
+  "text": [
+    "男爵を倒し、紫色の球体を台座に置いた後、\n",
+    "あなたはポータルに足を踏み入れます。",
+    "あなたの体は白い閃光とともに運ばれます。^ あなたは外に到着します。\n",
+    "ハムレットは地雷を掘り、呪われた黒さが土地から剥がれ落ちていくのを眺めます。\n",
+    "田園地帯には暖かい日差しが降り注ぎます。\n",
+    "人々は自由に慣れて通りに飛び出します。\n",
+    "*3あなたはヘルクスのオーブに関する答えを求めて魔術師ギルドへ行進します。\n",
+    "しかし、そこのドアマンはあなたを追い返します。\n",
+    "彼はあなたに休むよう勧めます。 \n",
+    "街に戻ると、100 人の人々があなたを待っています。彼らのヒーローです。\n",
+    "あなたは彼らの盛大なお祭り騒ぎに参加しますが、魔術師ギルドを訪問することを決意します。\n",
+    "楽しさが静まると…"
+  ],
+  "images": [
+    "images/ui/Main Menus/Story/black.png",
+    "images/ui/Main Menus/Story/white.png",
+    "images/ui/Main Menus/Story/Hamlet_Rescue.png",
+    "images/ui/Main Menus/Story/MagiciansGuild.png",
+    "images/ui/Main Menus/Story/black.png"
+  ]
+}

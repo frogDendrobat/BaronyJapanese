@@ -1,0 +1,674 @@
+{
+	"version": 1,
+	"colors": {
+		"notification_text": {
+			"r": 255,
+			"g": 255,
+			"b": 255,
+			"a": 255
+		},
+		"tooltip_heading_text": {
+			"r": 67,
+			"g": 195,
+			"b": 157,
+			"a": 255
+		},
+		"tooltip_desc_text": {
+			"r": 188,
+			"g": 154,
+			"b": 114,
+			"a": 255
+		}
+	},
+	"notification_font": "fonts/pixelmix.ttf#16#2",
+	"default_tooltip_width": 200,
+	"sustained_effects": {
+		"SUSTAIN_LIGHT": {
+			"id": -1,
+			"spell_id": 7,
+			"internal_name": "SUSTAIN_LIGHT",
+			"name": "光",
+			"desc": "魔法の光源を維持する",
+			"img_path": "",
+			"img_from_spell_id": 7
+		},
+		"EFF_SHADOW_TAGGED": {
+			"id": 34,
+			"spell_id": 45,
+			"internal_name": "EFF_SHADOW_TAGGED",
+			"name": ["秘術の印\n(%s でアクティブ)", "秘術の印 (%s でアクティブ)", "秘術の印 (不明なターゲット)"],
+			"desc": "対象の種族ダメージ耐性/弱点を無効化する\nテレポート魔法はターゲットに再焦点を合わせます",
+			"img_path": "",
+			"img_from_spell_id": 45
+		}
+	},
+	"effects": {
+		"EFF_HUNGER": {
+			"id": -2,
+			"internal_name": "EFF_HUNGER",
+			"name": ["満腹すぎる！", "腹がへった", "腹ペコすぎる", "飢えている！"],
+			"desc": [
+			"食べ過ぎに悩む:\n- Strength\n- Dexterity", 
+			"食べないと悪影響が出る", 
+			"食糧不足に苦しむ:\n- Strength\n- Dexterity", 
+			"食糧不足に苦しむ:\n- HP自動回復無効\n- 時間の経過とともに最大HPの%ダメージを受ける\n- Strength\n- Dexterity\n- Intelligence\n- Perception"],
+			"img_path": ["*images/ui/HUD/HUD_Hunger_01A.png", "*images/ui/HUD/HUD_Hunger_01B.png", "*images/ui/HUD/HUD_Hunger_01C.png", "*images/ui/HUD/HUD_Hunger_01D.png"],
+			"img_from_spell_id": -1,
+			"tooltip_width": 250
+		},
+		"EFF_BLOOD_HUNGER": {
+			"id": -3,
+			"internal_name": "EFF_HUNGER",
+			"name": ["満腹すぎる！", "腹がへった", "腹ペコすぎる", "飢えている！"],
+			"desc": ["食べ過ぎに悩む:\n- Strength\n- Dexterity", "食べないと悪影響が出る", "食糧不足に苦しむ:\n- Strength\n- Dexterity", "食糧不足に苦しむ, 時間の経過とともにダメージを受ける:\n- Strength\n- Dexterity\n- Intelligence\n- Perception"],
+			"img_path": ["*images/ui/HUD/HUD_Hunger_Blood_00A.png", "*images/ui/HUD/HUD_Hunger_Blood_00B.png", "*images/ui/HUD/HUD_Hunger_Blood_00C.png", "*images/ui/HUD/HUD_Hunger_Blood_00D.png"],
+			"img_from_spell_id": -1
+		},
+		"EFF_AUTOMATON_HUNGER": {
+			"id": -4,
+			"internal_name": "EFF_AUTOMATON_HUNGER",
+			"name": ["ボイラーの状態:\n過熱", "ボイラーの状態:\n平均", "ボイラーの状態:\n極めて低い", "ボイラーの状態: 過熱", "ボイラーの状態: 平均", "ボイラーの状態: 極めて低い"],
+			"desc": ["熱を平均200%の速度で生産し、熱が50%の容量を下回る場合は最大400%まで生産します。\nHTが25%未満の場合は器用さが減少する", "熱を安定的に生産 熱が25%未満の時DEX減少", "ボイラーが空になると熱が急速に低下し、熱が0でユニットの故障が発生する可能性があります。\n熱が25%未満の場合は器用さが減少する\n- Strength\n- Perception", "ボイラーが空になると熱が急速に低下し、熱が0でユニットの故障が発生する可能性があります。\n熱が25%未満の場合は器用さが減少する"],
+			"img_path": ["*images/system/Hunger_boiler.png", "*images/system/Hunger_boiler.png", "*images/system/Hunger_boiler.png"],
+			"img_from_spell_id": -1
+		},
+		"EFF_WANTED": {
+			"id": -5,
+			"internal_name": "EFF_WANTED",
+			"name": "指名手配！",
+			"desc": ["%s の犯罪により、商人ギルドの敵と宣言します:","暗殺", "暴力の扇動", "暴力の共犯", "違法な顔装備"],
+			"img_path": "*images/ui/HUD/statusfx/redhanded.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 270
+		},
+		"EFF_WANTED_IN_SHOP": {
+			"id": -6,
+			"internal_name": "EFF_WANTED",
+			"name": "指名手配！\n(不法侵入)",
+			"desc": ["%s の犯罪により、商人ギルドの敵と宣言します:","暗殺", "暴力の扇動", "暴力の共犯", "違法な顔装備"],
+			"img_path": "*images/ui/HUD/statusfx/redhanded.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 270
+		},
+		"EFF_BURNING": {
+			"id": -7,
+			"internal_name": "EFF_BURNING",
+			"name": "燃焼",
+			"desc": "時間の経過とともにダメージを受ける",
+			"img_path": "*images/ui/HUD/statusfx/burning.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_FREEACTION": {
+			"id": -8,
+			"internal_name": "EFF_FREEACTION",
+			"name": "行動妨害ケア",
+			"desc": "[睡眠]、[スロウ]、[麻痺]を治す",
+			"img_path": "*images/ui/HUD/statusfx/freeaction.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 200
+		},
+		"EFF_LESSERWARNING": {
+			"id": -9,
+			"internal_name": "EFF_LESSERWARNING",
+			"name": "小さな警告",
+			"desc": "マップ上で移動するモンスターの位置を明らかにする",
+			"img_path": "*images/ui/HUD/statusfx/lesserwarning.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 240
+		},
+		"EFF_HPOFF": {
+			"id": -10,
+			"internal_name": "EFF_HPOFF",
+			"name": "退化",
+			"desc": [
+			"HP自動回復無効",
+			"ゲーム設定で空腹が無効になっているため、基本HP回復が無効になっています。\n食べ物を摂取したり、ポーションや魔法を使ってHPを回復する"],
+			"img_path": "*images/ui/HUD/statusfx/regen_hpoff.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 260
+		},
+		"EFF_RESISTFIRE": {
+			"id": -11,
+			"internal_name": "EFF_RESISTFIRE",
+			"name": "炎耐性",
+			"desc": "[燃焼]に耐性がある",
+			"img_path": "*images/ui/HUD/statusfx/resist_fire.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 200
+		},
+		"EFF_RESISTPOISON": {
+			"id": -12,
+			"internal_name": "EFF_RESISTPOISON",
+			"name": "毒耐性",
+			"desc": "[毒]を治す\n酸の魔法や毒に抵抗する",
+			"img_path": "*images/ui/HUD/statusfx/resist_poison.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 220
+		},
+		"EFF_SLOWDIGESTION": {
+			"id": -13,
+			"internal_name": "EFF_SLOWDIGESTION",
+			"name": "消化遅延",
+			"desc": "満腹感の増加と飢餓の遅延",
+			"img_path": "*images/ui/HUD/statusfx/slowdigestion.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 230
+		},
+		"EFF_STRANGULATION": {
+			"id": -14,
+			"internal_name": "EFF_STRANGULATION",
+			"name": "首を絞められた！",
+			"desc": "時間の経過とともにダメージを受ける\n飲んだり食べたりできない",
+			"img_path": "*images/ui/HUD/statusfx/strangulation.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 220
+		},
+		"EFF_WARNING": {
+			"id": -15,
+			"internal_name": "EFF_WARNING",
+			"name": "警告",
+			"desc": "マップ上でモンスターの位置を明らかにする",
+			"img_path": "*images/ui/HUD/statusfx/warning.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 200
+		},
+		"EFF_WATERBREATHING": {
+			"id": -16,
+			"internal_name": "EFF_WATERBREATHING",
+			"name": "水中呼吸",
+			"desc": "水泳中の移動速度が制限されない",
+			"img_path": "*images/ui/HUD/statusfx/waterbreathing.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 200
+		},
+		"EFF_CONFLICT": {
+			"id": -17,
+			"internal_name": "EFF_CONFLICT",
+			"name": "対立",
+			"desc": "近くのモンスターを刺激して、視界にあるものを攻撃させる",
+			"img_path": "*images/ui/HUD/statusfx/conflict.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 240
+		},
+		"EFF_WATERWALKING": {
+			"id": -18,
+			"internal_name": "EFF_WATERWALKING",
+			"name": "水上歩行",
+			"desc": "水と溶岩の上に浮かぶ",
+			"img_path": "*images/ui/HUD/statusfx/waterwalking.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 200
+		},
+		"EFF_LIFESAVING": {
+			"id": -19,
+			"internal_name": "EFF_LIFESAVING",
+			"name": "救命",
+			"desc": "死後の復活",
+			"img_path": "*images/ui/Inventory/tooltips/tooltip_icons/lifesaving.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 160
+		},
+		"EFF_PUSH": {
+			"id": -20,
+			"internal_name": "EFF_PUSH",
+			"name": "押す",
+			"desc": "岩を動かすことができる",
+			"img_path": "*images/ui/HUD/statusfx/push.png",
+			"tooltip_width": 232,
+			"img_from_spell_id": -1
+		},
+		"EFF_SNEAK": {
+			"id": -21,
+			"internal_name": "EFF_SNEAK",
+			"name": "スニーキング",
+			"desc": "検出範囲の縮小",
+			"img_path": "*images/ui/HUD/statusfx/sneak.png",
+			"tooltip_width": 200,
+			"img_from_spell_id": -1
+		},
+		"EFF_DRUNK_GOATMAN": {
+			"id": -22,
+			"internal_name": "EFF_DRUNK_GOATMAN",
+			"name": "酔っ払い (山羊人)",
+			"desc": "+ Strength\n+ Constitution\n+ 20% ダメージ耐性\n- Dexterity\n- Intelligence",
+			"img_path": "*images/ui/HUD/statusfx/drunk.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 212
+		},
+		"EFF_BOUNTY_TARGET": {
+			"id": -23,
+			"internal_name": "EFF_BOUNTY_TARGET",
+			"name": ["賞金首ターゲット\n(有効化)", "賞金首ターゲット (有効化)"],
+			"desc": "マークした賞金首のターゲットを倒すとボーナスゴールドがもらえる",
+			"img_path": "*images/ui/HUD/statusfx/targeting.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 212
+		},
+		"EFF_INSPIRATION": {
+			"id": -24,
+			"internal_name": "EFF_INSPIRATION",
+			"name": "インスピレーション",
+			"desc": "自分よりレベルが低い場合、味方プレイヤーとフォロワーが獲得するXPが増加する",
+			"img_path": "*images/ui/HUD/statusfx/inspiration.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 250
+		},
+		"EFF_RELATIATION": {
+			"id": -25,
+			"internal_name": "EFF_RELATIATION",
+			"name": "報復",
+			"desc": "ダメージを受けた際に近接攻撃者にダメージを与える",
+			"img_path": "*images/ui/HUD/statusfx/thorns.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 260
+		},
+		"EFF_ASSISTANCE": {
+			"id": -26,
+			"internal_name": "EFF_ASSISTANCE",
+			"name": "援助",
+			"desc": [
+				"1つ以上のアシストアイテムを獲得した", 
+				"%d アシストポイント (自分)",
+				"%d アシストポイント (パーティ合計)",
+				"%d%% スコアペナルティ"
+			],
+			"img_path": "*images/ui/HUD/statusfx/assistance.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 300
+		},
+		"EFF_ASLEEP": {
+			"id": 0,
+			"internal_name": "EFF_ASLEEP",
+			"name": "眠っている",
+			"desc": "動くことも見ることもできない",
+			"img_path": "",
+			"img_from_spell_id": 10
+		},
+		"EFF_POISONED": {
+			"id": 1,
+			"internal_name": "EFF_POISONED",
+			"name": "毒された",
+			"desc": "時間の経過とともにダメージを受ける",
+			"img_path": "*images/ui/HUD/statusfx/poisoned.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_STUNNED": {
+			"id": 2,
+			"internal_name": "EFF_STUNNED",
+			"name": "",
+			"desc": "",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_CONFUSED": {
+			"id": 3,
+			"internal_name": "EFF_CONFUSED",
+			"name": "混乱した",
+			"desc": "動きが逆転する",
+			"img_path": "",
+			"img_from_spell_id": 11
+		},
+		"EFF_DRUNK": {
+			"id": 4,
+			"internal_name": "EFF_DRUNK",
+			"name": "酔っ払い",
+			"desc": "+ Strength\n- Dexterity",
+			"img_path": "*images/ui/HUD/statusfx/drunk.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_INVISIBLE": {
+			"id": 5,
+			"internal_name": "EFF_INVISIBLE",
+			"name": "透明化",
+			"desc": "近接攻撃範囲外の敵に検知されない",
+			"img_path": "",
+			"img_from_spell_id": 16,
+			"use_entry_for_sustained_spell": 16
+		},
+		"EFF_BLIND": {
+			"id": 6,
+			"internal_name": "EFF_BLIND",
+			"name": "盲目",
+			"desc": "見ることができない",
+			"img_path": "*images/ui/HUD/statusfx/blind.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_GREASY": {
+			"id": 7,
+			"internal_name": "EFF_GREASY",
+			"name": "脂っこい",
+			"desc": "手に持った武器が滑り落ちる可能性がある",
+			"img_path": "*images/ui/HUD/statusfx/grease.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_MESSY": {
+			"id": 8,
+			"internal_name": "EFF_MESSY",
+			"name": "Messy",
+			"desc": "見ることができない",
+			"img_path": "*images/ui/HUD/statusfx/messypie.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_FAST": {
+			"id": 9,
+			"internal_name": "EFF_FAST",
+			"name": "スピード",
+			"desc": "器用さと移動速度の向上",
+			"img_path": "",
+			"img_from_spell_id": 39
+		},
+		"EFF_PARALYZED": {
+			"id": 10,
+			"internal_name": "EFF_PARALYZED",
+			"name": "麻痺",
+			"desc": "動くことも行動することもできない",
+			"img_path": "*images/ui/HUD/statusfx/paralyze.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_LEVITATING": {
+			"id": 11,
+			"internal_name": "EFF_LEVITATING",
+			"name": "浮遊",
+			"desc": "峡谷、水、溶岩の上を漂う",
+			"img_path": "",
+			"img_from_spell_id": 15,
+			"use_entry_for_sustained_spell": 15
+		},
+		"EFF_TELEPATH": {
+			"id": 12,
+			"internal_name": "EFF_TELEPATH",
+			"name": "テレパシー",
+			"desc": "壁越しにモンスターを見る",
+			"img_path": "*images/ui/HUD/statusfx/telepathy.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_VOMITING": {
+			"id": 13,
+			"internal_name": "EFF_VOMITING",
+			"name": "嘔吐！",
+			"desc": "胃の不調に悩まされている",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_BLEEDING": {
+			"id": 14,
+			"internal_name": "EFF_BLEEDING",
+			"name": "出血",
+			"desc": "時間の経過とともにダメージを受ける",
+			"img_path": "*images/ui/HUD/statusfx/bleed.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_SLOW": {
+			"id": 15,
+			"internal_name": "EFF_SLOW",
+			"name": "スロウ",
+			"desc": "移動速度の低下",
+			"img_path": "",
+			"img_from_spell_id": 12
+		},
+		"EFF_MAGICRESIST": {
+			"id": 16,
+			"internal_name": "EFF_MAGICRESIST",
+			"name": "魔法耐性",
+			"desc": "+1 魔法耐性",
+			"img_path": "*images/ui/HUD/statusfx/resist_magic.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_MAGICREFLECT": {
+			"id": 17,
+			"internal_name": "EFF_MAGICREFLECT",
+			"name": "魔法反射",
+			"desc": "敵の魔法を反射する",
+			"img_path": "",
+			"img_from_spell_id": 26,
+			"use_entry_for_sustained_spell": 26,
+			"tooltip_width": 220
+		},
+		"EFF_VAMPIRICAURA": {
+			"id": 18,
+			"internal_name": "EFF_VAMPIRICAURA",
+			"name": ["吸血鬼の呪い", "吸血鬼のオーラ"],
+			"desc": ["+ Strength and Dexterity\n空腹率の増加\n拳時に[出血]状態を付与する確率が増加\n拳の致命的なステルス攻撃でライフスティールのチャンス", "+ Strength and Dexterity\n空腹率の増加\n拳時に[出血]状態を付与する確率が増加\n拳の致命的なステルス攻撃でライフスティールのチャンス\nHP自動回復は無効です"],
+			"img_path": "*images/ui/HUD/statusfx/bloodlust.png",
+			"img_from_spell_id": 30,
+			"use_entry_for_sustained_spell": 30,
+			"tooltip_width": 270
+		},
+		"EFF_SHRINE_RED_BUFF": {
+			"id": 19,
+			"internal_name": "EFF_SHRINE_RED_BUFF",
+			"name": "赤の神殿のバフ",
+			"desc": "+ Strength\n+ Constitution",
+			"img_path": "*images/ui/HUD/statusfx/orb_red.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_SHRINE_GREEN_BUFF": {
+			"id": 20,
+			"internal_name": "EFF_SHRINE_GREEN_BUFF",
+			"name": "緑の神殿バフ",
+			"desc": "+ Dexterity\n+ Perception",
+			"img_path": "*images/ui/HUD/statusfx/orb_green.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_SHRINE_BLUE_BUFF": {
+			"id": 21,
+			"internal_name": "EFF_SHRINE_BLUE_BUFF",
+			"name": "青の神殿のバフ",
+			"desc": "+ Intelligence\n+1 Magic Resistance",
+			"img_path": "*images/ui/HUD/statusfx/orb_blue.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_HP_REGEN": {
+			"id": 22,
+			"internal_name": "EFF_HP_REGEN",
+			"name": "HP回復",
+			"desc": "+2 [HP自動回復]",
+			"img_path": "*images/ui/HUD/statusfx/regen_hp.png",
+			"img_from_spell_id": 48
+		},
+		"EFF_MP_REGEN": {
+			"id": 23,
+			"internal_name": "EFF_MP_REGEN",
+			"name": "MP回復",
+			"desc": "+2 [MP自動回復]",
+			"img_path": "*images/ui/HUD/statusfx/regen_mp.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_PACIFY": {
+			"id": 24,
+			"internal_name": "EFF_PACIFY",
+			"name": "鎮静化",
+			"desc": "攻撃したり自発的に移動したりできない",
+			"img_path": "",
+			"img_from_spell_id": 31
+		},
+		"EFF_POLYMORPH": {
+			"id": 25,
+			"internal_name": "EFF_POLYMORPH",
+			"name": "変身",
+			"desc": "別のモンスターに変装",
+			"img_path": "*images/ui/HUD/statusfx/polymorph.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_KNOCKBACK": {
+			"id": 26,
+			"internal_name": "EFF_KNOCKBACK",
+			"name": "",
+			"desc": "",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_WITHDRAWAL": {
+			"id": 27,
+			"internal_name": "EFF_WITHDRAWAL",
+			"name": "二日酔い",
+			"desc": "- Dexterity\n中毒で治る",
+			"img_path": "*images/ui/HUD/statusfx/hungover.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_POTION_STR": {
+			"id": 28,
+			"internal_name": "EFF_POTION_STR",
+			"name": "力",
+			"desc": "+ Strength\n- Perception",
+			"img_path": "*images/ui/HUD/statusfx/strengthbuff.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_SHAPESHIFT": {
+			"id": 29,
+			"internal_name": "EFF_SHAPESHIFT",
+			"name": ["ネズミ形態", "クモ形態", "トロール形態", "インプ形態"],
+			"desc": ["+ DEX/INT/PER\nレベルアップ時にDEX/INTを獲得する確率が上昇\n[食料探知]と[スピード]の魔法を使用可能", "+ PER/STR/CON\nレベルアップ時にPER/CONを獲得する確率が上昇\n[クモの巣噴出]と[毒]の魔法を使用可能", "+ STR/CON\n- DEX\nレベルアップ時にSTR/CONを獲得する確率が上昇\n[パワーストライク]、[恐怖]、[トロールの血]の魔法を使用可能", "浮遊を与える\n+ INT/PER\nレベルアップ時にINT/DEXを獲得する確率が上昇\n[雷]、[混乱]、[元素焦点]の魔法を使用可能"],
+			"img_path": "",
+			"img_from_spell_id": [33,34,35,36]
+		},
+		"EFF_WEBBED": {
+			"id": 30,
+			"internal_name": "EFF_WEBBED",
+			"name": "糸に絡まった",
+			"desc": "移動速度を低下\n近接攻撃を受けるとノックバックする",
+			"img_path": "",
+			"img_from_spell_id": 37
+		},
+		"EFF_FEAR": {
+			"id": 31,
+			"internal_name": "EFF_FEAR",
+			"name": "恐怖",
+			"desc": "攻撃したり自発的に移動したりできない",
+			"img_path": "",
+			"img_from_spell_id": 40
+		},
+		"EFF_MAGICAMPLIFY": {
+			"id": 32,
+			"internal_name": "EFF_MAGICAMPLIFY",
+			"name": "元素焦点",
+			"desc": "[火の玉]、[氷]、[雷]、[マジックミサイル]の魔法を唱える際のダメージが増加し、射程が短くなります。",
+			"img_path": "",
+			"img_from_spell_id": 44,
+			"tooltip_width": 300,
+			"use_entry_for_sustained_spell": 44
+		},
+		"EFF_DISORIENTED": {
+			"id": 33,
+			"internal_name": "EFF_DISORIENTED",
+			"name": "",
+			"desc": "",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_SHADOW_TAGGED": {
+			"id": 34,
+			"internal_name": "EFF_SHADOW_TAGGED",
+			"name": "秘術の印",
+			"desc": "自分自身の種族ダメージ耐性/弱点が無効化される",
+			"img_path": "",
+			"img_from_spell_id": 45,
+			"tooltip_width": 210
+		},
+		"EFF_TROLLS_BLOOD": {
+			"id": 35,
+			"internal_name": "EFF_TROLLS_BLOOD",
+			"name": "トロールの血",
+			"desc": "+1 [HP自動回復]",
+			"img_path": "",
+			"img_from_spell_id": 48
+		},
+		"EFF_FLUTTER": {
+			"id": 36,
+			"internal_name": "EFF_FLUTTER",
+			"name": "羽ばたき",
+			"desc": "短時間の浮遊",
+			"img_path": "",
+			"img_from_spell_id": 50
+		},
+		"EFF_DASH": {
+			"id": 37,
+			"internal_name": "EFF_DASH",
+			"name": "",
+			"desc": "",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_DISTRACTED_COOLDOWN": {
+			"id": 38,
+			"internal_name": "EFF_DISTRACTED_COOLDOWN",
+			"name": "",
+			"desc": "",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_MIMIC_LOCKED": {
+			"id": 39,
+			"internal_name": "EFF_MIMIC_LOCKED",
+			"name": "",
+			"desc": "",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_ROOTED": {
+			"id": 40,
+			"internal_name": "EFF_ROOTED",
+			"name": "Rooted",
+			"desc": "移動できません",
+			"img_path": "*images/ui/HUD/statusfx/rooted.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_NAUSEA_PROTECTION": {
+			"id": 41,
+			"internal_name": "EFF_NAUSEA_PROTECTION",
+			"name": "吐き気耐性",
+			"desc": "消化不良、狩猟の矢、酔い、嘔吐などを誘発する出来事に対して免疫がある",
+			"img_path": "*images/ui/HUD/statusfx/resist_nausea.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 280
+		},
+		"EFF_CON_BONUS": {
+			"id": 42,
+			"internal_name": "EFF_CON_BONUS",
+			"name": "スタミナ",
+			"desc": "+ Constitution\n残りHPが少ないほど効果が増加する",
+			"img_path": "*images/ui/HUD/statusfx/defensebuff.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_PWR": {
+			"id": 43,
+			"internal_name": "EFF_PWR",
+			"name": "精神力",
+			"desc": "+ 魔法力\n残りMPが少ないほど効果が増加する",
+			"img_path": "*images/ui/HUD/statusfx/powerbuff.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_AGILITY": {
+			"id": 44,
+			"internal_name": "EFF_AGILITY",
+			"name": "器用さ",
+			"desc": "+ Dexterity\n+30% 物理攻撃と魔法攻撃を回避するチャンス",
+			"img_path": "*images/ui/HUD/statusfx/dexbuff.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_RALLY": {
+			"id": 45,
+			"internal_name": "EFF_RALLY",
+			"name": "Rally",
+			"desc": "+ Rallied",
+			"img_path": "*images/ui/HUD/statusfx/rooted.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_MARIGOLD": {
+			"id": 46,
+			"internal_name": "EFF_MARIGOLD",
+			"name": "マリーゴールドの癒し",
+			"desc": "+ 時間の経過とともにHPを回復する",
+			"img_path": "*images/ui/HUD/statusfx/growth.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 240
+		}
+	}
+}

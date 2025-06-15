@@ -1,0 +1,692 @@
+{
+  "version": 1,
+  "colors": {
+    "default": {
+      "r": 201,
+      "g": 162,
+      "b": 100,
+      "a": 255
+    },
+    "novice": {
+      "r": 74,
+      "g": 196,
+      "b": 20,
+      "a": 255
+    },
+    "expert": {
+      "r": 55,
+      "g": 149,
+      "b": 215,
+      "a": 255
+    },
+    "legend": {
+      "r": 230,
+      "g": 183,
+      "b": 20,
+      "a": 255
+    }
+  },
+  "skill_background_icons": {
+		"default": "#*images/ui/SkillSheet/UI_Skills_Icons_BG00_00.png",
+		"default_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG00Select_00.png",
+		"novice": "#*images/ui/SkillSheet/UI_Skills_Icons_BG20_00.png",
+		"novice_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG20Select_00.png",
+		"expert": "#*images/ui/SkillSheet/UI_Skills_Icons_BG60_00.png",
+		"expert_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG60Select_00.png",
+		"legend": "#*images/ui/SkillSheet/UI_Skills_Icons_BG100_00.png",
+		"legend_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG100Select_00.png"
+  },
+  "skill_select_images": {
+    "highlight_left": "#*images/ui/SkillSheet/UI_Skills_SkillSelector_01.png",
+    "selected_left": "#*images/ui/SkillSheet/UI_Skills_SkillUnselected100_01.png",
+    "highlight_right": "#*images/ui/SkillSheet/UI_Skills_SkillSelectorR_01.png",
+    "selected_right": "#*images/ui/SkillSheet/UI_Skills_SkillUnselected100R_01.png"
+  },
+  "window_scaling": {
+    "standard_scale_modifier_x": 2,
+    "standard_scale_modifier_y": 1.2,
+    "compact_scale_modifier_x": 0.5,
+    "compact_scale_modifier_y": 0.0
+  },
+  "alchemy_potion_names_to_filter": ["ポーション:","ボトル:"],
+  "skills": [
+    {
+      "name": "ステルス",
+      "id": 1,
+      "sfx": 549,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Stealth01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Stealth01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Stealth02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Stealth02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_DEX_00.png",
+      "description": "敵の視界を減らし、\n近接ステルス攻撃のダメージにボーナスを与え、\nスニーク中の視界を追加します。",
+      "legend_text": "スニークすると透明化が得られます。",
+      "effects_position": {
+        "effect_start_offset_x": 80,
+        "effect_background_offset_x": 8,
+        "effect_background_width": 88
+      },
+      "effects": [
+        {
+          "tag": "STEALTH_VIS_REDUCTION",
+          "title": "可視性の低下:",
+          "value": "%+d%%"
+        },
+        {
+          "tag": "STEALTH_SNEAK_VIS",
+          "title": "ステルスボーナスビジョン:",
+          "value": "%+d 明るさ"
+        },
+        {
+          "tag": "STEALTH_BACKSTAB",
+          "title": "バックスタブボーナスダメージ:",
+          "value": "%+d 攻撃力"
+        },
+        {
+          "tag": "STEALTH_CURRENT_VIS",
+          "title": "現在の可視性:",
+          "value": "%d マス",
+          "realtime_update": true
+        }
+      ]
+    },
+    {
+      "name": "盾",
+      "id": 13,
+      "sfx": 599,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Blocking01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Blocking01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Blocking02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Blocking02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CON_00.png",
+      "description": "防御中のアーマークラスボーナスが\n増加します。\n ",
+      "legend_text": "盾は攻撃を受けても劣化しません。",
+      "effects_position": {
+        "effect_start_offset_x": 72,
+        "effect_background_offset_x": 8,
+        "effect_background_width": 80
+      },
+      "effects": [
+        {
+          "tag": "BLOCK_AC_INCREASE",
+          "title": "防御時ACの増加:\n(盾)",
+          "value": "%+d AC"
+        },
+				{
+					"tag": "BLOCK_AC_INCREASE_OFFHAND",
+					"title": "防御時ACの増加:\n(盾以外)",
+					"value": "%+d AC"
+				},
+        {
+          "tag": "PASSIVE_AC_INCREASE",
+          "title": "パッシブACの増加:\n(盾装備時)",
+          "value": "%+d AC"
+        },
+        {
+          "tag": "BLOCK_DEGRADE_NORMAL_CHANCE",
+          "title": "盾劣化の確率:\n (防御してない時)",
+          "value": "%.2f%%"
+        },
+        {
+          "tag": "BLOCK_DEGRADE_DEFENDING_CHANCE",
+          "title": "盾劣化の確率:\n (防御時)",
+          "value": "%.2f%%"
+        }
+      ]
+    },
+    {
+      "name": "遠距離攻撃",
+      "id": 8,
+      "sfx": 600,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Ranged01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Ranged01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Ranged02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Ranged02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_DEX_00.png",
+      "description": "遠距離/投擲ダメージが増加し、\n遠距離武器の耐久性が向上します。",
+      "legend_text": "遠距離武器は使用しても劣化しません。",
+      "effects_position": {
+        "effect_start_offset_x": 72,
+        "effect_background_offset_x": 8,
+        "effect_background_width": 80
+      },
+      "effects": [
+				{
+					"tag": "WEAPON_DMG_EFFECTIVENESS",
+					"title": "ATKに対する遠距離\n ダメージのばらつき:",
+					"value": "%d%% - %d%%",
+					"custom_value_width_offset": 32
+				},
+				{
+					"tag": "RANGED_DEGRADE_CHANCE",
+					"title": "遠距離武器の\n 劣化確率:",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "RANGED_PIERCE_CHANCE",
+					"title": "遠距離による\n 矢が貫通する確率:\n (PER値参照)",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "RANGED_THROWN_DMG",
+					"title": "投擲武器攻撃力:",
+					"value": "%+d%%"
+        }
+      ]
+    },
+    {
+      "name": "拳",
+      "id": 14,
+      "sfx": 594,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Unarmed01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Unarmed01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Unarmed02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Unarmed02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+      "description": "拳または拳武器による拳ダメージが増加します。",
+      "legend_text": "フルチャージされたステルスバックスタブ攻撃で\n 攻撃力が5増加し、1秒間の麻痺状態を与える。",
+      "effects_position": {
+        "effect_start_offset_x": 72,
+        "effect_background_offset_x": 8,
+        "effect_background_width": 80
+      },
+      "effects": [
+				{
+					"tag": "WEAPON_DMG_EFFECTIVENESS",
+					"title": "ATKに対する拳\n ダメージのばらつき:",
+					"value": "%d%% - %d%%",
+					"custom_value_width_offset": 32
+				},
+				{
+					"tag": "UNARMED_BONUS_DMG",
+					"title": "拳攻撃での増加ATK:",
+					"value": "%+d ATK"
+				},
+				{
+					"tag": "GLOVE_DEGRADE_CHANCE",
+					"title": "拳武器が劣化する\n 確率: (通常攻撃時)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "GLOVE_DEGRADE0_CHANCE",
+					"title": "拳武器が劣化する\n 確率: (ダメージが0の場合)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "UNARMED_KNOCKBACK_DIST",
+					"title": "拳武器による\n ノックバック距離:",
+					"value": "%+d%%"
+				}
+      ]
+    },
+    {
+      "name": "剣",
+      "id": 9,
+      "sfx": 588,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Swords01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Swords01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Swords02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Swords02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+      "description": "ダメージが増加し、剣武器の耐久性が向上します。",
+      "legend_text": "フルチャージした攻撃で攻撃力が5増加し、\n 5秒間の出血状態を引き起こします。",
+      "effects_position": {
+        "effect_start_offset_x": 72,
+        "effect_background_offset_x": 8,
+        "effect_background_width": 80
+      },
+      "effects": [
+				{
+					"tag": "WEAPON_DMG_EFFECTIVENESS",
+					"title": "ATKに対する剣\n ダメージのばらつき:",
+					"value": "%d%% - %d%%",
+					"custom_value_width_offset": 32
+				},
+				{
+					"tag": "SWORD_DEGRADE_CHANCE",
+					"title": "武器が劣化する\n 確率: (通常攻撃時)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "SWORD_DEGRADE0_CHANCE",
+					"title": "武器が劣化する\n 確率: (ダメージが0の場合)",
+					"value": "%.2f%%"
+				}
+      ]
+    },
+    {
+      "name": "槍",
+      "id": 12,
+      "sfx": 578,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Polearms01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Polearms01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Polearms02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Polearms02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+      "description": "ダメージが増加し、\n槍武器の耐久性が向上します。",
+      "legend_text": "フルチャージした攻撃で攻撃力が5増加し、\n ノックバックします。",
+      "effects_position": {
+        "effect_start_offset_x": 72,
+        "effect_background_offset_x": 8,
+        "effect_background_width": 80
+      },
+      "effects": [
+				{
+					"tag": "WEAPON_DMG_EFFECTIVENESS",
+					"title": "ATKに対する槍\n ダメージのばらつき:",
+					"value": "%d%% - %d%%",
+					"custom_value_width_offset": 32
+				},
+				{
+					"tag": "POLEARM_DEGRADE_CHANCE",
+					"title": "武器が劣化する\n 確率: (通常攻撃時)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "POLEARM_DEGRADE0_CHANCE",
+					"title": "武器が劣化する\n 確率: (ダメージが0の場合)",
+					"value": "%.2f%%"
+				}
+      ]
+    },
+    {
+      "name": "斧",
+      "id": 11,
+      "sfx": 570,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Axes01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Axes01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Axes02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Axes02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+      "description": "ダメージが増加し、\n斧武器の耐久性が向上します。",
+      "legend_text": "フルチャージされた攻撃で攻撃力が10増加し、\n 3秒間のスロウデバフを与えます。",
+      "effects_position": {
+        "effect_start_offset_x": 72,
+        "effect_background_offset_x": 8,
+        "effect_background_width": 80
+      },
+      "effects": [
+				{
+					"tag": "WEAPON_DMG_EFFECTIVENESS",
+					"title": "ATKに対する斧\n ダメージのばらつき:",
+					"value": "%d%% - %d%%",
+					"custom_value_width_offset": 32
+				},
+				{
+					"tag": "AXE_DEGRADE_CHANCE",
+					"title": "武器が劣化する\n 確率: (通常攻撃時)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "AXE_DEGRADE0_CHANCE",
+					"title": "武器が劣化する\n 確率: (ダメージが0の場合)",
+					"value": "%.2f%%"
+				}
+      ]
+    },
+    {
+      "name": "メイス",
+      "id": 10,
+      "sfx": 575,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Maces01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Maces01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Maces02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Maces02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+      "description": "ダメージが増加し、\nメイス武器の耐久性が向上します。",
+      "legend_text": "フルチャージされた攻撃で攻撃力が5増加し、\n25%の確率で1.5秒間の麻痺状態になります。",
+      "effects_position": {
+        "effect_start_offset_x": 72,
+        "effect_background_offset_x": 8,
+        "effect_background_width": 80
+      },
+      "effects": [
+				{
+					"tag": "WEAPON_DMG_EFFECTIVENESS",
+					"title": "ATKに対するメイス\n ダメージのばらつき:",
+					"value": "%d%% - %d%%",
+					"custom_value_width_offset": 32
+				},
+				{
+					"tag": "MACE_DEGRADE_CHANCE",
+					"title": "武器が劣化する\n 確率: (通常攻撃時)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "MACE_DEGRADE0_CHANCE",
+					"title": "武器が劣化する\n 確率: (ダメージが0の場合)",
+					"value": "%.2f%%"
+				}
+      ]
+    },
+    {
+      "name": "水泳",
+      "id": 4,
+      "sfx": 552,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Swimming01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Swimming01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Swimming02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Swimming02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CON_00.png",
+      "description": "液体中を泳いでいる間の移動速度が増加します。",
+      "legend_text": "水と溶岩の上を永久に水上歩行します。",
+      "effects_position": {
+        "effect_start_offset_x": 72,
+        "effect_background_offset_x": 8,
+        "effect_background_width": 80
+      },
+      "effects": [
+        {
+          "tag": "SWIM_SPEED_TOTAL",
+          "title": "泳いだ際の\n 移動速度",
+          "value": "%d%%"
+        },
+        {
+          "tag": "SWIM_SPEED_BASE",
+          "title": "液体における\n 基本速度乗数ペナルティ",
+          "value": "%+d%%"
+        },
+        {
+          "tag": "SWIM_SPEED_BONUS",
+          "title": "水泳スキルによる\n ボーナス速度乗数",
+          "value": "%+d%%"
+        }
+      ]
+    },
+    {
+      "name": "統率",
+      "id": 5,
+      "sfx": 603,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Leadership01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Leadership01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Leadership02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Leadership02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CHA_00.png",
+      "description": "一度に雇用できるNPC仲間の数が増加し、\n対話中により多くの仲間コマンドの\nロックが解除されます。",
+      "legend_text": "標準的な人種的忠誠に加えて、\nゴブリン、山羊人、インセクトを\n雇用することができます。",
+      "effects_position": {
+        "effect_start_offset_x": 72,
+        "effect_background_offset_x": 8,
+        "effect_background_width": 80
+      },
+      "effects": [
+        {
+          "tag": "LEADER_MAX_FOLLOWERS",
+          "title": "最大仲間数:",
+          "value": "%d"
+        },
+        {
+          "tag": "LEADER_FOLLOWER_SPEED",
+          "title": "仲間の移動速度\n 上昇ボーナス",
+          "value": "+%d DEX"
+        },
+        {
+          "tag": "LEADER_CHARM_MONSTER",
+          "title": "魅了魔法の\n 基礎成功確率:\n (スキルレベル + CHR値)",
+          "value": "+%d%%"
+        },
+        {
+          "tag": "LIST_LEADER_AVAILABLE_FOLLOWERS",
+          "title": "仲間にできる\n 友好種族リスト",
+          "value": "%s",
+          "auto_resize_value": true
+        }
+      ]
+    },
+    {
+      "name": "取引",
+      "id": 2,
+      "sfx": 552,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Trading01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Trading01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Trading02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Trading02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CHA_00.png",
+      "description": "店主との取引時に購入価格を引き下げ、\n販売価格を向上させます。",
+      "legend_text": "あらゆる種類のアイテムを\nあらゆる店主に販売できるようになります。",
+      "effects_position": {
+        "effect_start_offset_x": 102,
+        "effect_background_offset_x": 8,
+        "effect_background_width": 110
+      },
+      "effects": [
+        {
+          "tag": "TRADING_BUY_PRICE",
+          "title": "店でアイテムを売る際の\n 価格値上げ",
+          "value": "%+.f%% ゴールド"
+        },
+        {
+          "tag": "TRADING_SELL_PRICE",
+          "title": "店で買ったアイテムを\n 転売するペナルティ:\n (スキルレベル + CHR値)",
+          "value": "%.f%% ゴールド"
+        }
+      ]
+    },
+    {
+      "name": "鑑定",
+      "id": 3,
+      "sfx": 568,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Appraisal01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Appraisal01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Appraisal02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Appraisal02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+      "description": "鑑定速度が向上し、\nより高い金価値のアイテムの鑑定が可能になります。",
+      "legend_text": "すべてのアイテムを即座に査定します。",
+      "effects_position": {
+        "effect_start_offset_x": 88,
+        "effect_background_offset_x": 8,
+        "effect_background_width": 96
+      },
+      "effects": [
+        {
+          "tag": "APPRAISE_GOLD_SPEED",
+          "title": "アイテムのゴールドに対する\n アイテムを鑑定する時間",
+          "value": "%.2f 秒",
+          "auto_resize_value": true
+        },
+        {
+          "tag": "APPRAISE_MAX_GOLD_VALUE",
+          "title": "鑑定ができる\n 最大ゴールド値:\n (スキルレベル + PER値)",
+          "value": "%d ゴールド"
+        },
+        {
+          "tag": "APPRAISE_WORTHLESS_GLASS",
+          "title": "価値のないガラスを\n 鑑定できる値:\n (スキルレベル + PER値))",
+          "value": "%s"
+        }
+      ]
+    },
+    {
+      "name": "いじくり",
+      "id": 0,
+      "sfx": 552,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Tinkering01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Tinkering01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Tinkering02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Tinkering02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+      "description": "工作キットの能力が向上し、\n作成可能なアイテムと\n配置できるタレット数が増加します。",
+      "legend_text": "工作キットを使用して\nほとんどの武器や防具を修理でき、\n宝箱の鍵を開けるときにボーナスアイテムやゴールドを見つけることができます。",
+      "effects_position": {
+        "effect_start_offset_x": 72,
+        "effect_background_offset_x": 8,
+        "effect_background_width": 80
+      },
+      "effects": [
+        {
+          "tag": "TINKERING_LOCKPICK_CHESTS_DOORS",
+          "title": "宝箱やドアの\n ロックピック確率",
+          "value": "%d%%"
+        },
+        {
+          "tag": "TINKERING_SCRAP_CHESTS",
+          "title": "ロックピック時の宝箱\n から部品獲得確率",
+          "value": "%d%%"
+        },
+        {
+          "tag": "TINKERING_SCRAP_AUTOMATONS",
+          "title": "ロックピック時の自動人形\n から部品獲得確率",
+          "value": "%d%%"
+        },
+        {
+          "tag": "TINKERING_DISARM_ARROWS",
+          "title": "弓の罠に対する\n 武装解除の確率",
+          "value": "%d%%"
+        },
+        {
+          "tag": "TINKERING_KIT_SCRAP_BONUS",
+          "title": "分解した際の\n ボーナス部品:\n (スキルレベル + PER値)",
+          "value": "+%d%%"
+        },
+        {
+          "tag": "TINKERING_KIT_REPAIR_ITEM",
+          "title": "高級な金属や魔法\n アイテムの修理:\n (スキルレベル + PER値)",
+          "value": "%s",
+          "auto_resize_value": true
+        },
+        {
+          "tag": "TINKERING_MAX_ALLIES",
+          "title": "タレットの\n 最大配備数",
+          "value": "%d"
+        }
+      ]
+    },
+    {
+      "name": "錬金術",
+      "id": 15,
+      "sfx": 552,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Alchemy01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Alchemy01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Alchemy02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Alchemy02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+      "description": "蒸留器でポーションを醸造する能力が向上し、\n投げられた攻撃的なポーションの\nダメージが増加します。\n",
+      "legend_text": "蒸留器は決して劣化しません。\n醸造されたポーションは+2の祝福がされます",
+      "effects_position": {
+        "effect_start_offset_x": 72,
+        "effect_background_offset_x": 8,
+        "effect_background_width": 80
+      },
+      "effects": [
+        {
+          "tag": "ALCHEMY_POTION_EFFECT_DMG",
+          "title": "ポーション効果によるダメージ:",
+          "value": "+%d%%"
+        },
+        {
+          "tag": "ALCHEMY_THROWN_IMPACT_DMG",
+          "title": "投げたポーション\n 衝突ダメージ",
+          "value": "+%d%%"
+        },
+        {
+          "tag": "ALCHEMY_DUPLICATION_CHANCE",
+          "title": "水を使用した\n ポーションの複製確率",
+          "value": "%d%%"
+        },
+        {
+          "tag": "ALCHEMY_EMPTY_BOTTLE_CONSUME",
+          "title": "ポーションを飲んだ時の\n 空き瓶の回収確率",
+          "value": "%d%%"
+        },
+        {
+          "tag": "ALCHEMY_EMPTY_BOTTLE_BREW",
+          "title": "ポーションを醸造した時の\n 空き瓶の回収",
+          "value": "%d%%"
+        },
+        {
+          "tag": "ALCHEMY_LEARNT_INGREDIENTS_BASE",
+          "title": "錬金術を学んだ\n ",
+          "value": "%s",
+          "custom_value_width_offset": 0,
+          "auto_resize_value": true,
+          "realtime_update": true
+        },
+        {
+          "tag": "ALCHEMY_LEARNT_INGREDIENTS_SECONDARY",
+          "title": "錬金術を学ぶ\n 知能: (Primary)",
+          "value": "%s",
+          "custom_value_width_offset": 0,
+          "auto_resize_value": true,
+          "realtime_update": true
+        }
+      ]
+    },
+    {
+      "name": "魔法",
+      "id": 7,
+      "sfx": 597,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Magic01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Magic01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Magic02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Magic02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+      "description": "魔法書からより高レベルの魔法を\n習得できるようになります。 ",
+      "legend_text": "支配魔法を自動学習します。",
+      "effects_position": {
+        "effect_start_offset_x": 72,
+        "effect_background_offset_x": 8,
+        "effect_background_width": 80
+      },
+      "effects": [
+        {
+          "tag": "MAGIC_SPELLPOWER",
+          "title": "基本魔法パワーボーナス:\n (INT値)",
+          "value": "%+d%%"
+        },
+        {
+          "tag": "MAGIC_CURRENT_TIER",
+          "title": "習得することができる\n 最高の魔法レベル",
+          "value": "%s"
+        },
+        {
+          "tag": "MAGIC_CURRENT_TIER_SPELLS",
+          "title": "現在学べる\n 魔法リスト:",
+          "value": "%s",
+          "auto_resize_value": true
+        }
+      ]
+    },
+    {
+      "name": "詠唱",
+      "id": 6,
+      "sfx": 596,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Casting01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Casting01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Casting02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Casting02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+      "description": "詠唱と魔法書の詠唱の信頼性が向上し、\n失敗やMPの過剰消費の可能性が減ります。",
+      "legend_text": "MPコスト(0)で\nフォースボルトの魔法を\n自動学習します。",
+      "effects_position": {
+        "effect_start_offset_x": 72,
+        "effect_background_offset_x": 8,
+        "effect_background_width": 80
+      },
+      "effects": [
+        {
+          "tag": "CASTING_MP_REGEN_SKILL_MULTIPLIER",
+          "title": "MP回復INT倍率\n ",
+          "value": "%dx INT",
+          "auto_resize_value": true
+        },
+        {
+          "tag": "CASTING_MP_REGEN",
+          "title": "基本MP回復速度:\n ",
+          "value": "%.2f 秒ごとに1MP",
+          "auto_resize_value": true
+        },
+        {
+          "tag": "CASTING_BEGINNER",
+          "title": "学んだ魔法を\n 詠唱失敗する確率:",
+          "value": "%s"
+        },
+        {
+          "tag": "CASTING_SPELLBOOK_FUMBLE",
+          "title": "失敗せずに\n 魔法書を詠唱できる\n 最高レベルの魔法:\n (スキルレベル + INT値)",
+          "value": "%s"
+        }
+      ]
+    }
+  ]
+}
