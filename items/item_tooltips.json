@@ -255,6 +255,7 @@
 		"template_torch_description": [ "保持している間、時間の経過とともに燃え尽きます。 防御中に追加のACと光を提供します。" ],
 		"template_shard_description": [ "永遠に燃え続ける脆弱な光源。\n防御中に追加のACと光を提供します。" ],
 		"template_shield_brittle": [ "防御中に攻撃を受けた場合、\n劣化確率が100%増加" ],
+		"template_weapon_description": [ "Hold [Attack] to perform a critical strike." ],
 		"template_whip_description": [ "Long reach melee weapon. 溜め[攻撃]でクリティカル攻撃になる。" ],
 		"template_knuckles_description": [ "Provides ATK when Main-hand is empty." ],
 		"template_thrown_description": [ "Thrown weapon. 溜め[攻撃]でダメージと距離が増加します。" ],
@@ -550,8 +551,8 @@
 		"template_attr_spell_dominate": [ "属性:", "* モンスターを支配すると、\n統率スキルの味方の制限を超えることができます", "", "支配MPコスト:", "* 弱体化したモンスターは支配に必要なMPを減らす\n (例えば、現在のHPが20のモンスターは41MPを消費します。)" ],
 		"template_attr_spell_revert_form": [ "属性:", "* 一度に削除できる効果は1つだけです" ],
 		"template_attr_magicstaff_charm": [ "", "魅了:", "[混乱]または[酔い]モンスターの発生確率+30%%", "CHRステータス + 統率スキルによる確率 %+d%%" ],
-		"template_magicstaff_degrade_chance": [ "属性:", "* 使用すると劣化する確率は %d%% です" ],
-		"template_magicstaff_charm_worn_degrade": [ "属性:", "* %s ステータスから使用時に %d%% の確率で劣化します" ],
+		"template_magicstaff_degrade_chance": [ "属性:", "使用すると劣化する確率は %d%% です" ],
+		"template_magicstaff_charm_worn_degrade": [ "属性:", "使用すると%d%%の確率で%s状態\nから劣化する" ],
 		"template_spellbook_degrade_chance": [ "* 読むと100%の確率で劣化", "* 魔法書詠唱時に12%の確率で劣化" ]
 	},
 	"tooltips": {
@@ -4539,7 +4540,7 @@
 					"default": [ "" ]
 				},
 				{
-					"potion_on_blessed": [ "* %sからのアンデッドへの\nポーションダメージ %+d" ]
+					"potion_on_blessed": [ "* %+dポーションダメージ\n%sのアンデッドへの" ]
 				},
 				{
 					"potion_on_cursed": "template_potion_curse_sideeffect"
@@ -4786,7 +4787,7 @@
 					"default": [ "" ]
 				},
 				{
-					"potion_on_blessed": [ "* %sから %+d秒[HP/MP自動回復]" ]
+					"potion_on_blessed": [ "%+d秒[HP/MP自動回復] %sより " ]
 				},
 				{
 					"potion_on_cursed": "template_potion_curse_sideeffect"

@@ -80,7 +80,8 @@
         {
           "tag": "STEALTH_BACKSTAB",
           "title": "バックスタブボーナスダメージ:",
-          "value": "%+d 攻撃力"
+          "value": "%+d 攻撃力",
+			 "realtime_update": true
         },
         {
           "tag": "STEALTH_CURRENT_VIS",
@@ -99,7 +100,7 @@
 			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Blocking02_32.png",
 			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Blocking02_32Gold.png",
 			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CON_00.png",
-      "description": "防御中のアーマークラスボーナスが\n増加します。\n ",
+      "description": "防御中のアーマークラスボーナスが\n増加します。\n Provides passive Armor Class bonus to held shields. Improves durability of Off-hand items during combat. ",
       "legend_text": "盾は攻撃を受けても劣化しません。",
       "effects_position": {
         "effect_start_offset_x": 72,
@@ -183,7 +184,7 @@
 			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Unarmed02_32.png",
 			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Unarmed02_32Gold.png",
 			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
-      "description": "拳または拳武器による拳ダメージが増加します。",
+      "description": "拳または拳武器による拳ダメージが増加します。Improves fist weapon durability and applies knockback on fully charged strikes.",
       "legend_text": "フルチャージされたステルスバックスタブ攻撃で\n 攻撃力が5増加し、1秒間の麻痺状態を与える。",
       "effects_position": {
         "effect_start_offset_x": 72,
@@ -506,7 +507,7 @@
 			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Tinkering02_32.png",
 			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Tinkering02_32Gold.png",
 			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_PER_00.png",
-      "description": "工作キットの能力が向上し、\n作成可能なアイテムと\n配置できるタレット数が増加します。",
+      "description": "工作キットの能力が向上し、\n作成可能なアイテムと\n配置できるタレット数が増加します。Increases chances to lockpick objects in the world.",
       "legend_text": "工作キットを使用して\nほとんどの武器や防具を修理でき、\n宝箱の鍵を開けるときにボーナスアイテムやゴールドを見つけることができます。",
       "effects_position": {
         "effect_start_offset_x": 72,
@@ -561,7 +562,7 @@
 			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Alchemy02_32.png",
 			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Alchemy02_32Gold.png",
 			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
-      "description": "蒸留器でポーションを醸造する能力が向上し、\n投げられた攻撃的なポーションの\nダメージが増加します。\n",
+      "description": "蒸留器でポーションを醸造する能力が向上し、\n投げられた攻撃的なポーションの\nダメージが増加します。\nDrink or brew potions to learn useful ingredients in Alchemy.",
       "legend_text": "蒸留器は決して劣化しません。\n醸造されたポーションは+2の祝福がされます",
       "effects_position": {
         "effect_start_offset_x": 72,
@@ -596,7 +597,7 @@
         },
         {
           "tag": "ALCHEMY_LEARNT_INGREDIENTS_BASE",
-          "title": "錬金術を学んだ\n ",
+          "title": "錬金術を学んだ\n ingredients:\n (Primary)",
           "value": "%s",
           "custom_value_width_offset": 0,
           "auto_resize_value": true,
@@ -621,7 +622,7 @@
 			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Magic02_32.png",
 			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Magic02_32Gold.png",
 			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
-      "description": "魔法書からより高レベルの魔法を\n習得できるようになります。 ",
+      "description": "魔法書からより高レベルの魔法を\n習得できるようになります。Equip spells via the Magic menu and use the Cast command, or wield spellbooks and use the Defend command to use magic.",
       "legend_text": "支配魔法を自動学習します。",
       "effects_position": {
         "effect_start_offset_x": 72,
@@ -630,13 +631,13 @@
       },
       "effects": [
         {
-          "tag": "MAGIC_SPELLPOWER",
+          "tag": "MAGIC_SPELLPOWER_INT",
           "title": "基本魔法パワーボーナス:\n (INT値)",
           "value": "%+d%%"
         },
         {
           "tag": "MAGIC_CURRENT_TIER",
-          "title": "習得することができる\n 最高の魔法レベル",
+          "title": "習得することができる\n 最高の魔法レベル:\n (Using skill + INT stat)",
           "value": "%s"
         },
         {
@@ -656,7 +657,7 @@
 			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Casting02_32.png",
 			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Casting02_32Gold.png",
 			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
-      "description": "詠唱と魔法書の詠唱の信頼性が向上し、\n失敗やMPの過剰消費の可能性が減ります。",
+      "description": "詠唱と魔法書の詠唱の信頼性が向上し、\n失敗やMPの過剰消費の可能性が減ります。Increases passive MP regen.",
       "legend_text": "MPコスト(0)で\nフォースボルトの魔法を\n自動学習します。",
       "effects_position": {
         "effect_start_offset_x": 72,
@@ -672,7 +673,7 @@
         },
         {
           "tag": "CASTING_MP_REGEN",
-          "title": "基本MP回復速度:\n ",
+          "title": "基本MP回復速度:\n (Before item/race\n modifiers)",
           "value": "%.2f 秒ごとに1MP",
           "auto_resize_value": true
         },

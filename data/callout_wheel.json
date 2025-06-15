@@ -725,6 +725,14 @@
 				"world_icon": "tag_spot",
 				"world_icon_small": "mini_spot"
 			},
+			"assist_shrine" : 
+			{
+				"text": "Point out the Assist shrine.",
+				"word_highlights" : [3, 4],
+				"msg_says": "%s\"There's an Assist shrine over here.\"",
+				"world_icon": "tag_spot",
+				"world_icon_small": "mini_spot"
+			},
 			"exit" : 
 			{
 				"text": "出口を指摘してください。",
@@ -1159,6 +1167,14 @@
 				"world_icon": "tag_help",
 				"world_icon_small": "mini_help"
 			},
+			"assist_shrine" : 
+			{
+				"text": "I would like to use the Assist shrine!",
+				"word_highlights" : [6, 7],
+				"msg_says": "%s\"I would like to use the Assist shrine!\"",
+				"world_icon": "tag_help",
+				"world_icon_small": "mini_help"
+			},
 			"bell" : 
 			{
 				"text": "このベルのそばで助けが必要です!",
@@ -1464,6 +1480,14 @@
 				"world_icon": "tag_good-interact",
 				"world_icon_small": "mini_spot"
 			},
+			"assist_shrine" : 
+			{
+				"text": "The Assist shrine is good to go.",
+				"word_highlights" : [1, 2],
+				"msg_says": "%s\"The Assist shrine is good to go.\"",
+				"world_icon": "tag_good-interact",
+				"world_icon_small": "mini_spot"
+			},
 			"bell" : 
 			{
 				"text": "ベルを使います。",
@@ -1719,6 +1743,14 @@
 				"text": "ダイダロス神殿は使わないでください。",
 				"word_highlights" : [3, 4],
 				"msg_says": "%s\"ダイダロス神殿は使わないでください。\"",
+				"world_icon": "tag_bad-interact",
+				"world_icon_small": "mini_no"
+			},
+			"assist_shrine" : 
+			{
+				"text": "Don't use that Assist shrine.",
+				"word_highlights" : [3, 4],
+				"msg_says": "%s\"Don't use that Assist shrine.\"",
 				"world_icon": "tag_bad-interact",
 				"world_icon_small": "mini_no"
 			},
