@@ -92,14 +92,14 @@
 			"decrepit": "割れた(1)",
 			"worn": "粗い(2)",
 			"serviceable": "傷のある(3)",
-			"excellent": "素晴らしい(4)"
+			"excellent": "完璧な(4)"
 		},
 		"tinkering_status": {
 			"broken": "壊れた(0)",
-			"decrepit": "ひび割れた(1)",
-			"worn": "粗い(2)",
-			"serviceable": "欠陥のある(3)",
-			"excellent": "完璧な(4)"
+			"decrepit": "簡単な(1)",
+			"worn": "複合の(2)",
+			"serviceable": "複雑な(3)",
+			"excellent": "職人技の(4)"
 		},
 		"beatitude_status": {
 			"cursed": "呪われた",
