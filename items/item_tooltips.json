@@ -234,16 +234,16 @@
 		"template_potion_base_damage": [ "\n投擲時:", "%+d 基本ポーションダメージ" ],
 		"template_potion_beatitude": [ "%+d ポーションダメージ from %s" ],
 		"template_potion_alchemy_damage": [ "%+d%% ダメージ from 錬金術スキル%s" ],
-		"template_alchemy_type": [ "錬金術:", "・%s" ],
-		"template_potion_curse_sideeffect": [ "^・追加効果 from %s" ],
-		"template_amulet_curse_sideeffect": [ "^・追加効果 from %s\n" ],
-		"template_ring_curse_sideeffect": [ "^・追加効果 from %s\n" ],
-		"template_shamanmask_curse_sideeffect": [ "^・追加効果 from %s" ],
-		"template_monocle_curse_sideeffect": [ "^・追加効果 from %s\n" ],
-		"template_doublet_curse_sideeffect": [ "^・追加効果 from\n^%s\n" ],
-		"template_scroll_curse_sideeffect": [ "^・追加効果 from %s" ],
-		"template_hatnewline_curse_sideeffect": [ "^・追加効果 from %s\n" ],
-		"template_food_curse_sideeffect": [ "^・追加効果 from %s\n" ],
+		"template_alchemy_type": [ "錬金術:", "* %s" ],
+		"template_potion_curse_sideeffect": [ "^* 追加効果 from %s" ],
+		"template_amulet_curse_sideeffect": [ "^* 追加効果 from %s\n" ],
+		"template_ring_curse_sideeffect": [ "^* 追加効果 from %s\n" ],
+		"template_shamanmask_curse_sideeffect": [ "^* 追加効果 from %s" ],
+		"template_monocle_curse_sideeffect": [ "^* 追加効果 from %s\n" ],
+		"template_doublet_curse_sideeffect": [ "^* 追加効果 from\n^%s\n" ],
+		"template_scroll_curse_sideeffect": [ "^* 追加効果 from %s" ],
+		"template_hatnewline_curse_sideeffect": [ "^* 追加効果 from %s\n" ],
+		"template_food_curse_sideeffect": [ "^* 追加効果 from %s\n" ],
 		"template_armor_base_ac": [ "%+d 基本アイテムAC" ],
 		"template_armor_beatitude_ac": [ "%+d AC from %s" ],
 		"template_armor_shield_bonus": [ "+%d AC passive %s skill bonus", "+%d AC defending %s skill bonus" ],
@@ -280,7 +280,7 @@
 		"template_spellbot_rate_of_fire": [ "%+d%%発射速度" ],
 		"template_tinkerbot_status_bonus": [ "属性: (%s quality)" ],
 		"template_tinkerbot_turn_rate": [ "%+dx turn rate" ],
-		"template_tinkerbot_atk_initiative": [ "・Faster target acquisition" ],
+		"template_tinkerbot_atk_initiative": [ "* Faster target acquisition" ],
 		"template_tinkerbot_broken_description": [ "Best salvaged for scrap." ],
 		"template_tool_dummybot_description": [ "Equip and use [攻撃] to deploy." ],
 		"template_tool_gyrobot_description": [ "Equip and use [攻撃] to deploy." ],
@@ -292,10 +292,10 @@
 		"template_beartrap_degrade_on_use_cursed": [ "%+d%% chance to break from %s when deployed" ],
 		"template_tool_detonated_charge_description": [ "使い終わった罠の役に立たない残骸。", "スクラップとして回収するのが最適です。" ],
 		"template_tool_bomb_description": [ "Equip and use [攻撃] to deploy.", "Sticks to surfaces and objects." ],
-		"template_tool_bomb_lockpickable": [ "・Toggle trigger behavior by using [攻撃] with a lockpick after deploying" ],
+		"template_tool_bomb_lockpickable": [ "* Toggle trigger behavior by using [攻撃] with a lockpick after deploying" ],
 		"template_bomb_atk_stat_per": [ "%+d ATK from %d%% PER stat" ],
 		"template_tool_teleport_bomb_description": [ "Equip and use [攻撃] to deploy.", "Configure as a receiver for another teleport trap by using a lockpick." ],
-		"template_tool_decoy_range": [ "%+d tile radius", "・5 second cooldown for successive", "lures on the same target" ],
+		"template_tool_decoy_range": [ "%+d tile radius", "* 5 second cooldown for successive", "lures on the same target" ],
 		"template_tool_pickaxe_description": [ "Breaks boulders and walls on hit." ],
 		"template_tool_lockpick_description": [ "Unlocks chests, doors and enables tinkering with mechanisms.", "Press [攻撃] while equipped to use." ],
 		"template_tool_skeletonkey_description": [ "Unlocks and locks chests and doors.", "Press [攻撃] while equipped to use." ],
@@ -306,12 +306,12 @@
 		"template_weapon_on_degraded_atk": [ "%+d ATK from %s quality" ],
 		"template_armor_on_degraded_ac": [ "%+d AC from %s quality" ],
 		"template_weapon_mace_effects": [ "+10% armor break on hit" ],
-		"template_weapon_axe_effects": [ "・Increased ATK on wooden objects" ],
+		"template_weapon_axe_effects": [ "* Increased ATK on wooden objects" ],
 		"template_weapon_sword_effects": [ "+10% [Bleed] chance on hit" ],
 		"template_weapon_polearm_effects": [ "+10% minimum weapon damage" ],
-		"template_weapon_legendary_polearm_effects": [ "・Always strikes for maximum damage" ],
+		"template_weapon_legendary_polearm_effects": [ "* Always strikes for maximum damage" ],
 		"template_weapon_skill_modifier": [ "%+d%% effectiveness from %s skill" ],
-		"template_weapon_skill_modifier_range": [ "・(%d%% - %d%%) ATK variance from", "%s skill" ],
+		"template_weapon_skill_modifier_range": [ "* (%d%% - %d%%) ATK variance from", "%s skill" ],
 		"template_when_equipped_text": [ "\nWhen equipped:" ],
 		"template_when_equipped_text_no_leading_newline": [ "When equipped:" ],
 		"template_player_atk_stat_str": [ "%+d ATK from STR stat" ],
@@ -319,7 +319,7 @@
 		"template_knuckles_base_ac": [ "%+d アイテムの基礎 AC / ATK" ],
 		"template_knuckles_beatitude_ac": [ "%+d AC / ATK from %s" ],
 		"template_ranged_armor_pierce": [ "%+d%% chance Armor Pierce from PER stat" ],
-		"template_ranged_quiver_augment": [ "・Applies effects of quivers in", " %s slot" ],
+		"template_ranged_quiver_augment": [ "* Applies effects of quivers in", " %s slot" ],
 		"template_ranged_rate_of_fire": [ "%+d%% base rate of fire" ],
 		"template_player_unarmed_atk_stat_str": [ "%+d ATK from STR stat" ],
 		"template_ring_unarmed_atk": [ "%+d Unarmed ATK from %s" ],
@@ -327,9 +327,9 @@
 		"template_knuckle_skill_modifier": [ "%+d ATK from %s skill" ],
 		"template_knuckle_knockback_modifier": [ "+%d%% Knockback on critical hit" ],
 		"template_weapon_durability": [ "%+d%% durability from %s skill" ],
-		"template_weapon_legendary_durability": [ "・Unbreakable from %s skill" ],
+		"template_weapon_legendary_durability": [ "* Unbreakable from %s skill" ],
 		"template_shield_durability": [ "%+d%% durability from %s skill" ],
-		"template_shield_legendary_durability": [ "・Unbreakable from %s skill" ],
+		"template_shield_legendary_durability": [ "* Unbreakable from %s skill" ],
 		"template_fragile_equipment_description": [ "Fragile." ],
 		"template_fragile_weapon_description": [ "Fragile." ],
 		"template_weapon_bonus_exp": [ "%+d%% chance to increase %s skill" ],
@@ -342,11 +342,11 @@
 		"template_thrown_skill_modifier": [ "%+d%% damage from %s skill" ],
 		"template_gem_skill_modifier": [ "%+d damage from %s skill" ],
 		"template_quiver_silver_attributes": [ "[スマイト]によるアンデッドと\nデーモンの攻撃力+50%" ],
-		"template_quiver_piercing_attributes": [ "・[装甲貫通]はターゲットACの\n50%を無視する" ],
+		"template_quiver_piercing_attributes": [ "* [装甲貫通]はターゲットACの\n50%を無視する" ],
 		"template_quiver_swift_attributes": [ "[高速装填]による遠距離攻撃間の\nリロード時間を+50%短縮" ],
-		"template_quiver_fire_attributes": [ "・Provides light on floors and walls" ],
-		"template_quiver_knockback_attributes": [ "・ステータス効果によって行動不能\nになったターゲットは、より大きな\n[ノックバック]を受ける" ],
-		"template_quiver_hunting_attributes": [ "[狩猟]による大型・小型獣への攻撃力+50%" ],
+		"template_quiver_fire_attributes": [ "* Provides light on floors and walls" ],
+		"template_quiver_knockback_attributes": [ "* ステータス効果によって行動不能\nになったターゲットは、より大きな\n[ノックバック]を受ける" ],
+		"template_quiver_hunting_attributes": [ "[狩猟]による大型* 小型獣への攻撃力+50%" ],
 		"template_attributes_text_armor_conditional_tags": [
 			"STR",
 			"DEX",
@@ -396,29 +396,29 @@
 		],
 		"template_armor_stat_bonus": [ "%+d アイテムの基礎 %s", "%+d %s from %s" ],
 		"template_equipment_effect_feather": [ "%+d アイテムの基礎重量 from %s" ],
-		"template_equipment_effect_waterwalking": [ "・Wearer floats on water and lava from [Waterwalking]" ],
-		"template_equipment_effect_poisonresist": [ "・Cures [Poison] status effect", "+2 [Magic Resist] against\nPoison / Acid spells" ],
-		"template_equipment_effect_magicreflect": [ "・Reflects magic spells when hit", "・50% chance to degrade on reflection" ],
-		"template_equipment_effect_waterbreathing": [ "・100% movement speed in water or\n lava" ],
-		"template_equipment_effect_warning": [ "・Reveals enemy locations\non the map from [Warning]", "%+d tile radius from %s" ],
-		"template_equipment_effect_footstep_warning": [ "・Reveals locations of moving enemies on the map from [Lesser Warning]", "+20 tile radius" ],
-		"template_equipment_effect_teleportation": [ "・Teleports the wearer to random locations" ],
-		"template_equipment_effect_conflict": [ "・Causes monsters to hunt others regardless of allegiance", "+7 tile radius" ],
-		"template_equipment_effect_slowdigestion": [ "・Increases food satiation and delays starvation" ],
-		"template_equipment_effect_freeaction": [ "", "When equipped:", "・Cures [Sleep] [Paralysis] [Slow]", "status effects from [Free Action]" ],
-		"template_equipment_effect_telepathy": [ "", "When equipped:", "・Reveals monsters through walls from [Telepathy]" ],
-		"template_tool_pickaxe_degrade": [ "・50% chance to degrade on [Digging]" ],
-		"template_lockpick_text_tinkering": [ "・Effects based on Tinkering skill", "" ],
+		"template_equipment_effect_waterwalking": [ "* Wearer floats on water and lava from [Waterwalking]" ],
+		"template_equipment_effect_poisonresist": [ "* Cures [Poison] status effect", "+2 [Magic Resist] against\nPoison / Acid spells" ],
+		"template_equipment_effect_magicreflect": [ "* Reflects magic spells when hit", "* 50% chance to degrade on reflection" ],
+		"template_equipment_effect_waterbreathing": [ "* 100% movement speed in water or\n lava" ],
+		"template_equipment_effect_warning": [ "* Reveals enemy locations\non the map from [Warning]", "%+d tile radius from %s" ],
+		"template_equipment_effect_footstep_warning": [ "* Reveals locations of moving enemies on the map from [Lesser Warning]", "+20 tile radius" ],
+		"template_equipment_effect_teleportation": [ "* Teleports the wearer to random locations" ],
+		"template_equipment_effect_conflict": [ "* Causes monsters to hunt others regardless of allegiance", "+7 tile radius" ],
+		"template_equipment_effect_slowdigestion": [ "* Increases food satiation and delays starvation" ],
+		"template_equipment_effect_freeaction": [ "", "When equipped:", "* Cures [Sleep] [Paralysis] [Slow]", "status effects from [Free Action]" ],
+		"template_equipment_effect_telepathy": [ "", "When equipped:", "* Reveals monsters through walls from [Telepathy]" ],
+		"template_tool_pickaxe_degrade": [ "* 50% chance to degrade on [Digging]" ],
+		"template_lockpick_text_tinkering": [ "* Effects based on Tinkering skill", "" ],
 		"template_lockpick_text_chestsdoors": [ "Unlocking Chests and Doors:" ],
 		"template_lockpick_chestsdoors_unlock_chance": [ "%+d%% base chance to unlock" ],
 		"template_lockpick_skeletonkey_chestsdoors_unlock_chance": [ "+100% base chance to unlock" ],
 		"template_lockpick_chests_scrap_chance": [ "宝箱を開けると、工作スクラップが%+d%%の確率で手に入る" ],
 		"template_lockpick_skeletonkey_chests_scrap_chance": [ "宝箱を開けると、工作スクラップが+0%の確率で手に入る" ],
-		"template_lockpick_text_mechanisms": [ "", "メカニズム:", "・ワールドに設定された\n工作トラップの有効化を切り替えます" ],
+		"template_lockpick_text_mechanisms": [ "", "メカニズム:", "* ワールドに設定された\n工作トラップの有効化を切り替えます" ],
 		"template_lockpick_skeletonkey_text_mechanisms": [ "", "Mechanisms:" ],
 		"template_lockpick_arrow_disarm": [ "矢の罠を解除する確率が %+d%% になる" ],
 		"template_lockpick_automaton_disarm": [ "%+d%% の確率で自動人形を解体して修理用スクラップにする" ],
-		"template_lockpick_durability_chance": [ "・20% chance to degrade on use" ],
+		"template_lockpick_durability_chance": [ "* 20% chance to degrade on use" ],
 		"template_food_puke_chance": [ "%+d%% chance for [Indigestion] from %s quality" ],
 		"template_food_on_eating": [ "On consuming:" ],
 		"template_spellbook_cast_bonus": [ "", "魔法書詠唱ボーナス:", "%+d%% %s から %s 統計", "%+d%% %s から %s" ],
@@ -541,19 +541,19 @@
 		"template_spell_cost_demon_illusion": [ "Cost: %d MP", "10%% Max HP " ],
 		"template_spell_cost_sustained": [ "Cost: %d MP", "(1 MP/%1.2fs)" ],
 		"template_spell_damage_bonus": [ "Spell %s bonuses:", "%+d base spell %s", "%+.f%% %s from %s stat", "%+.f%% %s from equipment" ],
-		"template_spell_cast_success": [ "^Low Casting skill penalty:", "^・%d%% cast success rate" ],
-		"template_spell_extramana_chance": [ "^・%d%% chance to consume", "^additional MP " ],
-		"template_attr_spell_shadow_tag": [ "属性:", "・無効化された敵へのダメージタイプ\n(遠距離、斧など)は常に100%ダメージを与えます。", "テレポート魔法発動中はMP消費が50%減少", "", "・[テレポート]は術者をターゲットに移動させます", "・[別テレポート]を唱えると、\nマークされたターゲットが術者の前に移動する。" ],
-		"template_attr_spell_summon": [ "属性:", "・召喚された仲間のLVは詠唱間で維持され、\n5レベルごとに装備が強化されます。(最高30レベル)", "・召喚ランクに応じてMPコストが増加", "・エキスパート(60)魔法スキル+INTステータスは\n追加の召喚を作成する", "", "仲間コマンド:", "・[魂開放]は召喚獣を破壊し、\n現在のHPに応じてMPを回復します" ],
-		"template_attr_spell_self_polymorph": [ "属性:", "・水に触れたり飲んだりすると[変身]効果は消える" ],
+		"template_spell_cast_success": [ "^Low Casting skill penalty:", "^* %d%% cast success rate" ],
+		"template_spell_extramana_chance": [ "^* %d%% chance to consume", "^additional MP " ],
+		"template_attr_spell_shadow_tag": [ "属性:", "* 無効化された敵へのダメージタイプ\n(遠距離、斧など)は常に100%ダメージを与えます。", "テレポート魔法発動中はMP消費が50%減少", "", "* [テレポート]は術者をターゲットに移動させます", "* [別テレポート]を唱えると、\nマークされたターゲットが術者の前に移動する。" ],
+		"template_attr_spell_summon": [ "属性:", "* 召喚された仲間のLVは詠唱間で維持され、\n5レベルごとに装備が強化されます。(最高30レベル)", "* 召喚ランクに応じてMPコストが増加", "* エキスパート(60)魔法スキル+INTステータスは\n追加の召喚を作成する", "", "仲間コマンド:", "* [魂開放]は召喚獣を破壊し、\n現在のHPに応じてMPを回復します" ],
+		"template_attr_spell_self_polymorph": [ "属性:", "* 水に触れたり飲んだりすると[変身]効果は消える" ],
 		"template_attr_spell_acid_spray": [ "属性:", "攻撃ごとに装甲を劣化させる基本確率 +25%", "" ],
 		"template_attr_spell_charm": [ "魅了:", "[混乱]または[酔い]モンスターの発生確率+30%%", "INTステータスによる確率は%+d%%", "CHRステータス + 統率スキルによる確率 %+d%%" ],
-		"template_attr_spell_dominate": [ "属性:", "・モンスターを支配すると、\n統率スキルの味方の制限を超えることができます", "", "支配MPコスト:", "・弱体化したモンスターは支配に必要なMPを減らす\n (例えば、現在のHPが20のモンスターは41MPを消費します。)" ],
-		"template_attr_spell_revert_form": [ "属性:", "・一度に削除できる効果は1つだけです" ],
+		"template_attr_spell_dominate": [ "属性:", "* モンスターを支配すると、\n統率スキルの味方の制限を超えることができます", "", "支配MPコスト:", "* 弱体化したモンスターは支配に必要なMPを減らす\n (例えば、現在のHPが20のモンスターは41MPを消費します。)" ],
+		"template_attr_spell_revert_form": [ "属性:", "* 一度に削除できる効果は1つだけです" ],
 		"template_attr_magicstaff_charm": [ "", "魅了:", "[混乱]または[酔い]モンスターの発生確率+30%%", "CHRステータス + 統率スキルによる確率 %+d%%" ],
 		"template_magicstaff_degrade_chance": [ "属性:", "使用すると劣化する確率は %d%% です" ],
 		"template_magicstaff_charm_worn_degrade": [ "属性:", "使用すると%d%%の確率で%s状態\nから劣化する" ],
-		"template_spellbook_degrade_chance": [ "・読むと100%の確率で劣化", "・魔法書詠唱時に12%の確率で劣化" ]
+		"template_spellbook_degrade_chance": [ "* 読むと100%の確率で劣化", "* 魔法書詠唱時に12%の確率で劣化" ]
 	},
 	"tooltips": {
 		"tooltip_artifact_orb_blue": {
@@ -1466,7 +1466,7 @@
 					"beartrap_degrade_on_use_cursed": "template_beartrap_degrade_on_use_cursed"
 				},
 				{
-					"degrade": [ "・使用されると劣化する" ]
+					"degrade": [ "* 使用されると劣化する" ]
 				},
 				{
 					"blank_space": [ "" ]
@@ -1608,7 +1608,7 @@
 					"attributes_text": "template_attributes_text"
 				},
 				{
-					"dummybot_info": [ "・敵を誘い出すのに効果的", "・基本スキルレベルまで\n戦闘訓練に使用可能" ]
+					"dummybot_info": [ "* 敵を誘い出すのに効果的", "* 基本スキルレベルまで\n戦闘訓練に使用可能" ]
 				}
 			],
 			"size": {
@@ -1642,10 +1642,10 @@
 					"attributes_text": "template_attributes_text"
 				},
 				{
-					"gyrobot_info": [ "・退出フロアでアクティブな\n機械仲間を自動的に回収する" ]
+					"gyrobot_info": [ "* 退出フロアでアクティブな\n機械仲間を自動的に回収する" ]
 				},
 				{
-					"gyrobot_info_interact": [ "・アイテムを拾ったり配置したり、\n罠を設定したりできる (%s 品質)" ]
+					"gyrobot_info_interact": [ "* アイテムを拾ったり配置したり、\n罠を設定したりできる (%s 品質)" ]
 				}
 			],
 			"size": {
@@ -2185,7 +2185,7 @@
 					"EFF_QUIVER_HUNTING": "template_quiver_hunting_attributes"
 				},
 				{
-					"blank_text_if_armor_has_stats": [ "・Allows sneaking while equipped\n" ]
+					"blank_text_if_armor_has_stats": [ "* Allows sneaking while equipped\n" ]
 				},
 				{
 					"weapon_damage_text": "template_quiver_damage_text"
@@ -2289,7 +2289,7 @@
 					"weapon_ranged_quiver_augment": "template_ranged_quiver_augment"
 				},
 				{
-					"artifact_bow": [ "・破壊不能" ]
+					"artifact_bow": [ "* 破壊不能" ]
 				},
 				{
 					"blank_space": [ "" ]
@@ -2536,7 +2536,7 @@
 					"attributes_text": [ "起動時:" ]
 				},
 				{
-					"lifesaving_revival": [ "・状態異常を治す", "・+5秒[浮遊]適用 " ]
+					"lifesaving_revival": [ "* 状態異常を治す", "* +5秒[浮遊]適用 " ]
 				}
 			],
 			"size": {
@@ -2564,7 +2564,7 @@
 					"piercing": [ "+50% 装甲貫通" ]
 				},
 				{
-					"unbreakable": [ "・破壊不能" ]
+					"unbreakable": [ "* 破壊不能" ]
 				},
 				{
 					"blank_space": [ "" ]
@@ -2608,10 +2608,10 @@
 					"attributes_text": "template_attributes_text"
 				},
 				{
-					"returns_to_thrower": [ "・投げた人に戻る" ]
+					"returns_to_thrower": [ "* 投げた人に戻る" ]
 				},
 				{
-					"powerful_when_repaired": [ "・修理すると異常に強力になる" ]
+					"powerful_when_repaired": [ "* 修理すると異常に強力になる" ]
 				},
 				{
 					"blank_space": [ "" ]
@@ -2661,7 +2661,7 @@
 					"piercing": [ "+50% 装甲貫通" ]
 				},
 				{
-					"unbreakable": [ "・破壊不能" ]
+					"unbreakable": [ "* 破壊不能" ]
 				},
 				{
 					"bouncy": [ "*壁から跳ね返る" ]
@@ -2870,7 +2870,7 @@
 					"attributes_text_if_armor_has_stats": "template_attributes_text"
 				},
 				{
-					"EFF_LIGHT": [ "光量 +7", "・2.5分ごとに劣化します" ]
+					"EFF_LIGHT": [ "光量 +7", "* 2.5分ごとに劣化します" ]
 				},
 				{
 					"blank_text_if_armor_has_stats": ""
@@ -2921,7 +2921,7 @@
 					"attributes_text_if_armor_has_stats": "template_attributes_text"
 				},
 				{
-					"EFF_LIGHT": [ "+10 light intensity", "・Degrades every 3.5 mins" ]
+					"EFF_LIGHT": [ "+10 light intensity", "* Degrades every 3.5 mins" ]
 				},
 				{
 					"blank_text_if_armor_has_stats": ""
@@ -3061,7 +3061,7 @@
 					"attributes_text_if_armor_has_stats": "template_attributes_text"
 				},
 				{
-					"EFF_UNBREAKABLE": [ "・破壊不能", "" ]
+					"EFF_UNBREAKABLE": [ "* 破壊不能", "" ]
 				},
 				{
 					"equipment_stat_bonus": "template_armor_stat_bonus"
@@ -3142,7 +3142,7 @@
 					"attributes_text_if_armor_has_stats": "template_attributes_text"
 				},
 				{
-					"EFF_UNBREAKABLE": [ "・難燃性", "・破壊不能" ]
+					"EFF_UNBREAKABLE": [ "* 難燃性", "* 破壊不能" ]
 				},
 				{
 					"EFF_MAGICREFLECT": "template_equipment_effect_magicreflect"
@@ -3357,7 +3357,7 @@
 					"attributes_text_if_armor_has_stats": "template_attributes_text"
 				},
 				{
-					"monocle_hostility_effect": [ "・No ally effect if actively", "[Wanted!] in your current form" ]
+					"monocle_hostility_effect": [ "* No ally effect if actively", "[Wanted!] in your current form" ]
 				},
 				{
 					"equipment_stat_bonus": "template_armor_stat_bonus"
@@ -3525,7 +3525,7 @@
 					"EFF_FOOTSTEP_WARNING": "template_equipment_effect_footstep_warning"
 				},
 				{
-					"EFF_UNBREAKABLE": [ "・破壊不能" ]
+					"EFF_UNBREAKABLE": [ "* 破壊不能" ]
 				},
 				{
 					"equipment_stat_bonus": "template_armor_stat_bonus"
@@ -3641,7 +3641,7 @@
 					"attributes_text_if_armor_has_stats": "template_attributes_text"
 				},
 				{
-					"EFF_UNBREAKABLE": [ "・破壊不能" ]
+					"EFF_UNBREAKABLE": [ "* 破壊不能" ]
 				},
 				{
 					"equipment_stat_bonus": "template_armor_stat_bonus"
@@ -3743,7 +3743,7 @@
 					"attributes_text_if_armor_has_stats": "template_attributes_text"
 				},
 				{
-					"EFF_UNBREAKABLE": [ "・破壊不能" ]
+					"EFF_UNBREAKABLE": [ "* 破壊不能" ]
 				},
 				{
 					"equipment_stat_bonus": "template_armor_stat_bonus"
@@ -3919,7 +3919,7 @@
 					"weapon_base_effects": "template_weapon_mace_effects"
 				},
 				{
-					"artifact_mace": [ "・破壊不能" ]
+					"artifact_mace": [ "* 破壊不能" ]
 				},
 				{
 					"blank_space": [ "" ]
@@ -4044,7 +4044,7 @@
 					"weapon_base_effects": "template_weapon_sword_effects"
 				},
 				{
-					"artifact_sword": [ "・アンデッドと悪魔に[スマイト]ダメージを与えるとボーナスダメージを与える", "・破壊不能" ]
+					"artifact_sword": [ "* アンデッドと悪魔に[スマイト]ダメージを与えるとボーナスダメージを与える", "* 破壊不能" ]
 				},
 				{
 					"blank_space": [ "" ]
@@ -4169,7 +4169,7 @@
 					"weapon_base_effects": "template_weapon_axe_effects"
 				},
 				{
-					"artifact_axe": [ "・破壊不能" ]
+					"artifact_axe": [ "* 破壊不能" ]
 				},
 				{
 					"blank_space": [ "" ]
@@ -4224,7 +4224,7 @@
 					"attributes_text": "template_attributes_text"
 				},
 				{
-					"weapon_base_effects": [ "攻撃範囲+50%", "側面攻撃時の [出血] 確率 +20%", "武装解除攻撃の[出血]確率+100%", "・破壊不能" ]
+					"weapon_base_effects": [ "攻撃範囲+50%", "側面攻撃時の [出血] 確率 +20%", "武装解除攻撃の[出血]確率+100%", "* 破壊不能" ]
 				},
 				{
 					"whip_disarm": [ "", "武装解除:", "[酔い]または[混乱]状態の敵に+33%の確率", "[不動]または[方向音痴]の敵の確率+100%" ]
@@ -4358,7 +4358,7 @@
 					"weapon_base_effects": "template_weapon_legendary_polearm_effects"
 				},
 				{
-					"artifact_spear": [ "・[装甲貫通] 敵のACの50%を無視する", "・破壊不能" ]
+					"artifact_spear": [ "* [装甲貫通] 敵のACの50%を無視する", "* 破壊不能" ]
 				},
 				{
 					"blank_space": [ "" ]
@@ -4497,10 +4497,10 @@
 					"attributes_text": [ "属性:" ]
 				},
 				{
-					"food_tin_regen": [ "・[HP/MP自動回復]付与することがある" ]
+					"food_tin_regen": [ "* [HP/MP自動回復]付与することがある" ]
 				},
 				{
-					"food_tin_greasy": [ "・手が[脂]まみれになることがある" ]
+					"food_tin_greasy": [ "* 手が[脂]まみれになることがある" ]
 				},
 				{
 					"blank_space": [ "" ]
@@ -4540,7 +4540,7 @@
 					"default": [ "" ]
 				},
 				{
-					"potion_on_blessed": [ "・%+dポーションダメージ\n%sのアンデッドへの" ]
+					"potion_on_blessed": [ "* %+dポーションダメージ\n%sのアンデッドへの" ]
 				},
 				{
 					"potion_on_cursed": "template_potion_curse_sideeffect"
@@ -4582,7 +4582,7 @@
 					"potion_on_cursed": "template_potion_curse_sideeffect"
 				},
 				{
-					"potion_additional_effects": [ "・空腹度を少し回復する", "・二日酔いを治す" ]
+					"potion_additional_effects": [ "* 空腹度を少し回復する", "* 二日酔いを治す" ]
 				},
 				{
 					"alchemy_details": "template_alchemy_type"
@@ -4617,7 +4617,7 @@
 					"potion_on_cursed": "template_potion_curse_sideeffect"
 				},
 				{
-					"potion_additional_effects": [ "・空腹度を少し回復する" ]
+					"potion_additional_effects": [ "* 空腹度を少し回復する" ]
 				},
 				{
 					"alchemy_details": "template_alchemy_type"
@@ -4720,7 +4720,7 @@
 					"potion_on_cursed": "template_potion_curse_sideeffect"
 				},
 				{
-					"potion_extrahealing_bonus": [ "・CONから%+dHP回復" ]
+					"potion_extrahealing_bonus": [ "* CONから%+dHP回復" ]
 				},
 				{
 					"alchemy_details": "template_alchemy_type"
@@ -4755,7 +4755,7 @@
 					"potion_on_cursed": "template_potion_curse_sideeffect"
 				},
 				{
-					"potion_healing_bonus": [ "・CONから%+dHP回復" ]
+					"potion_healing_bonus": [ "* CONから%+dHP回復" ]
 				},
 				{
 					"alchemy_details": "template_alchemy_type"
@@ -4857,7 +4857,7 @@
 					"potion_on_cursed": "template_potion_curse_sideeffect"
 				},
 				{
-					"potion_restoremagic_bonus": [ "・INTからのMP回復%+d" ]
+					"potion_restoremagic_bonus": [ "* INTからのMP回復%+d" ]
 				},
 				{
 					"alchemy_details": "template_alchemy_type"
@@ -5052,7 +5052,7 @@
 					"potion_on_cursed": "template_potion_curse_sideeffect"
 				},
 				{
-					"potion_polymorph_duration": [ "・モンスターに永久的な影響を与える\n\nプレイヤー[変身]効果:\n・効果時間 [%d-%d分]\n・[変身]効果は水に触れたり摂取すると消えます" ]
+					"potion_polymorph_duration": [ "* モンスターに永久的な影響を与える\n\nプレイヤー[変身]効果:\n* 効果時間 [%d-%d分]\n* [変身]効果は水に触れたり摂取すると消えます" ]
 				},
 				{
 					"alchemy_details": "template_alchemy_type"
@@ -5613,37 +5613,37 @@
 					"armor_on_cursed_sideeffect": "template_hatnewline_curse_sideeffect"
 				},
 				{
-					"EFF_TECH_GOGGLES1": [ "展開速度:", "・ベアトラップ使用中は効果なし", "" ]
+					"EFF_TECH_GOGGLES1": [ "展開速度:", "* ベアトラップ使用中は効果なし", "" ]
 				},
 				{
 					"attributes_text_if_armor_has_stats": "template_attributes_text"
 				},
 				{
-					"EFF_UNBREAKABLE": [ "・破壊不能" ]
+					"EFF_UNBREAKABLE": [ "* 破壊不能" ]
 				},
 				{
-					"EFF_CHEF2": [ "・肉のドロップ確率は", "赤い血のモンスターにのみ適用される" ]
+					"EFF_CHEF2": [ "* 肉のドロップ確率は", "赤い血のモンスターにのみ適用される" ]
 				},
 				{
-					"EFF_THORNS": [ "・[報復]によるダメージを受けた", "近接攻撃者にダメージを与える" ]
+					"EFF_THORNS": [ "* [報復]によるダメージを受けた", "近接攻撃者にダメージを与える" ]
 				},
 				{
-					"EFF_INSPIRATION": [ "・レベルが低い味方は[インスピレーション]", "から得られるXPが増加する" ]
+					"EFF_INSPIRATION": [ "* レベルが低い味方は[インスピレーション]", "から得られるXPが増加する" ]
 				},
 				{
-					"EFF_CELEBRATION": [ "・[祝福]による最大HPに応じて", "HP回復量が増加" ]
+					"EFF_CELEBRATION": [ "* [祝福]による最大HPに応じて", "HP回復量が増加" ]
 				},
 				{
-					"EFF_BOUNTY": [ "・[賞金首]のターゲットを倒すと、", "追加のゴールド入手" ]
+					"EFF_BOUNTY": [ "* [賞金首]のターゲットを倒すと、", "追加のゴールド入手" ]
 				},
 				{
-					"EFF_FOLLOWER_DMGRESIST": [ "・トラップによるダメージは影響を受けません", "[ダメージ耐性]" ]
+					"EFF_FOLLOWER_DMGRESIST": [ "* トラップによるダメージは影響を受けません", "[ダメージ耐性]" ]
 				},
 				{
-					"EFF_HOOD_WHISPERS": [ "・遠距離[バックスタブ]ATK増加", "%s スキル" ]
+					"EFF_HOOD_WHISPERS": [ "* 遠距離[バックスタブ]ATK増加", "%s スキル" ]
 				},
 				{
-					"EFF_MARIGOLD1": [ "・病気を引き起こす食品には効果なし" ]
+					"EFF_MARIGOLD1": [ "* 病気を引き起こす食品には効果なし" ]
 				},
 				{
 					"equipment_stat_bonus": "template_armor_stat_bonus"
