@@ -53,7 +53,7 @@
     },
     "BARONY_ACH_BACK_TO_BASICS": {
       "name": "基本に戻る",
-      "description": "リッチに遭遇した後、トライアルを終える。",
+      "description": "リッチに遭遇した後、試練を終える。",
       "lore_points": 1,
       "category": "ジョーカー",
       "icon_locked": "BARONY_ACH_BACK_TO_BASICS_l.png",

@@ -1425,19 +1425,19 @@
             "name": "モンスター魅了"
         },
         "spell_revert_form": {
-            "name": "変形解除"
+            "name": "形態変化解除"
         },
         "spell_rat_form": {
-            "name": "ネズミ変形"
+            "name": "ネズミ形態変化"
         },
         "spell_spider_form": {
-            "name": "クモ変形"
+            "name": "クモ形態変化"
         },
         "spell_troll_form": {
-            "name": "トロール変形"
+            "name": "トロール形態変化"
         },
         "spell_imp_form": {
-            "name": "インプ変形"
+            "name": "インプ形態変化"
         },
         "spell_spray_web": {
             "name": "蜘蛛の巣噴射"
@@ -1488,7 +1488,7 @@
             "name": "変身"
         },
         "spell_crab_form": {
-            "name": "カニ変形"
+            "name": "カニ形態変化"
         },
         "spell_crab_web": {
             "name": "泡噴射"

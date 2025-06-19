@@ -499,7 +499,7 @@
       ]
     },
     {
-      "name": "いじくり",
+      "name": "工作",
       "id": 0,
       "sfx": 552,
 			"icon_base_path": "#*images/ui/SkillSheet/Icons/Tinkering01.png",
@@ -637,7 +637,7 @@
         },
         {
           "tag": "MAGIC_CURRENT_TIER",
-          "title": "習得することができる\n 最高の魔法レベル:\n (Using skill + INT stat)",
+          "title": "習得可能な\n最高の魔法ティア:\n (スキル + INTステータス込み)",
           "value": "%s"
         },
         {
@@ -648,43 +648,43 @@
         }
       ]
     },
-    {
+   {
       "name": "詠唱",
       "id": 6,
       "sfx": 596,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Casting01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Casting01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Casting02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Casting02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
-      "description": "詠唱と魔法書の詠唱の信頼性が向上し、\n失敗やMPの過剰消費の可能性が減ります。Increases passive MP regen.",
-      "legend_text": "MPコスト(0)で\nフォースボルトの魔法を\n自動学習します。",
+		"icon_base_path": "#*images/ui/SkillSheet/Icons/Casting01.png",
+		"icon_legend_path": "#*images/ui/SkillSheet/Icons/Casting01_Gold.png",
+		"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Casting02_32.png",
+		"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Casting02_32Gold.png",
+		"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+      "description": "詠唱と魔法書の詠唱の信頼性が向上し、\n失敗やMPの過剰消費の可能性が減る。\nパッシブMP回復を増加させる。",
+      "legend_text": "消費MP(0)の\nフォースボルトの魔法を\n自動学習します。",
       "effects_position": {
-        "effect_start_offset_x": 72,
-        "effect_background_offset_x": 8,
-        "effect_background_width": 80
+        	"effect_start_offset_x": 72,
+        	"effect_background_offset_x": 8,
+        	"effect_background_width": 80
       },
       "effects": [
         {
           "tag": "CASTING_MP_REGEN_SKILL_MULTIPLIER",
-          "title": "MP回復INT倍率\n ",
+          "title": "スキルによるMP回復のINT倍率:\n ",
           "value": "%dx INT",
           "auto_resize_value": true
         },
         {
           "tag": "CASTING_MP_REGEN",
-          "title": "基本MP回復速度:\n (Before item/race\n modifiers)",
-          "value": "%.2f 秒ごとに1MP",
+          "title": "基礎MP回復速度:\n(アイテム/種族 補正前)",
+          "value": "%.2f秒毎に1MP",
           "auto_resize_value": true
         },
         {
           "tag": "CASTING_BEGINNER",
-          "title": "学んだ魔法を\n 詠唱失敗する確率:",
+          "title": "習得済み魔法の\n 詠唱失敗率:",
           "value": "%s"
         },
         {
           "tag": "CASTING_SPELLBOOK_FUMBLE",
-          "title": "失敗せずに\n 魔法書を詠唱できる\n 最高レベルの魔法:\n (スキルレベル + INT値)",
+          "title": "失敗せずに\n魔法書を詠唱できる\n最高魔法ティア:\n (スキル + INTステータス込み)",
           "value": "%s"
         }
       ]
