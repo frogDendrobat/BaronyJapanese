@@ -418,7 +418,7 @@
 		"template_lockpick_skeletonkey_text_mechanisms": [ "", "Mechanisms:" ],
 		"template_lockpick_arrow_disarm": [ "矢の罠を解除する確率が %+d%% になる" ],
 		"template_lockpick_automaton_disarm": [ "%+d%% の確率で自動人形を解体して修理用スクラップにする" ],
-		"template_lockpick_durability_chance": [ "* 20% chance to degrade on use" ],
+		"template_lockpick_durability_chance": [ "*使用時20%の確率で劣化" ],
 		"template_food_puke_chance": [ "%+d%% chance for [Indigestion] from %s quality" ],
 		"template_food_on_eating": [ "On consuming:" ],
 		"template_spellbook_cast_bonus": [ "", "魔法書詠唱ボーナス:", "%+d%% %s から %s 統計", "%+d%% %s から %s" ],

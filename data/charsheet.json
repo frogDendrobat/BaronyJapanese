@@ -1,9 +1,9 @@
 {
   "version": 1,
   "hover_text": {
-    "autosort_button_mouse_compact": "アイテムの自動ソート。\n[右クリック]長押しで詳細オプション。",
-    "autosort_button_mouse": "アイテムの自動ソート。\n右クリック長押しで詳細オプション。",
-    "gold_mouse": "[右クリック]長押しでゴールドを落とす。",
+    "autosort_button_mouse_compact": "インベントリを自動ソート\n[右クリック]長押しで詳細オプション",
+    "autosort_button_mouse": "インベントリを自動ソート\n[右クリック]長押しで詳細オプション",
+    "gold_mouse": "[右クリック]長押しでゴールドを落とす",
     "gold_controller": "ボタンを押してゴールドを落とす:",
     "gold_option_10": "10ゴールド",
     "gold_option_100": "100ゴールド",
@@ -15,13 +15,13 @@
     "race": {
       "race_traits": "特徴:",
       "race_title_normal": "種族情報",
-      "race_title_polymorph": "種族情報(変身中)",
-      "race_title_shapeshift": "種族情報(形態変化中)"
+      "race_title_polymorph": "種族情報(ポリモーフ中)",
+      "race_title_shapeshift": "種族情報(シェイプシフト中)"
     },
     "class": {
-      "class_title": "クラスステータスの成長",
-      "class_title_shapeshift": "クラスステータスの成長(形態変化)",
-      "stat_growth_info": "レベルアップにより、クラスの影響を受けて3つのステータスが1ずつ増加します\nImproving skills provides +20% to roll +2 for an Associated Stat   (See Associated Stats in Skills List)",
+      "class_title": "クラス別ステータス成長",
+      "class_title_shapeshift": "クラス別ステータス成長(シェイプシフト中)",
+      "stat_growth_info": "レベルアップ時、クラスに応じ 3つの能力値が+1される\nImproving skills provides +20% to roll +2 for an Associated Stat   (See Associated Stats in Skills List)",
       "stat_growth_min_tooltip_width": "320",
       "stat_growth_max_tooltip_width": "320"
     },

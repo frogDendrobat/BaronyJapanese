@@ -659,9 +659,9 @@
 	},
 	"dropdowns": {
 		"drop_gold": {
-		  "title": "ドロップゴールド",
+		  "title": "ゴールドを落とす",
 		  "align_right": false,
-		  "gui_module": "キャラクターシート",
+		  "gui_module": "character_sheet",
 		  "default_option": 1,
 		  "options": [
 			{
@@ -693,23 +693,23 @@
 		"paper_doll": {
 			"title": "オプション",
 			"align_right": true,
-			"gui_module": "在庫",
+			"gui_module": "inventory",
 			"default_option": 0,
 			"options": [
 			  {
-				"text": "アイテムの自動並べ替え",
+				"text": "アイテムの自動ソート",
 				"action": "inventory_autosort",
 				"controller_glyph": "",
 				"keyboard_glyph": ""
 			  },
 			  {
-				"text": "効果を表示する",
+				"text": "効果を表示",
 				"action": "view_status_Effects",
 				"controller_glyph": "",
 				"keyboard_glyph": ""
 			  },
 			  {
-				"text": "縦向きの回転",
+				"text": "ポートレートを回転",
 				"action": "view_portrait",
 				"controller_glyph": "",
 				"keyboard_glyph": ""
@@ -719,7 +719,7 @@
 		"item_interact": {
 			"title": "インタラクト",
 			"align_right": true,
-			"gui_module": "在庫",
+			"gui_module": "inventory",
 			"default_option": 0,
 			"options": [{
 				"text": "",
@@ -750,7 +750,7 @@
 		"spell_interact": {
 			"title": "インタラクト",
 			"align_right": true,
-			"gui_module": "魔法",
+			"gui_module": "spells",
 			"default_option": 0,
 			"options": [{
 				"text": "",
@@ -781,7 +781,7 @@
 		"hotbar_interact": {
 			"title": "インタラクト",
 			"align_right": true,
-			"gui_module": "ホットバー",
+			"gui_module": "hotbar",
 			"default_option": 0,
 			"options": [{
 				"text": "",
@@ -812,7 +812,7 @@
 		"chest_interact": {
 			"title": "インタラクト",
 			"align_right": true,
-			"gui_module": "宝箱",
+			"gui_module": "chest",
 			"default_option": 0,
 			"options": [{
 				"text": "",
