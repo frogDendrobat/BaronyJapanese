@@ -83,9 +83,9 @@
       "attributes_atk_range_noskill": "ATKダメージ範囲:",
       "attributes_atk_avg": "平均ATK:",
       "attributes_atk_value": "ATKダメージ:",
-      "attributes_atk_melee_desc": "クリティカル攻撃は200%%のダメージを与える\n%sスキルレベルが高いほど平均ATKが増加\n敵の背後からの攻撃は、隠密スキルに応じて 追加ダメージを与える",
-      "attributes_atk_pickaxe_desc": "クリティカル攻撃は200%%のダメージを与える\n敵の背後からの攻撃は、隠密スキルに応じて 追加ダメージを与える",
-      "attributes_atk_unarmed_desc": "クリティカル攻撃は200%%のダメージを与える\n%sスキルレベルが高いほど平均ATKが増加\n装備中の指輪と拳武器によってATKが加減する\n敵の背後からの攻撃は、隠密スキルに応じて 追加ダメージを与える",
+      "attributes_atk_melee_desc": "クリティカル攻撃は200%%のダメージを与える\n%sスキルレベルが高いほど平均ATKが増加\n敵の背後からの攻撃は、隠密スキルに応じて 追加ダメージ",
+      "attributes_atk_pickaxe_desc": "クリティカル攻撃は200%%のダメージを与える\n敵の背後からの攻撃は、隠密スキルに応じて 追加ダメージ",
+      "attributes_atk_unarmed_desc": "クリティカル攻撃は200%%のダメージを与える\n%sスキルレベルが高いほど平均ATKが増加\n装備中の指輪と拳武器によってATKが加減する\n敵の背後からの攻撃は、隠密スキルに応じて 追加ダメージ",
       "attributes_atk_ranged_desc": "遠隔攻撃はPER能力値に応じて、対象のACを 50%%無視する機会を得る\n%sスキルレベルが高いほど平均ATKが 増加\n装備中の矢筒がATKを加減し、命中時に追加 効果を付与",
       "attributes_atk_thrown_desc": "攻撃が対象のACを50～75%%無視\n%sスキルレベルが高いほどダメージが増加\n最大チャージ投擲は最大ダメージを与え、 対象の防御貫通を増加させる",
       "attributes_atk_gem_desc": "%sスキルレベルが高いほどダメージが増加\n最大チャージ投擲は最大ダメージを与える",
@@ -149,7 +149,7 @@
       "attributes_res_bonus_format": "%+d%% RES",
       "attributes_res_sources_format": "%+dソース",
       "attributes_res_nobonus_format": "%d%% RES",
-      "attributes_res_desc": "魔法耐性%に応じて被魔法ダメージを軽減(マイナス%は被ダメージ増加)\nアイテム/効果による複数の魔法耐性は逓減して累積される"
+      "attributes_res_desc": "魔法耐性%に応じて被魔法ダメージを軽減(マイ ナス%は被ダメージ増加)\nアイテム/効果による複数の魔法耐性は逓減して 累積される"
     },
     "attributes_rgn_hp": {
       "icon_rgn_hp_path": "#*images/ui/CharSheet/HUD_CharSheet_REGEN_00.png",
@@ -203,8 +203,8 @@
       "attributes_rgn_en_sources_format": "%+d [EN 持続力]",
       "attributes_rgn_ht_bonus_format": "%+.f%% RGN",
       "attributes_rgn_ht_small_format": "%.f%%",
-      "attributes_rgn_mp_desc": "MPは時間と共にゆっくりと回復し、修正値適用前 は2秒毎に最大1MP回復する\nアイテム/効果による自動回復の最大修正値は +3[MP自動回復]に制限される",
-      "attributes_rgn_ht_desc": "標準状態のボイラーはHT生産を増加させる\n加熱状態のボイラーはHT生産を2倍の速さで増加 せ、さらにHT容量が50%未満の場合、4倍の速さで 増加させる\n極めて低い状態のボイラーはHTを急速に失い、 0HTでユニットが機能不全を起こす可能性がある",
+      "attributes_rgn_mp_desc": "MPは時間と共にゆっくりと回復し、修正値適用 前は2秒毎に最大1MP回復する\nアイテム/効果による自動回復の最大修正値は +3[MP自動回復]に制限される",
+      "attributes_rgn_ht_desc": "標準状態のボイラーはHT生産を増加させる\n加熱状態のボイラーはHT生産を2倍の速さで増加 させ、さらにHT容量が50%未満の場合、4倍の速さ で増加させる\n極めて低い状態のボイラーはHTを急速に失い、 0HTでユニットが機能不全を起こす可能性がある",
       "attributes_rgn_en_desc": "エネルギーは時間と共にゆっくりと減少し、消化 遅延の効果によりENの持続時間が延長される\n魔法の詠唱でENを消費する\nENが空になると餓死する\nENは、食料や甘い液体の摂取、MP回復効果の使用によって回復できる"
     },
     "attributes_wgt": {
@@ -223,7 +223,7 @@
       "attributes_wgt_nobonus_format": "%d WGT",
       "attributes_wgt_attributes_bonus": "能力ボーナス (DEX):",
       "attributes_wgt_noweight_speed": "所持重量ペナルティ:",
-      "attributes_wgt_desc": "アイテムやゴールドを所持していると所持重量が増加し、移動速度が低下する\nSTR能力値は、重量ペナルティを軽減する\nDEX能力値はパッシブ移動速度を与え、最大移動速度を増加させる"
+      "attributes_wgt_desc": "アイテムやゴールドを所持していると所持重量 が増加し、移動速度が低下する\nSTR能力値は、重量ペナルティを軽減する\nDEX能力値はパッシブ移動速度を与え、最大移 動速度を増加させる"
     }
   },
   "level_strings": {
