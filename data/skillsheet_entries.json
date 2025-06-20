@@ -384,7 +384,7 @@
         },
         {
           "tag": "SWIM_SPEED_BASE",
-          "title": "液体における\n 基本速度乗数ペナルティ",
+          "title": "液体における\n 基礎速度乗数ペナルティ",
           "value": "%+d%%"
         },
         {
@@ -632,7 +632,7 @@
       "effects": [
         {
           "tag": "MAGIC_SPELLPOWER_INT",
-          "title": "基本魔法パワーボーナス:\n (INT値)",
+          "title": "基礎魔法パワーボーナス:\n (INT値)",
           "value": "%+d%%"
         },
         {

@@ -231,7 +231,7 @@
 	},
 	"templates": {
 		"": [ "" ],
-		"template_potion_base_damage": [ "\n投擲時:", "%+d 基本ポーションダメージ" ],
+		"template_potion_base_damage": [ "\n投擲時:", "%+d 基礎ポーションダメージ" ],
 		"template_potion_beatitude": [ "%+d ポーションダメージ from %s" ],
 		"template_potion_alchemy_damage": [ "%+d%% ダメージ from 錬金術スキル%s" ],
 		"template_alchemy_type": [ "錬金術:", "* %s" ],
@@ -244,7 +244,7 @@
 		"template_scroll_curse_sideeffect": [ "^* 追加効果 from %s" ],
 		"template_hatnewline_curse_sideeffect": [ "^* 追加効果 from %s\n" ],
 		"template_food_curse_sideeffect": [ "^* 追加効果 from %s\n" ],
-		"template_armor_base_ac": [ "%+d 基本アイテムAC" ],
+		"template_armor_base_ac": [ "%+d 基礎アイテムAC" ],
 		"template_armor_beatitude_ac": [ "%+d AC from %s" ],
 		"template_armor_shield_bonus": [ "+%d AC passive %s skill bonus", "+%d AC defending %s skill bonus" ],
 		"template_tool_shield_bonus": [ "+%d AC defending %s skill bonus" ],
@@ -257,7 +257,7 @@
 		"template_shield_brittle": [ "防御中に攻撃を受けた場合、\n劣化確率が100%増加" ],
 		"template_weapon_description": [ "[攻撃]長押しでクリティカル攻撃を行う。" ],
 		"template_whip_description": [ "長物武器。 溜め[攻撃]でクリティカル攻撃になる。" ],
-		"template_knuckles_description": [ "右手に何も持っていないときATKを付与。" ],
+		"template_knuckles_description": [ "メインハンドに何も持っていないときATKを付与。" ],
 		"template_thrown_description": [ "投擲武器。溜め[攻撃]でダメージと距離が増加します。" ],
 		"template_gem_description": [ "高値で売却可能、または投擲可能。[攻撃]長押しでダメージと飛距離が増加。" ],
 		"template_rock_description": [ "重い投擲武器。 [攻撃]長押しでダメージと飛距離が増加。" ],
@@ -301,7 +301,7 @@
 		"template_tool_skeletonkey_description": [ "Unlocks and locks chests and doors.", "Press [攻撃] while equipped to use." ],
 		"template_tool_tinopener_description": [ "インベントリ内にある\n缶詰食品を開けることができます。" ],
 		"template_food_tin_description": [ "空腹度を大幅に回復します。", "食べるには缶切りが必要です。" ],
-		"template_weapon_base_atk": [ "%+d 基本 item ATK" ],
+		"template_weapon_base_atk": [ "%+d 基礎 item ATK" ],
 		"template_weapon_beatitude_atk": [ "%+d ATK from %s" ],
 		"template_weapon_on_degraded_atk": [ "%+d ATK from %s quality" ],
 		"template_armor_on_degraded_ac": [ "%+d AC from %s quality" ],
@@ -546,7 +546,7 @@
 		"template_attr_spell_shadow_tag": [ "属性:", "* 無効化された敵へのダメージタイプ\n(遠距離、斧など)は常に100%ダメージを与えます。", "テレポート魔法発動中はMP消費が50%減少", "", "* [テレポート]は術者をターゲットに移動させます", "* [別テレポート]を唱えると、\nマークされたターゲットが術者の前に移動する。" ],
 		"template_attr_spell_summon": [ "属性:", "* 召喚された仲間のLVは詠唱間で維持され、\n5レベルごとに装備が強化されます。(最高30レベル)", "* 召喚ランクに応じてMPコストが増加", "* エキスパート(60)魔法スキル+INTステータスは\n追加の召喚を作成する", "", "仲間コマンド:", "* [魂開放]は召喚獣を破壊し、\n現在のHPに応じてMPを回復します" ],
 		"template_attr_spell_self_polymorph": [ "属性:", "* 水に触れたり飲んだりすると[変身]効果は消える" ],
-		"template_attr_spell_acid_spray": [ "属性:", "攻撃ごとに装甲を劣化させる基本確率 +25%", "" ],
+		"template_attr_spell_acid_spray": [ "属性:", "攻撃ごとに装甲を劣化させる基礎確率 +25%", "" ],
 		"template_attr_spell_charm": [ "魅了:", "[混乱]または[酔い]モンスターの発生確率+30%%", "INTステータスによる確率は%+d%%", "CHRステータス + 統率スキルによる確率 %+d%%" ],
 		"template_attr_spell_dominate": [ "属性:", "* モンスターを支配すると、\n統率スキルの味方の制限を超えることができます", "", "支配MPコスト:", "* 弱体化したモンスターは支配に必要なMPを減らす\n (例えば、現在のHPが20のモンスターは41MPを消費します。)" ],
 		"template_attr_spell_revert_form": [ "属性:", "* 一度に削除できる効果は1つだけです" ],
@@ -1608,7 +1608,7 @@
 					"attributes_text": "template_attributes_text"
 				},
 				{
-					"dummybot_info": [ "* 敵を誘い出すのに効果的", "* 基本スキルレベルまで\n戦闘訓練に使用可能" ]
+					"dummybot_info": [ "* 敵を誘い出すのに効果的", "* 基礎スキルレベルまで\n戦闘訓練に使用可能" ]
 				}
 			],
 			"size": {
@@ -5655,7 +5655,7 @@
 					"blank_text_if_armor_has_stats": ""
 				},
 				{
-					"EFF_SILKEN_BOW": [ "チャンスを鎮める:", "基本アイテム確率 +%d%%", "+%d%% ボーナスチャンス", "%s スキル + %s ステータス" ]
+					"EFF_SILKEN_BOW": [ "チャンスを鎮める:", "基礎アイテム確率 +%d%%", "+%d%% ボーナスチャンス", "%s スキル + %s ステータス" ]
 				},
 				{
 					"armor_ac_text": "template_armor_ac_text"
